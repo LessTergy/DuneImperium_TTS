@@ -1,0 +1,62 @@
+{
+  "Object": {
+    "GUID": "a78ad7",
+    "Name": "Custom_Model",
+    "Transform": {
+      "posX": 0.46703887,
+      "posY": 1.49836874,
+      "posZ": 28.0133629,
+      "rotX": 0.0000121728663,
+      "rotY": 179.994827,
+      "rotZ": 0.000005195914,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Nickname": "Blue Swordmaster",
+    "Description": "Agent",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.12146946,
+      "g": 0.5294118,
+      "b": 1
+    },
+    "Tags": [
+      "Agent",
+      "Blue"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomMesh": {
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1655601720504411774/E99D570D57050372AAEB5BF034CB5271CD03719E/",
+      "DiffuseURL": "",
+      "NormalURL": "",
+      "ColliderURL": "",
+      "Convex": true,
+      "MaterialIndex": 0,
+      "TypeIndex": 0,
+      "CastShadows": true
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

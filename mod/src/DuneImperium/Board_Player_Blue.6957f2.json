@@ -1,0 +1,63 @@
+{
+  "Object": {
+    "GUID": "6957f2",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": -18.9899883,
+      "posY": 1.50743628,
+      "posZ": -1.44991171,
+      "rotX": 0.0178105831,
+      "rotY": 179.936752,
+      "rotZ": 0.0778948963,
+      "scaleX": 4.91699457,
+      "scaleY": 1,
+      "scaleZ": 4.91699457
+    },
+    "Nickname": "Board Player Blue",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "Tags": [
+      "Blue"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1776074807053763078/52178FDB15081ADB8FA1CEDD451F32256EE2F5A9/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 0,
+        "Thickness": 0.2,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "#include ./Board_Player_Blue.6957f2.lua",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

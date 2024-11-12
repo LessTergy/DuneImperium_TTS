@@ -1,0 +1,60 @@
+{
+  "Object": {
+    "GUID": "a0028d",
+    "Name": "Custom_Token",
+    "Transform": {
+      "posX": 15.9937286,
+      "posY": 1.786581,
+      "posZ": 23.7905483,
+      "rotX": 0.07140202,
+      "rotY": 89.969986,
+      "rotZ": 359.9803,
+      "scaleX": 0.163082048,
+      "scaleY": 1,
+      "scaleZ": 0.163082048
+    },
+    "Nickname": "Green Councilor",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.191952437,
+      "g": 0.701,
+      "b": 0.167952418
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1654474838742796853/4884939CCEB0A6276F3800194A608DEEE4415C4F/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomToken": {
+        "Thickness": 0.245000139,
+        "MergeDistancePixels": 15,
+        "StandUp": false,
+        "Stackable": true
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

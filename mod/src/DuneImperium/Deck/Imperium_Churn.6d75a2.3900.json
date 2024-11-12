@@ -1,0 +1,61 @@
+{
+  "Object": {
+    "GUID": "6d75a2",
+    "Name": "CardCustom",
+    "Transform": {
+      "posX": -15.3870049,
+      "posY": 2.287374,
+      "posZ": 46.26403,
+      "rotX": -0.000299782376,
+      "rotY": 180.000641,
+      "rotZ": -0.00169398589,
+      "scaleX": 0.83,
+      "scaleY": 1,
+      "scaleZ": 0.83
+    },
+    "Nickname": "Imperium Churn",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.713235259,
+      "g": 0.713235259,
+      "b": 0.713235259
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": true,
+    "Hands": true,
+    "CardID": 3900,
+    "SidewaysCard": false,
+    "CustomDeck": {
+      "39": {
+        "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1759187425912025810/E59D268A3103235748A7CEE2535ED0BF97D61A9A/",
+        "BackURL": "http://cloud-3.steamusercontent.com/ugc/1670239430231973967/ACE7BA96F9E5F8218FA434192B90234FD9ED4E38/",
+        "NumWidth": 1,
+        "NumHeight": 1,
+        "BackIsHidden": true,
+        "UniqueBack": false,
+        "Type": 0
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

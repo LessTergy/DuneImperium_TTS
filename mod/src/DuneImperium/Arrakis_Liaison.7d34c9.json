@@ -1,0 +1,84 @@
+{
+  "Object": {
+    "GUID": "7d34c9",
+    "Name": "Deck",
+    "Transform": {
+      "posX": -5.05066538,
+      "posY": 1.55279112,
+      "posZ": 16.29328,
+      "rotX": 0.0168800876,
+      "rotY": 179.992722,
+      "rotZ": 0.07987658,
+      "scaleX": 1.05,
+      "scaleY": 1,
+      "scaleZ": 1.05
+    },
+    "Nickname": "Arrakis Liaison",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.713235259,
+      "g": 0.713235259,
+      "b": 0.713235259
+    },
+    "Tags": [
+      "Imperium"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": true,
+    "Hands": false,
+    "SidewaysCard": false,
+    "DeckIDs": [
+      48705,
+      48705,
+      48705,
+      48705,
+      48705,
+      48705,
+      48705,
+      48705
+    ],
+    "CustomDeck": {
+      "487": {
+        "FaceURL": "http://cloud-3.steamusercontent.com/ugc/2029469358243390859/6F98BCE051343A3D07D58D6BC62A8FCA2C9AAE1A/",
+        "BackURL": "http://cloud-3.steamusercontent.com/ugc/1892102433196500461/C3DC7A02CF378129569B414967C9BE25097C6E77/",
+        "NumWidth": 8,
+        "NumHeight": 6,
+        "BackIsHidden": true,
+        "UniqueBack": false,
+        "Type": 0
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": "",
+    "ContainedObjects": []
+  },
+  "StatesPaths": {},
+  "ContainedObjectPaths": [
+    "Arrakis_Liaison.2bbbf6.48705.json",
+    "Arrakis_Liaison.67498c.48705.json",
+    "Arrakis_Liaison.2dc4f6.48705.json",
+    "Arrakis_Liaison.1e33f9.48705.json",
+    "Arrakis_Liaison.b1dcce.48705.json",
+    "Arrakis_Liaison.4616ca.48705.json",
+    "Arrakis_Liaison.3a2271.48705.json",
+    "Arrakis_Liaison.b17a7e.48705.json"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "Object": {
+    "GUID": "19484c",
+    "Name": "Card",
+    "Transform": {
+      "posX": -24.4077473,
+      "posY": 1.82342219,
+      "posZ": -1.536375,
+      "rotX": 0.011535529,
+      "rotY": 180.000122,
+      "rotZ": 179.939209,
+      "scaleX": 1.15,
+      "scaleY": 1,
+      "scaleZ": 1.05
+    },
+    "Nickname": "Dagger",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.713235259,
+      "g": 0.713235259,
+      "b": 0.713235259
+    },
+    "Tags": [
+      "Imperium"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": true,
+    "Hands": true,
+    "CardID": 49401,
+    "SidewaysCard": false,
+    "CustomDeck": {
+      "426": {
+        "FaceURL": "http://cloud-3.steamusercontent.com/ugc/2029469358243413427/BF3BA9C253ED953533B90D94DD56D0BAD4021B3C/",
+        "BackURL": "http://cloud-3.steamusercontent.com/ugc/1892102433196500461/C3DC7A02CF378129569B414967C9BE25097C6E77/",
+        "NumWidth": 4,
+        "NumHeight": 2,
+        "BackIsHidden": true,
+        "UniqueBack": false,
+        "Type": 0
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

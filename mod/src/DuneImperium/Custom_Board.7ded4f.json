@@ -1,0 +1,54 @@
+{
+  "Object": {
+    "GUID": "7ded4f",
+    "Name": "Custom_Board",
+    "Transform": {
+      "posX": -1.77390707,
+      "posY": 1.64,
+      "posZ": 64.45318,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 1.34537327,
+      "scaleY": 0.925000131,
+      "scaleZ": 1.62069118
+    },
+    "Nickname": "",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.7867647,
+      "g": 0.7867647,
+      "b": 0.7867647
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1908980944417369877/0C1970B186AC4934768A387C6393DBF07ABC2F69/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 1.9575758
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

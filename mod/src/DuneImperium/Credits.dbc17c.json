@@ -1,0 +1,48 @@
+{
+  "Object": {
+    "GUID": "dbc17c",
+    "Name": "Notecard",
+    "Transform": {
+      "posX": 0.703870535,
+      "posY": 1.56999981,
+      "posZ": -23.7829132,
+      "rotX": -6.91605351e-7,
+      "rotY": -0.0000419927928,
+      "rotZ": -5.34621563e-7,
+      "scaleX": 1.162554,
+      "scaleY": 1,
+      "scaleZ": 1.13349283
+    },
+    "Nickname": "Credits",
+    "Description": "Immortality expansion and scripts added by Asmodius/Alhazred\n\nThe Black Market is an idea of a Fan : DJRob\n\nHIDDEN PICKS has been made by Ozy\n\nFan made Leaders by RatPasta, Agent Of Zion (RIP) and others\n                                        Murphy Zlaw",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 1,
+      "b": 1
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

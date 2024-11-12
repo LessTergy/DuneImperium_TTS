@@ -1,0 +1,123 @@
+{
+  "Object": {
+    "GUID": "cfe0cb",
+    "Name": "Custom_Model_Infinite_Bag",
+    "Transform": {
+      "posX": 6.91198826,
+      "posY": 1.4,
+      "posZ": 29.85,
+      "rotX": 0.0000235699263,
+      "rotY": -0.00197039242,
+      "rotZ": -0.0000327973175,
+      "scaleX": 0.86,
+      "scaleY": 0.2,
+      "scaleZ": 0.86
+    },
+    "Nickname": "Endgame Card",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 1,
+      "b": 1
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "MaterialIndex": -1,
+    "MeshIndex": -1,
+    "CustomMesh": {
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
+      "DiffuseURL": "",
+      "NormalURL": "",
+      "ColliderURL": "",
+      "Convex": true,
+      "MaterialIndex": 0,
+      "TypeIndex": 7,
+      "CastShadows": true
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": "",
+    "ContainedObjects": [],
+    "ChildObjects": [
+      {
+        "GUID": "c24358",
+        "Name": "Custom_Tile",
+        "Transform": {
+          "posX": 0.00385463727,
+          "posY": 0.499976128,
+          "posZ": -0.007023519,
+          "rotX": -0.000829883735,
+          "rotY": 180.005341,
+          "rotZ": 0.000911821,
+          "scaleX": 0.5031121,
+          "scaleY": 5,
+          "scaleZ": 0.5031121
+        },
+        "Nickname": "Endgame",
+        "Description": "VP",
+        "GMNotes": "",
+        "AltLookAngle": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "ColorDiffuse": {
+          "r": 0.4429827,
+          "g": 0.230982691,
+          "b": 0.08998593
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": false,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": false,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+          "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1892102591133556504/3BA0FD02EC69C7D18837E3C506F71B5E0E1079C6/",
+          "ImageSecondaryURL": "",
+          "ImageScalar": 1,
+          "WidthScale": 0,
+          "CustomTile": {
+            "Type": 2,
+            "Thickness": 0.2,
+            "Stackable": false,
+            "Stretch": true
+          }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
+      }
+    ]
+  },
+  "StatesPaths": {},
+  "ContainedObjectPaths": [
+    "Endgame_Card.472d11.json"
+  ]
+}

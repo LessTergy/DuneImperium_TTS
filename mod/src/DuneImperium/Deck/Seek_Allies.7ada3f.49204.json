@@ -1,0 +1,64 @@
+{
+  "Object": {
+    "GUID": "7ada3f",
+    "Name": "Card",
+    "Transform": {
+      "posX": 25.1899872,
+      "posY": 1.46276677,
+      "posZ": 13.221076,
+      "rotX": 0.0272637066,
+      "rotY": 179.999649,
+      "rotZ": 0.009744995,
+      "scaleX": 1.15,
+      "scaleY": 1,
+      "scaleZ": 1.05
+    },
+    "Nickname": "Seek Allies",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.713235259,
+      "g": 0.713235259,
+      "b": 0.713235259
+    },
+    "Tags": [
+      "Imperium"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": true,
+    "Hands": true,
+    "CardID": 49204,
+    "SidewaysCard": false,
+    "CustomDeck": {
+      "426": {
+        "FaceURL": "http://cloud-3.steamusercontent.com/ugc/2029469358243413427/BF3BA9C253ED953533B90D94DD56D0BAD4021B3C/",
+        "BackURL": "http://cloud-3.steamusercontent.com/ugc/1892102433196500461/C3DC7A02CF378129569B414967C9BE25097C6E77/",
+        "NumWidth": 4,
+        "NumHeight": 2,
+        "BackIsHidden": true,
+        "UniqueBack": false,
+        "Type": 0
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

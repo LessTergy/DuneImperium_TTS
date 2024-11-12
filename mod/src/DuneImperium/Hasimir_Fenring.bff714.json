@@ -1,0 +1,63 @@
+{
+  "Object": {
+    "GUID": "bff714",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": 13.3242168,
+      "posY": 2.18782544,
+      "posZ": 68.5821152,
+      "rotX": 0.00000388990657,
+      "rotY": 179.999969,
+      "rotZ": 5.136329e-8,
+      "scaleX": 1.70145762,
+      "scaleY": 1,
+      "scaleZ": 1.70145762
+    },
+    "Nickname": "Hasimir Fenring",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "Tags": [
+      "Leader"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1892102591129988494/BB48D93114415E43D23E442E5D1A183F54605E1B/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 3,
+        "Thickness": 0.1,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "#include ./Hasimir_Fenring.bff714.lua",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

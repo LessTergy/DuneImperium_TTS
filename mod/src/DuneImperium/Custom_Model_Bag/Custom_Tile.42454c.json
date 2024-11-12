@@ -1,0 +1,64 @@
+{
+  "Object": {
+    "GUID": "42454c",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": 14.7955093,
+      "posY": 1.61938822,
+      "posZ": 27.14699,
+      "rotX": 0.0006382759,
+      "rotY": 180,
+      "rotZ": 179.965851,
+      "scaleX": 0.8054394,
+      "scaleY": 1,
+      "scaleZ": 0.8054394
+    },
+    "Nickname": "",
+    "Description": "Tech",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.09803913,
+      "g": 0.09803913,
+      "b": 0.09803913
+    },
+    "Tags": [
+      "Norma",
+      "Shuttle Fleet"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/2002448397950262935/270E363DDF544F9A8B14AC269C193741258FCE41/",
+      "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/2002448397950219095/1EA614EC832B16BC94811A7FE793344057850409/",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 3,
+        "Thickness": 0.1,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

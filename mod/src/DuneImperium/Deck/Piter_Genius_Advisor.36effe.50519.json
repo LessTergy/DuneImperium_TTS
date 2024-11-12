@@ -1,0 +1,64 @@
+{
+  "Object": {
+    "GUID": "36effe",
+    "Name": "Card",
+    "Transform": {
+      "posX": -10.08976,
+      "posY": 2.99346042,
+      "posZ": 20.0399723,
+      "rotX": 359.8965,
+      "rotY": 180.000778,
+      "rotZ": 179.61676,
+      "scaleX": 1.05,
+      "scaleY": 1,
+      "scaleZ": 1.05
+    },
+    "Nickname": "Piter, Genius Advisor",
+    "Description": "",
+    "GMNotes": "{\"specimenCost\":3}",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.713235259,
+      "g": 0.713235259,
+      "b": 0.713235259
+    },
+    "Tags": [
+      "Imperium"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": true,
+    "Hands": true,
+    "CardID": 50519,
+    "SidewaysCard": false,
+    "CustomDeck": {
+      "444": {
+        "FaceURL": "http://cloud-3.steamusercontent.com/ugc/2029469358268075509/D9BD273651404E7DE7F0E22B36F2D426D82B07A8/",
+        "BackURL": "http://cloud-3.steamusercontent.com/ugc/1892102433196500461/C3DC7A02CF378129569B414967C9BE25097C6E77/",
+        "NumWidth": 4,
+        "NumHeight": 5,
+        "BackIsHidden": true,
+        "UniqueBack": false,
+        "Type": 0
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

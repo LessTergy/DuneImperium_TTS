@@ -1,0 +1,65 @@
+{
+  "Object": {
+    "GUID": "89da7d",
+    "Name": "Custom_Token",
+    "Transform": {
+      "posX": -9.288127,
+      "posY": 1.66806948,
+      "posZ": 0.359990567,
+      "rotX": 359.920044,
+      "rotY": 270.031067,
+      "rotZ": 0.0168037284,
+      "scaleX": 0.100051254,
+      "scaleY": 1,
+      "scaleZ": 0.100051254
+    },
+    "Nickname": "Spacing Guild Faction Green",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.191952437,
+      "g": 0.701,
+      "b": 0.167952418
+    },
+    "Tags": [
+      "Green",
+      "InfluenceTokens",
+      "SpaceGuildInfluence"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": false,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1654474838742796853/4884939CCEB0A6276F3800194A608DEEE4415C4F/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomToken": {
+        "Thickness": 0.149999842,
+        "MergeDistancePixels": 15,
+        "StandUp": false,
+        "Stackable": true
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

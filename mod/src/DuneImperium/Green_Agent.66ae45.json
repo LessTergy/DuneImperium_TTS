@@ -1,0 +1,62 @@
+{
+  "Object": {
+    "GUID": "66ae45",
+    "Name": "Custom_Model",
+    "Transform": {
+      "posX": 17.441555,
+      "posY": 1.66076326,
+      "posZ": 24.131834,
+      "rotX": 0.01973696,
+      "rotY": 180.083252,
+      "rotZ": 0.07154968,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Nickname": "Green Agent",
+    "Description": "Agent",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.04307092,
+      "g": 1,
+      "b": 0
+    },
+    "Tags": [
+      "Agent",
+      "Green"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomMesh": {
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1655601720504411774/E99D570D57050372AAEB5BF034CB5271CD03719E/",
+      "DiffuseURL": "",
+      "NormalURL": "",
+      "ColliderURL": "",
+      "Convex": true,
+      "MaterialIndex": 0,
+      "TypeIndex": 0,
+      "CastShadows": true
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

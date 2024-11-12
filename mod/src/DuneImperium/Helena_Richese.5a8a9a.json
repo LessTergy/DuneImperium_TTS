@@ -1,0 +1,63 @@
+{
+  "Object": {
+    "GUID": "5a8a9a",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": 5.74921656,
+      "posY": 2.234267,
+      "posZ": 34.5890656,
+      "rotX": 0.000009768266,
+      "rotY": 179.9981,
+      "rotZ": 1.62608572e-7,
+      "scaleX": 1.72827446,
+      "scaleY": 1,
+      "scaleZ": 1.72827446
+    },
+    "Nickname": "Helena Richese",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "Tags": [
+      "Leader"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1892102433196235077/63750F22F1DFBA9D9544587C0B2B8D65E157EC00/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 3,
+        "Thickness": 0.1,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "#include ./Helena_Richese.5a8a9a.lua",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

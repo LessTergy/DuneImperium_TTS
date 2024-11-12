@@ -1,0 +1,124 @@
+{
+  "Object": {
+    "GUID": "082e07",
+    "Name": "Custom_Model_Infinite_Bag",
+    "Transform": {
+      "posX": 5.93,
+      "posY": 1.4,
+      "posZ": 29.85,
+      "rotX": 0.00147153169,
+      "rotY": 0.0010339882,
+      "rotZ": 0.0000304856567,
+      "scaleX": 0.95,
+      "scaleY": 0.2,
+      "scaleZ": 0.95
+    },
+    "Nickname": "Bene Tlailax",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "MaterialIndex": -1,
+    "MeshIndex": -1,
+    "CustomMesh": {
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
+      "DiffuseURL": "",
+      "NormalURL": "",
+      "ColliderURL": "",
+      "Convex": true,
+      "MaterialIndex": 0,
+      "TypeIndex": 7,
+      "CastShadows": true
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": "",
+    "ContainedObjects": [],
+    "ChildObjects": [
+      {
+        "GUID": "f262cb",
+        "Name": "Custom_Tile",
+        "Transform": {
+          "posX": -0.0255319476,
+          "posY": 0.499977469,
+          "posZ": 0.00990175,
+          "rotX": -0.0008855259,
+          "rotY": 179.999664,
+          "rotZ": 0.00007993325,
+          "scaleX": 0.458480477,
+          "scaleY": 5,
+          "scaleZ": 0.4584805
+        },
+        "Nickname": "Bene Tleilax ",
+        "Description": "VP",
+        "GMNotes": "",
+        "AltLookAngle": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "ColorDiffuse": {
+          "r": 0.249999553,
+          "g": 0.249999553,
+          "b": 0.249999553
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": false,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": false,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+          "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1892102591133113075/D006CC8DC77D9C9B855C524F6DEE652D17CA0052/",
+          "ImageSecondaryURL": "",
+          "ImageScalar": 1,
+          "WidthScale": 0,
+          "CustomTile": {
+            "Type": 2,
+            "Thickness": 0.2,
+            "Stackable": false,
+            "Stretch": true
+          }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
+      }
+    ]
+  },
+  "StatesPaths": {},
+  "ContainedObjectPaths": [
+    "Bene_Tleilax.f262cb.json"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "Object": {
+    "GUID": "47c12f",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": 30.1800632,
+      "posY": 1.922703,
+      "posZ": 8.177271,
+      "rotX": 359.9296,
+      "rotY": 359.986237,
+      "rotZ": 0.123136625,
+      "scaleX": 0.432911634,
+      "scaleY": 1,
+      "scaleZ": 0.432911634
+    },
+    "Nickname": "Rival's VP",
+    "Description": "VP",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.442990184,
+      "g": 0.230990171,
+      "b": 0.089992024
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": false,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": false,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1821155945559482899/1891DE379BD583833F0FD255888FD28F5FE9D0B9/",
+      "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1821155945559482899/1891DE379BD583833F0FD255888FD28F5FE9D0B9/",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 2,
+        "Thickness": 0.2,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

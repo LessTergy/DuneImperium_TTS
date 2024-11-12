@@ -1,0 +1,60 @@
+{
+  "Object": {
+    "GUID": "67dc66",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": 5.9,
+      "posY": 1.83741152,
+      "posZ": 19.85,
+      "rotX": 0.00000196176234,
+      "rotY": -0.0000289146155,
+      "rotZ": 180,
+      "scaleX": 0.432676375,
+      "scaleY": 1,
+      "scaleZ": 0.432676375
+    },
+    "Nickname": "Detonation Devices",
+    "Description": "VP",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.4429962,
+      "g": 0.230996192,
+      "b": 0.08999691
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": false,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": false,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1892102591133373704/4785FCA57F5C0F6F15C272A0824F687F029B48F3/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 2,
+        "Thickness": 0.2,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

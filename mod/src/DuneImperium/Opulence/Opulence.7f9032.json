@@ -1,0 +1,60 @@
+{
+  "Object": {
+    "GUID": "7f9032",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": 4.18552876,
+      "posY": 1.59093869,
+      "posZ": 18.7973423,
+      "rotX": 0.00000257010151,
+      "rotY": 0.018586766,
+      "rotZ": -0.00000213099952,
+      "scaleX": 0.432911634,
+      "scaleY": 1,
+      "scaleZ": 0.432911634
+    },
+    "Nickname": "Opulence",
+    "Description": "VP",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.24999842,
+      "g": 0.24999842,
+      "b": 0.24999842
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": false,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": false,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1892102591133059145/592CDFD80581CDB687394A06D693E348A0A79702/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 2,
+        "Thickness": 0.2,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

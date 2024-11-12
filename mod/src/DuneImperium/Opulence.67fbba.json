@@ -1,0 +1,124 @@
+{
+  "Object": {
+    "GUID": "67fbba",
+    "Name": "Custom_Model_Infinite_Bag",
+    "Transform": {
+      "posX": 3.9,
+      "posY": 1.47000015,
+      "posZ": 27.76018,
+      "rotX": -0.00003340092,
+      "rotY": 179.996262,
+      "rotZ": -0.000004056509,
+      "scaleX": 0.857872,
+      "scaleY": 0.200000048,
+      "scaleZ": 0.857872
+    },
+    "Nickname": "Opulence",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "MaterialIndex": -1,
+    "MeshIndex": -1,
+    "CustomMesh": {
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
+      "DiffuseURL": "",
+      "NormalURL": "",
+      "ColliderURL": "",
+      "Convex": true,
+      "MaterialIndex": 0,
+      "TypeIndex": 7,
+      "CastShadows": true
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": "",
+    "ContainedObjects": [],
+    "ChildObjects": [
+      {
+        "GUID": "09c4c6",
+        "Name": "Custom_Tile",
+        "Transform": {
+          "posX": 0.00003258555,
+          "posY": 0.09999977,
+          "posZ": -0.0000069028797,
+          "rotX": -6.185644e-9,
+          "rotY": -0.00000169337318,
+          "rotZ": 9.14081561e-17,
+          "scaleX": 0.5046344,
+          "scaleY": 4.999999,
+          "scaleZ": 0.5046344
+        },
+        "Nickname": "Opulence",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "ColorDiffuse": {
+          "r": 0.24999845,
+          "g": 0.24999845,
+          "b": 0.24999845
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": false,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": false,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+          "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1892102591133059145/592CDFD80581CDB687394A06D693E348A0A79702/",
+          "ImageSecondaryURL": "",
+          "ImageScalar": 1,
+          "WidthScale": 0,
+          "CustomTile": {
+            "Type": 2,
+            "Thickness": 0.2,
+            "Stackable": false,
+            "Stretch": true
+          }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
+      }
+    ]
+  },
+  "StatesPaths": {},
+  "ContainedObjectPaths": [
+    "Opulence.7f9032.json"
+  ]
+}

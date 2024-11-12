@@ -1,0 +1,60 @@
+{
+  "Object": {
+    "GUID": "be8dab",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": -9.802148,
+      "posY": 1.61553788,
+      "posZ": -3.59175873,
+      "rotX": 0.000181902651,
+      "rotY": -0.000657670258,
+      "rotZ": -0.000395258219,
+      "scaleX": 0.432380676,
+      "scaleY": 1,
+      "scaleZ": 0.432380676
+    },
+    "Nickname": "Bene Gesserit Friendship",
+    "Description": "VP",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.627,
+      "g": 0.12499439,
+      "b": 0.941
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": false,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": false,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1892102591133124900/394E879852D174DA9F95960F9991105D3C2C2213/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 2,
+        "Thickness": 0.2,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

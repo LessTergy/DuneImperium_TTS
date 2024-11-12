@@ -1,0 +1,74 @@
+{
+  "Object": {
+    "GUID": "4060b5",
+    "Name": "Custom_Assetbundle_Bag",
+    "Transform": {
+      "posX": 34.284214,
+      "posY": 1.52580631,
+      "posZ": 14.14897,
+      "rotX": 0.0000169524483,
+      "rotY": 0.00764664868,
+      "rotZ": 0.000008134699,
+      "scaleX": 0.3333333,
+      "scaleY": 0.08333333,
+      "scaleZ": 0.3333333
+    },
+    "Nickname": "Trash",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.191951722,
+      "g": 0.701,
+      "b": 0.1679517
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "MaterialIndex": -1,
+    "MeshIndex": -1,
+    "CustomAssetbundle": {
+      "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/1859450446898772086/0C434F47DB06FAFA3BAFD293A14D7B440CC1BE23/",
+      "AssetbundleSecondaryURL": "",
+      "MaterialIndex": 0,
+      "TypeIndex": 6,
+      "LoopingEffectIndex": 1
+    },
+    "Bag": {
+      "Order": 0
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": "",
+    "ContainedObjects": []
+  },
+  "StatesPaths": {},
+  "ContainedObjectPaths": [
+    "Custom_Tile.49f4d0.json",
+    "Custom_Tile.1efe43.json",
+    "Custom_Tile.43d906.json",
+    "Custom_Tile.9582bd.json",
+    "Custom_Tile.b58c84.json",
+    "Custom_Tile.40b0cf.json",
+    "Custom_Tile.ec16fe.json",
+    "Custom_Tile.2823a7.json",
+    "Custom_Tile.0b92cf.json",
+    "Custom_Tile.2d7ed6.json",
+    "Custom_Tile.0111d4.json"
+  ]
+}

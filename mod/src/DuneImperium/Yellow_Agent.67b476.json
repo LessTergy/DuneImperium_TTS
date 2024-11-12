@@ -1,0 +1,62 @@
+{
+  "Object": {
+    "GUID": "67b476",
+    "Name": "Custom_Model",
+    "Transform": {
+      "posX": 18.7330418,
+      "posY": 1.64823937,
+      "posZ": 1.9141326,
+      "rotX": 0.01936327,
+      "rotY": 180.0601,
+      "rotZ": 0.07271983,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Nickname": "Yellow Agent",
+    "Description": "Agent",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 0.9686274,
+      "b": 0
+    },
+    "Tags": [
+      "Agent",
+      "Yellow"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomMesh": {
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1655601720504411774/E99D570D57050372AAEB5BF034CB5271CD03719E/",
+      "DiffuseURL": "",
+      "NormalURL": "",
+      "ColliderURL": "",
+      "Convex": true,
+      "MaterialIndex": 0,
+      "TypeIndex": 0,
+      "CastShadows": true
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

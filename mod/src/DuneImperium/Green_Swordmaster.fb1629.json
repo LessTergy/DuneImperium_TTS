@@ -1,0 +1,62 @@
+{
+  "Object": {
+    "GUID": "fb1629",
+    "Name": "Custom_Model",
+    "Transform": {
+      "posX": 2.49616861,
+      "posY": 1.49836874,
+      "posZ": 28.0069122,
+      "rotX": 0.00000137126392,
+      "rotY": 179.998154,
+      "rotZ": 0.00000225035728,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Nickname": "Green Swordmaster",
+    "Description": "Agent",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.04307092,
+      "g": 1,
+      "b": 0
+    },
+    "Tags": [
+      "Agent",
+      "Green"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomMesh": {
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1655601720504411774/E99D570D57050372AAEB5BF034CB5271CD03719E/",
+      "DiffuseURL": "",
+      "NormalURL": "",
+      "ColliderURL": "",
+      "Convex": true,
+      "MaterialIndex": 0,
+      "TypeIndex": 0,
+      "CastShadows": true
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

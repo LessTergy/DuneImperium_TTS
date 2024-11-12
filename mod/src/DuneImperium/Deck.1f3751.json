@@ -1,0 +1,78 @@
+{
+  "Object": {
+    "GUID": "1f3751",
+    "Name": "Deck",
+    "Transform": {
+      "posX": -28.96289,
+      "posY": 2.28055882,
+      "posZ": 46.54682,
+      "rotX": -4.843665e-7,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.9,
+      "scaleY": 1,
+      "scaleZ": 0.83
+    },
+    "Nickname": "",
+    "Description": "Rise of Ix 2P",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.713235259,
+      "g": 0.713235259,
+      "b": 0.713235259
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": true,
+    "Hands": false,
+    "SidewaysCard": false,
+    "DeckIDs": [
+      16400,
+      16300
+    ],
+    "CustomDeck": {
+      "163": {
+        "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1833531164457146664/A96C3FC9FD0B47BF94415CC751D70B78394B831C/",
+        "BackURL": "http://cloud-3.steamusercontent.com/ugc/1670239430231973967/ACE7BA96F9E5F8218FA434192B90234FD9ED4E38/",
+        "NumWidth": 1,
+        "NumHeight": 1,
+        "BackIsHidden": true,
+        "UniqueBack": false,
+        "Type": 0
+      },
+      "164": {
+        "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1833531164457143084/A92B5F8751A12CC7D42688E5C8B00A64D62FDDAB/",
+        "BackURL": "http://cloud-3.steamusercontent.com/ugc/1670239430231973967/ACE7BA96F9E5F8218FA434192B90234FD9ED4E38/",
+        "NumWidth": 1,
+        "NumHeight": 1,
+        "BackIsHidden": true,
+        "UniqueBack": false,
+        "Type": 0
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": "",
+    "ContainedObjects": []
+  },
+  "StatesPaths": {},
+  "ContainedObjectPaths": [
+    "Dreadnought.0eb47d.16400.json",
+    "Dreadnought.405714.16300.json"
+  ]
+}

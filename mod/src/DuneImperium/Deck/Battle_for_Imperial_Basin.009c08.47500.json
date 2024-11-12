@@ -1,0 +1,61 @@
+{
+  "Object": {
+    "GUID": "009c08",
+    "Name": "Card",
+    "Transform": {
+      "posX": -11.500618,
+      "posY": 1.60112739,
+      "posZ": -27.8952255,
+      "rotX": 0.00774645,
+      "rotY": 180.009857,
+      "rotZ": 179.925049,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Nickname": "Battle for Imperial Basin",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.713235259,
+      "g": 0.713235259,
+      "b": 0.713235259
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": true,
+    "Hands": true,
+    "CardID": 47500,
+    "SidewaysCard": false,
+    "CustomDeck": {
+      "475": {
+        "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1892102591130041563/F1BEAE6266E75B7A2F5DE511DB4FEB25A2CD486B/",
+        "BackURL": "http://cloud-3.steamusercontent.com/ugc/1892102591130041978/9E194557E37B5C4CA74C7A77CBFB6B8A36043916/",
+        "NumWidth": 3,
+        "NumHeight": 2,
+        "BackIsHidden": true,
+        "UniqueBack": false,
+        "Type": 0
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

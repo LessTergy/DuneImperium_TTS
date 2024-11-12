@@ -1,0 +1,63 @@
+{
+  "Object": {
+    "GUID": "a35523",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": -17.0684681,
+      "posY": 2.1878252,
+      "posZ": 65.0255,
+      "rotX": 0.00000539950952,
+      "rotY": 179.994568,
+      "rotZ": 4.63186929e-8,
+      "scaleX": 1.70145762,
+      "scaleY": 1,
+      "scaleZ": 1.70145762
+    },
+    "Nickname": "Lady Fenring",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "Tags": [
+      "Leader"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1892102591129987373/B358B0DF043C024BD1B0B8FB319EC2C7A17791E3/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 3,
+        "Thickness": 0.1,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "#include ./Lady_Fenring.a35523.lua",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

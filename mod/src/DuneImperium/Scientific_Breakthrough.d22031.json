@@ -1,0 +1,60 @@
+{
+  "Object": {
+    "GUID": "d22031",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": 3.93999648,
+      "posY": 1.50000024,
+      "posZ": 29.8499928,
+      "rotX": 0.00004211894,
+      "rotY": 180.018753,
+      "rotZ": 0.0000133932326,
+      "scaleX": 0.432676375,
+      "scaleY": 1,
+      "scaleZ": 0.432676375
+    },
+    "Nickname": "Scientific Breakthrough",
+    "Description": "VP",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.442963451,
+      "g": 0.230963469,
+      "b": 0.08997028
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": false,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": false,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1895480393489120423/D0DD1D2438C5EA7A3BFDC668E75C3E387AAC2808/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 2,
+        "Thickness": 0.2,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

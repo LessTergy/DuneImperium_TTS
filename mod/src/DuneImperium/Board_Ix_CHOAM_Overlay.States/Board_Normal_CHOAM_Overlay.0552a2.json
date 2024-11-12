@@ -1,0 +1,282 @@
+{
+  "Object": {
+    "GUID": "0552a2",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": 3.3028152,
+      "posY": 1.5779078,
+      "posZ": 8.480485,
+      "rotX": 0.0169059765,
+      "rotY": 179.975372,
+      "rotZ": 0.0798689947,
+      "scaleX": 2.5,
+      "scaleY": 1,
+      "scaleZ": 2.5
+    },
+    "Nickname": "Board Normal CHOAM Overlay",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.0261324048,
+      "g": 0.0260868855,
+      "b": 0.0260868855
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/2029467636440932916/61FC81DBBA34C04BEC320904A683AEC0A1EA0608/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 0,
+        "Thickness": 0.1,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "#include ./Board_Normal_CHOAM_Overlay.0552a2.lua",
+    "LuaScriptState": "",
+    "XmlUI": "",
+    "AttachedSnapPoints": [
+      {
+        "Position": {
+          "x": 2.520861,
+          "y": 0.0999573,
+          "z": -0.5409124
+        },
+        "Rotation": {
+          "x": 0.000149715546,
+          "y": 0.00270985952,
+          "z": 0.000153122513
+        },
+        "Tags": [
+          "Agent"
+        ]
+      },
+      {
+        "Position": {
+          "x": 2.59756255,
+          "y": 0.0998471752,
+          "z": -0.310633779
+        },
+        "Rotation": {
+          "x": 0.000141095647,
+          "y": 0.002682552,
+          "z": 0.000154029418
+        },
+        "Tags": [
+          "Agent"
+        ]
+      },
+      {
+        "Position": {
+          "x": 2.48394251,
+          "y": 0.100149624,
+          "z": 0.234989643
+        },
+        "Rotation": {
+          "x": 0.000154391731,
+          "y": 0.00270985439,
+          "z": 0.000147839892
+        },
+        "Tags": [
+          "Agent"
+        ]
+      },
+      {
+        "Position": {
+          "x": 2.560644,
+          "y": 0.100075744,
+          "z": 0.465268165
+        },
+        "Rotation": {
+          "x": 0.000126979648,
+          "y": 0.00272355322,
+          "z": 0.000151614542
+        },
+        "Tags": [
+          "Agent"
+        ]
+      },
+      {
+        "Position": {
+          "x": 0.989795744,
+          "y": 0.0999416262,
+          "z": 0.245052963
+        },
+        "Rotation": {
+          "x": 0.000138383111,
+          "y": 0.002750859,
+          "z": 0.000159985837
+        },
+        "Tags": [
+          "Agent"
+        ]
+      },
+      {
+        "Position": {
+          "x": 1.06649709,
+          "y": 0.09997265,
+          "z": 0.4753314
+        },
+        "Rotation": {
+          "x": 0.00015038604,
+          "y": 0.00273718,
+          "z": 0.000158105133
+        },
+        "Tags": [
+          "Agent"
+        ]
+      },
+      {
+        "Position": {
+          "x": -0.254095942,
+          "y": 0.09978272,
+          "z": 0.226468757
+        },
+        "Rotation": {
+          "x": 0.000136881339,
+          "y": 0.002969425,
+          "z": 0.000161540185
+        },
+        "Tags": [
+          "Agent"
+        ]
+      },
+      {
+        "Position": {
+          "x": -0.1773952,
+          "y": 0.09983961,
+          "z": 0.456747532
+        },
+        "Rotation": {
+          "x": 0.000124881219,
+          "y": 0.00298310048,
+          "z": 0.000161126358
+        },
+        "Tags": [
+          "Agent"
+        ]
+      },
+      {
+        "Position": {
+          "x": -0.229133487,
+          "y": 0.100032136,
+          "z": -0.5479678
+        },
+        "Rotation": {
+          "x": 0.000127593012,
+          "y": 0.00303774187,
+          "z": 0.000157117756
+        },
+        "Tags": [
+          "Agent"
+        ]
+      },
+      {
+        "Position": {
+          "x": -0.152432874,
+          "y": 0.0997380838,
+          "z": -0.317689121
+        },
+        "Rotation": {
+          "x": 0.000142354125,
+          "y": 0.00305138063,
+          "z": 0.00016002632
+        },
+        "Tags": [
+          "Agent"
+        ]
+      },
+      {
+        "Position": {
+          "x": -1.75644493,
+          "y": 0.09992939,
+          "z": -0.5292732
+        },
+        "Rotation": {
+          "x": 0.000158970739,
+          "y": 0.0031606385,
+          "z": 0.000161807839
+        },
+        "Tags": [
+          "Agent"
+        ]
+      },
+      {
+        "Position": {
+          "x": -1.67974424,
+          "y": 0.09993098,
+          "z": -0.2989946
+        },
+        "Rotation": {
+          "x": 0.000160454452,
+          "y": 0.00318795769,
+          "z": 0.000164522644
+        },
+        "Tags": [
+          "Agent"
+        ]
+      },
+      {
+        "Position": {
+          "x": -1.706515,
+          "y": 0.100078493,
+          "z": 0.221316651
+        },
+        "Rotation": {
+          "x": 0.000146704027,
+          "y": 0.00322896056,
+          "z": 0.00015639812
+        },
+        "Tags": [
+          "Agent"
+        ]
+      },
+      {
+        "Position": {
+          "x": -1.62981367,
+          "y": 0.100210734,
+          "z": 0.451595157
+        },
+        "Rotation": {
+          "x": 0.000141785349,
+          "y": 0.00333824847,
+          "z": 0.00016174755
+        },
+        "Tags": [
+          "Agent"
+        ]
+      },
+      {
+        "Position": {
+          "x": 1.792094,
+          "y": 0.09988209,
+          "z": 0.385824472
+        },
+        "Tags": [
+          "Mentat"
+        ]
+      }
+    ]
+  },
+  "StatesPaths": {}
+}

@@ -1,0 +1,63 @@
+{
+  "Object": {
+    "GUID": "fab6ac",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": -17.0684719,
+      "posY": 2.18782568,
+      "posZ": 72.1386,
+      "rotX": 0.000005239131,
+      "rotY": 179.994873,
+      "rotZ": -2.155948e-7,
+      "scaleX": 1.70145762,
+      "scaleY": 1,
+      "scaleZ": 1.70145762
+    },
+    "Nickname": "Dr Liet Kynes V2",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "Tags": [
+      "Leader"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/2021593312048735236/13D43F4EB98AB64AC2EBB450016D328FD27E768F/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 3,
+        "Thickness": 0.1,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "#include ./Dr_Liet_Kynes_V2.fab6ac.lua",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

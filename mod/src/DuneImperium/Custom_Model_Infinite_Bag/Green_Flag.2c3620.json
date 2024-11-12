@@ -1,0 +1,64 @@
+{
+  "Object": {
+    "GUID": "2c3620",
+    "Name": "Custom_Token",
+    "Transform": {
+      "posX": 16.0182419,
+      "posY": 1.96774316,
+      "posZ": 24.7150211,
+      "rotX": 0.000336252881,
+      "rotY": -0.00150873594,
+      "rotZ": -0.001953085,
+      "scaleX": 0.1727097,
+      "scaleY": 1,
+      "scaleZ": 0.1727097
+    },
+    "Nickname": "Green Flag",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 1,
+      "b": 1
+    },
+    "Tags": [
+      "Flag",
+      "Green"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1669113659627164296/BD4E257F04571CFB277B01BD025309FAF81ACAEF/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomToken": {
+        "Thickness": 0.2,
+        "MergeDistancePixels": 15,
+        "StandUp": false,
+        "Stackable": false
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

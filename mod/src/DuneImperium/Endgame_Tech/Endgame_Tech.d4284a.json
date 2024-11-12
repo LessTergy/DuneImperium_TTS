@@ -1,0 +1,60 @@
+{
+  "Object": {
+    "GUID": "d4284a",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": -1.189104,
+      "posY": 1.70538712,
+      "posZ": 27.1372814,
+      "rotX": 0.0773749,
+      "rotY": 180.001678,
+      "rotZ": 0.07250719,
+      "scaleX": 0.432676375,
+      "scaleY": 1,
+      "scaleZ": 0.432676375
+    },
+    "Nickname": "Endgame Tech",
+    "Description": "VP",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.442982733,
+      "g": 0.230982721,
+      "b": 0.08998596
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": false,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": false,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1892102591133502255/FAD2FB5CE4D9C41AB839F3C1032A8CDB30E34BAE/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 2,
+        "Thickness": 0.2,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

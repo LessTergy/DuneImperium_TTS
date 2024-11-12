@@ -1,0 +1,60 @@
+{
+  "Object": {
+    "GUID": "f262cb",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": -2.84593177,
+      "posY": 1.70583057,
+      "posZ": 28.219841,
+      "rotX": 359.966949,
+      "rotY": 179.999527,
+      "rotZ": 0.00435277261,
+      "scaleX": 0.394293129,
+      "scaleY": 1,
+      "scaleZ": 0.394293129
+    },
+    "Nickname": "Bene Tleilax ",
+    "Description": "VP",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.249999583,
+      "g": 0.249999583,
+      "b": 0.249999583
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": false,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": false,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1892102591133113075/D006CC8DC77D9C9B855C524F6DEE652D17CA0052/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 2,
+        "Thickness": 0.2,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

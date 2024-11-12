@@ -1,0 +1,63 @@
+{
+  "Object": {
+    "GUID": "c34187",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": 13.3258915,
+      "posY": 2.1878252,
+      "posZ": 65.0271454,
+      "rotX": 0.00000750928848,
+      "rotY": 180.008423,
+      "rotZ": 9.709816e-8,
+      "scaleX": 1.72827446,
+      "scaleY": 1,
+      "scaleZ": 1.72827446
+    },
+    "Nickname": "Serena Butler",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "Tags": [
+      "Leader"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "https://i.imgur.com/abVTlYt.jpg",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 3,
+        "Thickness": 0.1,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "#include ./Serena_Butler.c34187.lua",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

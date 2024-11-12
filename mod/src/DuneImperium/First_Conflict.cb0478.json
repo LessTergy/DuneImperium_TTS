@@ -1,0 +1,48 @@
+{
+  "Object": {
+    "GUID": "cb0478",
+    "Name": "Checker_white",
+    "Transform": {
+      "posX": -1.15463293,
+      "posY": 1.53,
+      "posZ": -5.79815674,
+      "rotX": 0.0169968717,
+      "rotY": 180.000519,
+      "rotZ": 0.08079126,
+      "scaleX": 1.37866032,
+      "scaleY": 0.165157527,
+      "scaleZ": 1.34989369
+    },
+    "Nickname": "First Conflict",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 1,
+      "b": 1
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": false,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": false,
+    "Sticky": false,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "LuaScript": "#include ./First_Conflict.cb0478.lua",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

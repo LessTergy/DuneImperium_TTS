@@ -1,0 +1,64 @@
+{
+  "Object": {
+    "GUID": "9b6cdc",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": 5.74920845,
+      "posY": 2.23426747,
+      "posZ": 42.5891037,
+      "rotX": 0.00000263231573,
+      "rotY": 179.998779,
+      "rotZ": -8.06891336e-8,
+      "scaleX": 1.72827446,
+      "scaleY": 1,
+      "scaleZ": 1.72827446
+    },
+    "Nickname": "Duke Leto",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "Tags": [
+      "Leader",
+      "Leto"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1892102433196254910/8CBD932BE474529D6C14A3AA8C01BD8503EBEBC6/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 3,
+        "Thickness": 0.1,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "#include ./Duke_Leto.9b6cdc.lua",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

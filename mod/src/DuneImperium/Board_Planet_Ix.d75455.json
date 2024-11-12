@@ -1,0 +1,158 @@
+{
+  "Object": {
+    "GUID": "d75455",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": 7.574266,
+      "posY": 1.4752208,
+      "posZ": 14.5144339,
+      "rotX": 0.0168668646,
+      "rotY": 179.994888,
+      "rotZ": 0.07972211,
+      "scaleX": 3.44616866,
+      "scaleY": 1,
+      "scaleZ": 3.44616866
+    },
+    "Nickname": "Board Planet Ix",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1892102591129937652/186AAD39381056149506FDFA88FF5FA2AF203B13/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 0,
+        "Thickness": 0.1,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "#include ./Board_Planet_Ix.d75455.lua",
+    "LuaScriptState": "",
+    "XmlUI": "",
+    "AttachedSnapPoints": [
+      {
+        "Position": {
+          "x": -0.488260835,
+          "y": 0.09994728,
+          "z": -0.6825909
+        },
+        "Rotation": {
+          "x": 0.000009049949,
+          "y": 0.00330580212,
+          "z": 180
+        }
+      },
+      {
+        "Position": {
+          "x": 0.5015121,
+          "y": 0.100042067,
+          "z": -0.135656312
+        },
+        "Rotation": {
+          "x": 0.000163634162,
+          "y": 359.97998,
+          "z": 0.0001705594
+        },
+        "Tags": [
+          "Agent"
+        ]
+      },
+      {
+        "Position": {
+          "x": 0.5858607,
+          "y": 0.099949345,
+          "z": 0.0161613617
+        },
+        "Rotation": {
+          "x": 0.000144668433,
+          "y": 359.97995,
+          "z": 0.000153880741
+        },
+        "Tags": [
+          "Agent"
+        ]
+      },
+      {
+        "Position": {
+          "x": 0.60348326,
+          "y": 0.099677816,
+          "z": -0.52858907
+        },
+        "Rotation": {
+          "x": 0.000137379335,
+          "y": 359.980042,
+          "z": 0.0001718447
+        },
+        "Tags": [
+          "Agent"
+        ]
+      },
+      {
+        "Position": {
+          "x": 0.507592559,
+          "y": 0.09995301,
+          "z": -0.6859922
+        },
+        "Rotation": {
+          "x": 0.00013385473,
+          "y": 359.980042,
+          "z": 0.0001525822
+        },
+        "Tags": [
+          "Agent"
+        ]
+      },
+      {
+        "Position": {
+          "x": -0.48913157,
+          "y": 0.09968096,
+          "z": -0.09412692
+        },
+        "Rotation": {
+          "x": -9.41567237e-7,
+          "y": 0.00516362954,
+          "z": -3.1353963e-7
+        }
+      },
+      {
+        "Position": {
+          "x": -0.4890771,
+          "y": 0.09972904,
+          "z": 0.5033288
+        },
+        "Rotation": {
+          "x": -0.00000213318367,
+          "y": 0.00519095175,
+          "z": -4.26983462e-7
+        }
+      }
+    ]
+  },
+  "StatesPaths": {}
+}

@@ -1,0 +1,65 @@
+{
+  "Object": {
+    "GUID": "96607f",
+    "Name": "Custom_Token",
+    "Transform": {
+      "posX": 0.358796626,
+      "posY": 1.788481,
+      "posZ": 25.36463,
+      "rotX": 0.0169070624,
+      "rotY": 179.9506,
+      "rotZ": 0.0800071657,
+      "scaleX": 0.167837158,
+      "scaleY": 1,
+      "scaleZ": 0.167837158
+    },
+    "Nickname": "BT track Blue",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.121530108,
+      "g": 0.5294118,
+      "b": 1
+    },
+    "Tags": [
+      "Blue",
+      "BT Board",
+      "TleilaxuToken"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": false,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1654474838742796853/4884939CCEB0A6276F3800194A608DEEE4415C4F/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomToken": {
+        "Thickness": 0.399999976,
+        "MergeDistancePixels": 15,
+        "StandUp": false,
+        "Stackable": true
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

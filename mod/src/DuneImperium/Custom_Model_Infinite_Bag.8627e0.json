@@ -1,0 +1,133 @@
+{
+  "Object": {
+    "GUID": "8627e0",
+    "Name": "Custom_Model_Infinite_Bag",
+    "Transform": {
+      "posX": -16.2261658,
+      "posY": 1.804883,
+      "posZ": 2.44368124,
+      "rotX": 0.0177220758,
+      "rotY": 179.993866,
+      "rotZ": 0.07798468,
+      "scaleX": 0.619339,
+      "scaleY": 0.200000286,
+      "scaleZ": 0.747381568
+    },
+    "Nickname": "",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "MaterialIndex": -1,
+    "MeshIndex": -1,
+    "CustomMesh": {
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666858152071990826/9AD455F2CBAEC01B2CBCDDB8B6DC4CE48D14B545/",
+      "DiffuseURL": "",
+      "NormalURL": "",
+      "ColliderURL": "",
+      "Convex": true,
+      "MaterialIndex": 0,
+      "TypeIndex": 7,
+      "CastShadows": true
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": "",
+    "ContainedObjects": [],
+    "AttachedSnapPoints": [
+      {
+        "Position": {
+          "x": -0.111719027,
+          "y": 0.5000001,
+          "z": -0.04362251
+        }
+      }
+    ],
+    "ChildObjects": [
+      {
+        "GUID": "34f68e",
+        "Name": "Custom_Token",
+        "Transform": {
+          "posX": 0.00000118308787,
+          "posY": 2.37505361e-7,
+          "posZ": 0.00467087375,
+          "rotX": 5.21256961e-11,
+          "rotY": 7.587087e-7,
+          "rotZ": -0.000002339123,
+          "scaleX": 0.310586482,
+          "scaleY": 4.999993,
+          "scaleZ": 0.2573763
+        },
+        "Nickname": "Blue Flag",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "ColorDiffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+          "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1669113659627163635/534739CFB0CC3F2447B9BB1CADF056C39C9A26D8/",
+          "ImageSecondaryURL": "",
+          "ImageScalar": 1,
+          "WidthScale": 0,
+          "CustomToken": {
+            "Thickness": 0.2,
+            "MergeDistancePixels": 15,
+            "StandUp": false,
+            "Stackable": false
+          }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
+      }
+    ]
+  },
+  "StatesPaths": {},
+  "ContainedObjectPaths": [
+    "Blue_Flag.6a5582.json"
+  ]
+}

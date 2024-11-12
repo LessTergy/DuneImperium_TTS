@@ -1,0 +1,60 @@
+{
+  "Object": {
+    "GUID": "690202",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": 10.05426,
+      "posY": 2.32248473,
+      "posZ": 29.2821522,
+      "rotX": 359.97403,
+      "rotY": 179.999878,
+      "rotZ": 0.618697643,
+      "scaleX": 0.527460754,
+      "scaleY": 1,
+      "scaleZ": 0.527460754
+    },
+    "Nickname": "Baron Harkonnen Token",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.249983817,
+      "g": 0.249983817,
+      "b": 0.249983817
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": false,
+    "Snap": false,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": true,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1656728601468500942/C75FFFFCA04945968F8463BDB1AE927D172F4B56/",
+      "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1656728601468514048/388E83D111BF66F9F5CDE4A50CFFDEC9CA37B813/",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 3,
+        "Thickness": 0.2,
+        "Stackable": true,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

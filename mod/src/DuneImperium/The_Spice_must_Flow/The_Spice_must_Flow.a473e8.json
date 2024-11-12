@@ -1,0 +1,60 @@
+{
+  "Object": {
+    "GUID": "a473e8",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": -2.417473,
+      "posY": 1.5524801,
+      "posZ": 19.0872555,
+      "rotX": -8.605015e-7,
+      "rotY": -0.000177471244,
+      "rotZ": 2.37380618e-7,
+      "scaleX": 0.432911634,
+      "scaleY": 1,
+      "scaleZ": 0.432911634
+    },
+    "Nickname": "The Spice must Flow",
+    "Description": "VP",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.905882359,
+      "g": 0.8980392,
+      "b": 0.1725435
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": false,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": false,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1892102591133087117/1F395ADB76F5AEA67307B9104F54044A080A378F/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 2,
+        "Thickness": 0.2,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

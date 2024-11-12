@@ -1,0 +1,320 @@
+<Defaults>
+    <Panel class="Window" color="#222222ff" allowDragging="True" returnToOriginalPositionWhenReleased="false" outline="#404040"/>
+    <Panel class="header" color="black"/>
+    <Panel class="red" color="#aa2222"/>
+    <Panel class="green" color="#228822"/>
+    <Panel class="yellow" color="#aaaa22"/>
+    <Panel class="blue" color="#2222aa"/>
+    <Panel class="black" color="black"/>
+    <Panel class="white" color="white"/>
+    <Panel class="orange" color="orange"/>
+    <Text fontSize="16" color="white"/>
+    <Button color="blue" textColor="white" fontSize="20"/>
+    <InputField onValueChanged="20b33a/changeValue" characterValidation="Integer" textColor="black" text="0" fontSize="20" alignment="MiddleCenter"/>
+    <InputField class="red2" color="#cc4444"/>
+    <InputField class="green2" color="#44aa44"/>
+    <InputField class="yellow2" color="#cccc44"/>
+    <InputField class="blue2" color="#4444cc"/>
+
+    <Text class="primary" color="#8e5ab4" fontSize="16" alignment="MiddleLeft"/>
+    <Text class="secondary" color="#efd9ff" fontSize="14" alignment="MiddleLeft"/>
+    <Text class="epigraph" color="#df9730" fontSize="12" fontStyle="italic" alignment="MiddleCenter"/>
+    <Dropdown itemBackgroundColors="#6c389244|#df9730|#FFFFFF|#361441" textColor="#6c3892" itemTextColor="#6c3892" fontStyle="bold"/>
+    <InputField colors="#00000000|#6c389244|#6c3892" textColor="#efd9ff" fontStyle="bold"/>
+    <Toggle colors="#efd9ff|#ffd60b|#efd9ff|#222222" textColor="#efd9ff"/>
+    <Button colors="#6c3892|#df9730|#361441|#222222" textColor="#ffd60b" fontSize="16" outline="#efd9ff" outlineSize="3 3"/>
+</Defaults>
+
+<Panel position="0 -50" width="450" height="800" color="#000000" id="setupPanel" rotation="0 0 0" outline="#6c3892" outlineSize="1" active="false" allowDragging="true" returnToOriginalPositionWhenReleased="false">
+
+    <VerticalLayout>
+        <Image ignoreLayout="True" image="http://cloud-3.steamusercontent.com/ugc/2027234042549661387/D9B4C518F1CC8DB3B299B6552E439410D9346C33/"/>
+
+        <VerticalLayout padding="40 40 150 50">
+            <VerticalLayout padding="0 0 0 20">
+                <Text class="epigraph" text="A beginning is a very delicate time."/>
+            </VerticalLayout>
+
+            <Text class="primary" text="Extensions"/>
+            <VerticalLayout padding="25 0 0 0">
+                <Toggle id="riseOfIx" isOn="True" onValueChanged="4a3e76/toggleRiseOfIx" text="Rise Of Ix"/>
+                <VerticalLayout padding="25 0 0 0">
+                    <Toggle id="epicMode" isOn="False" onValueChanged="4a3e76/toggleEpicMode" text="Epic Mode"/>
+                </VerticalLayout>
+                <Toggle id="immortality" isOn="True" onValueChanged="4a3e76/toggleImmortality" text="Immortality"/>
+                <VerticalLayout padding="25 0 0 0">
+                    <Toggle id="goTo11" isOn="True" onValueChanged="4a3e76/toggleGoTo11" text="Go To 11"/>
+                </VerticalLayout>
+            </VerticalLayout>
+
+            <HorizontalLayout>
+                <Text class="primary" text="Hidden Picks"/>
+                <Toggle id="hiddenPicks" isOn="false" onValueChanged="4a3e76/toggleHiddenPicks"/>
+            </HorizontalLayout>
+            <VerticalLayout id="hiddenPicksOptions" padding="25 0 0 0" active="False">
+                <HorizontalLayout>
+                    <Text id="displayNumberOfBans" class="secondary" text="Leaders removed: 6"/>
+                    <Slider id="numberOfBans" minValue="1" maxValue="10" value="6" wholeNumbers="true" onValueChanged="4a3e76/setNumberOfBans"/>
+                </HorizontalLayout>
+                <GridLayout cellSize="100 30" spacing="140 0">
+                    <Text class="secondary" text="Pick Order"/>
+                    <Dropdown id="pickOrder" onValueChanged="4a3e76/setPickOrder">
+                        <Option selected="true">4321</Option>
+                        <Option>4312</Option>
+                    </Dropdown>
+                </GridLayout>
+            </VerticalLayout>
+
+            <Text class="primary" text="Competitive Play"/>
+            <VerticalLayout padding="25 0 0 0">
+                <Toggle id="clockMode" onValueChanged="4a3e76/toggleClockMode" isOn="False" text="Clock Mode"/>
+                <Toggle id="submitGameToggle" onValueChanged="4a3e76/toggleSubmitGame" isOn="False" text="Submit Game"/>
+                <Toggle id="streamerModeToggle" onValueChanged="4a3e76/toggleStreamerMode" isOn="False" text="Streamer Score Board"/>
+                <Toggle id="redGoFirst" onValueChanged="4a3e76/toggleRedGoFirst" isOn="False" text="Red go First"/>
+            </VerticalLayout>
+
+
+            <Text class="primary" text="Variants"/>
+            <VerticalLayout padding="25 0 0 0">
+                <Toggle id="blitz" isOn="False" onValueChanged="4a3e76/toggleBlitz" text="Blitz"/>
+                <Toggle id="blackMarket" isOn="False" onValueChanged="4a3e76/toggleBlackMarket" text="Black Market"/>
+            </VerticalLayout>
+
+        </VerticalLayout>
+        <HorizontalLayout padding="100 100 0 20">
+            <Button id="shufflePlayers" minHeight="26" onClick="4a3e76/shufflePlayers" text="Shuffle Players"/>
+        </HorizontalLayout>
+        <HorizontalLayout padding="100 100 0 20">
+            <Button id="setUpButton" minHeight="26" onClick="4a3e76/Presetup" text="SETUP"/>
+        </HorizontalLayout>
+    </VerticalLayout>
+    <Image position="0 400" width="300" height="216" image="http://cloud-3.steamusercontent.com/ugc/2047503411648324365/772043B9C1D861D47A518088EC9A4A92229435A4/"/>
+</Panel>
+
+
+<Panel id="firstPanel" class="Window" width="500" height="180" active="false">
+    <TableLayout padding="10">
+        <Row>
+            <Text>
+                    This game will be submited for data collection/analysis. 
+                    For Tournament: Type the tournament number(token).
+                <b>For Ranked match: Leave the number as 0</b>
+                    For NO-RANKED match: Set number as 9999 
+            </Text>
+        </Row>
+        <Row preferredHeight="40">
+            <Cell>
+                <Panel>
+                    <Text>Identification number:</Text>
+                </Panel>
+            </Cell>
+            <Cell>
+                <InputField class="green2" id="game_id" characterValidation="Alphanumeric" onValueChanged="20b33a/updateTournamentToken"/>
+            </Cell>
+            <Cell>
+                <Button id="continue" color="blue" text="CONTINUE" onClick="20b33a/secondStep"/>
+            </Cell>
+        </Row>
+    </TableLayout>
+</Panel>
+<Panel id="secondPanel" class="Window" active="false" width="200" height="40" rectAlignment="LowerRight" offsetXY="-60,10">
+    <Button id="continue" color="blue" text="Open Submit Screen" onClick="20b33a/openScoreScreen"/>
+</Panel>
+<Panel id="thirdPanel" visibility="Black" class="Window" active="false" allowDragging="True" returnToOriginalPositionWhenReleased="false" width="80" height="80" rectAlignment="UpperRight" offsetXY="-50,-150">
+    <Button id="continue" color="blue" text="Open Score Board" onClick="20b33a/firstScoreBoardRender"/>
+</Panel>
+<Panel id="scorePanel" class="Window" active="false" width="950" height="500" color="#222222ff" allowDragging="True" returnToOriginalPositionWhenReleased="false" outline="#404040">
+    <TableLayout>
+        <Row>
+            <Cell columnSpan="7">
+                <Panel class="orange">
+                    <Text>
+                            NOTE: VP tokens above 12 must be placed on the corresponding player's VP tray to be taken into account. 
+                            This tool tries to resolve ties by looking at Chaumurky, spice, solari, and water, but it's not perfect.
+                            Double check the ranking, adjust as needed and TAKE A SCREENSHOT before submitting.
+                    </Text>
+                </Panel>
+            </Cell>
+        </Row>
+        <Row>
+            <Cell>
+                <Panel>
+                    <Text>Identification number:</Text>
+                </Panel>
+            </Cell>
+            <Cell columnSpan="6">
+                <InputField id="game_id" characterValidation="Alphanumeric" onValueChanged="20b33a/updateTournamentToken"/>
+            </Cell>
+        </Row>
+        <Row>
+            <Cell>
+                <Panel class="header">
+                    <Text>PLAYER</Text>
+                </Panel>
+            </Cell>
+            <Cell>
+                <Panel class="header">
+                    <Text>LEADER</Text>
+                </Panel>
+            </Cell>
+            <Cell>
+                <Panel class="header">
+                    <Text>RANK</Text>
+                </Panel>
+            </Cell>
+            <Cell>
+                <Panel class="header">
+                    <Text>VPs</Text>
+                </Panel>
+            </Cell>
+            <Cell>
+                <Panel class="header">
+                    <Text>SPICE</Text>
+                </Panel>
+            </Cell>
+            <Cell>
+                <Panel class="header">
+                    <Text>SOLARI</Text>
+                </Panel>
+            </Cell>
+            <Cell>
+                <Panel class="header">
+                    <Text>WATER</Text>
+                </Panel>
+            </Cell>
+        </Row>
+        <Row>
+            <Cell>
+                <Panel class="red">
+                    <Text id="name_red"></Text>
+                </Panel>
+            </Cell>
+            <Cell>
+                <Panel class="red">
+                    <Text id="leader_red"></Text>
+                </Panel>
+            </Cell>
+            <Cell>
+                <InputField class="red2" id="rank_red"/>
+            </Cell>
+            <Cell>
+                <InputField class="red2" id="points_red"/>
+            </Cell>
+            <Cell>
+                <InputField class="red2" id="spice_red"/>
+            </Cell>
+            <Cell>
+                <InputField class="red2" id="solari_red"/>
+            </Cell>
+            <Cell>
+                <InputField class="red2" id="water_red"/>
+            </Cell>
+        </Row>
+        <Row>
+            <Cell>
+                <Panel class="green">
+                    <Text id="name_green"></Text>
+                </Panel>
+            </Cell>
+            <Cell>
+                <Panel class="green">
+                    <Text id="leader_green"></Text>
+                </Panel>
+            </Cell>
+            <Cell>
+                <InputField class="green2" id="rank_green"/>
+            </Cell>
+            <Cell>
+                <InputField class="green2" id="points_green"/>
+            </Cell>
+            <Cell>
+                <InputField class="green2" id="spice_green"/>
+            </Cell>
+            <Cell>
+                <InputField class="green2" id="solari_green"/>
+            </Cell>
+            <Cell>
+                <InputField class="green2" id="water_green"/>
+            </Cell>
+        </Row>
+        <Row>
+            <Cell>
+                <Panel class="yellow">
+                    <Text id="name_yellow"></Text>
+                </Panel>
+            </Cell>
+            <Cell>
+                <Panel class="yellow">
+                    <Text id="leader_yellow"></Text>
+                </Panel>
+            </Cell>
+            <Cell>
+                <InputField class="yellow2" id="rank_yellow"/>
+            </Cell>
+            <Cell>
+                <InputField class="yellow2" id="points_yellow"/>
+            </Cell>
+            <Cell>
+                <InputField class="yellow2" id="spice_yellow"/>
+            </Cell>
+            <Cell>
+                <InputField class="yellow2" id="solari_yellow"/>
+            </Cell>
+            <Cell>
+                <InputField class="yellow2" id="water_yellow"/>
+            </Cell>
+        </Row>
+        <Row>
+            <Cell>
+                <Panel class="blue">
+                    <Text id="name_blue"></Text>
+                </Panel>
+            </Cell>
+            <Cell>
+                <Panel class="blue">
+                    <Text id="leader_blue"></Text>
+                </Panel>
+            </Cell>
+            <Cell>
+                <InputField class="blue2" id="rank_blue"/>
+            </Cell>
+            <Cell>
+                <InputField class="blue2" id="points_blue"/>
+            </Cell>
+            <Cell>
+                <InputField class="blue2" id="spice_blue"/>
+            </Cell>
+            <Cell>
+                <InputField class="blue2" id="solari_blue"/>
+            </Cell>
+            <Cell>
+                <InputField class="blue2" id="water_blue"/>
+            </Cell>
+        </Row>
+        <Row>
+            <Cell>
+                <Button id="close" text="Close" onClick="20b33a/secondStep"/>
+            </Cell>
+            <Cell>
+                <Button id="fetch" text="Refresh Results" onClick="20b33a/refreshResults"/>
+            </Cell>
+            <Cell>
+                <Panel color="black"/>
+            </Cell>
+            <Cell>
+                <Panel color="black"/>
+            </Cell>
+            <Cell>
+                <Panel color="black"/>
+            </Cell>
+            <Cell>
+                <Panel textColor="white" color="black">
+                    <Text id="reminder"></Text>
+                </Panel>
+            </Cell>
+            <Cell>
+                <Button id="submit" onClick="20b33a/sendForm"/>
+            </Cell>
+        </Row>
+    </TableLayout>
+</Panel>

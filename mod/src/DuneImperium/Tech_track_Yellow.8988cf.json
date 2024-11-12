@@ -1,0 +1,65 @@
+{
+  "Object": {
+    "GUID": "8988cf",
+    "Name": "Custom_Token",
+    "Transform": {
+      "posX": 0.1896837,
+      "posY": 1.78529155,
+      "posZ": 22.22235,
+      "rotX": 359.931458,
+      "rotY": 315.006317,
+      "rotZ": 179.955368,
+      "scaleX": 0.1686744,
+      "scaleY": 1,
+      "scaleZ": 0.1686744
+    },
+    "Nickname": "Tech track Yellow",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 0.9686274,
+      "b": 0
+    },
+    "Tags": [
+      "BT Board",
+      "ResearchToken",
+      "Yellow"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": false,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1654474838742796853/4884939CCEB0A6276F3800194A608DEEE4415C4F/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomToken": {
+        "Thickness": 0.39500016,
+        "MergeDistancePixels": 15,
+        "StandUp": false,
+        "Stackable": true
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

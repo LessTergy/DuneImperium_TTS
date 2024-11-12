@@ -1,0 +1,65 @@
+{
+  "Object": {
+    "GUID": "2bfc39",
+    "Name": "Custom_Token",
+    "Transform": {
+      "posX": 0.376084536,
+      "posY": 1.78574514,
+      "posZ": 24.6450424,
+      "rotX": 0.0168592539,
+      "rotY": 179.969635,
+      "rotZ": 0.07997874,
+      "scaleX": 0.1686744,
+      "scaleY": 1,
+      "scaleZ": 0.1686744
+    },
+    "Nickname": "BT track Red",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 0.01025645,
+      "b": 0
+    },
+    "Tags": [
+      "BT Board",
+      "Red",
+      "TleilaxuToken"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": false,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": true,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1654474838742796853/4884939CCEB0A6276F3800194A608DEEE4415C4F/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomToken": {
+        "Thickness": 0.39500013,
+        "MergeDistancePixels": 15,
+        "StandUp": false,
+        "Stackable": true
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

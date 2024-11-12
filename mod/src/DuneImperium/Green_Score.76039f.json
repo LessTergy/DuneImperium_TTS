@@ -1,0 +1,60 @@
+{
+  "Object": {
+    "GUID": "76039f",
+    "Name": "Custom_Token",
+    "Transform": {
+      "posX": 10.3337793,
+      "posY": 1.86255765,
+      "posZ": -8.931831,
+      "rotX": 0.010546145,
+      "rotY": 180.049377,
+      "rotZ": 0.08507163,
+      "scaleX": 0.167686716,
+      "scaleY": 1,
+      "scaleZ": 0.167686716
+    },
+    "Nickname": "Green Score",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 1,
+      "b": 1
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": false,
+    "Autoraise": true,
+    "Sticky": false,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1492334975207955093/A2E7BA7C4ED317D558C56ACD4907DDC589E2AC2C/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomToken": {
+        "Thickness": 0.2,
+        "MergeDistancePixels": 5,
+        "StandUp": false,
+        "Stackable": false
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

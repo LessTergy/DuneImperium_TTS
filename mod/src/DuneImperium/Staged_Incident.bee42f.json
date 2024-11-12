@@ -1,0 +1,60 @@
+{
+  "Object": {
+    "GUID": "bee42f",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": 6.900004,
+      "posY": 1.50000012,
+      "posZ": 27.7602634,
+      "rotX": -0.000009294374,
+      "rotY": 179.9991,
+      "rotZ": -0.0000302301578,
+      "scaleX": 0.432676375,
+      "scaleY": 1,
+      "scaleZ": 0.432676375
+    },
+    "Nickname": "Staged Incident",
+    "Description": "VP",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.4429617,
+      "g": 0.23096171,
+      "b": 0.08996885
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": false,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": false,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1895480393489166373/01D71B54BABFF9111AD9F3FF6E40B4029DCD96D0/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 2,
+        "Thickness": 0.2,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

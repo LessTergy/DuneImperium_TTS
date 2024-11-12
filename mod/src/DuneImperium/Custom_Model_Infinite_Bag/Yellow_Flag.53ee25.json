@@ -1,0 +1,64 @@
+{
+  "Object": {
+    "GUID": "53ee25",
+    "Name": "Custom_Token",
+    "Transform": {
+      "posX": 15.8431034,
+      "posY": 1.97407091,
+      "posZ": 2.54981041,
+      "rotX": -0.00007936371,
+      "rotY": 0.6091069,
+      "rotZ": -0.00003846868,
+      "scaleX": 0.182747126,
+      "scaleY": 1,
+      "scaleZ": 0.182747126
+    },
+    "Nickname": "Yellow Flag",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 0.9686274,
+      "b": 0
+    },
+    "Tags": [
+      "Flag",
+      "Yellow"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1771572500940863795/8945AB77E98A19DEE0BE423CB9E02EE280629DAC/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomToken": {
+        "Thickness": 0.2,
+        "MergeDistancePixels": 15,
+        "StandUp": false,
+        "Stackable": false
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

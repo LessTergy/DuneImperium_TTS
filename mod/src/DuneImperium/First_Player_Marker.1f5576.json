@@ -1,0 +1,60 @@
+{
+  "Object": {
+    "GUID": "1f5576",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": 4.7896347,
+      "posY": 1.57426941,
+      "posZ": -2.95345569,
+      "rotX": 0.016854655,
+      "rotY": 180.000168,
+      "rotZ": 0.07989472,
+      "scaleX": 0.92564106,
+      "scaleY": 1,
+      "scaleZ": 0.93
+    },
+    "Nickname": "First Player Marker",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.353627533,
+      "g": 0.126027077,
+      "b": 0
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1656728601468039110/BE7B260FBE4B308F891B578930390968B49B09C9/",
+      "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1656728601468039110/BE7B260FBE4B308F891B578930390968B49B09C9/",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 2,
+        "Thickness": 0.35,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

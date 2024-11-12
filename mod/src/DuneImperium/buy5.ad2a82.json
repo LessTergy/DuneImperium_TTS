@@ -1,0 +1,48 @@
+{
+  "Object": {
+    "GUID": "ad2a82",
+    "Name": "Checker_white",
+    "Transform": {
+      "posX": 2.732831,
+      "posY": 1.27,
+      "posZ": 12.8700619,
+      "rotX": 0.0168529358,
+      "rotY": 180.01416,
+      "rotZ": 0.0798807144,
+      "scaleX": 1.37866032,
+      "scaleY": 0.165157527,
+      "scaleZ": 1.34989369
+    },
+    "Nickname": "buy5",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 1,
+      "b": 1
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": false,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": false,
+    "Sticky": false,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "LuaScript": "#include ./buy5.ad2a82.lua",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

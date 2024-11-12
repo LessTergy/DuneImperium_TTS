@@ -1,0 +1,140 @@
+{
+  "Object": {
+    "GUID": "99a860",
+    "Name": "Custom_Board",
+    "Transform": {
+      "posX": 28.0881729,
+      "posY": 1.6147033,
+      "posZ": 0.241892189,
+      "rotX": -0.000009950552,
+      "rotY": 180.000046,
+      "rotZ": 0.000136351271,
+      "scaleX": 0.35,
+      "scaleY": 0.35,
+      "scaleZ": 0.35
+    },
+    "Nickname": "Counter PV Yellow",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.7867647,
+      "g": 0.7867647,
+      "b": 0.7867647
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": false,
+    "Snap": false,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": false,
+    "Autoraise": false,
+    "Sticky": false,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1822281124424909392/D5F0298C5EA0B1846E1BC4EE3E77F39466FEE0E2/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0.313648283
+    },
+    "LuaScript": "#include ./Counter_PV_Yellow.99a860.lua",
+    "LuaScriptState": "",
+    "XmlUI": "",
+    "AttachedSnapPoints": [
+      {
+        "Position": {
+          "x": 4.159403,
+          "y": 0.592244148,
+          "z": 6.70734167
+        }
+      },
+      {
+        "Position": {
+          "x": 4.36189651,
+          "y": 0.592242837,
+          "z": 3.76284337
+        }
+      },
+      {
+        "Position": {
+          "x": 4.324392,
+          "y": 0.592242956,
+          "z": 0.8975879
+        }
+      },
+      {
+        "Position": {
+          "x": 4.353068,
+          "y": 0.592243135,
+          "z": -1.97644651
+        }
+      },
+      {
+        "Position": {
+          "x": 4.32906342,
+          "y": 0.5922433,
+          "z": -4.88370228
+        }
+      },
+      {
+        "Position": {
+          "x": 4.36896324,
+          "y": 0.592243731,
+          "z": -7.65378857
+        }
+      },
+      {
+        "Position": {
+          "x": -4.367298,
+          "y": 0.5922424,
+          "z": -7.543435
+        }
+      },
+      {
+        "Position": {
+          "x": -4.355265,
+          "y": 0.5922426,
+          "z": -4.71669436
+        }
+      },
+      {
+        "Position": {
+          "x": -4.11993074,
+          "y": 0.592245,
+          "z": -1.96211362
+        }
+      },
+      {
+        "Position": {
+          "x": -4.31285048,
+          "y": 0.5922443,
+          "z": 0.9185379
+        }
+      },
+      {
+        "Position": {
+          "x": -4.236566,
+          "y": 0.5922441,
+          "z": 3.81761622
+        }
+      },
+      {
+        "Position": {
+          "x": -4.0494647,
+          "y": 0.5922421,
+          "z": 6.70247126
+        }
+      }
+    ]
+  },
+  "StatesPaths": {}
+}

@@ -1,0 +1,61 @@
+{
+  "Object": {
+    "GUID": "ac32a6",
+    "Name": "Card",
+    "Transform": {
+      "posX": -20.5336933,
+      "posY": 2.263615,
+      "posZ": 33.2065163,
+      "rotX": 0.00250489777,
+      "rotY": 180.000031,
+      "rotZ": -0.000212746352,
+      "scaleX": 0.83,
+      "scaleY": 1,
+      "scaleZ": 0.83
+    },
+    "Nickname": "Rally Troops",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.713235259,
+      "g": 0.713235259,
+      "b": 0.713235259
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": true,
+    "Hands": true,
+    "CardID": 47903,
+    "SidewaysCard": false,
+    "CustomDeck": {
+      "479": {
+        "FaceURL": "http://cloud-3.steamusercontent.com/ugc/2047504140431543498/78191C8FEB2EF7375CEA5EEEB4DCD8B6FFA31743/",
+        "BackURL": "http://cloud-3.steamusercontent.com/ugc/1670239430231973967/ACE7BA96F9E5F8218FA434192B90234FD9ED4E38/",
+        "NumWidth": 7,
+        "NumHeight": 2,
+        "BackIsHidden": false,
+        "UniqueBack": false,
+        "Type": 0
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

@@ -1,0 +1,102 @@
+{
+  "Object": {
+    "GUID": "afa5e5",
+    "Name": "Deck",
+    "Transform": {
+      "posX": -26.6812973,
+      "posY": 2.35276961,
+      "posZ": 42.8227043,
+      "rotX": -5.71959049e-7,
+      "rotY": 180.0009,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Nickname": "",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.713235259,
+      "g": 0.713235259,
+      "b": 0.713235259
+    },
+    "Tags": [
+      "Intrigue"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": true,
+    "Hands": false,
+    "SidewaysCard": false,
+    "DeckIDs": [
+      42400,
+      42401,
+      42402,
+      42403,
+      42404,
+      42405,
+      42406,
+      42407,
+      42408,
+      42409,
+      42410,
+      42411,
+      42412,
+      42413,
+      42414,
+      42415,
+      42416
+    ],
+    "CustomDeck": {
+      "424": {
+        "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1892102433196442624/CE27F1B6D4D455A2D00D6E13FABEB72E6B9F05F1/",
+        "BackURL": "http://cloud-3.steamusercontent.com/ugc/1892102433196339102/D63B92C616541C84A7984026D757DB03E79532DD/",
+        "NumWidth": 5,
+        "NumHeight": 4,
+        "BackIsHidden": true,
+        "UniqueBack": false,
+        "Type": 0
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": "",
+    "ContainedObjects": []
+  },
+  "StatesPaths": {},
+  "ContainedObjectPaths": [
+    "Card.61104f.42400.json",
+    "Card.2f9127.42401.json",
+    "Card.eb8013.42402.json",
+    "Card.925789.42403.json",
+    "Card.d8c983.42404.json",
+    "Card.8173fb.42405.json",
+    "Card.0651ec.42406.json",
+    "Card.39fd8f.42407.json",
+    "Card.d9c543.42408.json",
+    "Card.68d260.42409.json",
+    "Card.5a1c14.42410.json",
+    "Card.f96aea.42411.json",
+    "Card.7f6b30.42412.json",
+    "Card.e6efe5.42413.json",
+    "Card.e2832c.42414.json",
+    "Card.9c4ebb.42415.json",
+    "Card.40dc6d.42416.json"
+  ]
+}

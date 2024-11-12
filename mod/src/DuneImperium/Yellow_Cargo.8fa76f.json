@@ -1,0 +1,72 @@
+{
+  "Object": {
+    "GUID": "8fa76f",
+    "Name": "Custom_Model",
+    "Transform": {
+      "posX": 8.999849,
+      "posY": 1.66994476,
+      "posZ": 6.85025454,
+      "rotX": 359.940247,
+      "rotY": 270.0306,
+      "rotZ": 0.0595329963,
+      "scaleX": 0.250000417,
+      "scaleY": 0.250000417,
+      "scaleZ": 0.250000417
+    },
+    "Nickname": "Yellow Cargo",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.905,
+      "g": 0.898,
+      "b": 0.171931833
+    },
+    "Tags": [
+      "Cargo",
+      "Yellow"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": false,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomMesh": {
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1000304308619392790/8799409E48FC2E0EE4A1D454E0D7B42AD3774A4D/",
+      "DiffuseURL": "",
+      "NormalURL": "",
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1000304308619392790/8799409E48FC2E0EE4A1D454E0D7B42AD3774A4D/",
+      "Convex": true,
+      "MaterialIndex": 0,
+      "TypeIndex": 1,
+      "CustomShader": {
+        "SpecularColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "SpecularIntensity": 0.2,
+        "SpecularSharpness": 7,
+        "FresnelStrength": 0.4
+      },
+      "CastShadows": true
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

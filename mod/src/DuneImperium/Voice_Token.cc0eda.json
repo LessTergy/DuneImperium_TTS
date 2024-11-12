@@ -1,0 +1,60 @@
+{
+  "Object": {
+    "GUID": "cc0eda",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": 1.50002158,
+      "posY": 1.50000048,
+      "posZ": 28.910202,
+      "rotX": -0.00000281901725,
+      "rotY": 179.997833,
+      "rotZ": -0.000025889547,
+      "scaleX": 0.335945159,
+      "scaleY": 1,
+      "scaleZ": 0.335945159
+    },
+    "Nickname": "Voice Token",
+    "Description": "Use to mark location that is blocked for that turn.",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.4191565,
+      "g": 0,
+      "b": 0.681184649
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1760313959496427542/2F5DAC710EC550274D0F15280C2F98DC09E422A5/",
+      "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1760313959496427542/2F5DAC710EC550274D0F15280C2F98DC09E422A5/",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 3,
+        "Thickness": 0.304999858,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

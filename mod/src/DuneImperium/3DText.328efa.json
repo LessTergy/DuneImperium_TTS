@@ -1,0 +1,57 @@
+{
+  "Object": {
+    "GUID": "328efa",
+    "Name": "3DText",
+    "Transform": {
+      "posX": 9.909908,
+      "posY": 1.46539021,
+      "posZ": -17.3681164,
+      "rotX": 90,
+      "rotY": 359.927948,
+      "rotZ": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Nickname": "",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 1,
+      "b": 1
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "Text": {
+      "Text": "House Hagal",
+      "colorstate": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "fontSize": 24
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

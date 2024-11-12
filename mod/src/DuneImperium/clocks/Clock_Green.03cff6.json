@@ -1,0 +1,53 @@
+{
+  "Object": {
+    "GUID": "03cff6",
+    "Name": "Digital_Clock",
+    "Transform": {
+      "posX": -34.0737228,
+      "posY": 6.49762249,
+      "posZ": 40.7961349,
+      "rotX": 7.57946253,
+      "rotY": 195.995651,
+      "rotZ": 187.319626,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 0.3
+    },
+    "Nickname": "Clock Green",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.191999614,
+      "g": 0.701,
+      "b": 0.1679996
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "Clock": {
+      "Mode": 2,
+      "SecondsPassed": 0,
+      "Paused": true
+    },
+    "LuaScript": "#include ./Clock_Green.03cff6.lua",
+    "LuaScriptState": "#include ./Clock_Green.03cff6.state.json",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

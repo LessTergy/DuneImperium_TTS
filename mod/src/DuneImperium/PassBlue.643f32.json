@@ -1,0 +1,48 @@
+{
+  "Object": {
+    "GUID": "643f32",
+    "Name": "Checker_red",
+    "Transform": {
+      "posX": -13.5706711,
+      "posY": 1.51126254,
+      "posZ": -5.072307,
+      "rotX": 0.01772284,
+      "rotY": 180.000061,
+      "rotZ": 0.07791591,
+      "scaleX": 1,
+      "scaleY": 0.2,
+      "scaleZ": 1
+    },
+    "Nickname": "PassBlue",
+    "Description": "Blue",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 0,
+      "b": 0
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

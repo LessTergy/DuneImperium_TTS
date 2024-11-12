@@ -1,0 +1,52 @@
+{
+  "Object": {
+    "GUID": "f433eb",
+    "Name": "BlockSquare",
+    "Transform": {
+      "posX": 24.1996937,
+      "posY": 2.115739,
+      "posZ": 24.2340813,
+      "rotX": 62.7250977,
+      "rotY": 257.230743,
+      "rotZ": 87.19735,
+      "scaleX": 0.350000441,
+      "scaleY": 0.350000441,
+      "scaleZ": 0.350000441
+    },
+    "Nickname": "Green",
+    "Description": "Green",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.03343396,
+      "g": 0.757839739,
+      "b": 0
+    },
+    "Tags": [
+      "Green",
+      "Troop"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": false,
+    "Snap": false,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": false,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

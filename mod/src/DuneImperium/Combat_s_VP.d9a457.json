@@ -1,0 +1,142 @@
+{
+  "Object": {
+    "GUID": "d9a457",
+    "Name": "Custom_Model_Bag",
+    "Transform": {
+      "posX": 8.899998,
+      "posY": 1.50000012,
+      "posZ": 27.7601929,
+      "rotX": 0.0000110276051,
+      "rotY": 179.999985,
+      "rotZ": 0.00003538132,
+      "scaleX": 0.857872,
+      "scaleY": 0.199999809,
+      "scaleZ": 0.8578758
+    },
+    "Nickname": "Combat's VP",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "MaterialIndex": -1,
+    "MeshIndex": -1,
+    "CustomMesh": {
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
+      "DiffuseURL": "",
+      "NormalURL": "",
+      "ColliderURL": "",
+      "Convex": true,
+      "MaterialIndex": 0,
+      "TypeIndex": 6,
+      "CastShadows": true
+    },
+    "Bag": {
+      "Order": 0
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": "",
+    "ContainedObjects": [],
+    "ChildObjects": [
+      {
+        "GUID": "996e86",
+        "Name": "Custom_Tile",
+        "Transform": {
+          "posX": 6.51111e-8,
+          "posY": 0.1,
+          "posZ": 1.85756228e-8,
+          "rotX": 0,
+          "rotY": 0,
+          "rotZ": 0,
+          "scaleX": 0.5046343,
+          "scaleY": 5.000005,
+          "scaleZ": 0.504632
+        },
+        "Nickname": "Skirmish",
+        "Description": "VP",
+        "GMNotes": "",
+        "AltLookAngle": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "ColorDiffuse": {
+          "r": 0.854901969,
+          "g": 0.09802749,
+          "b": 0.09410497
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": false,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": false,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": true,
+        "CustomImage": {
+          "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1840298513725610391/7579B74A40ECB193C043E44464F107C3D6126C5F/",
+          "ImageSecondaryURL": "",
+          "ImageScalar": 1,
+          "WidthScale": 0,
+          "CustomTile": {
+            "Type": 2,
+            "Thickness": 0.2,
+            "Stackable": false,
+            "Stretch": true
+          }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
+      }
+    ]
+  },
+  "StatesPaths": {},
+  "ContainedObjectPaths": [
+    "Battle_for_Imperial_Basin.905a58.json",
+    "Battle_for_Carthag.e123ce.json",
+    "Battle_for_Carthag.e364df.json",
+    "Economic_Supremacy.c38946.json",
+    "Battle_for_Imperial_Basin.ff1ce6.json",
+    "Battle_for_Arrakeen.e25f79.json",
+    "Economic_Supremacy.ba1a77.json",
+    "Siege_of_Arrakeen.29a66c.json",
+    "Economic_Supremacy.4f428d.json",
+    "Economic_Supremacy.6047f9.json",
+    "Siege_of_Carthag.f131f2.json",
+    "Desert_Power.11076b.json",
+    "Terrible_Purpose.d61804.json",
+    "Battle_for_Arrakeen.8b658c.json",
+    "Skirmish.63791b.json",
+    "Secure_Imperial_Basin.2d469b.json"
+  ]
+}

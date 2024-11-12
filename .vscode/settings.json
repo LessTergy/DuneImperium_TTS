@@ -1,0 +1,70 @@
+{
+    "Lua.diagnostics.globals": [
+        "self",
+        "Global",
+        "Wait",
+        "getAllObjects",
+        "startLuaCoroutine",
+        "printToAll",
+        "getObjectFromGUID",
+        "Physics",
+        "onLoad",
+        "onPickUp",
+        "onDrop",
+        "broadcastToAll",
+        "onCollisionEnter",
+        "onDestroy",
+        "onObjectEnterZone",
+        "onObjectSearchEnd",
+        "printToColor",
+        "vector",
+        "Player",
+        "log",
+        "onSave",
+        "JSON",
+        "onRandomize",
+        "onPlayerChangeColor",
+        "onObjectLeaveZone",
+        "onObjectLeaveContainer",
+        "addHotkey"
+    ],
+    "Lua.runtime.version": "Lua 5.2",
+
+    // Formatting.
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[lua]": {
+        "editor.defaultFormatter": "CppCXY.emmylua-codestyle"
+    },
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "always",
+        "source.fixAll.eslint": "always",
+        "source.fixAll.tslint": "always",
+        "source.organizeImports": "always"
+    },
+    "editor.formatOnSave": true,
+    "prettier.ignorePath": ".gitignore",
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+
+    // Linting.
+    "eslint.validate": ["javascript", "json", "typescript"],
+    "eslint.lintTask.enable": true,
+    "editor.tabSize": 4,
+    "files.associations": {
+        "*.ttslua": "lua"
+    },
+    "editor.detectIndentation": false
+}

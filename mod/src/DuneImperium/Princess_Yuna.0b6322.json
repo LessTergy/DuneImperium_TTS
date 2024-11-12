@@ -1,0 +1,64 @@
+{
+  "Object": {
+    "GUID": "0b6322",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": -10.7508516,
+      "posY": 2.23426771,
+      "posZ": 46.58909,
+      "rotX": 0.00000366102063,
+      "rotY": 179.999176,
+      "rotZ": 1.05854042e-7,
+      "scaleX": 1.70145762,
+      "scaleY": 1,
+      "scaleZ": 1.70145762
+    },
+    "Nickname": "Princess Yuna",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "Tags": [
+      "Leader",
+      "Yuna"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1892102433196277499/FA54B129B168169E3D58BA61536FCC0BB5AB7D34/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 3,
+        "Thickness": 0.1,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "#include ./Princess_Yuna.0b6322.lua",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

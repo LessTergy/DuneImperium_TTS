@@ -1,0 +1,61 @@
+{
+  "Object": {
+    "GUID": "21f6fc",
+    "Name": "Card",
+    "Transform": {
+      "posX": -9.542888,
+      "posY": 1.74053431,
+      "posZ": -24.5922432,
+      "rotX": 0.010129855,
+      "rotY": 179.999252,
+      "rotZ": 184.845,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Nickname": "Desert Power",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.713235259,
+      "g": 0.713235259,
+      "b": 0.713235259
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": true,
+    "Hands": true,
+    "CardID": 47400,
+    "SidewaysCard": false,
+    "CustomDeck": {
+      "474": {
+        "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1892102591130038927/B1CD3F41933A9DD44522934B5F6CF3C5FF77A51C/",
+        "BackURL": "http://cloud-3.steamusercontent.com/ugc/1892102591130039766/3B3F54DF65F76F0850D0EC683602524806A11E49/",
+        "NumWidth": 6,
+        "NumHeight": 2,
+        "BackIsHidden": true,
+        "UniqueBack": false,
+        "Type": 0
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

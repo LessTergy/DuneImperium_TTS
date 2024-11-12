@@ -1,0 +1,4639 @@
+{
+    "Save": {
+        "SaveName": "DuneImperium",
+        "EpochTime": 1703765469,
+        "Date": "12/28/2023 1:11:09 PM",
+        "VersionNumber": "v13.2.2",
+        "GameMode": "Dune Imperium + Rise of Ix + Immortality (scripted++)",
+        "GameType": "Game",
+        "GameComplexity": "Medium Complexity",
+        "PlayingTime": [90, 180],
+        "PlayerCounts": [1, 4],
+        "Tags": ["Board Games", "Card Games", "English"],
+        "Gravity": 0.5,
+        "PlayArea": 0.5,
+        "Table": "Table_None",
+        "Sky": "Sky_Museum",
+        "SkyURL": "http://cloud-3.steamusercontent.com/ugc/1892102591129885152/A5AB32E21AE4776956E8E9FC754ABCB68DD7385D/",
+        "Note": "",
+        "TabStates": {
+            "0": {
+                "title": "Rules",
+                "body": "",
+                "color": "Grey",
+                "visibleColor": {
+                    "r": 0.5,
+                    "g": 0.5,
+                    "b": 0.5
+                },
+                "id": 0
+            },
+            "1": {
+                "title": "White",
+                "body": "",
+                "color": "White",
+                "visibleColor": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                },
+                "id": 1
+            },
+            "2": {
+                "title": "Brown",
+                "body": "",
+                "color": "Brown",
+                "visibleColor": {
+                    "r": 0.443,
+                    "g": 0.231,
+                    "b": 0.09
+                },
+                "id": 2
+            },
+            "3": {
+                "title": "Red",
+                "body": "",
+                "color": "Red",
+                "visibleColor": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "id": 3
+            },
+            "4": {
+                "title": "Orange",
+                "body": "",
+                "color": "Orange",
+                "visibleColor": {
+                    "r": 0.956,
+                    "g": 0.392,
+                    "b": 0.113
+                },
+                "id": 4
+            },
+            "5": {
+                "title": "Yellow",
+                "body": "",
+                "color": "Yellow",
+                "visibleColor": {
+                    "r": 0.905,
+                    "g": 0.898,
+                    "b": 0.172
+                },
+                "id": 5
+            },
+            "6": {
+                "title": "Green",
+                "body": "",
+                "color": "Green",
+                "visibleColor": {
+                    "r": 0.192,
+                    "g": 0.701,
+                    "b": 0.168
+                },
+                "id": 6
+            },
+            "7": {
+                "title": "Blue",
+                "body": "",
+                "color": "Blue",
+                "visibleColor": {
+                    "r": 0.118,
+                    "g": 0.53,
+                    "b": 1
+                },
+                "id": 7
+            },
+            "8": {
+                "title": "Teal",
+                "body": "",
+                "color": "Teal",
+                "visibleColor": {
+                    "r": 0.129,
+                    "g": 0.694,
+                    "b": 0.607
+                },
+                "id": 8
+            },
+            "9": {
+                "title": "Purple",
+                "body": "",
+                "color": "Purple",
+                "visibleColor": {
+                    "r": 0.627,
+                    "g": 0.125,
+                    "b": 0.941
+                },
+                "id": 9
+            },
+            "10": {
+                "title": "Pink",
+                "body": "",
+                "color": "Pink",
+                "visibleColor": {
+                    "r": 0.96,
+                    "g": 0.439,
+                    "b": 0.807
+                },
+                "id": 10
+            },
+            "11": {
+                "title": "Black",
+                "body": "",
+                "color": "Black",
+                "visibleColor": {
+                    "r": 0.25,
+                    "g": 0.25,
+                    "b": 0.25
+                },
+                "id": 11
+            }
+        },
+        "MusicPlayer": {
+            "RepeatSong": false,
+            "PlaylistEntry": -1,
+            "CurrentAudioTitle": "Urukh Warh horn",
+            "CurrentAudioURL": "http://cloud-3.steamusercontent.com/ugc/2029468177570115930/C7B16DFAFDCA2827F66F837BDEB811C7BE8B3450/",
+            "AudioLibrary": [
+                {
+                    "Item1": "http://cloud-3.steamusercontent.com/ugc/2029468177570115930/C7B16DFAFDCA2827F66F837BDEB811C7BE8B3450/",
+                    "Item2": "Urukh Warh horn"
+                },
+                {
+                    "Item1": "http://cloud-3.steamusercontent.com/ugc/2029468177583173097/5761D398635139F6018F7C3CBBA21D496071455C/",
+                    "Item2": "Dark Horn and Drums"
+                },
+                {
+                    "Item1": "http://cloud-3.steamusercontent.com/ugc/2029468177583731726/2C9434C28270DDD87D33648DA7B17B23DA0D5ECF/",
+                    "Item2": "Inception Horn"
+                },
+                {
+                    "Item1": "http://cloud-3.steamusercontent.com/ugc/2029468177583835529/474E09BB37578C5FC1CFDE001E7D6785EE54C52F/",
+                    "Item2": "Dune 1984 Theme"
+                },
+                {
+                    "Item1": "http://cloud-3.steamusercontent.com/ugc/2029468177583863339/F14AF74AA8E01EF2CBC89A654C5C87E9832CC57E/",
+                    "Item2": "Atreides Theme"
+                }
+            ]
+        },
+        "Grid": {
+            "Type": 0,
+            "Lines": false,
+            "Color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+            },
+            "Opacity": 0.75,
+            "ThickLines": false,
+            "Snapping": false,
+            "Offset": false,
+            "BothSnapping": false,
+            "xSize": 2,
+            "ySize": 2,
+            "PosOffset": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            }
+        },
+        "Lighting": {
+            "LightIntensity": 0.54,
+            "LightColor": {
+                "r": 1,
+                "g": 0.9804,
+                "b": 0.8902
+            },
+            "AmbientIntensity": 1.3,
+            "AmbientType": 0,
+            "AmbientSkyColor": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5
+            },
+            "AmbientEquatorColor": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5
+            },
+            "AmbientGroundColor": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5
+            },
+            "ReflectionIntensity": 1,
+            "LutIndex": 0,
+            "LutContribution": 1
+        },
+        "Hands": {
+            "Enable": true,
+            "DisableUnused": false,
+            "Hiding": 0
+        },
+        "ComponentTags": {
+            "labels": [
+                {
+                    "displayed": "Red",
+                    "normalized": "red"
+                },
+                {
+                    "displayed": "Blue",
+                    "normalized": "blue"
+                },
+                {
+                    "displayed": "Yellow",
+                    "normalized": "yellow"
+                },
+                {
+                    "displayed": "Green",
+                    "normalized": "green"
+                },
+                {
+                    "displayed": "Intrigue",
+                    "normalized": "intrigue"
+                },
+                {
+                    "displayed": "Imperium",
+                    "normalized": "imperium"
+                },
+                {
+                    "displayed": "Troop",
+                    "normalized": "troop"
+                },
+                {
+                    "displayed": "BT Board",
+                    "normalized": "bt_board"
+                },
+                {
+                    "displayed": "Spaceport",
+                    "normalized": "spaceport"
+                },
+                {
+                    "displayed": "TleilaxuToken",
+                    "normalized": "tleilaxutoken"
+                },
+                {
+                    "displayed": "Troop Transports",
+                    "normalized": "troop_transports"
+                },
+                {
+                    "displayed": "Holtzman",
+                    "normalized": "holtzman"
+                },
+                {
+                    "displayed": "Shuttle Fleet",
+                    "normalized": "shuttle_fleet"
+                },
+                {
+                    "displayed": "Restricted Ordnance",
+                    "normalized": "restricted_ordnance"
+                },
+                {
+                    "displayed": "Snooper",
+                    "normalized": "snooper"
+                },
+                {
+                    "displayed": "InfluenceTokens",
+                    "normalized": "influencetokens"
+                },
+                {
+                    "displayed": "FremenAlliance",
+                    "normalized": "fremenalliance"
+                },
+                {
+                    "displayed": "VPToken",
+                    "normalized": "vptoken"
+                },
+                {
+                    "displayed": "BeneGesseritAlliance",
+                    "normalized": "benegesseritalliance"
+                },
+                {
+                    "displayed": "SpaceGuildAlliance",
+                    "normalized": "spaceguildalliance"
+                },
+                {
+                    "displayed": "EmperorAlliance",
+                    "normalized": "emperoralliance"
+                },
+                {
+                    "displayed": "Agent",
+                    "normalized": "agent"
+                },
+                {
+                    "displayed": "Mentat",
+                    "normalized": "mentat"
+                },
+                {
+                    "displayed": "Leader",
+                    "normalized": "leader"
+                },
+                {
+                    "displayed": "Cargo",
+                    "normalized": "cargo"
+                },
+                {
+                    "displayed": "AutomataStuff",
+                    "normalized": "automatastuff"
+                },
+                {
+                    "displayed": "PhaseToken",
+                    "normalized": "phasetoken"
+                },
+                {
+                    "displayed": "CombatTokens",
+                    "normalized": "combattokens"
+                },
+                {
+                    "displayed": "Rhombur",
+                    "normalized": "rhombur"
+                },
+                {
+                    "displayed": "Leto",
+                    "normalized": "leto"
+                },
+                {
+                    "displayed": "Ariana",
+                    "normalized": "ariana"
+                },
+                {
+                    "displayed": "Ilban",
+                    "normalized": "ilban"
+                },
+                {
+                    "displayed": "Yuna",
+                    "normalized": "yuna"
+                },
+                {
+                    "displayed": "ResearchToken",
+                    "normalized": "researchtoken"
+                },
+                {
+                    "displayed": "EmperorInfluence",
+                    "normalized": "emperorinfluence"
+                },
+                {
+                    "displayed": "FremenInfluence",
+                    "normalized": "fremeninfluence"
+                },
+                {
+                    "displayed": "BeneGesseritInfluence",
+                    "normalized": "benegesseritinfluence"
+                },
+                {
+                    "displayed": "SpaceGuildInfluence",
+                    "normalized": "spaceguildinfluence"
+                },
+                {
+                    "displayed": "Dreadnought",
+                    "normalized": "dreadnought"
+                },
+                {
+                    "displayed": "Flag",
+                    "normalized": "flag"
+                },
+                {
+                    "displayed": "Norma",
+                    "normalized": "norma"
+                }
+            ]
+        },
+        "Turns": {
+            "Enable": false,
+            "Type": 0,
+            "TurnOrder": [],
+            "Reverse": false,
+            "SkipEmpty": false,
+            "DisableInteractions": false,
+            "PassTurns": true,
+            "TurnColor": ""
+        },
+        "CameraStates": [
+            {
+                "Position": {
+                    "x": 0.375594556,
+                    "y": -2.5,
+                    "z": -4.09827566
+                },
+                "Rotation": {
+                    "x": 53.00481,
+                    "y": 359.594757,
+                    "z": 0
+                },
+                "Distance": 41.1156845,
+                "Zoomed": false,
+                "AbsolutePosition": {
+                    "x": 0.550582051,
+                    "y": 30.3385239,
+                    "z": -28.8389435
+                }
+            },
+            {
+                "Position": {
+                    "x": 10.15591,
+                    "y": -2.5,
+                    "z": 30.6050625
+                },
+                "Rotation": {
+                    "x": 53.00481,
+                    "y": 359.594757,
+                    "z": 0
+                },
+                "Distance": 20.47034,
+                "Zoomed": false,
+                "AbsolutePosition": {
+                    "x": 10.2430344,
+                    "y": 13.8493786,
+                    "z": 18.2873859
+                }
+            },
+            {
+                "Position": {
+                    "x": 10.15591,
+                    "y": -2.5,
+                    "z": 30.6050625
+                },
+                "Rotation": {
+                    "x": 53.00481,
+                    "y": 359.594757,
+                    "z": 0
+                },
+                "Distance": 20.47034,
+                "Zoomed": false,
+                "AbsolutePosition": {
+                    "x": 10.2430344,
+                    "y": 13.8493786,
+                    "z": 18.2873859
+                }
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "DecalPallet": [],
+        "LuaScript": "#include ./DuneImperium.lua",
+        "LuaScriptState": "",
+        "XmlUI": "#include ./DuneImperium.xml",
+        "VectorLines": [
+            {
+                "points3": [
+                    {
+                        "x": 4.05524969,
+                        "y": 1.49024582,
+                        "z": 14.9040794
+                    },
+                    {
+                        "x": 4.05524969,
+                        "y": 1.49024582,
+                        "z": 14.9040794
+                    },
+                    {
+                        "x": 4.05524969,
+                        "y": 1.49024582,
+                        "z": 14.9040794
+                    },
+                    {
+                        "x": 4.05524969,
+                        "y": 1.49024582,
+                        "z": 14.9040794
+                    }
+                ],
+                "color": {
+                    "r": 0.792683,
+                    "g": 0.6918714,
+                    "b": 0.6918714
+                },
+                "thickness": 0.1,
+                "loop": true
+            },
+            {
+                "points3": [
+                    {
+                        "x": -11.2623615,
+                        "y": 1.51246262,
+                        "z": 17.8301983
+                    },
+                    {
+                        "x": 4.00827742,
+                        "y": 1.49117851,
+                        "z": 17.84941
+                    },
+                    {
+                        "x": 4.016709,
+                        "y": 1.489192,
+                        "z": 11.1455441
+                    },
+                    {
+                        "x": -11.253932,
+                        "y": 1.51047611,
+                        "z": 11.126339
+                    }
+                ],
+                "color": {
+                    "r": 0.67770046,
+                    "g": 0.67770046,
+                    "b": 0.67770046
+                },
+                "thickness": 0.1,
+                "loop": true
+            },
+            {
+                "points3": [
+                    {
+                        "x": -11.2088041,
+                        "y": 1.51143456,
+                        "z": 14.5929451
+                    },
+                    {
+                        "x": 4.045084,
+                        "y": 1.4901886,
+                        "z": 14.6564789
+                    },
+                    {
+                        "x": 4.059777,
+                        "y": 1.48912716,
+                        "z": 11.1284695
+                    },
+                    {
+                        "x": -11.1941118,
+                        "y": 1.51037407,
+                        "z": 11.0649385
+                    }
+                ],
+                "color": {
+                    "r": 0.67770046,
+                    "g": 0.67770046,
+                    "b": 0.67770046
+                },
+                "thickness": 0.1,
+                "loop": true
+            },
+            {
+                "points3": [
+                    {
+                        "x": 5.148189,
+                        "y": 1.48098373,
+                        "z": -11.3672066
+                    },
+                    {
+                        "x": 11.0173664,
+                        "y": 1.47280884,
+                        "z": -11.3427629
+                    },
+                    {
+                        "x": 11.0444574,
+                        "y": 1.47085571,
+                        "z": -17.8476448
+                    },
+                    {
+                        "x": 5.175283,
+                        "y": 1.47903061,
+                        "z": -17.87209
+                    }
+                ],
+                "color": {
+                    "r": 0.67770046,
+                    "g": 0.67770046,
+                    "b": 0.67770046
+                },
+                "thickness": 0.1,
+                "loop": true
+            },
+            {
+                "points3": [
+                    {
+                        "x": 5.20208645,
+                        "y": 1.48000908,
+                        "z": -14.419919
+                    },
+                    {
+                        "x": 10.9953547,
+                        "y": 1.47194,
+                        "z": -14.395793
+                    },
+                    {
+                        "x": 11.00957,
+                        "y": 1.47091484,
+                        "z": -17.80878
+                    },
+                    {
+                        "x": 5.216303,
+                        "y": 1.47898483,
+                        "z": -17.8329144
+                    }
+                ],
+                "color": {
+                    "r": 0.67770046,
+                    "g": 0.67770046,
+                    "b": 0.67770046
+                },
+                "thickness": 0.1,
+                "loop": true
+            },
+            {
+                "points3": [
+                    {
+                        "x": -11.2430859,
+                        "y": 1.51242638,
+                        "z": 17.7997818
+                    },
+                    {
+                        "x": -8.940929,
+                        "y": 1.515419,
+                        "z": 17.8160648
+                    },
+                    {
+                        "x": -8.918195,
+                        "y": 1.50824451,
+                        "z": 14.60176
+                    },
+                    {
+                        "x": -11.2203522,
+                        "y": 1.51144791,
+                        "z": 14.5854778
+                    }
+                ],
+                "color": {
+                    "r": 0.70557487,
+                    "g": 0.70557487,
+                    "b": 0.70557487
+                },
+                "thickness": 0.1,
+                "loop": true
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.9007378,
+                        "y": 1.51000214,
+                        "z": 20.6458282
+                    },
+                    {
+                        "x": -26.8805447,
+                        "y": 1.51000214,
+                        "z": 21.1205559
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.8814144,
+                        "y": 1.51000214,
+                        "z": 21.1412849
+                    },
+                    {
+                        "x": -26.85192,
+                        "y": 1.445406,
+                        "z": 21.3832321
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.87961,
+                        "y": 1.51000214,
+                        "z": 21.0998039
+                    },
+                    {
+                        "x": -26.8923779,
+                        "y": 1.45544052,
+                        "z": 21.3590031
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.7906322,
+                        "y": 1.43501091,
+                        "z": 21.4083214
+                    },
+                    {
+                        "x": -11.7271805,
+                        "y": 1.42463112,
+                        "z": 21.433382
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -11.41671,
+                        "y": 1.42907715,
+                        "z": 21.42265
+                    },
+                    {
+                        "x": -11.7192078,
+                        "y": 1.42597961,
+                        "z": 21.4301262
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.8841419,
+                        "y": 1.51000214,
+                        "z": 21.19082
+                    },
+                    {
+                        "x": -26.8841419,
+                        "y": 1.51000214,
+                        "z": 21.19082
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.8881035,
+                        "y": 1.50507164,
+                        "z": 21.2391777
+                    },
+                    {
+                        "x": -26.8881035,
+                        "y": 1.50507164,
+                        "z": 21.2391777
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.8940773,
+                        "y": 1.48368263,
+                        "z": 21.2908211
+                    },
+                    {
+                        "x": -26.8940773,
+                        "y": 1.48368263,
+                        "z": 21.2908211
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.8896542,
+                        "y": 1.4563446,
+                        "z": 21.3568172
+                    },
+                    {
+                        "x": -26.8896542,
+                        "y": 1.4563446,
+                        "z": 21.3568172
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.8949528,
+                        "y": 1.43708611,
+                        "z": 21.4033165
+                    },
+                    {
+                        "x": -26.8949528,
+                        "y": 1.43708611,
+                        "z": 21.4033165
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.8911934,
+                        "y": 1.42866135,
+                        "z": 21.42365
+                    },
+                    {
+                        "x": -26.8911934,
+                        "y": 1.42866135,
+                        "z": 21.42365
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.84949,
+                        "y": 1.42517662,
+                        "z": 21.4320641
+                    },
+                    {
+                        "x": -26.84949,
+                        "y": 1.42517662,
+                        "z": 21.4320641
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.8995686,
+                        "y": 1.43161964,
+                        "z": 21.4165115
+                    },
+                    {
+                        "x": -26.8758812,
+                        "y": 1.43172073,
+                        "z": 21.4162655
+                    },
+                    {
+                        "x": -26.8762074,
+                        "y": 1.4448204,
+                        "z": 21.38464
+                    },
+                    {
+                        "x": -26.8999,
+                        "y": 1.44471931,
+                        "z": 21.3848858
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1,
+                "loop": true
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.8767071,
+                        "y": 1.50999832,
+                        "z": -21.1091576
+                    },
+                    {
+                        "x": -26.8904915,
+                        "y": 1.49860573,
+                        "z": -21.2547779
+                    }
+                ],
+                "color": {
+                    "r": 0.118,
+                    "g": 0.53,
+                    "b": 1
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.8913,
+                        "y": 1.50198936,
+                        "z": -21.2466164
+                    },
+                    {
+                        "x": -26.910965,
+                        "y": 1.41752625,
+                        "z": -21.4505234
+                    }
+                ],
+                "color": {
+                    "r": 0.118,
+                    "g": 0.53,
+                    "b": 1
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.9033947,
+                        "y": 1.41755486,
+                        "z": -21.4504566
+                    },
+                    {
+                        "x": -26.8987579,
+                        "y": 1.36409187,
+                        "z": -21.5795269
+                    }
+                ],
+                "color": {
+                    "r": 0.118,
+                    "g": 0.53,
+                    "b": 1
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.8892727,
+                        "y": 1.35965347,
+                        "z": -21.5871716
+                    },
+                    {
+                        "x": -26.8910179,
+                        "y": 1.23224831,
+                        "z": -21.7145786
+                    }
+                ],
+                "color": {
+                    "r": 0.118,
+                    "g": 0.53,
+                    "b": 1
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.88184,
+                        "y": 1.21812057,
+                        "z": -21.7287064
+                    },
+                    {
+                        "x": -11.3931065,
+                        "y": 1.18638039,
+                        "z": -21.7604465
+                    }
+                ],
+                "color": {
+                    "r": 0.118,
+                    "g": 0.53,
+                    "b": 1
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": 11.15543,
+                        "y": 1.147253,
+                        "z": -21.7995739
+                    },
+                    {
+                        "x": 26.6702347,
+                        "y": 1.1420002,
+                        "z": -21.8048267
+                    }
+                ],
+                "color": {
+                    "r": 0.905,
+                    "g": 0.898,
+                    "b": 0.172
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": 11.40712,
+                        "y": 1.48318481,
+                        "z": 25.723917
+                    },
+                    {
+                        "x": 26.8709869,
+                        "y": 1.46162033,
+                        "z": 25.6984081
+                    },
+                    {
+                        "x": 26.8541775,
+                        "y": 1.4586401,
+                        "z": 15.5096512
+                    },
+                    {
+                        "x": 11.3903151,
+                        "y": 1.48020744,
+                        "z": 15.53516
+                    }
+                ],
+                "color": {
+                    "r": 0.192,
+                    "g": 0.701,
+                    "b": 0.168
+                },
+                "thickness": 0.1,
+                "loop": true
+            },
+            {
+                "points3": [
+                    {
+                        "x": 11.3790751,
+                        "y": 1.48020935,
+                        "z": 15.4893646
+                    },
+                    {
+                        "x": 11.41133,
+                        "y": 1.47898483,
+                        "z": 11.48932
+                    }
+                ],
+                "color": {
+                    "r": 0.192,
+                    "g": 0.701,
+                    "b": 0.168
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": 26.8815651,
+                        "y": 1.45858192,
+                        "z": 15.442194
+                    },
+                    {
+                        "x": 26.8290176,
+                        "y": 1.45746231,
+                        "z": 11.3915014
+                    }
+                ],
+                "color": {
+                    "r": 0.192,
+                    "g": 0.701,
+                    "b": 0.168
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": 11.423913,
+                        "y": 1.47895241,
+                        "z": 11.4401846
+                    },
+                    {
+                        "x": 26.8080463,
+                        "y": 1.45748138,
+                        "z": 11.3581991
+                    }
+                ],
+                "color": {
+                    "r": 0.192,
+                    "g": 0.701,
+                    "b": 0.168
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": 11.4124107,
+                        "y": 1.47896385,
+                        "z": 11.4213772
+                    },
+                    {
+                        "x": 11.4277277,
+                        "y": 1.47779274,
+                        "z": 7.517747
+                    }
+                ],
+                "color": {
+                    "r": 0.192,
+                    "g": 0.701,
+                    "b": 0.168
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": 26.8989468,
+                        "y": 1.45857716,
+                        "z": 15.503974
+                    },
+                    {
+                        "x": 32.0779152,
+                        "y": 1.451355,
+                        "z": 15.4974213
+                    }
+                ],
+                "color": {
+                    "r": 0.192,
+                    "g": 0.701,
+                    "b": 0.168
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": 32.16161,
+                        "y": 1.45122719,
+                        "z": 15.462122
+                    },
+                    {
+                        "x": 32.1235046,
+                        "y": 1.44893932,
+                        "z": 7.51291466
+                    }
+                ],
+                "color": {
+                    "r": 0.192,
+                    "g": 0.701,
+                    "b": 0.168
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": 26.8265266,
+                        "y": 1.4563055,
+                        "z": 7.450519
+                    },
+                    {
+                        "x": 32.16827,
+                        "y": 1.44886065,
+                        "z": 7.45810127
+                    }
+                ],
+                "color": {
+                    "r": 0.192,
+                    "g": 0.701,
+                    "b": 0.168
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": 11.4412546,
+                        "y": 1.47776175,
+                        "z": 7.47716475
+                    },
+                    {
+                        "x": 26.7497444,
+                        "y": 1.45641232,
+                        "z": 7.45190525
+                    },
+                    {
+                        "x": 26.7440662,
+                        "y": 1.45540714,
+                        "z": 4.01197243
+                    },
+                    {
+                        "x": 11.43558,
+                        "y": 1.4767561,
+                        "z": 4.037233
+                    }
+                ],
+                "color": {
+                    "r": 0.192,
+                    "g": 0.701,
+                    "b": 0.168
+                },
+                "thickness": 0.1,
+                "loop": true
+            },
+            {
+                "points3": [
+                    {
+                        "x": 11.422039,
+                        "y": 1.47668076,
+                        "z": 3.71684647
+                    },
+                    {
+                        "x": 26.7858677,
+                        "y": 1.45525455,
+                        "z": 3.6914916
+                    },
+                    {
+                        "x": 26.7689,
+                        "y": 1.45225048,
+                        "z": -6.58614445
+                    },
+                    {
+                        "x": 11.4050789,
+                        "y": 1.47367668,
+                        "z": -6.560789
+                    }
+                ],
+                "color": {
+                    "r": 0.905,
+                    "g": 0.898,
+                    "b": 0.172
+                },
+                "thickness": 0.1,
+                "loop": true
+            },
+            {
+                "points3": [
+                    {
+                        "x": 11.4242725,
+                        "y": 1.47362471,
+                        "z": -6.64609671
+                    },
+                    {
+                        "x": 11.42416,
+                        "y": 1.472414,
+                        "z": -10.7583313
+                    }
+                ],
+                "color": {
+                    "r": 0.905,
+                    "g": 0.898,
+                    "b": 0.172
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": 26.7673111,
+                        "y": 1.45224524,
+                        "z": -6.61054564
+                    },
+                    {
+                        "x": 26.76361,
+                        "y": 1.45103645,
+                        "z": -10.732892
+                    }
+                ],
+                "color": {
+                    "r": 0.905,
+                    "g": 0.898,
+                    "b": 0.172
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": 11.4530935,
+                        "y": 1.47235394,
+                        "z": -10.8250551
+                    },
+                    {
+                        "x": 26.701376,
+                        "y": 1.45110226,
+                        "z": -10.8057842
+                    }
+                ],
+                "color": {
+                    "r": 0.905,
+                    "g": 0.898,
+                    "b": 0.172
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": 11.43843,
+                        "y": 1.472372,
+                        "z": -10.8342628
+                    },
+                    {
+                        "x": 11.4870205,
+                        "y": 1.47116566,
+                        "z": -14.6974974
+                    }
+                ],
+                "color": {
+                    "r": 0.905,
+                    "g": 0.898,
+                    "b": 0.172
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    },
+                    {
+                        "x": 14.8259382,
+                        "y": 1.46648121,
+                        "z": -14.7986317
+                    }
+                ],
+                "color": {
+                    "r": 0.905,
+                    "g": 0.898,
+                    "b": 0.172
+                },
+                "thickness": 0.1,
+                "loop": true
+            },
+            {
+                "points3": [
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    },
+                    {
+                        "x": 15.0617657,
+                        "y": 1.46618652,
+                        "z": -14.6810589
+                    }
+                ],
+                "color": {
+                    "r": 0.905,
+                    "g": 0.898,
+                    "b": 0.172
+                },
+                "thickness": 0.1,
+                "loop": true
+            },
+            {
+                "points3": [
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    },
+                    {
+                        "x": 15.3451815,
+                        "y": 1.46581268,
+                        "z": -14.6098709
+                    }
+                ],
+                "color": {
+                    "r": 0.905,
+                    "g": 0.898,
+                    "b": 0.172
+                },
+                "thickness": 0.1,
+                "loop": true
+            },
+            {
+                "points3": [
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    },
+                    {
+                        "x": 15.4397869,
+                        "y": 1.46565342,
+                        "z": -14.7028685
+                    }
+                ],
+                "color": {
+                    "r": 0.905,
+                    "g": 0.898,
+                    "b": 0.172
+                },
+                "thickness": 0.1,
+                "loop": true
+            },
+            {
+                "points3": [
+                    {
+                        "x": 11.48838,
+                        "y": 1.47114086,
+                        "z": -14.7737455
+                    },
+                    {
+                        "x": 26.7779541,
+                        "y": 1.44985771,
+                        "z": -14.665596
+                    },
+                    {
+                        "x": 26.800951,
+                        "y": 1.4488678,
+                        "z": -17.9173565
+                    },
+                    {
+                        "x": 11.5113811,
+                        "y": 1.48308754,
+                        "z": -18.0255051
+                    }
+                ],
+                "color": {
+                    "r": 0.905,
+                    "g": 0.898,
+                    "b": 0.172
+                },
+                "thickness": 0.1,
+                "loop": true
+            },
+            {
+                "points3": [
+                    {
+                        "x": 26.8093548,
+                        "y": 1.45218849,
+                        "z": -6.60562658
+                    },
+                    {
+                        "x": 32.2743645,
+                        "y": 1.4445715,
+                        "z": -6.598263
+                    }
+                ],
+                "color": {
+                    "r": 0.905,
+                    "g": 0.898,
+                    "b": 0.172
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": 26.791687,
+                        "y": 1.44982815,
+                        "z": -14.6998529
+                    },
+                    {
+                        "x": 32.31149,
+                        "y": 1.44213486,
+                        "z": -14.6939945
+                    }
+                ],
+                "color": {
+                    "r": 0.905,
+                    "g": 0.898,
+                    "b": 0.172
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": 32.21858,
+                        "y": 1.44463444,
+                        "z": -6.64837456
+                    },
+                    {
+                        "x": 32.2605324,
+                        "y": 1.44222641,
+                        "z": -14.6255684
+                    }
+                ],
+                "color": {
+                    "r": 0.905,
+                    "g": 0.898,
+                    "b": 0.172
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.7365341,
+                        "y": 1.53633881,
+                        "z": 25.646286
+                    },
+                    {
+                        "x": -11.5252409,
+                        "y": 1.51513863,
+                        "z": 25.6654129
+                    },
+                    {
+                        "x": -11.5123091,
+                        "y": 1.51208973,
+                        "z": 15.3795633
+                    },
+                    {
+                        "x": -26.7236061,
+                        "y": 1.53328991,
+                        "z": 15.3604422
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1,
+                "loop": true
+            },
+            {
+                "points3": [
+                    {
+                        "x": -11.504899,
+                        "y": 1.512064,
+                        "z": 15.3250122
+                    },
+                    {
+                        "x": -11.5040073,
+                        "y": 1.5108633,
+                        "z": 11.2563963
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.7263031,
+                        "y": 1.53328228,
+                        "z": 15.3204556
+                    },
+                    {
+                        "x": -26.6819534,
+                        "y": 1.53205776,
+                        "z": 11.3749037
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.7121124,
+                        "y": 1.53209591,
+                        "z": 11.3643818
+                    },
+                    {
+                        "x": -11.53519,
+                        "y": 1.51091957,
+                        "z": 11.2998486
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.7668762,
+                        "y": 1.533351,
+                        "z": 15.3609943
+                    },
+                    {
+                        "x": -32.253952,
+                        "y": 1.54100227,
+                        "z": 15.3711472
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -32.24377,
+                        "y": 1.5409708,
+                        "z": 15.3092413
+                    },
+                    {
+                        "x": -32.1979523,
+                        "y": 1.53864765,
+                        "z": 7.639243
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.7478352,
+                        "y": 1.529881,
+                        "z": 3.67319179
+                    },
+                    {
+                        "x": -11.4333849,
+                        "y": 1.50854969,
+                        "z": 3.73697734
+                    },
+                    {
+                        "x": -11.3908052,
+                        "y": 1.50547886,
+                        "z": -6.485327
+                    },
+                    {
+                        "x": -26.7052631,
+                        "y": 1.52681017,
+                        "z": -6.54911327
+                    }
+                ],
+                "color": {
+                    "r": 0.118,
+                    "g": 0.53,
+                    "b": 1
+                },
+                "thickness": 0.1,
+                "loop": true
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.7302132,
+                        "y": 1.52683926,
+                        "z": -6.568303
+                    },
+                    {
+                        "x": -26.704,
+                        "y": 1.52558041,
+                        "z": -10.71852
+                    }
+                ],
+                "color": {
+                    "r": 0.118,
+                    "g": 0.53,
+                    "b": 1
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -11.3924322,
+                        "y": 1.50547218,
+                        "z": -6.51609
+                    },
+                    {
+                        "x": -11.3700676,
+                        "y": 1.50421429,
+                        "z": -10.6821117
+                    }
+                ],
+                "color": {
+                    "r": 0.118,
+                    "g": 0.53,
+                    "b": 1
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -11.4195242,
+                        "y": 1.50427532,
+                        "z": -10.707695
+                    },
+                    {
+                        "x": -11.3875475,
+                        "y": 1.50214,
+                        "z": -17.8029
+                    }
+                ],
+                "color": {
+                    "r": 0.118,
+                    "g": 0.53,
+                    "b": 1
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -11.4215317,
+                        "y": 1.50219345,
+                        "z": -17.7863026
+                    },
+                    {
+                        "x": -26.7311153,
+                        "y": 1.523571,
+                        "z": -17.6677666
+                    }
+                ],
+                "color": {
+                    "r": 0.118,
+                    "g": 0.53,
+                    "b": 1
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -11.4288387,
+                        "y": 1.50429058,
+                        "z": -10.7016935
+                    },
+                    {
+                        "x": -26.61947,
+                        "y": 1.52547264,
+                        "z": -10.6857071
+                    }
+                ],
+                "color": {
+                    "r": 0.118,
+                    "g": 0.53,
+                    "b": 1
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.7530251,
+                        "y": 1.52687883,
+                        "z": -6.54276943
+                    },
+                    {
+                        "x": -32.2511368,
+                        "y": 1.53454161,
+                        "z": -6.549178
+                    }
+                ],
+                "color": {
+                    "r": 0.118,
+                    "g": 0.53,
+                    "b": 1
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -32.2051926,
+                        "y": 1.53863668,
+                        "z": 7.570224
+                    },
+                    {
+                        "x": -11.5236864,
+                        "y": 1.50978565,
+                        "z": 7.5062995
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -11.5239134,
+                        "y": 1.51089287,
+                        "z": 11.2638092
+                    },
+                    {
+                        "x": -11.5048418,
+                        "y": 1.50977468,
+                        "z": 7.556535
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.7258587,
+                        "y": 1.53099346,
+                        "z": 7.55508375
+                    },
+                    {
+                        "x": -26.7261772,
+                        "y": 1.52995872,
+                        "z": 4.04044056
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.7158318,
+                        "y": 1.52993822,
+                        "z": 4.01987743
+                    },
+                    {
+                        "x": -11.4383831,
+                        "y": 1.50865126,
+                        "z": 4.058345
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -11.4916267,
+                        "y": 1.50974083,
+                        "z": 7.50558233
+                    },
+                    {
+                        "x": -11.4984093,
+                        "y": 1.5087471,
+                        "z": 4.099435
+                    }
+                ],
+                "color": {
+                    "r": 0.856,
+                    "g": 0.1,
+                    "b": 0.094
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -11.451066,
+                        "y": 1.50316811,
+                        "z": -14.6155891
+                    },
+                    {
+                        "x": -32.1749077,
+                        "y": 1.532054,
+                        "z": -14.6337042
+                    }
+                ],
+                "color": {
+                    "r": 0.118,
+                    "g": 0.53,
+                    "b": 1
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -32.261776,
+                        "y": 1.53453684,
+                        "z": -6.616253
+                    },
+                    {
+                        "x": -32.2306976,
+                        "y": 1.53214264,
+                        "z": -14.5965652
+                    }
+                ],
+                "color": {
+                    "r": 0.118,
+                    "g": 0.53,
+                    "b": 1
+                },
+                "thickness": 0.1
+            },
+            {
+                "points3": [
+                    {
+                        "x": -26.75917,
+                        "y": 1.52360916,
+                        "z": -17.673439
+                    },
+                    {
+                        "x": -26.7716389,
+                        "y": 1.52451229,
+                        "z": -14.66365
+                    }
+                ],
+                "color": {
+                    "r": 0.118,
+                    "g": 0.53,
+                    "b": 1
+                },
+                "thickness": 0.1
+            }
+        ],
+        "SnapPoints": [
+            {
+                "Position": {
+                    "x": 8.043507,
+                    "y": 1.46650672,
+                    "z": -12.867774
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                }
+            },
+            {
+                "Position": {
+                    "x": 8.070328,
+                    "y": 1.46557653,
+                    "z": -15.8992443
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                }
+            },
+            {
+                "Position": {
+                    "x": -10.0568819,
+                    "y": 1.50018346,
+                    "z": 16.2393913
+                },
+                "Rotation": {
+                    "x": 0.0168730728,
+                    "y": 180,
+                    "z": 180.07988
+                }
+            },
+            {
+                "Position": {
+                    "x": -10.0024958,
+                    "y": 1.49967039,
+                    "z": 12.8700008
+                },
+                "Rotation": {
+                    "x": 0.016879281,
+                    "y": 180.001434,
+                    "z": 180.0799
+                }
+            },
+            {
+                "Position": {
+                    "x": -7.24999142,
+                    "y": 1.49487567,
+                    "z": 12.8700018
+                },
+                "Rotation": {
+                    "x": 0.0168713536,
+                    "y": 180.0005,
+                    "z": 180.07988
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": -4.74993563,
+                    "y": 1.49165726,
+                    "z": 12.8700018
+                },
+                "Rotation": {
+                    "x": 0.0168722291,
+                    "y": 180.000519,
+                    "z": 180.07988
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": -2.249934,
+                    "y": 1.48821127,
+                    "z": 12.8700008
+                },
+                "Rotation": {
+                    "x": 0.0168713536,
+                    "y": 180.000519,
+                    "z": 180.07988
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": 0.250065237,
+                    "y": 1.48482752,
+                    "z": 12.8700027
+                },
+                "Rotation": {
+                    "x": 0.0168711785,
+                    "y": 180.000534,
+                    "z": 180.07988
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": 2.75002575,
+                    "y": 1.48112321,
+                    "z": 12.8700018
+                },
+                "Rotation": {
+                    "x": 0.0168715287,
+                    "y": 180.000519,
+                    "z": 180.07988
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": 0.249999464,
+                    "y": 1.485993,
+                    "z": 16.2900028
+                }
+            },
+            {
+                "Position": {
+                    "x": 2.77000046,
+                    "y": 1.48242414,
+                    "z": 16.2900085
+                },
+                "Rotation": {
+                    "x": 0.01684399,
+                    "y": 180.019775,
+                    "z": 0.07988493
+                }
+            },
+            {
+                "Position": {
+                    "x": -7.6097436,
+                    "y": 1.49721479,
+                    "z": 16.28986
+                },
+                "Rotation": {
+                    "x": 0.0168984,
+                    "y": 179.980286,
+                    "z": 0.07987283
+                }
+            },
+            {
+                "Position": {
+                    "x": -5.05016661,
+                    "y": 1.49423456,
+                    "z": 16.2901688
+                },
+                "Rotation": {
+                    "x": 0.0168904718,
+                    "y": 179.985245,
+                    "z": 0.0798751861
+                }
+            },
+            {
+                "Position": {
+                    "x": -2.49027681,
+                    "y": 1.49067974,
+                    "z": 16.290062
+                },
+                "Rotation": {
+                    "x": 0.016892191,
+                    "y": 179.984558,
+                    "z": 0.07987349
+                }
+            },
+            {
+                "Position": {
+                    "x": -7.58538866,
+                    "y": 1.49796176,
+                    "z": 20.038969
+                },
+                "Rotation": {
+                    "x": 0.0168724041,
+                    "y": 180,
+                    "z": 0.0798767656
+                }
+            },
+            {
+                "Position": {
+                    "x": -5.04500675,
+                    "y": 1.49426579,
+                    "z": 20.0400028
+                },
+                "Rotation": {
+                    "x": 0.01687016,
+                    "y": 180.000015,
+                    "z": 0.07987754
+                }
+            },
+            {
+                "Position": {
+                    "x": -10.0874624,
+                    "y": 1.50158966,
+                    "z": 20.0424633
+                },
+                "Rotation": {
+                    "x": 0.0167833716,
+                    "y": 180.065384,
+                    "z": 180.0799
+                }
+            },
+            {
+                "Position": {
+                    "x": 10.8491249,
+                    "y": 2.23426867,
+                    "z": 45.99149
+                }
+            },
+            {
+                "Position": {
+                    "x": -18.93886,
+                    "y": 1.713806,
+                    "z": 23.8918266
+                },
+                "Rotation": {
+                    "x": 0.0170691758,
+                    "y": 180.0888,
+                    "z": 0.0801625252
+                },
+                "Tags": ["Agent"]
+            },
+            {
+                "Position": {
+                    "x": -17.5625019,
+                    "y": 1.71191609,
+                    "z": 23.8918266
+                },
+                "Rotation": {
+                    "x": 0.0170637742,
+                    "y": 180.097412,
+                    "z": 0.0801609457
+                },
+                "Tags": ["Agent"]
+            },
+            {
+                "Position": {
+                    "x": -18.8965225,
+                    "y": 1.70841134,
+                    "z": 1.86213934
+                },
+                "Rotation": {
+                    "x": 359.9821,
+                    "y": 179.955383,
+                    "z": 359.921936
+                },
+                "Tags": ["Agent"]
+            },
+            {
+                "Position": {
+                    "x": -17.6002026,
+                    "y": 1.70648384,
+                    "z": 1.90573978
+                },
+                "Rotation": {
+                    "x": 359.982117,
+                    "y": 179.972885,
+                    "z": 359.921936
+                },
+                "Tags": ["Agent"]
+            },
+            {
+                "Position": {
+                    "x": -20.6214943,
+                    "y": 1.71069491,
+                    "z": 1.90997708
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 179.999969,
+                    "z": 0
+                },
+                "Tags": ["Agent"]
+            },
+            {
+                "Position": {
+                    "x": -20.4901848,
+                    "y": 1.71600616,
+                    "z": 23.9651527
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 179.999969,
+                    "z": 0
+                },
+                "Tags": ["Agent"]
+            },
+            {
+                "Position": {
+                    "x": 17.441576,
+                    "y": 1.66243458,
+                    "z": 24.13177
+                },
+                "Rotation": {
+                    "x": 359.980133,
+                    "y": 180.03627,
+                    "z": 359.928467
+                },
+                "Tags": ["Agent"]
+            },
+            {
+                "Position": {
+                    "x": 18.9392967,
+                    "y": 1.66042936,
+                    "z": 24.1246319
+                },
+                "Rotation": {
+                    "x": 359.980133,
+                    "y": 179.9798,
+                    "z": 359.928436
+                },
+                "Tags": ["Agent"]
+            },
+            {
+                "Position": {
+                    "x": 20.45316,
+                    "y": 1.658622,
+                    "z": 24.0726414
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                },
+                "Tags": ["Agent"]
+            },
+            {
+                "Position": {
+                    "x": 18.7330437,
+                    "y": 1.64976633,
+                    "z": 1.91394043
+                },
+                "Rotation": {
+                    "x": 0.0194143,
+                    "y": 180.016586,
+                    "z": 0.0727046356
+                },
+                "Tags": ["Agent"]
+            },
+            {
+                "Position": {
+                    "x": 17.2532635,
+                    "y": 1.65176082,
+                    "z": 1.93872631
+                },
+                "Rotation": {
+                    "x": 0.019350145,
+                    "y": 180.06604,
+                    "z": 0.0727205947
+                },
+                "Tags": ["Agent"]
+            },
+            {
+                "Position": {
+                    "x": 20.343359,
+                    "y": 1.64780331,
+                    "z": 1.83292735
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                },
+                "Tags": ["Agent"]
+            },
+            {
+                "Position": {
+                    "x": -0.508619,
+                    "y": 1.5,
+                    "z": 28.0066414
+                },
+                "Rotation": {
+                    "x": 0.00000271844647,
+                    "y": 179.990814,
+                    "z": 0.000007750651
+                },
+                "Tags": ["Agent"]
+            },
+            {
+                "Position": {
+                    "x": 0.467038572,
+                    "y": 1.5,
+                    "z": 28.0133629
+                },
+                "Rotation": {
+                    "x": 1.77136755e-7,
+                    "y": 179.994827,
+                    "z": 0.00000120270784
+                },
+                "Tags": ["Agent"]
+            },
+            {
+                "Position": {
+                    "x": 1.49576676,
+                    "y": 1.5,
+                    "z": 28.006422
+                },
+                "Rotation": {
+                    "x": -0.00002152939,
+                    "y": 179.979553,
+                    "z": -0.00000422670337
+                },
+                "Tags": ["Agent"]
+            },
+            {
+                "Position": {
+                    "x": 2.49616838,
+                    "y": 1.5,
+                    "z": 28.0069122
+                },
+                "Rotation": {
+                    "x": -0.0000228724384,
+                    "y": 179.998154,
+                    "z": -0.00000111091038
+                },
+                "Tags": ["Agent"]
+            },
+            {
+                "Position": {
+                    "x": -19.2152481,
+                    "y": 1.713209,
+                    "z": 20.5436611
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                },
+                "Tags": ["Leader"]
+            },
+            {
+                "Position": {
+                    "x": -19.0091286,
+                    "y": 1.70746422,
+                    "z": -1.44580066
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                },
+                "Tags": ["Leader"]
+            },
+            {
+                "Position": {
+                    "x": 18.86144,
+                    "y": 1.64858544,
+                    "z": -1.41879547
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                },
+                "Tags": ["Leader"]
+            },
+            {
+                "Position": {
+                    "x": 19.0973148,
+                    "y": 1.65911758,
+                    "z": 20.597784
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                },
+                "Tags": ["Leader"]
+            },
+            {
+                "Position": {
+                    "x": -24.6230278,
+                    "y": 1.7207514,
+                    "z": 20.4797058
+                },
+                "Rotation": {
+                    "x": 0.0170376711,
+                    "y": 180.0002,
+                    "z": 180.079971
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": -13.7664871,
+                    "y": 1.70555747,
+                    "z": 20.5626812
+                },
+                "Rotation": {
+                    "x": 0.0170380212,
+                    "y": 180.0002,
+                    "z": 180.079971
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": -24.407774,
+                    "y": 1.7148267,
+                    "z": -1.53636873
+                },
+                "Rotation": {
+                    "x": 0.0177257527,
+                    "y": 180.000122,
+                    "z": 180.077911
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": -13.6539612,
+                    "y": 1.70017266,
+                    "z": -1.40756106
+                },
+                "Rotation": {
+                    "x": 0.0177260712,
+                    "y": 180.000137,
+                    "z": 180.077911
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": 13.6822128,
+                    "y": 1.66580939,
+                    "z": 20.5247955
+                },
+                "Rotation": {
+                    "x": 0.0196827352,
+                    "y": 179.999878,
+                    "z": 180.071381
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": 24.48297,
+                    "y": 1.65227687,
+                    "z": 20.5145855
+                },
+                "Rotation": {
+                    "x": 0.0196827352,
+                    "y": 179.999878,
+                    "z": 180.071381
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": 13.4473,
+                    "y": 1.655344,
+                    "z": -1.50919175
+                },
+                "Rotation": {
+                    "x": 0.0192921832,
+                    "y": 180.000046,
+                    "z": 180.072571
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": 24.1986675,
+                    "y": 1.64172971,
+                    "z": -1.50346637
+                },
+                "Rotation": {
+                    "x": 0.01929274,
+                    "y": 180.000046,
+                    "z": 180.072571
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": -25.2527962,
+                    "y": 1.52060533,
+                    "z": 13.112936
+                },
+                "Rotation": {
+                    "x": 0.016872054,
+                    "y": 179.999878,
+                    "z": 0.0798762441
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": -22.8503227,
+                    "y": 1.51721108,
+                    "z": 13.0762434
+                },
+                "Rotation": {
+                    "x": 0.0168711785,
+                    "y": 179.999954,
+                    "z": 0.0798778757
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": -20.2672863,
+                    "y": 1.51356363,
+                    "z": 13.0886774
+                },
+                "Rotation": {
+                    "x": 0.0168717038,
+                    "y": 180.0001,
+                    "z": 0.0798782259
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": -17.8202915,
+                    "y": 1.5101577,
+                    "z": 13.1012526
+                },
+                "Rotation": {
+                    "x": 0.0168722942,
+                    "y": 179.999283,
+                    "z": 0.0798771
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": -15.3998079,
+                    "y": 1.50690293,
+                    "z": 13.10202
+                },
+                "Rotation": {
+                    "x": 0.01687051,
+                    "y": 180.000092,
+                    "z": 0.079877004
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": -12.990221,
+                    "y": 1.503491,
+                    "z": 13.1117926
+                },
+                "Rotation": {
+                    "x": 0.0168681219,
+                    "y": 180.0009,
+                    "z": 0.07987931
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": -25.0940456,
+                    "y": 1.51397491,
+                    "z": -8.833008
+                },
+                "Rotation": {
+                    "x": 0.01687051,
+                    "y": 180.000458,
+                    "z": 0.07987727
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": -22.6915073,
+                    "y": 1.51050651,
+                    "z": -8.869711
+                },
+                "Rotation": {
+                    "x": 0.0168713387,
+                    "y": 180.000229,
+                    "z": 0.07987789
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": -20.1084747,
+                    "y": 1.506907,
+                    "z": -8.857274
+                },
+                "Rotation": {
+                    "x": 0.0168722291,
+                    "y": 179.999863,
+                    "z": 0.07987683
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": -17.6615562,
+                    "y": 1.5034734,
+                    "z": -8.844696
+                },
+                "Rotation": {
+                    "x": 0.0168715287,
+                    "y": 180.000076,
+                    "z": 0.0798774
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": -15.2410851,
+                    "y": 1.49999654,
+                    "z": -8.843908
+                },
+                "Rotation": {
+                    "x": 0.01687051,
+                    "y": 179.999863,
+                    "z": 0.07987731
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": -12.8304319,
+                    "y": 1.49662888,
+                    "z": -8.834137
+                },
+                "Rotation": {
+                    "x": 0.0168718789,
+                    "y": 180.000031,
+                    "z": 0.07987625
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": 12.8107691,
+                    "y": 1.46105266,
+                    "z": -8.933039
+                },
+                "Rotation": {
+                    "x": 0.0168718789,
+                    "y": 180.000153,
+                    "z": 0.07987756
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": 15.2132406,
+                    "y": 1.45768,
+                    "z": -8.969734
+                },
+                "Rotation": {
+                    "x": 0.0168711785,
+                    "y": 180.000183,
+                    "z": 0.07987605
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": 17.7963276,
+                    "y": 1.45408976,
+                    "z": -8.957308
+                },
+                "Rotation": {
+                    "x": 0.0168718789,
+                    "y": 180.000214,
+                    "z": 0.079877466
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": 20.243288,
+                    "y": 1.45060229,
+                    "z": -8.944743
+                },
+                "Rotation": {
+                    "x": 0.01687191,
+                    "y": 180.000122,
+                    "z": 0.07987664
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": 22.66374,
+                    "y": 1.44715142,
+                    "z": -8.943954
+                },
+                "Rotation": {
+                    "x": 0.0168718789,
+                    "y": 180.000092,
+                    "z": 0.0798775256
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": 25.0743484,
+                    "y": 1.44385648,
+                    "z": -8.934181
+                },
+                "Rotation": {
+                    "x": 0.0168713536,
+                    "y": 180.000031,
+                    "z": 0.07987702
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": 12.9051771,
+                    "y": 1.46736276,
+                    "z": 13.222187
+                },
+                "Rotation": {
+                    "x": 0.0168629326,
+                    "y": 180.0059,
+                    "z": 0.07987805
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": 15.3289185,
+                    "y": 1.46410143,
+                    "z": 13.1855021
+                },
+                "Rotation": {
+                    "x": 0.0168717038,
+                    "y": 180.000076,
+                    "z": 0.0798775256
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": 17.9119415,
+                    "y": 1.46031165,
+                    "z": 13.197937
+                },
+                "Rotation": {
+                    "x": 0.016873423,
+                    "y": 179.999664,
+                    "z": 0.0798761249
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": 20.3589153,
+                    "y": 1.45687449,
+                    "z": 13.2105045
+                },
+                "Rotation": {
+                    "x": 0.01687258,
+                    "y": 179.999863,
+                    "z": 0.07987736
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": 22.7793732,
+                    "y": 1.45355952,
+                    "z": 13.2112951
+                },
+                "Rotation": {
+                    "x": 0.0168722291,
+                    "y": 179.999954,
+                    "z": 0.07987797
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": 25.1899757,
+                    "y": 1.4502511,
+                    "z": 13.2210617
+                },
+                "Rotation": {
+                    "x": 0.0168713536,
+                    "y": 180,
+                    "z": 0.07987713
+                },
+                "Tags": ["Imperium"]
+            },
+            {
+                "Position": {
+                    "x": -9.328343,
+                    "y": 1.67557466,
+                    "z": -9.029984
+                },
+                "Tags": ["InfluenceTokens"]
+            },
+            {
+                "Position": {
+                    "x": -9.792123,
+                    "y": 1.67626476,
+                    "z": -9.029985
+                },
+                "Tags": ["InfluenceTokens"]
+            },
+            {
+                "Position": {
+                    "x": -17.8330669,
+                    "y": 1.70597339,
+                    "z": -1.09537208
+                },
+                "Tags": ["InfluenceTokens"]
+            },
+            {
+                "Position": {
+                    "x": -9.766522,
+                    "y": 1.682258,
+                    "z": -3.56000328
+                },
+                "Tags": ["InfluenceTokens"]
+            },
+            {
+                "Position": {
+                    "x": -9.319719,
+                    "y": 1.68164337,
+                    "z": -3.56001186
+                },
+                "Tags": ["InfluenceTokens"]
+            },
+            {
+                "Position": {
+                    "x": -9.737902,
+                    "y": 1.68451977,
+                    "z": 1.89999521
+                },
+                "Tags": ["InfluenceTokens"]
+            },
+            {
+                "Position": {
+                    "x": -9.288119,
+                    "y": 1.683845,
+                    "z": 1.89998794
+                },
+                "Tags": ["InfluenceTokens"]
+            },
+            {
+                "Position": {
+                    "x": -9.273373,
+                    "y": 1.68950963,
+                    "z": 7.390014
+                },
+                "Tags": ["InfluenceTokens"]
+            },
+            {
+                "Position": {
+                    "x": -9.718879,
+                    "y": 1.69014406,
+                    "z": 7.39001751
+                },
+                "Tags": ["InfluenceTokens"]
+            },
+            {
+                "Position": {
+                    "x": -17.07619,
+                    "y": 2.18782568,
+                    "z": 75.68899
+                },
+                "Rotation": {
+                    "x": 0.000008487925,
+                    "y": 179.994873,
+                    "z": 1.94915529e-7
+                }
+            },
+            {
+                "Position": {
+                    "x": -17.0684719,
+                    "y": 2.18782568,
+                    "z": 72.1386
+                },
+                "Rotation": {
+                    "x": 0.000006011348,
+                    "y": 179.994873,
+                    "z": -2.48789263e-7
+                }
+            },
+            {
+                "Position": {
+                    "x": -17.0684719,
+                    "y": 2.18782544,
+                    "z": 68.5820541
+                },
+                "Rotation": {
+                    "x": 0.0000113681972,
+                    "y": 179.978836,
+                    "z": -2.08158255e-7
+                }
+            },
+            {
+                "Position": {
+                    "x": -17.0684681,
+                    "y": 2.1878252,
+                    "z": 65.0255
+                },
+                "Rotation": {
+                    "x": 0.000009113981,
+                    "y": 179.994568,
+                    "z": 2.07600888e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": -17.0684662,
+                    "y": 2.187825,
+                    "z": 61.4689445
+                },
+                "Rotation": {
+                    "x": 0.00001070795,
+                    "y": 179.967209,
+                    "z": 1.18731569e-9
+                }
+            },
+            {
+                "Position": {
+                    "x": -17.0684719,
+                    "y": 2.18782473,
+                    "z": 57.91098
+                },
+                "Rotation": {
+                    "x": 0.000008884242,
+                    "y": 179.999924,
+                    "z": 1.40621168e-7
+                }
+            },
+            {
+                "Position": {
+                    "x": -11.9943333,
+                    "y": 2.18782449,
+                    "z": 54.2027054
+                },
+                "Rotation": {
+                    "x": 0.00000255161262,
+                    "y": 179.982147,
+                    "z": -1.15709931e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": -12.003212,
+                    "y": 2.18782473,
+                    "z": 57.9102745
+                },
+                "Rotation": {
+                    "x": 0.000006869657,
+                    "y": 180.0016,
+                    "z": 1.0313687e-7
+                }
+            },
+            {
+                "Position": {
+                    "x": -12.0031815,
+                    "y": 2.187825,
+                    "z": 61.4689445
+                },
+                "Rotation": {
+                    "x": 0.000009916953,
+                    "y": 179.97139,
+                    "z": -2.09655965e-7
+                }
+            },
+            {
+                "Position": {
+                    "x": -12.0031815,
+                    "y": 2.1878252,
+                    "z": 65.0255
+                },
+                "Rotation": {
+                    "x": 0.00000916487352,
+                    "y": 179.985657,
+                    "z": 1.52442581e-7
+                }
+            },
+            {
+                "Position": {
+                    "x": -12.0031815,
+                    "y": 2.18782353,
+                    "z": 68.5820541
+                },
+                "Rotation": {
+                    "x": 0.00000387661566,
+                    "y": 179.99469,
+                    "z": 1.14351426e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": -12.0031805,
+                    "y": 2.18782377,
+                    "z": 72.1386
+                },
+                "Rotation": {
+                    "x": 0.00000313787677,
+                    "y": 179.994675,
+                    "z": 6.051848e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": -12.0032444,
+                    "y": 2.18782759,
+                    "z": 75.69522
+                },
+                "Rotation": {
+                    "x": 0.000007104985,
+                    "y": 180.00058,
+                    "z": -2.20960139e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": -6.93788767,
+                    "y": 2.187824,
+                    "z": 75.69515
+                },
+                "Rotation": {
+                    "x": 0.000006351203,
+                    "y": 179.996124,
+                    "z": -5.2704916e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": -6.93788767,
+                    "y": 2.18782568,
+                    "z": 72.1386
+                },
+                "Rotation": {
+                    "x": 0.00000462543949,
+                    "y": 179.999771,
+                    "z": -1.95965754e-7
+                }
+            },
+            {
+                "Position": {
+                    "x": -6.93788767,
+                    "y": 2.187827,
+                    "z": 68.5820541
+                },
+                "Rotation": {
+                    "x": 0.000009792855,
+                    "y": 179.994873,
+                    "z": -3.44783828e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": -6.93788767,
+                    "y": 2.1878252,
+                    "z": 65.0255
+                },
+                "Rotation": {
+                    "x": 0.00000394625476,
+                    "y": 179.997711,
+                    "z": 1.1322593e-7
+                }
+            },
+            {
+                "Position": {
+                    "x": -6.93788767,
+                    "y": 2.187825,
+                    "z": 61.4689445
+                },
+                "Rotation": {
+                    "x": 0.0000064959936,
+                    "y": 179.9936,
+                    "z": -1.42404453e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": -6.93788576,
+                    "y": 2.18782473,
+                    "z": 57.9123955
+                },
+                "Rotation": {
+                    "x": 0.000004314379,
+                    "y": 179.992935,
+                    "z": -7.182946e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": -1.87200725,
+                    "y": 2.187825,
+                    "z": 61.471653
+                },
+                "Rotation": {
+                    "x": 0.00000677236767,
+                    "y": 180.017029,
+                    "z": 9.12851164e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": -1.872602,
+                    "y": 2.1878252,
+                    "z": 65.0255
+                },
+                "Rotation": {
+                    "x": 0.000008021601,
+                    "y": 179.994919,
+                    "z": -1.92964347e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": -1.8699497,
+                    "y": 2.18782544,
+                    "z": 68.5809
+                },
+                "Rotation": {
+                    "x": 0.00000739938923,
+                    "y": 179.974747,
+                    "z": -2.081864e-7
+                }
+            },
+            {
+                "Position": {
+                    "x": -1.87260175,
+                    "y": 2.18782544,
+                    "z": 72.13861
+                },
+                "Rotation": {
+                    "x": 0.000009415668,
+                    "y": 179.994888,
+                    "z": 1.57403832e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": -1.87260079,
+                    "y": 2.18782568,
+                    "z": 75.69515
+                },
+                "Rotation": {
+                    "x": 0.0000134545216,
+                    "y": 179.969345,
+                    "z": 1.40843468e-7
+                }
+            },
+            {
+                "Position": {
+                    "x": 3.1926837,
+                    "y": 2.187824,
+                    "z": 75.69515
+                },
+                "Rotation": {
+                    "x": 0.000005813088,
+                    "y": 180.012451,
+                    "z": 1.25871011e-7
+                }
+            },
+            {
+                "Position": {
+                    "x": 3.19268322,
+                    "y": 2.18782568,
+                    "z": 72.1386
+                },
+                "Rotation": {
+                    "x": 0.000008779403,
+                    "y": 179.994873,
+                    "z": 5.244344e-9
+                }
+            },
+            {
+                "Position": {
+                    "x": 3.185003,
+                    "y": 2.18782544,
+                    "z": 68.57654
+                },
+                "Rotation": {
+                    "x": 0.0000128591619,
+                    "y": 179.975739,
+                    "z": -4.73761439e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": 3.19253778,
+                    "y": 2.187827,
+                    "z": 65.02347
+                },
+                "Rotation": {
+                    "x": 0.000006801218,
+                    "y": 180.0325,
+                    "z": -1.91028931e-7
+                }
+            },
+            {
+                "Position": {
+                    "x": 3.1926837,
+                    "y": 2.187825,
+                    "z": 61.4689445
+                },
+                "Rotation": {
+                    "x": 0.000006333662,
+                    "y": 179.997437,
+                    "z": 1.98380352e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": 8.257969,
+                    "y": 2.18782568,
+                    "z": 75.69515
+                },
+                "Rotation": {
+                    "x": 0.000008151559,
+                    "y": 180.005478,
+                    "z": -3.97585822e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": 8.257969,
+                    "y": 2.18782568,
+                    "z": 72.1386
+                },
+                "Rotation": {
+                    "x": 0.0000038699427,
+                    "y": 179.9998,
+                    "z": -1.33294463e-7
+                }
+            },
+            {
+                "Position": {
+                    "x": 8.257969,
+                    "y": 2.187827,
+                    "z": 68.5820541
+                },
+                "Rotation": {
+                    "x": 0.00000755617157,
+                    "y": 180.00325,
+                    "z": -5.03812636e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": 8.256403,
+                    "y": 2.1878252,
+                    "z": 65.02178
+                },
+                "Rotation": {
+                    "x": 0.00000741483154,
+                    "y": 179.999054,
+                    "z": -5.74269379e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": 8.257969,
+                    "y": 2.187825,
+                    "z": 61.4689445
+                },
+                "Rotation": {
+                    "x": 0.00000696048028,
+                    "y": 179.994873,
+                    "z": -7.538259e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": 8.257969,
+                    "y": 2.18782473,
+                    "z": 57.9123955
+                },
+                "Rotation": {
+                    "x": 0.000009556216,
+                    "y": 179.994537,
+                    "z": 1.508062e-7
+                }
+            },
+            {
+                "Position": {
+                    "x": 8.314404,
+                    "y": 2.18782449,
+                    "z": 54.134285
+                },
+                "Rotation": {
+                    "x": 0.000005834405,
+                    "y": 179.992172,
+                    "z": 1.12587493e-7
+                }
+            },
+            {
+                "Position": {
+                    "x": 13.3232632,
+                    "y": 2.187824,
+                    "z": 75.69515
+                },
+                "Rotation": {
+                    "x": 0.00000701085628,
+                    "y": 179.994873,
+                    "z": -5.16918881e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": 13.3232632,
+                    "y": 2.18782377,
+                    "z": 72.1386
+                },
+                "Rotation": {
+                    "x": 0.00000427746272,
+                    "y": 180.000732,
+                    "z": -8.30446538e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": 13.3242168,
+                    "y": 2.18782377,
+                    "z": 68.5821152
+                },
+                "Rotation": {
+                    "x": 0.000007088491,
+                    "y": 179.999969,
+                    "z": 1.954635e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": 13.3258915,
+                    "y": 2.1878233,
+                    "z": 65.0271454
+                },
+                "Rotation": {
+                    "x": 0.0000100398893,
+                    "y": 180.008423,
+                    "z": -1.5799051e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": 13.321619,
+                    "y": 2.1878233,
+                    "z": 61.4687538
+                },
+                "Rotation": {
+                    "x": 0.000005519458,
+                    "y": 179.994766,
+                    "z": -6.18272864e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": 13.3232632,
+                    "y": 2.187823,
+                    "z": 57.9123955
+                },
+                "Rotation": {
+                    "x": 0.000009245866,
+                    "y": 180.003738,
+                    "z": 6.041936e-8
+                }
+            },
+            {
+                "Position": {
+                    "x": 3.19049144,
+                    "y": 2.18782473,
+                    "z": 57.9065056
+                },
+                "Rotation": {
+                    "x": 0.00001032434,
+                    "y": 179.994537,
+                    "z": -5.804018e-7
+                }
+            }
+        ],
+        "ObjectStates": []
+    },
+    "ObjectPaths": [
+        "Darwi_Odrade.2bf676.json",
+        "Shaddam_IV.2fb2f1.json",
+        "Miles_Teg.7bdba3.json",
+        "Esmar_Tuek.ec4142.json",
+        "Xavier_Harkonnen.83b4e1.json",
+        "Serena_Butler.c34187.json",
+        "Norma_Cenva.80b577.json",
+        "Mentat_5_Solaris.ba730f.json",
+        "Custom_Model_Infinite_Bag.b92a4c.json",
+        "Custom_Model_Infinite_Bag.ad6b92.json",
+        "Custom_Model_Infinite_Bag.8627e0.json",
+        "Custom_Model_Infinite_Bag.61453d.json",
+        "First_Player_Picker.d84873.json",
+        "Counter_PV_Yellow.99a860.json",
+        "Custom_Tile.d69aec.json",
+        "Custom_Tile.96b94b.json",
+        "Custom_Tile.8b1f92.json",
+        "Custom_Tile.b24cc5.json",
+        "Counter_PV_Green.caaba4.json",
+        "Counter_PV_Red.e0ed4b.json",
+        "Counter_PV_Blue.121bb6.json",
+        "HandTrigger.8a9816.json",
+        "HandTrigger.e50f77.json",
+        "HandTrigger.482f72.json",
+        "HandTrigger.050f39.json",
+        "Custom_Assetbundle.afc863.json",
+        "Custom_Assetbundle.c8edca.json",
+        "Custom_Assetbundle.393bf7.json",
+        "Custom_Assetbundle.12c65e.json",
+        "Flex_Table_Control.bd69bd.json",
+        "Custom_Assetbundle.f938a2.json",
+        "Custom_Assetbundle.9f95fd.json",
+        "Custom_Assetbundle.35b95f.json",
+        "Custom_Assetbundle.5af8f2.json",
+        "Emperor_Alliance.13e990.json",
+        "Bene_Gesserit_Alliance.33452e.json",
+        "Spacing_Guild_Alliance.ad1aae.json",
+        "Fremen_Alliance.4c2bcc.json",
+        "Green_Agent.66ae45.json",
+        "Green_Agent.bceb0e.json",
+        "Green_Councilor.a0028d.json",
+        "Blue_Agent.64d013.json",
+        "Red_Agent.7751c8.json",
+        "Blue_Agent.106d8b.json",
+        "Blue_Councilor.f5b14a.json",
+        "Red_Councilor.f19a48.json",
+        "Red_Agent.afa978.json",
+        "Blue_Swordmaster.a78ad7.json",
+        "Red_Swordmaster.ed3490.json",
+        "Green_Swordmaster.fb1629.json",
+        "Green.f433eb.json",
+        "Green.8e22cc.json",
+        "Green.b614cc.json",
+        "Blue.46c1c6.json",
+        "Blue.bc6e74.json",
+        "Blue.5fba3c.json",
+        "Red.fd5673.json",
+        "Red.1fb4ed.json",
+        "Red.81763a.json",
+        "3DText.328efa.json",
+        "Spice.3074d4.json",
+        "Solari.576ccd.json",
+        "Water.692c4d.json",
+        "Spice.9cc286.json",
+        "Solari.fa5236.json",
+        "Water.0afaeb.json",
+        "Spice.22478f.json",
+        "Solari.e597dc.json",
+        "Water.fa9522.json",
+        "Spice.78fb8a.json",
+        "Solari.c5c4ef.json",
+        "Water.f217d0.json",
+        "Spice_Bonus.116807.json",
+        "Mentat.c2a908.json",
+        "Spice_Bonus.394db2.json",
+        "Spice_Bonus.3cdb2d.json",
+        "Board_Player_Yellow.6037b3.json",
+        "Board_Player_Green.0c408d.json",
+        "Board_Player_Blue.6957f2.json",
+        "Board_Player_Red.daf2a3.json",
+        "Red.465c38.json",
+        "Green.60c92d.json",
+        "Green.167fd4.json",
+        "Green.08be0c.json",
+        "Green.a67287.json",
+        "Green.866a9c.json",
+        "Green.2852e1.json",
+        "Red.6c2b85.json",
+        "Red.8b2acc.json",
+        "Red.8bb1e6.json",
+        "Red.26904f.json",
+        "Red.d1787e.json",
+        "Green.fc9c62.json",
+        "Green.2b1cf8.json",
+        "Green.b48887.json",
+        "Red.af7cd0.json",
+        "Red.0fa955.json",
+        "Red.1bbf1c.json",
+        "Troop_Supply.126c3c.json",
+        "Troop_Supply.8ea4af.json",
+        "Blue.f2c21f.json",
+        "Blue.2a5276.json",
+        "Blue.49afee.json",
+        "Blue.f60d9c.json",
+        "Blue.949f2d.json",
+        "Blue.0e57c9.json",
+        "Troop_Supply.b71dd9.json",
+        "Blue.694553.json",
+        "Blue.c64616.json",
+        "Blue.f65e5d.json",
+        "Draw_a_Card.976c3a.json",
+        "ScriptingTrigger.ae1ef8.json",
+        "ScriptingTrigger.6bb3b6.json",
+        "ScriptingTrigger.890115.json",
+        "ScriptingTrigger.2298aa.json",
+        "ScriptingTrigger.cd9716.json",
+        "ScriptingTrigger.f20a74.json",
+        "ScriptingTrigger.26bf8b.json",
+        "ScriptingTrigger.e07493.json",
+        "ScriptingTrigger.e6cfee.json",
+        "ScriptingTrigger.6d8a2e.json",
+        "ScriptingTrigger.4f08fc.json",
+        "ScriptingTrigger.907f66.json",
+        "Makers&Recall.120026.json",
+        "ScriptingTrigger.565d09.json",
+        "ScriptingTrigger.c68e45.json",
+        "ScriptingTrigger.1d4424.json",
+        "ScriptingTrigger.6d632e.json",
+        "ScriptingTrigger.ffbd81.json",
+        "ScriptingTrigger.bdfade.json",
+        "ScriptingTrigger.ab8fdf.json",
+        "ScriptingTrigger.2a520c.json",
+        "ScriptingTrigger.07e239.json",
+        "ScriptingTrigger.43f00f.json",
+        "ScriptingTrigger.8bd982.json",
+        "ScriptingTrigger.3de1d0.json",
+        "ScriptingTrigger.356e2c.json",
+        "ScriptingTrigger.641974.json",
+        "Yellow_Agent.5068c8.json",
+        "Yellow_Agent.67b476.json",
+        "Yellow_Swordmaster.635c49.json",
+        "Yellow.ef6da2.json",
+        "Yellow.4d0dbf.json",
+        "Troop_Supply.6af67a.json",
+        "Yellow.7c5b7b.json",
+        "Yellow.fbf8d2.json",
+        "Yellow.d01e0b.json",
+        "Yellow.79cbf1.json",
+        "Yellow.96d089.json",
+        "Yellow.b5d32e.json",
+        "Yellow.9b55e4.json",
+        "Yellow_Councilor.1be491.json",
+        "Yellow.ef9008.json",
+        "Yellow.734b6e.json",
+        "Yellow.fd7fc7.json",
+        "ScriptingTrigger.69f925.json",
+        "ScriptingTrigger.622708.json",
+        "ScriptingTrigger.2c77c1.json",
+        "Setup.4a3e76.json",
+        "CardCustom.90f762.17100.json",
+        "Board_Display_Leaders.5a682a.json",
+        "Rise_of_Ix_Rulebook.373d17.json",
+        "Snooper_Token.b10897.json",
+        "Snooper_Token.bed196.json",
+        "Snooper_Token.a58ce8.json",
+        "Snooper_Token.857f74.json",
+        "ScriptingTrigger.7edbb3.json",
+        "ScriptingTrigger.c6dbed.json",
+        "4_Players.66444c.json",
+        "4_Players.311255.json",
+        "4_Players.4e8873.json",
+        "4_Players.a6c2e0.json",
+        "Custom_PDF.a4a8a7.json",
+        "ScriptingTrigger.83ea90.json",
+        "Rules.9ac7d6.json",
+        "Leaders_Randomizer.cf6ca1.json",
+        "Yellow_Cargo.8fa76f.json",
+        "Green_Cargo.34281d.json",
+        "Red_Cargo.e9096d.json",
+        "Blue_Cargo.68e424.json",
+        "Yellow_Dreadnought.5469fb.json",
+        "Green_Dreadnought.a15087.json",
+        "Blue_Dreadnought.82789e.json",
+        "Red_dreadnought.1a3c82.json",
+        "Fremen_Faction_Red.088f51.json",
+        "Spacing_Guild_Faction_Green.89da7d.json",
+        "Emperor_Faction_Red.acfcef.json",
+        "Bene_Gesserit_Faction_Red.713eae.json",
+        "Emperor_Faction_Green.d7c9ba.json",
+        "Spacing_Guild_Faction_Blue.4069d8.json",
+        "Emperor_Faction_Yellow.489871.json",
+        "Spacing_Guild_Faction_Red.be464e.json",
+        "Emperor_Faction_Blue.426a23.json",
+        "Bene_Gesserit_Faction_Blue.2a88a6.json",
+        "Fremen_Faction_Yellow.77d7c8.json",
+        "Fremen_Faction_Green.d390dc.json",
+        "Bene_Gesserit_Faction_Yellow.a3729e.json",
+        "Spacing_Guild_Faction_Yellow.9d0075.json",
+        "Bene_Gesserit_Faction_Green.2dc980.json",
+        "Fremen_Faction_Blue.0e6e41.json",
+        "Blue_Score.1b1e76.json",
+        "Yellow_Score.20bbd1.json",
+        "Green_Score.76039f.json",
+        "Red_Score.4feaca.json",
+        "Yellow_dreadnought.71a414.json",
+        "Green_dreadnought.734250.json",
+        "Blue_dreadnought.60f208.json",
+        "Red_Dreadnought.a8f306.json",
+        "Voice_Token.cc0eda.json",
+        "Voice_Token.516df5.json",
+        "buy1.38ffc0.json",
+        "buy2.21b287.json",
+        "buy3.0a5f50.json",
+        "buy4.ded672.json",
+        "buy5.ad2a82.json",
+        "ScriptingTrigger.6b62e0.json",
+        "ScriptingTrigger.cbcd9a.json",
+        "ScriptingTrigger.c087d2.json",
+        "Ixian_Engineer.3371d8.json",
+        "CHOAM_Shares.c530e6.json",
+        "Custom_Model_Bag.cb766f.json",
+        "Councellor_Bonus.074f6d.json",
+        "Custom_Model.fb41e2.json",
+        "ScriptingTrigger.e9a44c.json",
+        "ScriptingTrigger.59523d.json",
+        "ScriptingTrigger.346e0d.json",
+        "ScriptingTrigger.1fc559.json",
+        "First_Player_Marker.1f5576.json",
+        "ScriptingTrigger.556f43.json",
+        "ScriptingTrigger.a2fd8e.json",
+        "ScriptingTrigger.1f7c08.json",
+        "ScriptingTrigger.7dc6e5.json",
+        "ScriptingTrigger.9a9eb5.json",
+        "ScriptingTrigger.8b0515.json",
+        "ScriptingTrigger.b2c461.json",
+        "ScriptingTrigger.cd9386.json",
+        "ScriptingTrigger.5bc970.json",
+        "ScriptingTrigger.af11aa.json",
+        "ScriptingTrigger.b1c938.json",
+        "ScriptingTrigger.17b646.json",
+        "ScriptingTrigger.db4022.json",
+        "ScriptingTrigger.7539a3.json",
+        "ScriptingTrigger.681774.json",
+        "ScriptingTrigger.66cdbb.json",
+        "ScriptingTrigger.cf1486.json",
+        "ScriptingTrigger.a677e0.json",
+        "ScriptingTrigger.3fe117.json",
+        "ScriptingTrigger.9fc2e1.json",
+        "ScriptingTrigger.f1f53d.json",
+        "ScriptingTrigger.6cc2f8.json",
+        "ScriptingTrigger.6932df.json",
+        "ScriptingTrigger.30cff9.json",
+        "ScriptingTrigger.8a6315.json",
+        "ScriptingTrigger.376f34.json",
+        "ScriptingTrigger.5b9a53.json",
+        "ScriptingTrigger.0e374f.json",
+        "ScriptingTrigger.b25c3c.json",
+        "The_Spice_must_Flow.43c7b5.json",
+        "Guild_Ambassador.4bdbd5.json",
+        "Sayyadina.4575f3.json",
+        "Opulence.67fbba.json",
+        "Baron_Harkonnen_Tokens.f89231.json",
+        "ScriptingTrigger.3e7409.json",
+        "Detonation_Devices.7b3fa2.json",
+        "ScriptingTrigger.9555b8.json",
+        "ScriptingTrigger.2d3346.json",
+        "ScriptingTrigger.3d705e.json",
+        "ScriptingTrigger.546163.json",
+        "ScriptingTrigger.aae631.json",
+        "ScriptingTrigger.4a1ce8.json",
+        "ScriptingTrigger.bd1e3b.json",
+        "ScriptingTrigger.768e1e.json",
+        "Board_Main.2da390.json",
+        "ScriptingTrigger.e51f6e.json",
+        "Emperor_2_influences.6a4186.json",
+        "Spacing_Guild_2_influences.400d45.json",
+        "Bene_Gesserit_2_influences.e763f6.json",
+        "Fremen_2_influences.8bcfe7.json",
+        "ScriptingTrigger.722609.json",
+        "ScriptingTrigger.ec30be.json",
+        "ScriptingTrigger.799810.json",
+        "ScriptingTrigger.410b39.json",
+        "ScriptingTrigger.816e58.json",
+        "ScriptingTrigger.2c3c38.json",
+        "ScriptingTrigger.8d2035.json",
+        "ScriptingTrigger.53e26c.json",
+        "ScriptingTrigger.ae150a.json",
+        "ScriptingTrigger.a377d8.json",
+        "Die_6.2250ef.json",
+        "Die_6.a47416.json",
+        "Rival_s_VP.0c4ca1.json",
+        "Rival_s_VP.2fd6f0.json",
+        "Rival_s_VP.f9bc89.json",
+        "Rival_s_VP.61c242.json",
+        "Trash.ef8614.json",
+        "First_Conflict.cb0478.json",
+        "ScriptingTrigger.740624.json",
+        "Red_Combat_Marker.2d1d17.json",
+        "Blue_Combat_Marker.f22e20.json",
+        "Green_Combat_Marker.a1a9a7.json",
+        "Yellow_Combat_Marker.c2dd31.json",
+        "Credits.dbc17c.json",
+        "PassBlue.643f32.json",
+        "PassRed.0e9fa2.json",
+        "PassGreen.9c69b9.json",
+        "PassYellow.65876d.json",
+        "ScriptingTrigger.323acb.json",
+        "ScriptingTrigger.e96c10.json",
+        "ScriptingTrigger.93de6d.json",
+        "Black_Market.ab7ac5.json",
+        "Trash.7d1e07.json",
+        "Trash.52a539.json",
+        "Trash.4060b5.json",
+        "Trash.ea3fe1.json",
+        "Custom_Board.7ded4f.json",
+        "Combat_s_VP.d9a457.json",
+        "ScriptingTrigger.550f6d.json",
+        "Farok.73e664.json",
+        "Custom_PDF.537207.json",
+        "Tleilaxu_bonus_spice.46cd6b.json",
+        "buy6.6a1097.json",
+        "buy7.439df9.json",
+        "buy8.363f98.json",
+        "ScriptingTrigger.e5ba35.json",
+        "ScriptingTrigger.1e5a32.json",
+        "ScriptingTrigger.14b2ca.json",
+        "ScriptingTrigger.042b49.json",
+        "ScriptingTrigger.da08cd.json",
+        "ScriptingTrigger.f5de09.json",
+        "Countess_Ariana.4d862a.json",
+        "Baron_Harkonnen.98cae8.json",
+        "Helena_Richese.5a8a9a.json",
+        "Earl_Memnon.d9daed.json",
+        "Count_Ilban.78551e.json",
+        "Rabban_The_Beast.4cf050.json",
+        "Paul_Atreides.2df658.json",
+        "Duke_Leto.9b6cdc.json",
+        "Viscount_Hundro.6e3714.json",
+        "Archduke_Armand.796f0a.json",
+        "Princess_Yuna.0b6322.json",
+        "Ilesa_Ecaz.158da6.json",
+        "Tessia_Vernius.1839fa.json",
+        "Prince_Rhombur.691ca6.json",
+        "Bene_Tleilax_Board.d5c2db.json",
+        "Deck.77d25d.json",
+        "Deck.afa5e5.json",
+        "Deck.a5dbab.json",
+        "ScriptingTrigger.e23476.json",
+        "ScriptingTrigger.355dc0.json",
+        "ScriptingTrigger.d3521b.json",
+        "ScriptingTrigger.7b2ba8.json",
+        "Deck.58c4c3.json",
+        "Deck.88b666.json",
+        "Deck.ef9531.json",
+        "Deck.45ce21.json",
+        "Deck.2d935f.json",
+        "Deck.8ed0cd.json",
+        "Custom_Tile.bc4d70.json",
+        "Custom_Model.4ee1f2.json",
+        "Reclaimed_Forces.3c772c.50410.json",
+        "Board_Planet_Ix.d75455.json",
+        "Princess_Irulan.514559.json",
+        "Princess_Wensicia.5d90ae.json",
+        "Feyd-Rautha.84581f.json",
+        "Abulurd_Harkonnen.4f8d56.json",
+        "Captain_Otto.97564a.json",
+        "Lady_Fenring.a35523.json",
+        "Hasimir_Fenring.bff714.json",
+        "Earl_Memnon_V2.f3082c.json",
+        "Executrix.36f600.json",
+        "Vorian_Atreides.0cffc9.json",
+        "Whitmore_Bludd.c4d7e4.json",
+        "Scytale.14dbb8.json",
+        "Duke_Mutelli.5133d2.json",
+        "Deck.616984.json",
+        "Deck.7c9ceb.json",
+        "Deck.f9ea6b.json",
+        "The_Sleeper_must_awaken.946ca1.json",
+        "Flagship.366237.json",
+        "Spy_Satellites.73a68f.json",
+        "Atomics_Yellow.7e10a9.json",
+        "Atomics_Green.0a22ec.json",
+        "Atomics_Red.d5ff47.json",
+        "Atomics_Blue.700023.json",
+        "Scientific_Breakthrough.d22031.json",
+        "Staged_Incident.bee42f.json",
+        "Bene_Tlailax.082e07.json",
+        "For_Humanity.71c0c8.json",
+        "Endgame_Card.cfe0cb.json",
+        "Endgame_Tech.1d3e4f.json",
+        "BT_track_Yellow.d20bcf.json",
+        "BT_track_Green.63d39f.json",
+        "BT_track_Blue.96607f.json",
+        "BT_track_Red.2bfc39.json",
+        "Tech_track_Green.658b17.json",
+        "Tech_track_Yellow.8988cf.json",
+        "Tech_track_Blue.292658.json",
+        "Tech_track_Red.39e0f3.json",
+        "Arrakis_Liaison.7d34c9.json",
+        "Foldspace.014161.json",
+        "The_Spice_Must_Flow.8de6d5.json",
+        "Deck.99d41d.json",
+        "immo_station.54413c.json",
+        "Deck.9f6ea8.json",
+        "BlockSquare.6e10cb.json",
+        "Hagal_Core_Deck.a710bc.json",
+        "Deck.2d887f.json",
+        "Deck.72d430.json",
+        "Deck.adbaeb.json",
+        "Deck.43a37f.json",
+        "Deck.d1ff61.json",
+        "Deck.1f3751.json",
+        "Deck.cb48b7.json",
+        "Deck.dd0da1.json",
+        "ScriptingTrigger.e88cd0.json",
+        "Control_the_Spice.497c84.48332.json",
+        "Control_the_Spice.30b760.48432.json",
+        "Control_the_Spice.fbaf9f.48532.json",
+        "Control_the_Spice.7ae7f5.48632.json",
+        "Deck.014c6a.json",
+        "Deck.b8e747.json",
+        "Deck.a76b37.json",
+        "Deck.0c5e03.json",
+        "Deck.85fb54.json",
+        "Deck.44069d.json",
+        "Deck.af840c.json",
+        "Deck.8c99a3.json",
+        "ScriptingTrigger.60a0fd.json",
+        "ScriptingTrigger.1054b7.json",
+        "ScriptingTrigger.5d6083.json",
+        "ScriptingTrigger.5e4d40.json",
+        "ScriptingTrigger.a1a4e8.json",
+        "Custom_Tile.44e3ba.json",
+        "ScriptingTrigger.0e6313.json",
+        "Deck.dcad54.json",
+        "Custom_Model_Bag.6116af.json",
+        "Custom_Tile.e43180.json",
+        "Manuels_VF.433052.json",
+        "ScriptingTrigger.ab9e8d.json",
+        "ScriptingTrigger.659227.json",
+        "ScriptingTrigger.95bb64.json",
+        "ScriptingTrigger.1696ae.json",
+        "ScriptingTrigger.778685.json",
+        "ScriptingTrigger.d4fb57.json",
+        "ScriptingTrigger.52bcf4.json",
+        "ScriptingTrigger.f8c1b0.json",
+        "ScriptingTrigger.8a3807.json",
+        "ScriptingTrigger.78a5cf.json",
+        "ScriptingTrigger.d2b9be.json",
+        "ScriptingTrigger.90e82d.json",
+        "ScriptingTrigger.1f11e0.json",
+        "ScriptingTrigger.79f487.json",
+        "ScriptingTrigger.6518bf.json",
+        "ScriptingTrigger.f9ddaa.json",
+        "ScriptingTrigger.e91e6b.json",
+        "ScriptingTrigger.b60372.json",
+        "ScriptingTrigger.2a7803.json",
+        "ScriptingTrigger.6c0d3e.json",
+        "ScriptingTrigger.459e80.json",
+        "ScriptingTrigger.092fd7.json",
+        "Board_Ix_CHOAM_Overlay.a139cd.json",
+        "Hotseat_Buttons.f65268.json",
+        "clocks.302c1d.json",
+        "Cyrisan_Kyre.f9d232.json",
+        "Dr_Liet_Kynes_V2.fab6ac.json",
+        "Dr_Liet_Kynes.d8bef7.json",
+        "Drisq.b75d78.json",
+        "Edrik_IV.07a2eb.json",
+        "Klev_Lagarin.0d59d5.json",
+        "Horatio_Prime.fed94f.json",
+        "Hwi_Noree.c714a6.json",
+        "Jopati_Kolona.5b6369.json",
+        "Koal_Traytron.494a3f.json",
+        "Leto_II_Atreides.2b5be9.json",
+        "Master_Waff.95625e.json",
+        "Scytale_V2.b8248b.json",
+        "Maximilien_Zelevas.3c6b18.json",
+        "Shaddam_IV_V2.6ce1bd.json",
+        "Staban_Tuek.e7059d.json",
+        "Torg_le_Jeune.e0296b.json",
+        "Tylwyth_Waff.551456.json",
+        "Zebar_Ordos.dc864b.json",
+        "Rhombur_Vernius_V2.835042.json",
+        "Esmar_Tuek_V2.9e53c1.json",
+        "Isyara_St_Shaiad.6e1af5.json",
+        "Worm.20b33a.json"
+    ]
+}

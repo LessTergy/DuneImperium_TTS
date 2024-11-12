@@ -1,0 +1,133 @@
+{
+  "Object": {
+    "GUID": "61453d",
+    "Name": "Custom_Model_Infinite_Bag",
+    "Transform": {
+      "posX": -15.9858894,
+      "posY": 1.80733013,
+      "posZ": 24.34072,
+      "rotX": 0.0170601886,
+      "rotY": 179.9779,
+      "rotZ": 0.08003556,
+      "scaleX": 0.6220455,
+      "scaleY": 0.194999814,
+      "scaleZ": 0.747520447
+    },
+    "Nickname": "",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "MaterialIndex": -1,
+    "MeshIndex": -1,
+    "CustomMesh": {
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666858152071990826/9AD455F2CBAEC01B2CBCDDB8B6DC4CE48D14B545/",
+      "DiffuseURL": "",
+      "NormalURL": "",
+      "ColliderURL": "",
+      "Convex": true,
+      "MaterialIndex": 0,
+      "TypeIndex": 7,
+      "CastShadows": true
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": "",
+    "ContainedObjects": [],
+    "AttachedSnapPoints": [
+      {
+        "Position": {
+          "x": -0.06168207,
+          "y": 0.5000003,
+          "z": 0.0158456154
+        }
+      }
+    ],
+    "ChildObjects": [
+      {
+        "GUID": "e55427",
+        "Name": "Custom_Token",
+        "Transform": {
+          "posX": -0.00000330576518,
+          "posY": -2.67974315e-7,
+          "posZ": 0.00625580456,
+          "rotX": -1.16281082e-10,
+          "rotY": -0.00000288982369,
+          "rotZ": -2.08440834e-10,
+          "scaleX": 0.310585976,
+          "scaleY": 5.12821,
+          "scaleZ": 0.258452624
+        },
+        "Nickname": "Red Flag",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "ColorDiffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+          "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1669113659627165193/966827C9748F73B4C5459DE3C91614FB82474ECC/",
+          "ImageSecondaryURL": "",
+          "ImageScalar": 1,
+          "WidthScale": 0,
+          "CustomToken": {
+            "Thickness": 0.195,
+            "MergeDistancePixels": 15,
+            "StandUp": false,
+            "Stackable": false
+          }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
+      }
+    ]
+  },
+  "StatesPaths": {},
+  "ContainedObjectPaths": [
+    "Red_Flag.054c58.json"
+  ]
+}

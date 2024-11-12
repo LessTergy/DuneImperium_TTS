@@ -1,0 +1,60 @@
+{
+  "Object": {
+    "GUID": "366237",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": 7.900015,
+      "posY": 1.49999976,
+      "posZ": 28.7602348,
+      "rotX": -8.121541e-7,
+      "rotY": 180.000809,
+      "rotZ": -0.0000127345793,
+      "scaleX": 0.432676375,
+      "scaleY": 1,
+      "scaleZ": 0.432676375
+    },
+    "Nickname": "Flagship",
+    "Description": "VP",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.44296363,
+      "g": 0.230963618,
+      "b": 0.0899704
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": false,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": false,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1892102591133346711/952790144889558807C0FA23AF0FECD7F7C2E073/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 2,
+        "Thickness": 0.2,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

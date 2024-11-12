@@ -1,0 +1,72 @@
+{
+  "Object": {
+    "GUID": "734250",
+    "Name": "Custom_Model",
+    "Transform": {
+      "posX": 22.8414,
+      "posY": 1.65632629,
+      "posZ": 25.0292034,
+      "rotX": 359.986877,
+      "rotY": 359.9726,
+      "rotZ": 359.926544,
+      "scaleX": 0.300000429,
+      "scaleY": 0.300000429,
+      "scaleZ": 0.300000429
+    },
+    "Nickname": "Green dreadnought",
+    "Description": "Green",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.191931844,
+      "g": 0.701,
+      "b": 0.167931825
+    },
+    "Tags": [
+      "Dreadnought",
+      "Green"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": false,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomMesh": {
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1000304308619387297/1DE5BB329558E1FA4B5F249FF77E3F49D6B98CA8/",
+      "DiffuseURL": "",
+      "NormalURL": "",
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1000304308619387297/1DE5BB329558E1FA4B5F249FF77E3F49D6B98CA8/",
+      "Convex": true,
+      "MaterialIndex": 0,
+      "TypeIndex": 1,
+      "CustomShader": {
+        "SpecularColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "SpecularIntensity": 0.2,
+        "SpecularSharpness": 7,
+        "FresnelStrength": 0.4
+      },
+      "CastShadows": true
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

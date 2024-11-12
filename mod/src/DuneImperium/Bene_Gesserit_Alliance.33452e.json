@@ -1,0 +1,64 @@
+{
+  "Object": {
+    "GUID": "33452e",
+    "Name": "Custom_Token",
+    "Transform": {
+      "posX": -9.551374,
+      "posY": 1.69297314,
+      "posZ": -1.213455,
+      "rotX": 0.0168817248,
+      "rotY": 179.994,
+      "rotZ": 0.0798717,
+      "scaleX": 0.225935891,
+      "scaleY": 1,
+      "scaleZ": 0.225935891
+    },
+    "Nickname": "Bene Gesserit Alliance",
+    "Description": "VP",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 1,
+      "b": 1
+    },
+    "Tags": [
+      "BeneGesseritAlliance",
+      "VPToken"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1654474664011951458/A72BCFDABF728F3F656134B5CA7BE12D2BDA25CD/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomToken": {
+        "Thickness": 0.2,
+        "MergeDistancePixels": 15,
+        "StandUp": false,
+        "Stackable": false
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

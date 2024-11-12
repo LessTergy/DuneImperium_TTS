@@ -1,0 +1,63 @@
+{
+  "Object": {
+    "GUID": "d92994",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": 9.792734,
+      "posY": 1.6862427,
+      "posZ": 29.2959061,
+      "rotX": 0.00341047859,
+      "rotY": 180.000488,
+      "rotZ": 180.0161,
+      "scaleX": 0.800879061,
+      "scaleY": 1,
+      "scaleZ": 0.800879061
+    },
+    "Nickname": "",
+    "Description": "Tech",
+    "GMNotes": "ok",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "Tags": [
+      "Norma"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/2047504140431345500/CA3C07205ECEFC22C759E350C47B58052D1CB3EC/",
+      "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/2002448397950219095/1EA614EC832B16BC94811A7FE793344057850409/",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 3,
+        "Thickness": 0.1,
+        "Stackable": true,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "#include ./Custom_Tile.d92994.lua",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

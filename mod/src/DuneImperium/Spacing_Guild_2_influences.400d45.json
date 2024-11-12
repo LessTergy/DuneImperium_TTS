@@ -1,0 +1,124 @@
+{
+  "Object": {
+    "GUID": "400d45",
+    "Name": "Custom_Model_Infinite_Bag",
+    "Transform": {
+      "posX": -9.525867,
+      "posY": 1.47924292,
+      "posZ": 2.05801177,
+      "rotX": 0.0168722291,
+      "rotY": 180.000122,
+      "rotZ": 0.07986944,
+      "scaleX": 1.98112869,
+      "scaleY": 0.100000381,
+      "scaleZ": 0.880001068
+    },
+    "Nickname": "Spacing Guild 2 influences",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": true,
+    "Snap": false,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "MaterialIndex": -1,
+    "MeshIndex": -1,
+    "CustomMesh": {
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666858152071990826/9AD455F2CBAEC01B2CBCDDB8B6DC4CE48D14B545/",
+      "DiffuseURL": "",
+      "NormalURL": "",
+      "ColliderURL": "",
+      "Convex": true,
+      "MaterialIndex": 0,
+      "TypeIndex": 7,
+      "CastShadows": true
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": "",
+    "ContainedObjects": [],
+    "ChildObjects": [
+      {
+        "GUID": "15607d",
+        "Name": "Custom_Tile",
+        "Transform": {
+          "posX": 0.0000024691783,
+          "posY": 0.04999974,
+          "posZ": -6.66756648e-7,
+          "rotX": 8.02911e-9,
+          "rotY": 0.000009595833,
+          "rotZ": 6.67010669e-9,
+          "scaleX": 0.222095653,
+          "scaleY": 9.999961,
+          "scaleZ": 0.499999464
+        },
+        "Nickname": "",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "ColorDiffuse": {
+          "r": 0.17254898,
+          "g": 0.07058821,
+          "b": 0.0823529139
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": false,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+          "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1821155741592695418/E71D41B84E6359AF7AC0A7D89D455C95A57ADAB1/",
+          "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1821155741592695418/E71D41B84E6359AF7AC0A7D89D455C95A57ADAB1/",
+          "ImageScalar": 1,
+          "WidthScale": 0,
+          "CustomTile": {
+            "Type": 0,
+            "Thickness": 0.1,
+            "Stackable": false,
+            "Stretch": true
+          }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
+      }
+    ]
+  },
+  "StatesPaths": {},
+  "ContainedObjectPaths": [
+    "Spacing_Guild_Friendship.58d8f9.json"
+  ]
+}

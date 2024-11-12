@@ -1,0 +1,64 @@
+{
+  "Object": {
+    "GUID": "13e990",
+    "Name": "Custom_Token",
+    "Transform": {
+      "posX": -9.511965,
+      "posY": 1.69617951,
+      "posZ": 9.860894,
+      "rotX": 0.0168651082,
+      "rotY": 180.000259,
+      "rotZ": 0.0798754543,
+      "scaleX": 0.225935891,
+      "scaleY": 1,
+      "scaleZ": 0.225935891
+    },
+    "Nickname": "Emperor Alliance",
+    "Description": "VP",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 1,
+      "b": 1
+    },
+    "Tags": [
+      "EmperorAlliance",
+      "VPToken"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1654474664011951973/ECED8BD7A3F50C785D5A065FF151B7660E244F7B/",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomToken": {
+        "Thickness": 0.2,
+        "MergeDistancePixels": 15,
+        "StandUp": false,
+        "Stackable": false
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

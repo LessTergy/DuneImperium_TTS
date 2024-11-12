@@ -1,0 +1,48 @@
+{
+  "Object": {
+    "GUID": "120026",
+    "Name": "Checker_white",
+    "Transform": {
+      "posX": 5.132931,
+      "posY": 1.44167531,
+      "posZ": -2.14839268,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 1.8001678,
+      "scaleY": 0.452834547,
+      "scaleZ": 1.8
+    },
+    "Nickname": "Makers&Recall",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 1,
+      "b": 1
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": false,
+    "Snap": false,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": false,
+    "Sticky": false,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "LuaScript": "#include ./Makers&Recall.120026.lua",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

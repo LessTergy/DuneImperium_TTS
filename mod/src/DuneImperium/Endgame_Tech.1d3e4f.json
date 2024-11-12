@@ -1,0 +1,124 @@
+{
+  "Object": {
+    "GUID": "1d3e4f",
+    "Name": "Custom_Model_Infinite_Bag",
+    "Transform": {
+      "posX": 7.91449547,
+      "posY": 1.4,
+      "posZ": 29.85,
+      "rotX": 0.000003201651,
+      "rotY": 0.000126352461,
+      "rotZ": 1.06725231e-7,
+      "scaleX": 0.86,
+      "scaleY": 0.2,
+      "scaleZ": 0.86
+    },
+    "Nickname": "Endgame Tech",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "MaterialIndex": -1,
+    "MeshIndex": -1,
+    "CustomMesh": {
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
+      "DiffuseURL": "",
+      "NormalURL": "",
+      "ColliderURL": "",
+      "Convex": true,
+      "MaterialIndex": 0,
+      "TypeIndex": 7,
+      "CastShadows": true
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": "",
+    "ContainedObjects": [],
+    "ChildObjects": [
+      {
+        "GUID": "e7c4bd",
+        "Name": "Custom_Tile",
+        "Transform": {
+          "posX": -0.009811652,
+          "posY": 0.499965131,
+          "posZ": 0.0138238911,
+          "rotX": 0.000593358243,
+          "rotY": 180.0005,
+          "rotZ": -0.000136506147,
+          "scaleX": 0.503112,
+          "scaleY": 5,
+          "scaleZ": 0.503112
+        },
+        "Nickname": "Endgame Tech",
+        "Description": "VP",
+        "GMNotes": "",
+        "AltLookAngle": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "ColorDiffuse": {
+          "r": 0.442982733,
+          "g": 0.230982721,
+          "b": 0.08998596
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": false,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": false,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+          "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1892102591133502255/FAD2FB5CE4D9C41AB839F3C1032A8CDB30E34BAE/",
+          "ImageSecondaryURL": "",
+          "ImageScalar": 1,
+          "WidthScale": 0,
+          "CustomTile": {
+            "Type": 2,
+            "Thickness": 0.2,
+            "Stackable": false,
+            "Stretch": true
+          }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
+      }
+    ]
+  },
+  "StatesPaths": {},
+  "ContainedObjectPaths": [
+    "Endgame_Tech.d4284a.json"
+  ]
+}

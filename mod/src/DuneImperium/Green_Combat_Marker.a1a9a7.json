@@ -1,0 +1,76 @@
+{
+  "Object": {
+    "GUID": "a1a9a7",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": 1.196664,
+      "posY": 1.86853659,
+      "posZ": -8.089157,
+      "rotX": 359.9283,
+      "rotY": 180.215164,
+      "rotZ": 359.7189,
+      "scaleX": 0.400256664,
+      "scaleY": 1,
+      "scaleZ": 0.400256664
+    },
+    "Nickname": "Green Combat Marker",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.1919536,
+      "g": 0.701,
+      "b": 0.167953581
+    },
+    "Tags": [
+      "CombatTokens"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": false,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": false,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1670239430228529891/C50B1FA4FABD9843E3FA5921AAFA0B3F2F8D4ECC/",
+      "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1670239430228530176/564D9E1068D3D7D0249BD8130B957FAD00F06A0F/",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 3,
+        "Thickness": 0.300000131,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": "",
+    "PhysicsMaterial": {
+      "StaticFriction": 1,
+      "DynamicFriction": 0.7,
+      "Bounciness": 0,
+      "FrictionCombine": 0,
+      "BounceCombine": 0
+    },
+    "Rigidbody": {
+      "Mass": 10,
+      "Drag": 0.1,
+      "AngularDrag": 0.1,
+      "UseGravity": true
+    }
+  },
+  "StatesPaths": {}
+}

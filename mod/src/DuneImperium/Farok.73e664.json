@@ -1,0 +1,63 @@
+{
+  "Object": {
+    "GUID": "73e664",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": -12.0031815,
+      "posY": 2.18782568,
+      "posZ": 72.1386,
+      "rotX": 0.000008870589,
+      "rotY": 179.994675,
+      "rotZ": 1.35973423e-7,
+      "scaleX": 1.72827446,
+      "scaleY": 1,
+      "scaleZ": 1.72827446
+    },
+    "Nickname": "Farok",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "Tags": [
+      "Leader"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "https://i.imgur.com/UZEYmO4.jpg",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 3,
+        "Thickness": 0.1,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "#include ./Farok.73e664.lua",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

@@ -1,0 +1,63 @@
+{
+  "Object": {
+    "GUID": "7bdba3",
+    "Name": "Custom_Tile",
+    "Transform": {
+      "posX": -17.0684719,
+      "posY": 2.18782544,
+      "posZ": 68.5820541,
+      "rotX": 0.0000116148049,
+      "rotY": 179.978836,
+      "rotZ": -1.85828313e-7,
+      "scaleX": 1.72827446,
+      "scaleY": 1,
+      "scaleZ": 1.72827446
+    },
+    "Nickname": "Miles Teg",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "Tags": [
+      "Leader"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "CustomImage": {
+      "ImageURL": "https://i.imgur.com/lB6tuI5.jpg",
+      "ImageSecondaryURL": "",
+      "ImageScalar": 1,
+      "WidthScale": 0,
+      "CustomTile": {
+        "Type": 3,
+        "Thickness": 0.1,
+        "Stackable": false,
+        "Stretch": true
+      }
+    },
+    "LuaScript": "#include ./Miles_Teg.7bdba3.lua",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

@@ -1,0 +1,54 @@
+{
+  "Object": {
+    "GUID": "373d17",
+    "Name": "Custom_PDF",
+    "Transform": {
+      "posX": 8.087311,
+      "posY": 1.465899,
+      "posZ": -14.7251978,
+      "rotX": 0.0168643016,
+      "rotY": 180.004776,
+      "rotZ": 0.0798782855,
+      "scaleX": 1.50152087,
+      "scaleY": 1,
+      "scaleZ": 1.50152087
+    },
+    "Nickname": "Rise of Ix Rulebook",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 1,
+      "b": 1
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": true,
+    "Snap": false,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": true,
+    "CustomPDF": {
+      "PDFUrl": "http://cloud-3.steamusercontent.com/ugc/1841406112598529538/F55C0BC54AD4F658FFF7A511D5740BF93A0CB19E/",
+      "PDFPassword": "",
+      "PDFPage": 0,
+      "PDFPageOffset": 0
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

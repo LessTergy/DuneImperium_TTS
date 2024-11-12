@@ -1,0 +1,64 @@
+{
+  "Object": {
+    "GUID": "7ae7f5",
+    "Name": "Card",
+    "Transform": {
+      "posX": -31.6140785,
+      "posY": 2.263605,
+      "posZ": 39.33719,
+      "rotX": -5.671524e-7,
+      "rotY": 179.997482,
+      "rotZ": 3.26392978e-7,
+      "scaleX": 1.05,
+      "scaleY": 1,
+      "scaleZ": 1.05
+    },
+    "Nickname": "Control the Spice",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 0.713235259,
+      "g": 0.713235259,
+      "b": 0.713235259
+    },
+    "Tags": [
+      "Imperium"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": false,
+    "GridProjection": false,
+    "HideWhenFaceDown": true,
+    "Hands": true,
+    "CardID": 48632,
+    "SidewaysCard": false,
+    "CustomDeck": {
+      "486": {
+        "FaceURL": "http://cloud-3.steamusercontent.com/ugc/2029469358243344265/9DFCC56F20D09D60CF2B9D9050CB9640176F71B6/",
+        "BackURL": "http://cloud-3.steamusercontent.com/ugc/1892102433196500461/C3DC7A02CF378129569B414967C9BE25097C6E77/",
+        "NumWidth": 7,
+        "NumHeight": 5,
+        "BackIsHidden": true,
+        "UniqueBack": false,
+        "Type": 0
+      }
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": ""
+  },
+  "StatesPaths": {}
+}

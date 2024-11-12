@@ -1,0 +1,127 @@
+{
+  "Object": {
+    "GUID": "0c4ca1",
+    "Name": "Custom_Model_Infinite_Bag",
+    "Transform": {
+      "posX": 9.259299,
+      "posY": 2.334267,
+      "posZ": 39.6063843,
+      "rotX": 0.000002961535,
+      "rotY": 180.010529,
+      "rotZ": -8.250304e-7,
+      "scaleX": 0.857872,
+      "scaleY": 0.200000048,
+      "scaleZ": 0.857872
+    },
+    "Nickname": "Rival's VP",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0
+    },
+    "Tags": [
+      "AutomataStuff"
+    ],
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": false,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "MaterialIndex": -1,
+    "MeshIndex": -1,
+    "CustomMesh": {
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
+      "DiffuseURL": "",
+      "NormalURL": "",
+      "ColliderURL": "",
+      "Convex": true,
+      "MaterialIndex": 0,
+      "TypeIndex": 7,
+      "CastShadows": true
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": "",
+    "ContainedObjects": [],
+    "ChildObjects": [
+      {
+        "GUID": "01e0e9",
+        "Name": "Custom_Tile",
+        "Transform": {
+          "posX": 9.046674e-7,
+          "posY": 0.0999998748,
+          "posZ": 2.03711352e-7,
+          "rotX": 8.725774e-11,
+          "rotY": 0.00000181151938,
+          "rotZ": 1.379413e-18,
+          "scaleX": 0.504634261,
+          "scaleY": 4.99999857,
+          "scaleZ": 0.504634261
+        },
+        "Nickname": "Rival's VP",
+        "Description": "VP",
+        "GMNotes": "",
+        "AltLookAngle": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "ColorDiffuse": {
+          "r": 0.442990184,
+          "g": 0.230990171,
+          "b": 0.089992024
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": false,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": false,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+          "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1821155945559482899/1891DE379BD583833F0FD255888FD28F5FE9D0B9/",
+          "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/1821155945559482899/1891DE379BD583833F0FD255888FD28F5FE9D0B9/",
+          "ImageScalar": 1,
+          "WidthScale": 0,
+          "CustomTile": {
+            "Type": 2,
+            "Thickness": 0.2,
+            "Stackable": false,
+            "Stretch": true
+          }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
+      }
+    ]
+  },
+  "StatesPaths": {},
+  "ContainedObjectPaths": [
+    "Rival_s_VP.47c12f.json"
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "Object": {
+    "GUID": "3371d8",
+    "Name": "Custom_Model_Bag",
+    "Transform": {
+      "posX": 3.9,
+      "posY": 1.49804282,
+      "posZ": 28.76018,
+      "rotX": 0.00003743208,
+      "rotY": 180,
+      "rotZ": -0.00003784594,
+      "scaleX": 0.8574066,
+      "scaleY": 0.200000048,
+      "scaleZ": 0.8574066
+    },
+    "Nickname": "Ixian Engineer",
+    "Description": "",
+    "GMNotes": "",
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "ColorDiffuse": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0
+    },
+    "LayoutGroupSortIndex": 0,
+    "Value": 0,
+    "Locked": true,
+    "Grid": true,
+    "Snap": true,
+    "IgnoreFoW": false,
+    "MeasureMovement": false,
+    "DragSelectable": true,
+    "Autoraise": true,
+    "Sticky": true,
+    "Tooltip": true,
+    "GridProjection": false,
+    "HideWhenFaceDown": false,
+    "Hands": false,
+    "MaterialIndex": -1,
+    "MeshIndex": -1,
+    "CustomMesh": {
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
+      "DiffuseURL": "",
+      "NormalURL": "",
+      "ColliderURL": "",
+      "Convex": true,
+      "MaterialIndex": 0,
+      "TypeIndex": 6,
+      "CastShadows": true
+    },
+    "Bag": {
+      "Order": 0
+    },
+    "LuaScript": "",
+    "LuaScriptState": "",
+    "XmlUI": "",
+    "ContainedObjects": [],
+    "ChildObjects": [
+      {
+        "GUID": "b59462",
+        "Name": "Custom_Tile",
+        "Transform": {
+          "posX": -0.0000326084228,
+          "posY": -0.0999998,
+          "posZ": -0.000006883332,
+          "rotX": 5.00256947e-9,
+          "rotY": 0.00000257792453,
+          "rotZ": 4.66907466e-7,
+          "scaleX": 0.5046338,
+          "scaleY": 4.99999762,
+          "scaleZ": 0.5046337
+        },
+        "Nickname": "Ixian Engineer",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "ColorDiffuse": {
+          "r": 0.4429943,
+          "g": 0.230994314,
+          "b": 0.08999539
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": false,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": false,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+          "ImageURL": "http://cloud-3.steamusercontent.com/ugc/1825652729288330576/1C7BA1BAEAB25E6703F13882E76A38DF8AC925E8/",
+          "ImageSecondaryURL": "",
+          "ImageScalar": 1,
+          "WidthScale": 0,
+          "CustomTile": {
+            "Type": 2,
+            "Thickness": 0.2,
+            "Stackable": false,
+            "Stretch": true
+          }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
+      }
+    ]
+  },
+  "StatesPaths": {},
+  "ContainedObjectPaths": [
+    "Ixian_Engineer.e99241.json",
+    "Ixian_Engineer.057847.json"
+  ]
+}
