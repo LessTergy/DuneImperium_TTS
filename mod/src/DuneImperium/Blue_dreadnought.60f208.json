@@ -1,72 +1,72 @@
 {
-  "Object": {
-    "GUID": "60f208",
-    "Name": "Custom_Model",
-    "Transform": {
-      "posX": -21.932333,
-      "posY": 1.71311533,
-      "posZ": 2.8356843,
-      "rotX": 359.988739,
-      "rotY": 359.917847,
-      "rotZ": 359.92,
-      "scaleX": 0.300000429,
-      "scaleY": 0.300000429,
-      "scaleZ": 0.300000429
-    },
-    "Nickname": "Blue dreadnought",
-    "Description": "Blue",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.11792811,
-      "g": 0.53,
-      "b": 1
-    },
-    "Tags": [
-      "Blue",
-      "Dreadnought"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": false,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomMesh": {
-      "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1000304308619387297/1DE5BB329558E1FA4B5F249FF77E3F49D6B98CA8/",
-      "DiffuseURL": "",
-      "NormalURL": "",
-      "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1000304308619387297/1DE5BB329558E1FA4B5F249FF77E3F49D6B98CA8/",
-      "Convex": true,
-      "MaterialIndex": 0,
-      "TypeIndex": 1,
-      "CustomShader": {
-        "SpecularColor": {
-          "r": 1,
-          "g": 1,
-          "b": 1
+    "Object": {
+        "GUID": "60f208",
+        "Name": "Custom_Model",
+        "Transform": {
+            "posX": -21.93,
+            "posY": 1.71,
+            "posZ": 2.84,
+            "rotX": 359.99,
+            "rotY": 359.92,
+            "rotZ": 359.92,
+            "scaleX": 0.3,
+            "scaleY": 0.3,
+            "scaleZ": 0.3
         },
-        "SpecularIntensity": 0.2,
-        "SpecularSharpness": 7,
-        "FresnelStrength": 0.4
-      },
-      "CastShadows": true
+        "Nickname": "Blue dreadnought",
+        "Description": "Blue",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.12,
+            "g": 0.53,
+            "b": 1
+        },
+        "Tags": [
+            "Blue",
+            "Dreadnought"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": false,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomMesh": {
+            "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1000304308619387297/1DE5BB329558E1FA4B5F249FF77E3F49D6B98CA8/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1000304308619387297/1DE5BB329558E1FA4B5F249FF77E3F49D6B98CA8/",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+                "SpecularColor": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                },
+                "SpecularIntensity": 0.2,
+                "SpecularSharpness": 7,
+                "FresnelStrength": 0.4
+            },
+            "CastShadows": true
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

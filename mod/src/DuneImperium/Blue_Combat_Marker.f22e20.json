@@ -1,76 +1,76 @@
 {
-  "Object": {
-    "GUID": "f22e20",
-    "Name": "Custom_Tile",
-    "Transform": {
-      "posX": 1.15222466,
-      "posY": 2.46751475,
-      "posZ": -8.07673,
-      "rotX": 359.888062,
-      "rotY": 179.568222,
-      "rotZ": 359.605835,
-      "scaleX": 0.400256664,
-      "scaleY": 1,
-      "scaleZ": 0.400256664
+    "Object": {
+        "GUID": "f22e20",
+        "Name": "Custom_Tile",
+        "Transform": {
+            "posX": 1.15,
+            "posY": 2.47,
+            "posZ": -8.08,
+            "rotX": 359.89,
+            "rotY": 179.57,
+            "rotZ": 359.61,
+            "scaleX": 0.4,
+            "scaleY": 1,
+            "scaleZ": 0.4
+        },
+        "Nickname": "Blue Combat Marker",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.12,
+            "g": 0.53,
+            "b": 1
+        },
+        "Tags": [
+            "CombatTokens"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": false,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": false,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1656728439408254068/AC79ECDFCC6ABE02476CEB0C60D4BB298B48D6B4/",
+            "ImageSecondaryURL": "https://steamusercontent-a.akamaihd.net/ugc/1656728439412418758/7C2B10B2E5233E6F476184E2848E48E13E510568/",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+                "Type": 3,
+                "Thickness": 0.3,
+                "Stackable": false,
+                "Stretch": true
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": "",
+        "PhysicsMaterial": {
+            "StaticFriction": 1,
+            "DynamicFriction": 0.7,
+            "Bounciness": 0,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+        },
+        "Rigidbody": {
+            "Mass": 10,
+            "Drag": 0.1,
+            "AngularDrag": 0.1,
+            "UseGravity": true
+        }
     },
-    "Nickname": "Blue Combat Marker",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.121530004,
-      "g": 0.5294118,
-      "b": 1
-    },
-    "Tags": [
-      "CombatTokens"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": false,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": false,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1656728439408254068/AC79ECDFCC6ABE02476CEB0C60D4BB298B48D6B4/",
-      "ImageSecondaryURL": "https://steamusercontent-a.akamaihd.net/ugc/1656728439412418758/7C2B10B2E5233E6F476184E2848E48E13E510568/",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomTile": {
-        "Type": 3,
-        "Thickness": 0.299999654,
-        "Stackable": false,
-        "Stretch": true
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "PhysicsMaterial": {
-      "StaticFriction": 1,
-      "DynamicFriction": 0.7,
-      "Bounciness": 0,
-      "FrictionCombine": 0,
-      "BounceCombine": 0
-    },
-    "Rigidbody": {
-      "Mass": 10,
-      "Drag": 0.1,
-      "AngularDrag": 0.1,
-      "UseGravity": true
-    }
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

@@ -1,61 +1,61 @@
 {
-  "Object": {
-    "GUID": "0f7564",
-    "Name": "CardCustom",
-    "Transform": {
-      "posX": 21.2894344,
-      "posY": 2.30144382,
-      "posZ": 41.817894,
-      "rotX": -0.00145737955,
-      "rotY": 180,
-      "rotZ": 0.037083324,
-      "scaleX": 0.83,
-      "scaleY": 1,
-      "scaleZ": 0.83
+    "Object": {
+        "GUID": "0f7564",
+        "Name": "CardCustom",
+        "Transform": {
+            "posX": 21.29,
+            "posY": 2.3,
+            "posZ": 41.82,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0.04,
+            "scaleX": 0.83,
+            "scaleY": 1,
+            "scaleZ": 0.83
+        },
+        "Nickname": "Smuggling or Interstellar",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.71,
+            "g": 0.71,
+            "b": 0.71
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": true,
+        "Hands": true,
+        "CardID": 16600,
+        "SidewaysCard": false,
+        "CustomDeck": {
+            "166": {
+                "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1833531164457148962/352C9C2F86BCE0E8832CA2265D0C2A4829D11A14/",
+                "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1670239430231973967/ACE7BA96F9E5F8218FA434192B90234FD9ED4E38/",
+                "NumWidth": 1,
+                "NumHeight": 1,
+                "BackIsHidden": true,
+                "UniqueBack": false,
+                "Type": 0
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Smuggling or Interstellar",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.713235259,
-      "g": 0.713235259,
-      "b": 0.713235259
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": true,
-    "Hands": true,
-    "CardID": 16600,
-    "SidewaysCard": false,
-    "CustomDeck": {
-      "166": {
-        "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1833531164457148962/352C9C2F86BCE0E8832CA2265D0C2A4829D11A14/",
-        "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1670239430231973967/ACE7BA96F9E5F8218FA434192B90234FD9ED4E38/",
-        "NumWidth": 1,
-        "NumHeight": 1,
-        "BackIsHidden": true,
-        "UniqueBack": false,
-        "Type": 0
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

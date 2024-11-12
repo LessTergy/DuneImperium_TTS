@@ -1,63 +1,63 @@
 {
-  "Object": {
-    "GUID": "07a2eb",
-    "Name": "Custom_Tile",
-    "Transform": {
-      "posX": -17.0684719,
-      "posY": 2.18782473,
-      "posZ": 57.91098,
-      "rotX": 0.000009525749,
-      "rotY": 179.999924,
-      "rotZ": -8.57884856e-8,
-      "scaleX": 1.70145762,
-      "scaleY": 1,
-      "scaleZ": 1.70145762
+    "Object": {
+        "GUID": "07a2eb",
+        "Name": "Custom_Tile",
+        "Transform": {
+            "posX": -17.07,
+            "posY": 2.19,
+            "posZ": 57.91,
+            "rotX": 0,
+            "rotY": 180.0,
+            "rotZ": 0,
+            "scaleX": 1.7,
+            "scaleY": 1,
+            "scaleZ": 1.7
+        },
+        "Nickname": "Edrik IV",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+        },
+        "Tags": [
+            "Leader"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2021593312048738245/F32F243777501EBB8DFE31247D83A938D8842C27/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+                "Type": 3,
+                "Thickness": 0.1,
+                "Stackable": false,
+                "Stretch": true
+            }
+        },
+        "LuaScript": "#include ./Edrik_IV.07a2eb.lua",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Edrik IV",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0,
-      "g": 0,
-      "b": 0
-    },
-    "Tags": [
-      "Leader"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2021593312048738245/F32F243777501EBB8DFE31247D83A938D8842C27/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomTile": {
-        "Type": 3,
-        "Thickness": 0.1,
-        "Stackable": false,
-        "Stretch": true
-      }
-    },
-    "LuaScript": "#include ./Edrik_IV.07a2eb.lua",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

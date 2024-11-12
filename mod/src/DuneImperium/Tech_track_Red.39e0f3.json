@@ -1,65 +1,65 @@
 {
-  "Object": {
-    "GUID": "39e0f3",
-    "Name": "Custom_Token",
-    "Transform": {
-      "posX": 0.173038244,
-      "posY": 1.78740323,
-      "posZ": 20.8245316,
-      "rotX": 0.0168639924,
-      "rotY": 179.972809,
-      "rotZ": 0.0800001547,
-      "scaleX": 0.1686744,
-      "scaleY": 1,
-      "scaleZ": 0.1686744
+    "Object": {
+        "GUID": "39e0f3",
+        "Name": "Custom_Token",
+        "Transform": {
+            "posX": 0.17,
+            "posY": 1.79,
+            "posZ": 20.82,
+            "rotX": 0.02,
+            "rotY": 179.97,
+            "rotZ": 0.08,
+            "scaleX": 0.17,
+            "scaleY": 1,
+            "scaleZ": 0.17
+        },
+        "Nickname": "Tech track Red",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 0.01,
+            "b": 0
+        },
+        "Tags": [
+            "BT Board",
+            "Red",
+            "ResearchToken"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": false,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": true,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1654474838742796853/4884939CCEB0A6276F3800194A608DEEE4415C4F/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomToken": {
+                "Thickness": 0.4,
+                "MergeDistancePixels": 15,
+                "StandUp": false,
+                "Stackable": true
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Tech track Red",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 0.01025645,
-      "b": 0
-    },
-    "Tags": [
-      "BT Board",
-      "Red",
-      "ResearchToken"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": false,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": true,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1654474838742796853/4884939CCEB0A6276F3800194A608DEEE4415C4F/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomToken": {
-        "Thickness": 0.4000003,
-        "MergeDistancePixels": 15,
-        "StandUp": false,
-        "Stackable": true
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

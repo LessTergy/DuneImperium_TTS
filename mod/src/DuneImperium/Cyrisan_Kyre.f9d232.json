@@ -1,63 +1,63 @@
 {
-  "Object": {
-    "GUID": "f9d232",
-    "Name": "Custom_Tile",
-    "Transform": {
-      "posX": 3.19268441,
-      "posY": 2.187825,
-      "posZ": 61.4689445,
-      "rotX": 0.000005571266,
-      "rotY": 179.997528,
-      "rotZ": -5.74339474e-8,
-      "scaleX": 1.70145762,
-      "scaleY": 1,
-      "scaleZ": 1.70145762
+    "Object": {
+        "GUID": "f9d232",
+        "Name": "Custom_Tile",
+        "Transform": {
+            "posX": 3.19,
+            "posY": 2.19,
+            "posZ": 61.47,
+            "rotX": 0,
+            "rotY": 180.0,
+            "rotZ": 0,
+            "scaleX": 1.7,
+            "scaleY": 1,
+            "scaleZ": 1.7
+        },
+        "Nickname": "Cyrisan Kyre",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+        },
+        "Tags": [
+            "Leader"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2021593312048725656/EB75C43263E6266AB4637FB4CE66EC9985616680/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+                "Type": 3,
+                "Thickness": 0.1,
+                "Stackable": false,
+                "Stretch": true
+            }
+        },
+        "LuaScript": "#include ./Cyrisan_Kyre.f9d232.lua",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Cyrisan Kyre",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0,
-      "g": 0,
-      "b": 0
-    },
-    "Tags": [
-      "Leader"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2021593312048725656/EB75C43263E6266AB4637FB4CE66EC9985616680/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomTile": {
-        "Type": 3,
-        "Thickness": 0.1,
-        "Stackable": false,
-        "Stretch": true
-      }
-    },
-    "LuaScript": "#include ./Cyrisan_Kyre.f9d232.lua",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

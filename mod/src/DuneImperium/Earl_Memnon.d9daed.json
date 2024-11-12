@@ -1,63 +1,63 @@
 {
-  "Object": {
-    "GUID": "d9daed",
-    "Name": "Custom_Tile",
-    "Transform": {
-      "posX": 0.248437569,
-      "posY": 2.23426771,
-      "posZ": 46.5890732,
-      "rotX": 0.000005273475,
-      "rotY": 179.999664,
-      "rotZ": 3.14994679e-8,
-      "scaleX": 1.72827446,
-      "scaleY": 1,
-      "scaleZ": 1.72827446
+    "Object": {
+        "GUID": "d9daed",
+        "Name": "Custom_Tile",
+        "Transform": {
+            "posX": 0.25,
+            "posY": 2.23,
+            "posZ": 46.59,
+            "rotX": 0,
+            "rotY": 180.0,
+            "rotZ": 0,
+            "scaleX": 1.73,
+            "scaleY": 1,
+            "scaleZ": 1.73
+        },
+        "Nickname": "Earl Memnon",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+        },
+        "Tags": [
+            "Leader"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102433196237593/8431F61C545067A4EADC017E6295CB249A2BD813/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+                "Type": 3,
+                "Thickness": 0.1,
+                "Stackable": false,
+                "Stretch": true
+            }
+        },
+        "LuaScript": "#include ./Earl_Memnon.d9daed.lua",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Earl Memnon",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0,
-      "g": 0,
-      "b": 0
-    },
-    "Tags": [
-      "Leader"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102433196237593/8431F61C545067A4EADC017E6295CB249A2BD813/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomTile": {
-        "Type": 3,
-        "Thickness": 0.1,
-        "Stackable": false,
-        "Stretch": true
-      }
-    },
-    "LuaScript": "#include ./Earl_Memnon.d9daed.lua",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

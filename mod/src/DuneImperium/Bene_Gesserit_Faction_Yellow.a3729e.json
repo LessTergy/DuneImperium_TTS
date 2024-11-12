@@ -1,65 +1,65 @@
 {
-  "Object": {
-    "GUID": "a3729e",
-    "Name": "Custom_Token",
-    "Transform": {
-      "posX": -8.88872,
-      "posY": 1.66590524,
-      "posZ": -5.1000967,
-      "rotX": 0.0168935936,
-      "rotY": 179.961,
-      "rotZ": 0.07984038,
-      "scaleX": 0.100051254,
-      "scaleY": 1,
-      "scaleZ": 0.100051254
+    "Object": {
+        "GUID": "a3729e",
+        "Name": "Custom_Token",
+        "Transform": {
+            "posX": -8.89,
+            "posY": 1.67,
+            "posZ": -5.1,
+            "rotX": 0.02,
+            "rotY": 179.96,
+            "rotZ": 0.08,
+            "scaleX": 0.1,
+            "scaleY": 1,
+            "scaleZ": 0.1
+        },
+        "Nickname": "Bene Gesserit Faction Yellow",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 0.97,
+            "b": 0
+        },
+        "Tags": [
+            "BeneGesseritInfluence",
+            "InfluenceTokens",
+            "Yellow"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": false,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1654474838742796853/4884939CCEB0A6276F3800194A608DEEE4415C4F/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomToken": {
+                "Thickness": 0.15,
+                "MergeDistancePixels": 15,
+                "StandUp": false,
+                "Stackable": true
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Bene Gesserit Faction Yellow",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 0.9686274,
-      "b": 0
-    },
-    "Tags": [
-      "BeneGesseritInfluence",
-      "InfluenceTokens",
-      "Yellow"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": false,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1654474838742796853/4884939CCEB0A6276F3800194A608DEEE4415C4F/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomToken": {
-        "Thickness": 0.15000014,
-        "MergeDistancePixels": 15,
-        "StandUp": false,
-        "Stackable": true
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

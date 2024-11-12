@@ -1,49 +1,49 @@
 {
-  "Object": {
-    "GUID": "376f34",
-    "Name": "ScriptingTrigger",
-    "Transform": {
-      "posX": -28.0680752,
-      "posY": 1.90970993,
-      "posZ": 0.438162625,
-      "rotX": 0,
-      "rotY": 359.428162,
-      "rotZ": 0,
-      "scaleX": 1.82148027,
-      "scaleY": 7.9819603,
-      "scaleZ": 5.807691
+    "Object": {
+        "GUID": "376f34",
+        "Name": "ScriptingTrigger",
+        "Transform": {
+            "posX": -28.07,
+            "posY": 1.91,
+            "posZ": 0.44,
+            "rotX": 0,
+            "rotY": 359.43,
+            "rotZ": 0,
+            "scaleX": 1.82,
+            "scaleY": 7.98,
+            "scaleZ": 5.81
+        },
+        "Nickname": "",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.51
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 1,
-      "b": 1,
-      "a": 0.509803951
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

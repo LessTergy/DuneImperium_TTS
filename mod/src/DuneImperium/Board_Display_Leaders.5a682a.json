@@ -1,154 +1,154 @@
 {
-  "Object": {
-    "GUID": "5a682a",
-    "Name": "Custom_Board",
-    "Transform": {
-      "posX": -1.55677664,
-      "posY": 1.642024,
-      "posZ": 40.3005867,
-      "rotX": 0,
-      "rotY": 180,
-      "rotZ": 0,
-      "scaleX": 1,
-      "scaleY": 1,
-      "scaleZ": 1
+    "Object": {
+        "GUID": "5a682a",
+        "Name": "Custom_Board",
+        "Transform": {
+            "posX": -1.56,
+            "posY": 1.64,
+            "posZ": 40.3,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+        },
+        "Nickname": "Board Display Leaders",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.79,
+            "g": 0.79,
+            "b": 0.79
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1860546304051408601/A611C77FDA4EA6DFABA1FF6FFE8376D143BF6160/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 1.77
+        },
+        "LuaScript": "#include ./Board_Display_Leaders.5a682a.lua",
+        "LuaScriptState": "",
+        "XmlUI": "",
+        "AttachedSnapPoints": [
+            {
+                "Position": {
+                    "x": 5.18,
+                    "y": 0.59,
+                    "z": 1.71
+                }
+            },
+            {
+                "Position": {
+                    "x": 5.18,
+                    "y": 0.59,
+                    "z": -2.29
+                }
+            },
+            {
+                "Position": {
+                    "x": 5.18,
+                    "y": 0.59,
+                    "z": -6.29
+                }
+            },
+            {
+                "Position": {
+                    "x": 2.08,
+                    "y": 0.59,
+                    "z": -6.29
+                }
+            },
+            {
+                "Position": {
+                    "x": 2.08,
+                    "y": 0.59,
+                    "z": -2.29
+                }
+            },
+            {
+                "Position": {
+                    "x": 2.08,
+                    "y": 0.59,
+                    "z": 1.71
+                }
+            },
+            {
+                "Position": {
+                    "x": -1.02,
+                    "y": 0.59,
+                    "z": -6.29
+                }
+            },
+            {
+                "Position": {
+                    "x": -1.02,
+                    "y": 0.59,
+                    "z": -2.29
+                }
+            },
+            {
+                "Position": {
+                    "x": -1.02,
+                    "y": 0.59,
+                    "z": 1.71
+                }
+            },
+            {
+                "Position": {
+                    "x": -1.02,
+                    "y": 0.59,
+                    "z": 5.71
+                }
+            },
+            {
+                "Position": {
+                    "x": -4.12,
+                    "y": 0.59,
+                    "z": 5.71
+                }
+            },
+            {
+                "Position": {
+                    "x": -4.12,
+                    "y": 0.59,
+                    "z": 1.71
+                }
+            },
+            {
+                "Position": {
+                    "x": -4.12,
+                    "y": 0.59,
+                    "z": -2.29
+                }
+            },
+            {
+                "Position": {
+                    "x": -4.12,
+                    "y": 0.59,
+                    "z": -6.29
+                }
+            }
+        ]
     },
-    "Nickname": "Board Display Leaders",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.7867647,
-      "g": 0.7867647,
-      "b": 0.7867647
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1860546304051408601/A611C77FDA4EA6DFABA1FF6FFE8376D143BF6160/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 1.77469671
-    },
-    "LuaScript": "#include ./Board_Display_Leaders.5a682a.lua",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "AttachedSnapPoints": [
-      {
-        "Position": {
-          "x": 5.18059969,
-          "y": 0.5922432,
-          "z": 1.71145332
-        }
-      },
-      {
-        "Position": {
-          "x": 5.180601,
-          "y": 0.59224534,
-          "z": -2.288501
-        }
-      },
-      {
-        "Position": {
-          "x": 5.18060064,
-          "y": 0.592241764,
-          "z": -6.288501
-        }
-      },
-      {
-        "Position": {
-          "x": 2.081471,
-          "y": 0.5922437,
-          "z": -6.28850126
-        }
-      },
-      {
-        "Position": {
-          "x": 2.08147883,
-          "y": 0.592243433,
-          "z": -2.28853965
-        }
-      },
-      {
-        "Position": {
-          "x": 2.081471,
-          "y": 0.5922432,
-          "z": 1.711491
-        }
-      },
-      {
-        "Position": {
-          "x": -1.01721489,
-          "y": 0.5922437,
-          "z": -6.28850174
-        }
-      },
-      {
-        "Position": {
-          "x": -1.01764679,
-          "y": 0.592243433,
-          "z": -2.288502
-        }
-      },
-      {
-        "Position": {
-          "x": -1.01764643,
-          "y": 0.5922432,
-          "z": 1.71149814
-        }
-      },
-      {
-        "Position": {
-          "x": -1.01764524,
-          "y": 0.592242956,
-          "z": 5.71149826
-        }
-      },
-      {
-        "Position": {
-          "x": -4.11675835,
-          "y": 0.592244864,
-          "z": 5.711498
-        }
-      },
-      {
-        "Position": {
-          "x": -4.11675549,
-          "y": 0.5922451,
-          "z": 1.71144807
-        }
-      },
-      {
-        "Position": {
-          "x": -4.11676359,
-          "y": 0.592243433,
-          "z": -2.28850245
-        }
-      },
-      {
-        "Position": {
-          "x": -4.11676455,
-          "y": 0.592241764,
-          "z": -6.288502
-        }
-      }
-    ]
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

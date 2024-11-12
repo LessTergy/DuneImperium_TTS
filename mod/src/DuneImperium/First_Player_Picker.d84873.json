@@ -1,48 +1,48 @@
 {
-  "Object": {
-    "GUID": "d84873",
-    "Name": "backgammon_piece_white",
-    "Transform": {
-      "posX": 4.79,
-      "posY": 1.5,
-      "posZ": -3.69,
-      "rotX": 0,
-      "rotY": -0.00159783789,
-      "rotZ": 0,
-      "scaleX": 1,
-      "scaleY": 0.150847152,
-      "scaleZ": 1
+    "Object": {
+        "GUID": "d84873",
+        "Name": "backgammon_piece_white",
+        "Transform": {
+            "posX": 4.79,
+            "posY": 1.5,
+            "posZ": -3.69,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 0.15,
+            "scaleZ": 1
+        },
+        "Nickname": "First Player Picker",
+        "Description": "Use this button to determine the first player",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.74,
+            "g": 0.74,
+            "b": 0.74
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "LuaScript": "#include ./First_Player_Picker.d84873.lua",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "First Player Picker",
-    "Description": "Use this button to determine the first player",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.735294163,
-      "g": 0.735294163,
-      "b": 0.735294163
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "LuaScript": "#include ./First_Player_Picker.d84873.lua",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

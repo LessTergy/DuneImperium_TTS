@@ -1,72 +1,72 @@
 {
-  "Object": {
-    "GUID": "34281d",
-    "Name": "Custom_Model",
-    "Transform": {
-      "posX": 8.449836,
-      "posY": 1.6707114,
-      "posZ": 6.850247,
-      "rotX": 359.940247,
-      "rotY": 270.034058,
-      "rotZ": 0.0595208555,
-      "scaleX": 0.250000417,
-      "scaleY": 0.250000417,
-      "scaleZ": 0.250000417
-    },
-    "Nickname": "Green Cargo",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.191931844,
-      "g": 0.701,
-      "b": 0.167931825
-    },
-    "Tags": [
-      "Cargo",
-      "Green"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": false,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomMesh": {
-      "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1000304308619392790/8799409E48FC2E0EE4A1D454E0D7B42AD3774A4D/",
-      "DiffuseURL": "",
-      "NormalURL": "",
-      "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1000304308619392790/8799409E48FC2E0EE4A1D454E0D7B42AD3774A4D/",
-      "Convex": true,
-      "MaterialIndex": 0,
-      "TypeIndex": 1,
-      "CustomShader": {
-        "SpecularColor": {
-          "r": 1,
-          "g": 1,
-          "b": 1
+    "Object": {
+        "GUID": "34281d",
+        "Name": "Custom_Model",
+        "Transform": {
+            "posX": 8.45,
+            "posY": 1.67,
+            "posZ": 6.85,
+            "rotX": 359.94,
+            "rotY": 270.03,
+            "rotZ": 0.06,
+            "scaleX": 0.25,
+            "scaleY": 0.25,
+            "scaleZ": 0.25
         },
-        "SpecularIntensity": 0.2,
-        "SpecularSharpness": 7,
-        "FresnelStrength": 0.4
-      },
-      "CastShadows": true
+        "Nickname": "Green Cargo",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.19,
+            "g": 0.7,
+            "b": 0.17
+        },
+        "Tags": [
+            "Cargo",
+            "Green"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": false,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomMesh": {
+            "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1000304308619392790/8799409E48FC2E0EE4A1D454E0D7B42AD3774A4D/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1000304308619392790/8799409E48FC2E0EE4A1D454E0D7B42AD3774A4D/",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+                "SpecularColor": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                },
+                "SpecularIntensity": 0.2,
+                "SpecularSharpness": 7,
+                "FresnelStrength": 0.4
+            },
+            "CastShadows": true
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

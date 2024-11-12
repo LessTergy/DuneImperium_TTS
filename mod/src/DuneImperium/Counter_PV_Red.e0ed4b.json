@@ -1,140 +1,140 @@
 {
-  "Object": {
-    "GUID": "e0ed4b",
-    "Name": "Custom_Board",
-    "Transform": {
-      "posX": -28.08406,
-      "posY": 1.614699,
-      "posZ": 22.572588,
-      "rotX": -0.000008629712,
-      "rotY": 180.000046,
-      "rotZ": 0.000137326686,
-      "scaleX": 0.35,
-      "scaleY": 0.35,
-      "scaleZ": 0.35
+    "Object": {
+        "GUID": "e0ed4b",
+        "Name": "Custom_Board",
+        "Transform": {
+            "posX": -28.08,
+            "posY": 1.61,
+            "posZ": 22.57,
+            "rotX": 0,
+            "rotY": 180.0,
+            "rotZ": 0,
+            "scaleX": 0.35,
+            "scaleY": 0.35,
+            "scaleZ": 0.35
+        },
+        "Nickname": "Counter PV Red",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.79,
+            "g": 0.79,
+            "b": 0.79
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": false,
+        "Snap": false,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": false,
+        "Autoraise": false,
+        "Sticky": false,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1822281124424909392/D5F0298C5EA0B1846E1BC4EE3E77F39466FEE0E2/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0.31
+        },
+        "LuaScript": "#include ./Counter_PV_Red.e0ed4b.lua",
+        "LuaScriptState": "",
+        "XmlUI": "",
+        "AttachedSnapPoints": [
+            {
+                "Position": {
+                    "x": 4.16,
+                    "y": 0.59,
+                    "z": 6.71
+                }
+            },
+            {
+                "Position": {
+                    "x": 4.36,
+                    "y": 0.59,
+                    "z": 3.76
+                }
+            },
+            {
+                "Position": {
+                    "x": 4.32,
+                    "y": 0.59,
+                    "z": 0.9
+                }
+            },
+            {
+                "Position": {
+                    "x": 4.35,
+                    "y": 0.59,
+                    "z": -1.98
+                }
+            },
+            {
+                "Position": {
+                    "x": 4.33,
+                    "y": 0.59,
+                    "z": -4.88
+                }
+            },
+            {
+                "Position": {
+                    "x": 4.37,
+                    "y": 0.59,
+                    "z": -7.65
+                }
+            },
+            {
+                "Position": {
+                    "x": -4.37,
+                    "y": 0.59,
+                    "z": -7.54
+                }
+            },
+            {
+                "Position": {
+                    "x": -4.36,
+                    "y": 0.59,
+                    "z": -4.72
+                }
+            },
+            {
+                "Position": {
+                    "x": -4.12,
+                    "y": 0.59,
+                    "z": -1.96
+                }
+            },
+            {
+                "Position": {
+                    "x": -4.31,
+                    "y": 0.59,
+                    "z": 0.92
+                }
+            },
+            {
+                "Position": {
+                    "x": -4.24,
+                    "y": 0.59,
+                    "z": 3.82
+                }
+            },
+            {
+                "Position": {
+                    "x": -4.05,
+                    "y": 0.59,
+                    "z": 6.7
+                }
+            }
+        ]
     },
-    "Nickname": "Counter PV Red",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.7867647,
-      "g": 0.7867647,
-      "b": 0.7867647
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": false,
-    "Snap": false,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": false,
-    "Autoraise": false,
-    "Sticky": false,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1822281124424909392/D5F0298C5EA0B1846E1BC4EE3E77F39466FEE0E2/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0.313648283
-    },
-    "LuaScript": "#include ./Counter_PV_Red.e0ed4b.lua",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "AttachedSnapPoints": [
-      {
-        "Position": {
-          "x": 4.159403,
-          "y": 0.592244148,
-          "z": 6.70734167
-        }
-      },
-      {
-        "Position": {
-          "x": 4.36189651,
-          "y": 0.592242837,
-          "z": 3.76284337
-        }
-      },
-      {
-        "Position": {
-          "x": 4.324392,
-          "y": 0.592242956,
-          "z": 0.8975879
-        }
-      },
-      {
-        "Position": {
-          "x": 4.353068,
-          "y": 0.592243135,
-          "z": -1.97644651
-        }
-      },
-      {
-        "Position": {
-          "x": 4.32906342,
-          "y": 0.5922433,
-          "z": -4.88370228
-        }
-      },
-      {
-        "Position": {
-          "x": 4.36896324,
-          "y": 0.592243731,
-          "z": -7.65378857
-        }
-      },
-      {
-        "Position": {
-          "x": -4.367298,
-          "y": 0.5922424,
-          "z": -7.543435
-        }
-      },
-      {
-        "Position": {
-          "x": -4.355265,
-          "y": 0.5922426,
-          "z": -4.71669436
-        }
-      },
-      {
-        "Position": {
-          "x": -4.11993074,
-          "y": 0.592245,
-          "z": -1.96211362
-        }
-      },
-      {
-        "Position": {
-          "x": -4.31285048,
-          "y": 0.5922443,
-          "z": 0.9185379
-        }
-      },
-      {
-        "Position": {
-          "x": -4.236566,
-          "y": 0.5922441,
-          "z": 3.81761622
-        }
-      },
-      {
-        "Position": {
-          "x": -4.0494647,
-          "y": 0.5922421,
-          "z": 6.70247126
-        }
-      }
-    ]
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

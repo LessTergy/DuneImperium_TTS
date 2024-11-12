@@ -1,63 +1,63 @@
 {
-  "Object": {
-    "GUID": "7e10a9",
-    "Name": "Custom_Token",
-    "Transform": {
-      "posX": 13.3998652,
-      "posY": 1.70401537,
-      "posZ": -5.83646965,
-      "rotX": 0.0192447715,
-      "rotY": 180.029129,
-      "rotZ": 0.07258331,
-      "scaleX": 0.239203319,
-      "scaleY": 1,
-      "scaleZ": 0.239203319
+    "Object": {
+        "GUID": "7e10a9",
+        "Name": "Custom_Token",
+        "Transform": {
+            "posX": 13.4,
+            "posY": 1.7,
+            "posZ": -5.84,
+            "rotX": 0.02,
+            "rotY": 180.03,
+            "rotZ": 0.07,
+            "scaleX": 0.24,
+            "scaleY": 1,
+            "scaleZ": 0.24
+        },
+        "Nickname": "Atomics Yellow",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+        },
+        "Tags": [
+            "Yellow"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1895479187440625541/B4C52266D76DCB7F1C3C6EB702D0DB070C92B869/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomToken": {
+                "Thickness": 0.1,
+                "MergeDistancePixels": 15,
+                "StandUp": false,
+                "Stackable": false
+            }
+        },
+        "LuaScript": "#include ./Atomics_Yellow.7e10a9.lua",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Atomics Yellow",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 1,
-      "b": 1
-    },
-    "Tags": [
-      "Yellow"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1895479187440625541/B4C52266D76DCB7F1C3C6EB702D0DB070C92B869/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomToken": {
-        "Thickness": 0.1,
-        "MergeDistancePixels": 15,
-        "StandUp": false,
-        "Stackable": false
-      }
-    },
-    "LuaScript": "#include ./Atomics_Yellow.7e10a9.lua",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

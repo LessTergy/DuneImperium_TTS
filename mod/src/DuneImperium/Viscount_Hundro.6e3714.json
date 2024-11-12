@@ -1,63 +1,63 @@
 {
-  "Object": {
-    "GUID": "6e3714",
-    "Name": "Custom_Tile",
-    "Transform": {
-      "posX": -5.250785,
-      "posY": 2.23426771,
-      "posZ": 46.5890846,
-      "rotX": 0.00000758797842,
-      "rotY": 179.999481,
-      "rotZ": 1.99455073e-7,
-      "scaleX": 1.70145762,
-      "scaleY": 1,
-      "scaleZ": 1.70145762
+    "Object": {
+        "GUID": "6e3714",
+        "Name": "Custom_Tile",
+        "Transform": {
+            "posX": -5.25,
+            "posY": 2.23,
+            "posZ": 46.59,
+            "rotX": 0,
+            "rotY": 180.0,
+            "rotZ": 0,
+            "scaleX": 1.7,
+            "scaleY": 1,
+            "scaleZ": 1.7
+        },
+        "Nickname": "Viscount Hundro",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+        },
+        "Tags": [
+            "Leader"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102433196275601/6A89778D9C4BB8AC07FE503D48A4483D13DF6E5B/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+                "Type": 3,
+                "Thickness": 0.1,
+                "Stackable": false,
+                "Stretch": true
+            }
+        },
+        "LuaScript": "#include ./Viscount_Hundro.6e3714.lua",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Viscount Hundro",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0,
-      "g": 0,
-      "b": 0
-    },
-    "Tags": [
-      "Leader"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102433196275601/6A89778D9C4BB8AC07FE503D48A4483D13DF6E5B/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomTile": {
-        "Type": 3,
-        "Thickness": 0.1,
-        "Stackable": false,
-        "Stretch": true
-      }
-    },
-    "LuaScript": "#include ./Viscount_Hundro.6e3714.lua",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

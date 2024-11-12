@@ -1,98 +1,98 @@
 {
-  "Object": {
-    "GUID": "ab7ac5",
-    "Name": "Custom_Tile",
-    "Transform": {
-      "posX": -50,
-      "posY": 200,
-      "posZ": 20.05,
-      "rotX": 0,
-      "rotY": 180.025833,
-      "rotZ": -0.0000180232055,
-      "scaleX": 1.81079769,
-      "scaleY": 1,
-      "scaleZ": 1.81079769
-    },
-    "Nickname": "Black Market",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0,
-      "g": 0,
-      "b": 0
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1840298513726237315/AF0F1CD2091725FF6FD43D3A75A2362D5D19B2F9/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomTile": {
-        "Type": 0,
-        "Thickness": 0.1,
-        "Stackable": false,
-        "Stretch": true
-      }
-    },
-    "LuaScript": "#include ./Black_Market.ab7ac5.lua",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "AttachedSnapPoints": [
-      {
-        "Position": {
-          "x": -2.064246,
-          "y": 0.100000158,
-          "z": -0.0266824085
+    "Object": {
+        "GUID": "ab7ac5",
+        "Name": "Custom_Tile",
+        "Transform": {
+            "posX": -50,
+            "posY": 200,
+            "posZ": 20.05,
+            "rotX": 0,
+            "rotY": 180.03,
+            "rotZ": 0,
+            "scaleX": 1.81,
+            "scaleY": 1,
+            "scaleZ": 1.81
         },
-        "Rotation": {
-          "x": 2.01931059e-8,
-          "y": 359.974182,
-          "z": -3.15251758e-9
-        }
-      },
-      {
-        "Position": {
-          "x": -0.6505041,
-          "y": 0.100000247,
-          "z": -0.0260448977
+        "Nickname": "Black Market",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
         },
-        "Rotation": {
-          "x": 5.30859623e-8,
-          "y": 359.974182,
-          "z": -5.981199e-8
-        }
-      },
-      {
-        "Position": {
-          "x": 0.7632375,
-          "y": 0.100000218,
-          "z": -0.02540739
+        "ColorDiffuse": {
+            "r": 0,
+            "g": 0,
+            "b": 0
         },
-        "Rotation": {
-          "x": 2.40018867e-8,
-          "y": 359.974182,
-          "z": 2.62335522e-8
-        }
-      }
-    ]
-  },
-  "StatesPaths": {}
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1840298513726237315/AF0F1CD2091725FF6FD43D3A75A2362D5D19B2F9/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+                "Type": 0,
+                "Thickness": 0.1,
+                "Stackable": false,
+                "Stretch": true
+            }
+        },
+        "LuaScript": "#include ./Black_Market.ab7ac5.lua",
+        "LuaScriptState": "",
+        "XmlUI": "",
+        "AttachedSnapPoints": [
+            {
+                "Position": {
+                    "x": -2.06,
+                    "y": 0.1,
+                    "z": -0.03
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 359.97,
+                    "z": 0
+                }
+            },
+            {
+                "Position": {
+                    "x": -0.65,
+                    "y": 0.1,
+                    "z": -0.03
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 359.97,
+                    "z": 0
+                }
+            },
+            {
+                "Position": {
+                    "x": 0.76,
+                    "y": 0.1,
+                    "z": -0.03
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 359.97,
+                    "z": 0
+                }
+            }
+        ]
+    },
+    "StatesPaths": {}
 }

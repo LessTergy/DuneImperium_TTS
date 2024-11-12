@@ -1,61 +1,61 @@
 {
-  "Object": {
-    "GUID": "9b5f50",
-    "Name": "Card",
-    "Transform": {
-      "posX": -9.404548,
-      "posY": 1.50097275,
-      "posZ": -24.6191273,
-      "rotX": 0.0169179942,
-      "rotY": 180.000137,
-      "rotZ": 180.080109,
-      "scaleX": 1,
-      "scaleY": 1,
-      "scaleZ": 1
+    "Object": {
+        "GUID": "9b5f50",
+        "Name": "Card",
+        "Transform": {
+            "posX": -9.4,
+            "posY": 1.5,
+            "posZ": -24.62,
+            "rotX": 0.02,
+            "rotY": 180.0,
+            "rotZ": 180.08,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+        },
+        "Nickname": "Trade Monopoly",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.71,
+            "g": 0.71,
+            "b": 0.71
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": true,
+        "Hands": true,
+        "CardID": 47410,
+        "SidewaysCard": false,
+        "CustomDeck": {
+            "474": {
+                "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130038927/B1CD3F41933A9DD44522934B5F6CF3C5FF77A51C/",
+                "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130039766/3B3F54DF65F76F0850D0EC683602524806A11E49/",
+                "NumWidth": 6,
+                "NumHeight": 2,
+                "BackIsHidden": true,
+                "UniqueBack": false,
+                "Type": 0
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Trade Monopoly",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.713235259,
-      "g": 0.713235259,
-      "b": 0.713235259
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": true,
-    "Hands": true,
-    "CardID": 47410,
-    "SidewaysCard": false,
-    "CustomDeck": {
-      "474": {
-        "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130038927/B1CD3F41933A9DD44522934B5F6CF3C5FF77A51C/",
-        "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130039766/3B3F54DF65F76F0850D0EC683602524806A11E49/",
-        "NumWidth": 6,
-        "NumHeight": 2,
-        "BackIsHidden": true,
-        "UniqueBack": false,
-        "Type": 0
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

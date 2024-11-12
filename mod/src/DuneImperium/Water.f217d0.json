@@ -1,60 +1,60 @@
 {
-  "Object": {
-    "GUID": "f217d0",
-    "Name": "Custom_Token",
-    "Transform": {
-      "posX": 21.3843136,
-      "posY": 1.69851,
-      "posZ": -5.15060949,
-      "rotX": 0.0192295648,
-      "rotY": 180.044617,
-      "rotZ": 0.07254622,
-      "scaleX": 0.5,
-      "scaleY": 1,
-      "scaleZ": 0.5
+    "Object": {
+        "GUID": "f217d0",
+        "Name": "Custom_Token",
+        "Transform": {
+            "posX": 21.38,
+            "posY": 1.7,
+            "posZ": -5.15,
+            "rotX": 0.02,
+            "rotY": 180.04,
+            "rotZ": 0.07,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+        },
+        "Nickname": "Water",
+        "Description": "Left click - Increase\nRight click - Decrease",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1771572672508145955/FE6473E22DF5F8D141C555182BA2AC3D4AAA58E5/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomToken": {
+                "Thickness": 0.1,
+                "MergeDistancePixels": 5,
+                "StandUp": false,
+                "Stackable": false
+            }
+        },
+        "LuaScript": "#include ./Water.f217d0.lua",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Water",
-    "Description": "Left click - Increase\nRight click - Decrease",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 1,
-      "b": 1
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1771572672508145955/FE6473E22DF5F8D141C555182BA2AC3D4AAA58E5/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomToken": {
-        "Thickness": 0.1,
-        "MergeDistancePixels": 5,
-        "StandUp": false,
-        "Stackable": false
-      }
-    },
-    "LuaScript": "#include ./Water.f217d0.lua",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

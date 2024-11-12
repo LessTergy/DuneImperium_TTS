@@ -1,51 +1,51 @@
 {
-  "Object": {
-    "GUID": "fb43c5",
-    "Name": "Card",
-    "Transform": {
-      "posX": 12.3305111,
-      "posY": 2.27445364,
-      "posZ": 37.5190048,
-      "rotX": 0.00000220752941,
-      "rotY": 180.0063,
-      "rotZ": 0.00000224830819,
-      "scaleX": 0.83,
-      "scaleY": 1,
-      "scaleZ": 0.83
+    "Object": {
+        "GUID": "fb43c5",
+        "Name": "Card",
+        "Transform": {
+            "posX": 12.33,
+            "posY": 2.27,
+            "posZ": 37.52,
+            "rotX": 0,
+            "rotY": 180.01,
+            "rotZ": 0,
+            "scaleX": 0.83,
+            "scaleY": 1,
+            "scaleZ": 0.83
+        },
+        "Nickname": "",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.71,
+            "g": 0.71,
+            "b": 0.71
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "Hands": true,
+        "CardID": 47801,
+        "SidewaysCard": false,
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": "",
+        "ContainedObjects": []
     },
-    "Nickname": "",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.713235259,
-      "g": 0.713235259,
-      "b": 0.713235259
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "Hands": true,
-    "CardID": 47801,
-    "SidewaysCard": false,
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "ContainedObjects": []
-  },
-  "StatesPaths": {},
-  "ContainedObjectPaths": []
+    "StatesPaths": {},
+    "ContainedObjectPaths": []
 }

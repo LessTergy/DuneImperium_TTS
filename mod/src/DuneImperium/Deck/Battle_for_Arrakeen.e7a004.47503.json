@@ -1,61 +1,61 @@
 {
-  "Object": {
-    "GUID": "e7a004",
-    "Name": "Card",
-    "Transform": {
-      "posX": -10.6926661,
-      "posY": 1.56978416,
-      "posZ": -27.7938137,
-      "rotX": -0.000108299384,
-      "rotY": 180,
-      "rotZ": 179.097336,
-      "scaleX": 1,
-      "scaleY": 1,
-      "scaleZ": 1
+    "Object": {
+        "GUID": "e7a004",
+        "Name": "Card",
+        "Transform": {
+            "posX": -10.69,
+            "posY": 1.57,
+            "posZ": -27.79,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 179.1,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+        },
+        "Nickname": "Battle for Arrakeen",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.71,
+            "g": 0.71,
+            "b": 0.71
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": true,
+        "Hands": true,
+        "CardID": 47503,
+        "SidewaysCard": false,
+        "CustomDeck": {
+            "475": {
+                "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130041563/F1BEAE6266E75B7A2F5DE511DB4FEB25A2CD486B/",
+                "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130041978/9E194557E37B5C4CA74C7A77CBFB6B8A36043916/",
+                "NumWidth": 3,
+                "NumHeight": 2,
+                "BackIsHidden": true,
+                "UniqueBack": false,
+                "Type": 0
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Battle for Arrakeen",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.713235259,
-      "g": 0.713235259,
-      "b": 0.713235259
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": true,
-    "Hands": true,
-    "CardID": 47503,
-    "SidewaysCard": false,
-    "CustomDeck": {
-      "475": {
-        "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130041563/F1BEAE6266E75B7A2F5DE511DB4FEB25A2CD486B/",
-        "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130041978/9E194557E37B5C4CA74C7A77CBFB6B8A36043916/",
-        "NumWidth": 3,
-        "NumHeight": 2,
-        "BackIsHidden": true,
-        "UniqueBack": false,
-        "Type": 0
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

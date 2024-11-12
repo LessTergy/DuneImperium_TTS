@@ -1,72 +1,72 @@
 {
-  "Object": {
-    "GUID": "1a3c82",
-    "Name": "Custom_Model",
-    "Transform": {
-      "posX": -22.06303,
-      "posY": 1.71876156,
-      "posZ": 24.6657734,
-      "rotX": 359.990234,
-      "rotY": 0.4772067,
-      "rotZ": 359.917755,
-      "scaleX": 0.300000429,
-      "scaleY": 0.300000429,
-      "scaleZ": 0.300000429
-    },
-    "Nickname": "Red dreadnought",
-    "Description": "Red",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.856,
-      "g": 0.09993147,
-      "b": 0.0939311
-    },
-    "Tags": [
-      "Dreadnought",
-      "Red"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": false,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomMesh": {
-      "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1000304308619387297/1DE5BB329558E1FA4B5F249FF77E3F49D6B98CA8/",
-      "DiffuseURL": "",
-      "NormalURL": "",
-      "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1000304308619387297/1DE5BB329558E1FA4B5F249FF77E3F49D6B98CA8/",
-      "Convex": true,
-      "MaterialIndex": 0,
-      "TypeIndex": 1,
-      "CustomShader": {
-        "SpecularColor": {
-          "r": 1,
-          "g": 1,
-          "b": 1
+    "Object": {
+        "GUID": "1a3c82",
+        "Name": "Custom_Model",
+        "Transform": {
+            "posX": -22.06,
+            "posY": 1.72,
+            "posZ": 24.67,
+            "rotX": 359.99,
+            "rotY": 0.48,
+            "rotZ": 359.92,
+            "scaleX": 0.3,
+            "scaleY": 0.3,
+            "scaleZ": 0.3
         },
-        "SpecularIntensity": 0.2,
-        "SpecularSharpness": 7,
-        "FresnelStrength": 0.4
-      },
-      "CastShadows": true
+        "Nickname": "Red dreadnought",
+        "Description": "Red",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.86,
+            "g": 0.1,
+            "b": 0.09
+        },
+        "Tags": [
+            "Dreadnought",
+            "Red"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": false,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomMesh": {
+            "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1000304308619387297/1DE5BB329558E1FA4B5F249FF77E3F49D6B98CA8/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/1000304308619387297/1DE5BB329558E1FA4B5F249FF77E3F49D6B98CA8/",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 1,
+            "CustomShader": {
+                "SpecularColor": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                },
+                "SpecularIntensity": 0.2,
+                "SpecularSharpness": 7,
+                "FresnelStrength": 0.4
+            },
+            "CastShadows": true
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

@@ -1,124 +1,124 @@
 {
-  "Object": {
-    "GUID": "7b3fa2",
-    "Name": "Custom_Model_Infinite_Bag",
-    "Transform": {
-      "posX": 5.9,
-      "posY": 1.53029191,
-      "posZ": 28.76018,
-      "rotX": -0.0000310861433,
-      "rotY": 180,
-      "rotZ": -0.00000123473092,
-      "scaleX": 0.8574066,
-      "scaleY": 0.199999809,
-      "scaleZ": 0.8574066
-    },
-    "Nickname": "Detonation Devices",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 1,
-      "b": 1,
-      "a": 0
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "MaterialIndex": -1,
-    "MeshIndex": -1,
-    "CustomMesh": {
-      "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
-      "DiffuseURL": "",
-      "NormalURL": "",
-      "ColliderURL": "",
-      "Convex": true,
-      "MaterialIndex": 0,
-      "TypeIndex": 7,
-      "CastShadows": true
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "ContainedObjects": [],
-    "ChildObjects": [
-      {
-        "GUID": "4af692",
-        "Name": "Custom_Tile",
+    "Object": {
+        "GUID": "7b3fa2",
+        "Name": "Custom_Model_Infinite_Bag",
         "Transform": {
-          "posX": -0.0000325917354,
-          "posY": -0.0999999046,
-          "posZ": -0.000006872344,
-          "rotX": 5.002571e-9,
-          "rotY": 0.00000175206412,
-          "rotZ": 5.869694e-7,
-          "scaleX": 0.5046338,
-          "scaleY": 5.000005,
-          "scaleZ": 0.504633844
+            "posX": 5.9,
+            "posY": 1.53,
+            "posZ": 28.76,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 0.86,
+            "scaleY": 0.2,
+            "scaleZ": 0.86
         },
         "Nickname": "Detonation Devices",
         "Description": "",
         "GMNotes": "",
         "AltLookAngle": {
-          "x": 0,
-          "y": 0,
-          "z": 0
+            "x": 0,
+            "y": 0,
+            "z": 0
         },
         "ColorDiffuse": {
-          "r": 0.442996234,
-          "g": 0.230996221,
-          "b": 0.08999694
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0
         },
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": true,
-        "Grid": false,
+        "Grid": true,
         "Snap": true,
         "IgnoreFoW": false,
         "MeasureMovement": false,
         "DragSelectable": true,
         "Autoraise": true,
-        "Sticky": false,
+        "Sticky": true,
         "Tooltip": true,
         "GridProjection": false,
         "HideWhenFaceDown": false,
         "Hands": false,
-        "CustomImage": {
-          "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591133373704/4785FCA57F5C0F6F15C272A0824F687F029B48F3/",
-          "ImageSecondaryURL": "",
-          "ImageScalar": 1,
-          "WidthScale": 0,
-          "CustomTile": {
-            "Type": 2,
-            "Thickness": 0.2,
-            "Stackable": false,
-            "Stretch": true
-          }
+        "MaterialIndex": -1,
+        "MeshIndex": -1,
+        "CustomMesh": {
+            "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 7,
+            "CastShadows": true
         },
         "LuaScript": "",
         "LuaScriptState": "",
-        "XmlUI": ""
-      }
+        "XmlUI": "",
+        "ContainedObjects": [],
+        "ChildObjects": [
+            {
+                "GUID": "4af692",
+                "Name": "Custom_Tile",
+                "Transform": {
+                    "posX": 0,
+                    "posY": -0.1,
+                    "posZ": 0,
+                    "rotX": 0,
+                    "rotY": 0,
+                    "rotZ": 0,
+                    "scaleX": 0.5,
+                    "scaleY": 5.0,
+                    "scaleZ": 0.5
+                },
+                "Nickname": "Detonation Devices",
+                "Description": "",
+                "GMNotes": "",
+                "AltLookAngle": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "ColorDiffuse": {
+                    "r": 0.44,
+                    "g": 0.23,
+                    "b": 0.09
+                },
+                "LayoutGroupSortIndex": 0,
+                "Value": 0,
+                "Locked": true,
+                "Grid": false,
+                "Snap": true,
+                "IgnoreFoW": false,
+                "MeasureMovement": false,
+                "DragSelectable": true,
+                "Autoraise": true,
+                "Sticky": false,
+                "Tooltip": true,
+                "GridProjection": false,
+                "HideWhenFaceDown": false,
+                "Hands": false,
+                "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591133373704/4785FCA57F5C0F6F15C272A0824F687F029B48F3/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1,
+                    "WidthScale": 0,
+                    "CustomTile": {
+                        "Type": 2,
+                        "Thickness": 0.2,
+                        "Stackable": false,
+                        "Stretch": true
+                    }
+                },
+                "LuaScript": "",
+                "LuaScriptState": "",
+                "XmlUI": ""
+            }
+        ]
+    },
+    "StatesPaths": {},
+    "ContainedObjectPaths": [
+        "Detonation_Devices.67dc66.json"
     ]
-  },
-  "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Detonation_Devices.67dc66.json"
-  ]
 }

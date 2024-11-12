@@ -1,60 +1,60 @@
 {
-  "Object": {
-    "GUID": "58d8f9",
-    "Name": "Custom_Tile",
-    "Transform": {
-      "posX": -9.748248,
-      "posY": 1.82252729,
-      "posZ": 1.826976,
-      "rotX": 0.000008501051,
-      "rotY": 0.000008453262,
-      "rotZ": 180,
-      "scaleX": 0.432911634,
-      "scaleY": 1,
-      "scaleZ": 0.432911634
+    "Object": {
+        "GUID": "58d8f9",
+        "Name": "Custom_Tile",
+        "Transform": {
+            "posX": -9.75,
+            "posY": 1.82,
+            "posZ": 1.83,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 180,
+            "scaleX": 0.43,
+            "scaleY": 1,
+            "scaleZ": 0.43
+        },
+        "Nickname": "Spacing Guild Friendship",
+        "Description": "VP",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.85,
+            "g": 0.1,
+            "b": 0.09
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": false,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": false,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591133123707/EE150D61A21719E14C3A141669FEE8EBDD04ECAE/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+                "Type": 2,
+                "Thickness": 0.2,
+                "Stackable": false,
+                "Stretch": true
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Spacing Guild Friendship",
-    "Description": "VP",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.854901969,
-      "g": 0.0980341658,
-      "b": 0.09411218
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": false,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": false,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591133123707/EE150D61A21719E14C3A141669FEE8EBDD04ECAE/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomTile": {
-        "Type": 2,
-        "Thickness": 0.2,
-        "Stackable": false,
-        "Stretch": true
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

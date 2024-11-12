@@ -1,61 +1,61 @@
 {
-  "Object": {
-    "GUID": "9cac53",
-    "Name": "Card",
-    "Transform": {
-      "posX": -24.5297089,
-      "posY": 1.519903,
-      "posZ": -27.43489,
-      "rotX": 0.16817598,
-      "rotY": 179.977524,
-      "rotZ": 180.102631,
-      "scaleX": 1,
-      "scaleY": 1,
-      "scaleZ": 1
+    "Object": {
+        "GUID": "9cac53",
+        "Name": "Card",
+        "Transform": {
+            "posX": -24.53,
+            "posY": 1.52,
+            "posZ": -27.43,
+            "rotX": 0.17,
+            "rotY": 179.98,
+            "rotZ": 180.1,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+        },
+        "Nickname": "Skirmish ",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.71,
+            "g": 0.71,
+            "b": 0.71
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": true,
+        "Hands": true,
+        "CardID": 47305,
+        "SidewaysCard": false,
+        "CustomDeck": {
+            "473": {
+                "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130036834/F1C0913A589ADB0A0532DFB8FAA7E9D7942CF6CB/",
+                "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130037191/0423ECA84C0D71CCB38EBD60DEAE641EE72D7933/",
+                "NumWidth": 3,
+                "NumHeight": 2,
+                "BackIsHidden": true,
+                "UniqueBack": false,
+                "Type": 0
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Skirmish ",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.713235259,
-      "g": 0.713235259,
-      "b": 0.713235259
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": true,
-    "Hands": true,
-    "CardID": 47305,
-    "SidewaysCard": false,
-    "CustomDeck": {
-      "473": {
-        "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130036834/F1C0913A589ADB0A0532DFB8FAA7E9D7942CF6CB/",
-        "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130037191/0423ECA84C0D71CCB38EBD60DEAE641EE72D7933/",
-        "NumWidth": 3,
-        "NumHeight": 2,
-        "BackIsHidden": true,
-        "UniqueBack": false,
-        "Type": 0
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

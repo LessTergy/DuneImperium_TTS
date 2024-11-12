@@ -1,49 +1,49 @@
 {
-  "Object": {
-    "GUID": "bd69bd",
-    "Name": "Chinese_Checkers_Piece",
-    "Transform": {
-      "posX": 33.5600052,
-      "posY": -0.259998322,
-      "posZ": -31.12,
-      "rotX": 0.00190076465,
-      "rotY": 180,
-      "rotZ": 0.000379891542,
-      "scaleX": 1.6499995,
-      "scaleY": 1.6499995,
-      "scaleZ": 1.6499995
+    "Object": {
+        "GUID": "bd69bd",
+        "Name": "Chinese_Checkers_Piece",
+        "Transform": {
+            "posX": 33.56,
+            "posY": -0.26,
+            "posZ": -31.12,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1.65,
+            "scaleY": 1.65,
+            "scaleZ": 1.65
+        },
+        "Nickname": "Flex Table Control",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "MaterialIndex": 1,
+        "LuaScript": "#include ./Flex_Table_Control.bd69bd.lua",
+        "LuaScriptState": "#include ./Flex_Table_Control.bd69bd.state.json",
+        "XmlUI": ""
     },
-    "Nickname": "Flex Table Control",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 1,
-      "b": 1
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "MaterialIndex": 1,
-    "LuaScript": "#include ./Flex_Table_Control.bd69bd.lua",
-    "LuaScriptState": "#include ./Flex_Table_Control.bd69bd.state.json",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

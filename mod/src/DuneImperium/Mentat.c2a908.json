@@ -1,62 +1,62 @@
 {
-  "Object": {
-    "GUID": "c2a908",
-    "Name": "Custom_Model",
-    "Transform": {
-      "posX": -0.9678839,
-      "posY": 1.67970717,
-      "posZ": 7.32498026,
-      "rotX": 0.0168692134,
-      "rotY": 180.02034,
-      "rotZ": 0.08002039,
-      "scaleX": 0.9250001,
-      "scaleY": 0.9250001,
-      "scaleZ": 0.9250001
+    "Object": {
+        "GUID": "c2a908",
+        "Name": "Custom_Model",
+        "Transform": {
+            "posX": -0.97,
+            "posY": 1.68,
+            "posZ": 7.32,
+            "rotX": 0.02,
+            "rotY": 180.02,
+            "rotZ": 0.08,
+            "scaleX": 0.93,
+            "scaleY": 0.93,
+            "scaleZ": 0.93
+        },
+        "Nickname": "Mentat",
+        "Description": "Agent",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+        },
+        "Tags": [
+            "Agent",
+            "Mentat"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomMesh": {
+            "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1655601720504413364/7470B72CC5D054B2092127528B4F9A4D38F1DAC5/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 2,
+            "TypeIndex": 0,
+            "CastShadows": true
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Mentat",
-    "Description": "Agent",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 1,
-      "b": 1
-    },
-    "Tags": [
-      "Agent",
-      "Mentat"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomMesh": {
-      "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1655601720504413364/7470B72CC5D054B2092127528B4F9A4D38F1DAC5/",
-      "DiffuseURL": "",
-      "NormalURL": "",
-      "ColliderURL": "",
-      "Convex": true,
-      "MaterialIndex": 2,
-      "TypeIndex": 0,
-      "CastShadows": true
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

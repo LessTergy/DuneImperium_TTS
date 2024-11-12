@@ -1,55 +1,55 @@
 {
-  "Object": {
-    "GUID": "96aa58",
-    "Name": "Custom_Assetbundle",
-    "Transform": {
-      "posX": -33.7472839,
-      "posY": 4.47003269,
-      "posZ": 46.2146149,
-      "rotX": 0.093481645,
-      "rotY": 180.000839,
-      "rotZ": 0.3812635,
-      "scaleX": 0.6750003,
-      "scaleY": 0.6750003,
-      "scaleZ": 0.6750003
+    "Object": {
+        "GUID": "96aa58",
+        "Name": "Custom_Assetbundle",
+        "Transform": {
+            "posX": -33.75,
+            "posY": 4.47,
+            "posZ": 46.21,
+            "rotX": 0.09,
+            "rotY": 180.0,
+            "rotZ": 0.38,
+            "scaleX": 0.68,
+            "scaleY": 0.68,
+            "scaleZ": 0.68
+        },
+        "Nickname": "Start End Turn - Green",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.19,
+            "g": 0.7,
+            "b": 0.17
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomAssetbundle": {
+            "AssetbundleURL": "https://steamusercontent-a.akamaihd.net/ugc/267231170580138054/83B9C07DD90D4FA8F3DE016617A6BF0BC935D9FF/",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 0,
+            "TypeIndex": 0,
+            "LoopingEffectIndex": 0
+        },
+        "LuaScript": "#include ./Start_End_Turn_-_Green.96aa58.lua",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Start End Turn - Green",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.191997051,
-      "g": 0.701,
-      "b": 0.167997032
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomAssetbundle": {
-      "AssetbundleURL": "https://steamusercontent-a.akamaihd.net/ugc/267231170580138054/83B9C07DD90D4FA8F3DE016617A6BF0BC935D9FF/",
-      "AssetbundleSecondaryURL": "",
-      "MaterialIndex": 0,
-      "TypeIndex": 0,
-      "LoopingEffectIndex": 0
-    },
-    "LuaScript": "#include ./Start_End_Turn_-_Green.96aa58.lua",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

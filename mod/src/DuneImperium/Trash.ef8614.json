@@ -1,64 +1,64 @@
 {
-  "Object": {
-    "GUID": "ef8614",
-    "Name": "Custom_Assetbundle_Bag",
-    "Transform": {
-      "posX": -1.92309654,
-      "posY": 1.51195979,
-      "posZ": -19.6467571,
-      "rotX": 359.983124,
-      "rotY": 0.00179156207,
-      "rotZ": 359.920135,
-      "scaleX": 0.433333129,
-      "scaleY": 0.108333282,
-      "scaleZ": 0.433333129
+    "Object": {
+        "GUID": "ef8614",
+        "Name": "Custom_Assetbundle_Bag",
+        "Transform": {
+            "posX": -1.92,
+            "posY": 1.51,
+            "posZ": -19.65,
+            "rotX": 359.98,
+            "rotY": 0,
+            "rotZ": 359.92,
+            "scaleX": 0.43,
+            "scaleY": 0.11,
+            "scaleZ": 0.43
+        },
+        "Nickname": "Trash",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 0.89,
+            "b": 0.82
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "MaterialIndex": -1,
+        "MeshIndex": -1,
+        "CustomAssetbundle": {
+            "AssetbundleURL": "https://steamusercontent-a.akamaihd.net/ugc/1859450446898772086/0C434F47DB06FAFA3BAFD293A14D7B440CC1BE23/",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 0,
+            "TypeIndex": 6,
+            "LoopingEffectIndex": 1
+        },
+        "Bag": {
+            "Order": 0
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": "",
+        "ContainedObjects": []
     },
-    "Nickname": "Trash",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 0.8901961,
-      "b": 0.8235294
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "MaterialIndex": -1,
-    "MeshIndex": -1,
-    "CustomAssetbundle": {
-      "AssetbundleURL": "https://steamusercontent-a.akamaihd.net/ugc/1859450446898772086/0C434F47DB06FAFA3BAFD293A14D7B440CC1BE23/",
-      "AssetbundleSecondaryURL": "",
-      "MaterialIndex": 0,
-      "TypeIndex": 6,
-      "LoopingEffectIndex": 1
-    },
-    "Bag": {
-      "Order": 0
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "ContainedObjects": []
-  },
-  "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "CardCustom.2b2575.41000.json"
-  ]
+    "StatesPaths": {},
+    "ContainedObjectPaths": [
+        "CardCustom.2b2575.41000.json"
+    ]
 }

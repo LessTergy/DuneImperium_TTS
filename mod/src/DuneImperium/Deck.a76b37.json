@@ -1,84 +1,84 @@
 {
-  "Object": {
-    "GUID": "a76b37",
-    "Name": "Deck",
-    "Transform": {
-      "posX": 13.4472437,
-      "posY": 1.71485567,
-      "posZ": -1.50902331,
-      "rotX": 0.0192787424,
-      "rotY": 180.01059,
-      "rotZ": 180.072571,
-      "scaleX": 1.05,
-      "scaleY": 1,
-      "scaleZ": 1.05
+    "Object": {
+        "GUID": "a76b37",
+        "Name": "Deck",
+        "Transform": {
+            "posX": 13.45,
+            "posY": 1.71,
+            "posZ": -1.51,
+            "rotX": 0.02,
+            "rotY": 180.01,
+            "rotZ": 180.07,
+            "scaleX": 1.05,
+            "scaleY": 1,
+            "scaleZ": 1.05
+        },
+        "Nickname": "",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.71,
+            "g": 0.71,
+            "b": 0.71
+        },
+        "Tags": [
+            "Imperium"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": true,
+        "Hands": false,
+        "SidewaysCard": false,
+        "DeckIDs": [
+            49304,
+            49302,
+            49301,
+            49301,
+            49303,
+            49303,
+            49305,
+            49306
+        ],
+        "CustomDeck": {
+            "493": {
+                "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2029469358243413427/BF3BA9C253ED953533B90D94DD56D0BAD4021B3C/",
+                "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102433196500461/C3DC7A02CF378129569B414967C9BE25097C6E77/",
+                "NumWidth": 4,
+                "NumHeight": 2,
+                "BackIsHidden": true,
+                "UniqueBack": false,
+                "Type": 0
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": "",
+        "ContainedObjects": []
     },
-    "Nickname": "",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.713235259,
-      "g": 0.713235259,
-      "b": 0.713235259
-    },
-    "Tags": [
-      "Imperium"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": true,
-    "Hands": false,
-    "SidewaysCard": false,
-    "DeckIDs": [
-      49304,
-      49302,
-      49301,
-      49301,
-      49303,
-      49303,
-      49305,
-      49306
-    ],
-    "CustomDeck": {
-      "493": {
-        "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2029469358243413427/BF3BA9C253ED953533B90D94DD56D0BAD4021B3C/",
-        "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102433196500461/C3DC7A02CF378129569B414967C9BE25097C6E77/",
-        "NumWidth": 4,
-        "NumHeight": 2,
-        "BackIsHidden": true,
-        "UniqueBack": false,
-        "Type": 0
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "ContainedObjects": []
-  },
-  "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Seek_Allies.7ada3f.49304.json",
-    "Reconnaissance.a12fbc.49302.json",
-    "Dagger.c61a87.49301.json",
-    "Dagger.19484c.49301.json",
-    "Convincing_Argument.461f82.49303.json",
-    "Convincing_Argument.ea7082.49303.json",
-    "Signet_Ring.f0f0af.49305.json",
-    "Diplomacy.baee19.49306.json"
-  ]
+    "StatesPaths": {},
+    "ContainedObjectPaths": [
+        "Seek_Allies.7ada3f.49304.json",
+        "Reconnaissance.a12fbc.49302.json",
+        "Dagger.c61a87.49301.json",
+        "Dagger.19484c.49301.json",
+        "Convincing_Argument.461f82.49303.json",
+        "Convincing_Argument.ea7082.49303.json",
+        "Signet_Ring.f0f0af.49305.json",
+        "Diplomacy.baee19.49306.json"
+    ]
 }

@@ -1,48 +1,48 @@
 {
-  "Object": {
-    "GUID": "4a3e76",
-    "Name": "Checker_white",
-    "Transform": {
-      "posX": 4.7510004,
-      "posY": 1.113321,
-      "posZ": -6.739959,
-      "rotX": 0.0168679468,
-      "rotY": 179.996277,
-      "rotZ": 0.07988445,
-      "scaleX": 1,
-      "scaleY": 1,
-      "scaleZ": 1
+    "Object": {
+        "GUID": "4a3e76",
+        "Name": "Checker_white",
+        "Transform": {
+            "posX": 4.75,
+            "posY": 1.11,
+            "posZ": -6.74,
+            "rotX": 0.02,
+            "rotY": 180.0,
+            "rotZ": 0.08,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+        },
+        "Nickname": "Setup",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "LuaScript": "#include ./Setup.4a3e76.lua",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Setup",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 1,
-      "b": 1
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "LuaScript": "#include ./Setup.4a3e76.lua",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

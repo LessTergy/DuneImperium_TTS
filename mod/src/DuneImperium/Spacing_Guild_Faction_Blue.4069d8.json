@@ -1,65 +1,65 @@
 {
-  "Object": {
-    "GUID": "4069d8",
-    "Name": "Custom_Token",
-    "Transform": {
-      "posX": -10.1552629,
-      "posY": 1.66677821,
-      "posZ": 0.359992534,
-      "rotX": 0.0169142988,
-      "rotY": 180.004959,
-      "rotZ": 0.07997884,
-      "scaleX": 0.09950076,
-      "scaleY": 1,
-      "scaleZ": 0.09950076
+    "Object": {
+        "GUID": "4069d8",
+        "Name": "Custom_Token",
+        "Transform": {
+            "posX": -10.16,
+            "posY": 1.67,
+            "posZ": 0.36,
+            "rotX": 0.02,
+            "rotY": 180.0,
+            "rotZ": 0.08,
+            "scaleX": 0.1,
+            "scaleY": 1,
+            "scaleZ": 0.1
+        },
+        "Nickname": "Spacing Guild Faction Blue",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.12,
+            "g": 0.53,
+            "b": 1
+        },
+        "Tags": [
+            "Blue",
+            "InfluenceTokens",
+            "SpaceGuildInfluence"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": false,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1654474838742796853/4884939CCEB0A6276F3800194A608DEEE4415C4F/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomToken": {
+                "Thickness": 0.14,
+                "MergeDistancePixels": 15,
+                "StandUp": false,
+                "Stackable": true
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Spacing Guild Faction Blue",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.121530108,
-      "g": 0.5294118,
-      "b": 1
-    },
-    "Tags": [
-      "Blue",
-      "InfluenceTokens",
-      "SpaceGuildInfluence"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": false,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1654474838742796853/4884939CCEB0A6276F3800194A608DEEE4415C4F/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomToken": {
-        "Thickness": 0.144999981,
-        "MergeDistancePixels": 15,
-        "StandUp": false,
-        "Stackable": true
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

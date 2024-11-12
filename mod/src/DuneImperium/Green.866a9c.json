@@ -1,52 +1,52 @@
 {
-  "Object": {
-    "GUID": "866a9c",
-    "Name": "BlockSquare",
-    "Transform": {
-      "posX": 8.61319,
-      "posY": 1.74212766,
-      "posZ": -2.988173,
-      "rotX": 0.0167603064,
-      "rotY": 180.147369,
-      "rotZ": 180.080276,
-      "scaleX": 0.350000441,
-      "scaleY": 0.350000441,
-      "scaleZ": 0.350000441
+    "Object": {
+        "GUID": "866a9c",
+        "Name": "BlockSquare",
+        "Transform": {
+            "posX": 8.61,
+            "posY": 1.74,
+            "posZ": -2.99,
+            "rotX": 0.02,
+            "rotY": 180.15,
+            "rotZ": 180.08,
+            "scaleX": 0.35,
+            "scaleY": 0.35,
+            "scaleZ": 0.35
+        },
+        "Nickname": "Green",
+        "Description": "Green",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.03,
+            "g": 0.76,
+            "b": 0
+        },
+        "Tags": [
+            "Green",
+            "Troop"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": false,
+        "Snap": false,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": false,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Green",
-    "Description": "Green",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.03343396,
-      "g": 0.757839739,
-      "b": 0
-    },
-    "Tags": [
-      "Green",
-      "Troop"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": false,
-    "Snap": false,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": false,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

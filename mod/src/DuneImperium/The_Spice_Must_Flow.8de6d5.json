@@ -1,88 +1,88 @@
 {
-  "Object": {
-    "GUID": "8de6d5",
-    "Name": "Deck",
-    "Transform": {
-      "posX": -2.49034214,
-      "posY": 1.55884933,
-      "posZ": 16.29177,
-      "rotX": 0.01687449,
-      "rotY": 179.996979,
-      "rotZ": 0.07987917,
-      "scaleX": 1.05,
-      "scaleY": 1,
-      "scaleZ": 1.05
+    "Object": {
+        "GUID": "8de6d5",
+        "Name": "Deck",
+        "Transform": {
+            "posX": -2.49,
+            "posY": 1.56,
+            "posZ": 16.29,
+            "rotX": 0.02,
+            "rotY": 180.0,
+            "rotZ": 0.08,
+            "scaleX": 1.05,
+            "scaleY": 1,
+            "scaleZ": 1.05
+        },
+        "Nickname": "The Spice Must Flow",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.71,
+            "g": 0.71,
+            "b": 0.71
+        },
+        "Tags": [
+            "Imperium"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": true,
+        "Hands": false,
+        "SidewaysCard": false,
+        "DeckIDs": [
+            48906,
+            48906,
+            48906,
+            48906,
+            48906,
+            48906,
+            48906,
+            48906,
+            48906,
+            48906
+        ],
+        "CustomDeck": {
+            "489": {
+                "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2029469358243390859/6F98BCE051343A3D07D58D6BC62A8FCA2C9AAE1A/",
+                "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102433196500461/C3DC7A02CF378129569B414967C9BE25097C6E77/",
+                "NumWidth": 8,
+                "NumHeight": 6,
+                "BackIsHidden": true,
+                "UniqueBack": false,
+                "Type": 0
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": "",
+        "ContainedObjects": []
     },
-    "Nickname": "The Spice Must Flow",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.713235259,
-      "g": 0.713235259,
-      "b": 0.713235259
-    },
-    "Tags": [
-      "Imperium"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": true,
-    "Hands": false,
-    "SidewaysCard": false,
-    "DeckIDs": [
-      48906,
-      48906,
-      48906,
-      48906,
-      48906,
-      48906,
-      48906,
-      48906,
-      48906,
-      48906
-    ],
-    "CustomDeck": {
-      "489": {
-        "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2029469358243390859/6F98BCE051343A3D07D58D6BC62A8FCA2C9AAE1A/",
-        "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102433196500461/C3DC7A02CF378129569B414967C9BE25097C6E77/",
-        "NumWidth": 8,
-        "NumHeight": 6,
-        "BackIsHidden": true,
-        "UniqueBack": false,
-        "Type": 0
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "ContainedObjects": []
-  },
-  "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "The_Spice_Must_Flow.626535.48906.json",
-    "The_Spice_Must_Flow.103702.48906.json",
-    "The_Spice_Must_Flow.6310b8.48906.json",
-    "The_Spice_Must_Flow.85abb7.48906.json",
-    "The_Spice_Must_Flow.bb3404.48906.json",
-    "The_Spice_Must_Flow.572983.48906.json",
-    "The_Spice_Must_Flow.5bbcb0.48906.json",
-    "The_Spice_Must_Flow.024903.48906.json",
-    "The_Spice_Must_Flow.202664.48906.json",
-    "The_Spice_Must_Flow.be7e46.48906.json"
-  ]
+    "StatesPaths": {},
+    "ContainedObjectPaths": [
+        "The_Spice_Must_Flow.626535.48906.json",
+        "The_Spice_Must_Flow.103702.48906.json",
+        "The_Spice_Must_Flow.6310b8.48906.json",
+        "The_Spice_Must_Flow.85abb7.48906.json",
+        "The_Spice_Must_Flow.bb3404.48906.json",
+        "The_Spice_Must_Flow.572983.48906.json",
+        "The_Spice_Must_Flow.5bbcb0.48906.json",
+        "The_Spice_Must_Flow.024903.48906.json",
+        "The_Spice_Must_Flow.202664.48906.json",
+        "The_Spice_Must_Flow.be7e46.48906.json"
+    ]
 }

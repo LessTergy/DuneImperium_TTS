@@ -1,60 +1,60 @@
 {
-  "Object": {
-    "GUID": "302c1d",
-    "Name": "Bag",
-    "Transform": {
-      "posX": -34.2570724,
-      "posY": 2.0649662,
-      "posZ": 39.5566,
-      "rotX": 1.51745e-7,
-      "rotY": 0.0000249061777,
-      "rotZ": -3.48513055e-7,
-      "scaleX": 1,
-      "scaleY": 1,
-      "scaleZ": 1
+    "Object": {
+        "GUID": "302c1d",
+        "Name": "Bag",
+        "Transform": {
+            "posX": -34.26,
+            "posY": 2.06,
+            "posZ": 39.56,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+        },
+        "Nickname": "clocks",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.71,
+            "g": 0.37,
+            "b": 0
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "MaterialIndex": -1,
+        "MeshIndex": -1,
+        "Bag": {
+            "Order": 0
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": "",
+        "ContainedObjects": []
     },
-    "Nickname": "clocks",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.7058823,
-      "g": 0.366520882,
-      "b": 0
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "MaterialIndex": -1,
-    "MeshIndex": -1,
-    "Bag": {
-      "Order": 0
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "ContainedObjects": []
-  },
-  "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Clock_Yellow.e4fb14.json",
-    "Clock_Blue.1ca204.json",
-    "Clock_Green.03cff6.json",
-    "Clock_Red.928580.json"
-  ]
+    "StatesPaths": {},
+    "ContainedObjectPaths": [
+        "Clock_Yellow.e4fb14.json",
+        "Clock_Blue.1ca204.json",
+        "Clock_Green.03cff6.json",
+        "Clock_Red.928580.json"
+    ]
 }

@@ -1,61 +1,61 @@
 {
-  "Object": {
-    "GUID": "280dbe",
-    "Name": "Card",
-    "Transform": {
-      "posX": -24.6534157,
-      "posY": 1.65259349,
-      "posZ": -27.4860878,
-      "rotX": 0.14845337,
-      "rotY": 179.99585,
-      "rotZ": 178.488358,
-      "scaleX": 1,
-      "scaleY": 1,
-      "scaleZ": 1
+    "Object": {
+        "GUID": "280dbe",
+        "Name": "Card",
+        "Transform": {
+            "posX": -24.65,
+            "posY": 1.65,
+            "posZ": -27.49,
+            "rotX": 0.15,
+            "rotY": 180.0,
+            "rotZ": 178.49,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+        },
+        "Nickname": "Skirmish",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.71,
+            "g": 0.71,
+            "b": 0.71
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": true,
+        "Hands": true,
+        "CardID": 47300,
+        "SidewaysCard": false,
+        "CustomDeck": {
+            "473": {
+                "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130036834/F1C0913A589ADB0A0532DFB8FAA7E9D7942CF6CB/",
+                "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130037191/0423ECA84C0D71CCB38EBD60DEAE641EE72D7933/",
+                "NumWidth": 3,
+                "NumHeight": 2,
+                "BackIsHidden": true,
+                "UniqueBack": false,
+                "Type": 0
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Skirmish",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.713235259,
-      "g": 0.713235259,
-      "b": 0.713235259
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": true,
-    "Hands": true,
-    "CardID": 47300,
-    "SidewaysCard": false,
-    "CustomDeck": {
-      "473": {
-        "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130036834/F1C0913A589ADB0A0532DFB8FAA7E9D7942CF6CB/",
-        "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130037191/0423ECA84C0D71CCB38EBD60DEAE641EE72D7933/",
-        "NumWidth": 3,
-        "NumHeight": 2,
-        "BackIsHidden": true,
-        "UniqueBack": false,
-        "Type": 0
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

@@ -1,53 +1,53 @@
 {
-  "Object": {
-    "GUID": "e4fb14",
-    "Name": "Digital_Clock",
-    "Transform": {
-      "posX": -34.14896,
-      "posY": 6.573816,
-      "posZ": 41.1082649,
-      "rotX": 1.03912008,
-      "rotY": 240.0022,
-      "rotZ": 180.810089,
-      "scaleX": 1,
-      "scaleY": 1,
-      "scaleZ": 0.3
+    "Object": {
+        "GUID": "e4fb14",
+        "Name": "Digital_Clock",
+        "Transform": {
+            "posX": -34.15,
+            "posY": 6.57,
+            "posZ": 41.11,
+            "rotX": 1.04,
+            "rotY": 240.0,
+            "rotZ": 180.81,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 0.3
+        },
+        "Nickname": "Clock Yellow",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.91,
+            "g": 0.9,
+            "b": 0.17
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "Clock": {
+            "Mode": 2,
+            "SecondsPassed": 0,
+            "Paused": true
+        },
+        "LuaScript": "#include ./Clock_Yellow.e4fb14.lua",
+        "LuaScriptState": "#include ./Clock_Yellow.e4fb14.state.json",
+        "XmlUI": ""
     },
-    "Nickname": "Clock Yellow",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.905,
-      "g": 0.898,
-      "b": 0.171999544
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "Clock": {
-      "Mode": 2,
-      "SecondsPassed": 0,
-      "Paused": true
-    },
-    "LuaScript": "#include ./Clock_Yellow.e4fb14.lua",
-    "LuaScriptState": "#include ./Clock_Yellow.e4fb14.state.json",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

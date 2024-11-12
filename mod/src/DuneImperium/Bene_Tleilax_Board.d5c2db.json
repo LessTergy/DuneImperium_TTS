@@ -1,443 +1,443 @@
 {
-  "Object": {
-    "GUID": "d5c2db",
-    "Name": "Custom_Tile",
-    "Transform": {
-      "posX": 5.30802965,
-      "posY": 1.48060238,
-      "posZ": 22.0431118,
-      "rotX": 0.0168868583,
-      "rotY": 179.988647,
-      "rotZ": 0.07987307,
-      "scaleX": 4,
-      "scaleY": 1,
-      "scaleZ": 4
+    "Object": {
+        "GUID": "d5c2db",
+        "Name": "Custom_Tile",
+        "Transform": {
+            "posX": 5.31,
+            "posY": 1.48,
+            "posZ": 22.04,
+            "rotX": 0.02,
+            "rotY": 179.99,
+            "rotZ": 0.08,
+            "scaleX": 4,
+            "scaleY": 1,
+            "scaleZ": 4
+        },
+        "Nickname": "Bene Tleilax Board",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.2,
+            "g": 0.06,
+            "b": 0.3
+        },
+        "Tags": [
+            "BT Board"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102433196294046/725FED909D887FC31D7AAEDA59953FF012C04AC5/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+                "Type": 0,
+                "Thickness": 0.1,
+                "Stackable": false,
+                "Stretch": true
+            }
+        },
+        "LuaScript": "#include ./Bene_Tleilax_Board.d5c2db.lua",
+        "LuaScriptState": "",
+        "XmlUI": "",
+        "AttachedSnapPoints": [
+            {
+                "Position": {
+                    "x": 0.8,
+                    "y": 0.1,
+                    "z": -0.85
+                },
+                "Tags": [
+                    "TleilaxuToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 0.8,
+                    "y": 0.1,
+                    "z": -0.66
+                },
+                "Tags": [
+                    "TleilaxuToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 0.48,
+                    "y": 0.1,
+                    "z": -0.85
+                },
+                "Tags": [
+                    "TleilaxuToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 0.18,
+                    "y": 0.1,
+                    "z": -0.86
+                },
+                "Tags": [
+                    "TleilaxuToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 0.18,
+                    "y": 0.1,
+                    "z": -0.63
+                },
+                "Tags": [
+                    "TleilaxuToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -0.14,
+                    "y": 0.1,
+                    "z": -0.86
+                },
+                "Tags": [
+                    "TleilaxuToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -0.72,
+                    "y": 0.1,
+                    "z": -0.74
+                },
+                "Tags": [
+                    "TleilaxuToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -0.95,
+                    "y": 0.1,
+                    "z": -0.83
+                },
+                "Tags": [
+                    "TleilaxuToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -1.2,
+                    "y": 0.1,
+                    "z": -0.83
+                },
+                "Tags": [
+                    "TleilaxuToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -0.42,
+                    "y": 0.1,
+                    "z": -0.86
+                },
+                "Tags": [
+                    "TleilaxuToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 1.28,
+                    "y": 0.1,
+                    "z": -0.22
+                }
+            },
+            {
+                "Position": {
+                    "x": 1.28,
+                    "y": 0.1,
+                    "z": -0.05
+                }
+            },
+            {
+                "Position": {
+                    "x": 1.28,
+                    "y": 0.1,
+                    "z": 0.13
+                }
+            },
+            {
+                "Position": {
+                    "x": 1.28,
+                    "y": 0.1,
+                    "z": 0.3
+                }
+            },
+            {
+                "Position": {
+                    "x": 1.24,
+                    "y": 0.1,
+                    "z": -0.83
+                },
+                "Tags": [
+                    "TleilaxuToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 1.05,
+                    "y": 0.1,
+                    "z": -0.82
+                },
+                "Tags": [
+                    "TleilaxuToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 1.23,
+                    "y": 0.1,
+                    "z": -0.65
+                },
+                "Tags": [
+                    "TleilaxuToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 1.06,
+                    "y": 0.1,
+                    "z": -0.65
+                },
+                "Tags": [
+                    "TleilaxuToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 0.99,
+                    "y": 0.1,
+                    "z": -0.04
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 0.68,
+                    "y": 0.1,
+                    "z": -0.22
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 0.38,
+                    "y": 0.1,
+                    "z": -0.39
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 0.08,
+                    "y": 0.1,
+                    "z": -0.22
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -0.22,
+                    "y": 0.1,
+                    "z": -0.39
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -0.53,
+                    "y": 0.1,
+                    "z": -0.22
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -0.83,
+                    "y": 0.1,
+                    "z": -0.39
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -1.13,
+                    "y": 0.1,
+                    "z": -0.22
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 0.38,
+                    "y": 0.1,
+                    "z": -0.04
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 0.08,
+                    "y": 0.1,
+                    "z": 0.13
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -0.22,
+                    "y": 0.1,
+                    "z": -0.04
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -0.53,
+                    "y": 0.1,
+                    "z": 0.13
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -0.83,
+                    "y": 0.1,
+                    "z": -0.04
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -1.13,
+                    "y": 0.1,
+                    "z": 0.13
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 0.68,
+                    "y": 0.1,
+                    "z": 0.13
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 0.38,
+                    "y": 0.1,
+                    "z": 0.31
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 0.08,
+                    "y": 0.1,
+                    "z": 0.48
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -0.22,
+                    "y": 0.1,
+                    "z": 0.31
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -0.53,
+                    "y": 0.1,
+                    "z": 0.48
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -0.83,
+                    "y": 0.1,
+                    "z": 0.31
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -1.13,
+                    "y": 0.1,
+                    "z": 0.48
+                },
+                "Tags": [
+                    "ResearchToken"
+                ]
+            }
+        ]
     },
-    "Nickname": "Bene Tleilax Board",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.199433327,
-      "g": 0.0555252358,
-      "b": 0.297897875
-    },
-    "Tags": [
-      "BT Board"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102433196294046/725FED909D887FC31D7AAEDA59953FF012C04AC5/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomTile": {
-        "Type": 0,
-        "Thickness": 0.1,
-        "Stackable": false,
-        "Stretch": true
-      }
-    },
-    "LuaScript": "#include ./Bene_Tleilax_Board.d5c2db.lua",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "AttachedSnapPoints": [
-      {
-        "Position": {
-          "x": 0.8032615,
-          "y": 0.100000143,
-          "z": -0.8462924
-        },
-        "Tags": [
-          "TleilaxuToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": 0.7988697,
-          "y": 0.100000158,
-          "z": -0.658855259
-        },
-        "Tags": [
-          "TleilaxuToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": 0.4778981,
-          "y": 0.100000165,
-          "z": -0.8483156
-        },
-        "Tags": [
-          "TleilaxuToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": 0.178655118,
-          "y": 0.100000262,
-          "z": -0.8599601
-        },
-        "Tags": [
-          "TleilaxuToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": 0.184436426,
-          "y": 0.10000024,
-          "z": -0.633772254
-        },
-        "Tags": [
-          "TleilaxuToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": -0.144904926,
-          "y": 0.100000151,
-          "z": -0.8623045
-        },
-        "Tags": [
-          "TleilaxuToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": -0.7206001,
-          "y": 0.10000021,
-          "z": -0.744294
-        },
-        "Tags": [
-          "TleilaxuToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": -0.948632956,
-          "y": 0.100000173,
-          "z": -0.8331174
-        },
-        "Tags": [
-          "TleilaxuToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": -1.20054591,
-          "y": 0.1000002,
-          "z": -0.832379341
-        },
-        "Tags": [
-          "TleilaxuToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": -0.418438941,
-          "y": 0.100000158,
-          "z": -0.8559505
-        },
-        "Tags": [
-          "TleilaxuToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": 1.28095269,
-          "y": 0.100000359,
-          "z": -0.218740031
-        }
-      },
-      {
-        "Position": {
-          "x": 1.27960742,
-          "y": 0.100000307,
-          "z": -0.0450720564
-        }
-      },
-      {
-        "Position": {
-          "x": 1.27877533,
-          "y": 0.100000322,
-          "z": 0.13005507
-        }
-      },
-      {
-        "Position": {
-          "x": 1.28382015,
-          "y": 0.100000329,
-          "z": 0.304384023
-        }
-      },
-      {
-        "Position": {
-          "x": 1.23716843,
-          "y": 0.100009315,
-          "z": -0.8306328
-        },
-        "Tags": [
-          "TleilaxuToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": 1.05437791,
-          "y": 0.09995436,
-          "z": -0.8249974
-        },
-        "Tags": [
-          "TleilaxuToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": 1.23288453,
-          "y": 0.09998231,
-          "z": -0.65073514
-        },
-        "Tags": [
-          "TleilaxuToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": 1.057998,
-          "y": 0.0999975,
-          "z": -0.6534779
-        },
-        "Tags": [
-          "TleilaxuToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": 0.9870312,
-          "y": 0.09998362,
-          "z": -0.0419248231
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": 0.684492469,
-          "y": 0.1000234,
-          "z": -0.216864437
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": 0.3819536,
-          "y": 0.10000129,
-          "z": -0.391804069
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": 0.07948439,
-          "y": 0.0999422446,
-          "z": -0.21674329
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": -0.223054469,
-          "y": 0.09986925,
-          "z": -0.391682863
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": -0.5255238,
-          "y": 0.09990653,
-          "z": -0.2166221
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": -0.8280624,
-          "y": 0.09983865,
-          "z": -0.391561717
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": -1.13053179,
-          "y": 0.09988309,
-          "z": -0.216500953
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": 0.382028818,
-          "y": 0.09989971,
-          "z": -0.04180509
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": 0.07955952,
-          "y": 0.09997942,
-          "z": 0.13325569
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": -0.222979337,
-          "y": 0.09990833,
-          "z": -0.0416839235
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": -0.5254487,
-          "y": 0.09980756,
-          "z": 0.133376867
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": -0.8279873,
-          "y": 0.09984864,
-          "z": -0.0415627547
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": -1.13045669,
-          "y": 0.09989141,
-          "z": 0.133498028
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": 0.6845679,
-          "y": 0.0999166742,
-          "z": 0.133134544
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": 0.382098526,
-          "y": 0.09979636,
-          "z": 0.308195323
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": 0.079629384,
-          "y": 0.09995404,
-          "z": 0.483256131
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": -0.222909465,
-          "y": 0.099867925,
-          "z": 0.308316529
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": -0.5253787,
-          "y": 0.0997790843,
-          "z": 0.483377278
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": -0.827917457,
-          "y": 0.0998162255,
-          "z": 0.308437675
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      },
-      {
-        "Position": {
-          "x": -1.13038683,
-          "y": 0.09978031,
-          "z": 0.483498424
-        },
-        "Tags": [
-          "ResearchToken"
-        ]
-      }
-    ]
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

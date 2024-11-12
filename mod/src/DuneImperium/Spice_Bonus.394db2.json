@@ -1,60 +1,60 @@
 {
-  "Object": {
-    "GUID": "394db2",
-    "Name": "Custom_Token",
-    "Transform": {
-      "posX": 4.28572845,
-      "posY": 1.62579036,
-      "posZ": -0.181157261,
-      "rotX": 0.016873423,
-      "rotY": 179.999878,
-      "rotZ": 0.07988412,
-      "scaleX": 0.217922509,
-      "scaleY": 1,
-      "scaleZ": 0.217922509
+    "Object": {
+        "GUID": "394db2",
+        "Name": "Custom_Token",
+        "Transform": {
+            "posX": 4.29,
+            "posY": 1.63,
+            "posZ": -0.18,
+            "rotX": 0.02,
+            "rotY": 180.0,
+            "rotZ": 0.08,
+            "scaleX": 0.22,
+            "scaleY": 1,
+            "scaleZ": 0.22
+        },
+        "Nickname": "Spice Bonus",
+        "Description": "Left click - Increase\nRight click - Decrease",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1771572672508102528/E7FD36CE3B3F6E6BF22E8ED1096644A381ECC426/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomToken": {
+                "Thickness": 0.1,
+                "MergeDistancePixels": 5,
+                "StandUp": false,
+                "Stackable": false
+            }
+        },
+        "LuaScript": "#include ./Spice_Bonus.394db2.lua",
+        "LuaScriptState": "#include ./Spice_Bonus.394db2.state.json",
+        "XmlUI": ""
     },
-    "Nickname": "Spice Bonus",
-    "Description": "Left click - Increase\nRight click - Decrease",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 1,
-      "b": 1
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1771572672508102528/E7FD36CE3B3F6E6BF22E8ED1096644A381ECC426/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomToken": {
-        "Thickness": 0.1,
-        "MergeDistancePixels": 5,
-        "StandUp": false,
-        "Stackable": false
-      }
-    },
-    "LuaScript": "#include ./Spice_Bonus.394db2.lua",
-    "LuaScriptState": "#include ./Spice_Bonus.394db2.state.json",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

@@ -1,60 +1,60 @@
 {
-  "Object": {
-    "GUID": "1b1e76",
-    "Name": "Custom_Token",
-    "Transform": {
-      "posX": 10.3336449,
-      "posY": 2.26239419,
-      "posZ": -8.931469,
-      "rotX": 359.915436,
-      "rotY": 270.184265,
-      "rotZ": 0.009987675,
-      "scaleX": 0.167686716,
-      "scaleY": 1,
-      "scaleZ": 0.167686716
+    "Object": {
+        "GUID": "1b1e76",
+        "Name": "Custom_Token",
+        "Transform": {
+            "posX": 10.33,
+            "posY": 2.26,
+            "posZ": -8.93,
+            "rotX": 359.92,
+            "rotY": 270.18,
+            "rotZ": 0.01,
+            "scaleX": 0.17,
+            "scaleY": 1,
+            "scaleZ": 0.17
+        },
+        "Nickname": "Blue Score",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.12,
+            "g": 0.53,
+            "b": 1
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": false,
+        "Autoraise": true,
+        "Sticky": false,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1492334975207954413/15CEFFA2E92BF791122CBFDD859A3D19E0CD9880/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomToken": {
+                "Thickness": 0.2,
+                "MergeDistancePixels": 5,
+                "StandUp": false,
+                "Stackable": false
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Blue Score",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.117964394,
-      "g": 0.53,
-      "b": 1
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": false,
-    "Autoraise": true,
-    "Sticky": false,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1492334975207954413/15CEFFA2E92BF791122CBFDD859A3D19E0CD9880/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomToken": {
-        "Thickness": 0.2,
-        "MergeDistancePixels": 5,
-        "StandUp": false,
-        "Stackable": false
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

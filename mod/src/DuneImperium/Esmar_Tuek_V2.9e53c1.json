@@ -1,63 +1,63 @@
 {
-  "Object": {
-    "GUID": "9e53c1",
-    "Name": "Custom_Tile",
-    "Transform": {
-      "posX": -12.0031815,
-      "posY": 2.1878252,
-      "posZ": 65.0255,
-      "rotX": 0.00000369203462,
-      "rotY": 179.985657,
-      "rotZ": 1.547414e-8,
-      "scaleX": 1.70145762,
-      "scaleY": 1,
-      "scaleZ": 1.70145762
+    "Object": {
+        "GUID": "9e53c1",
+        "Name": "Custom_Tile",
+        "Transform": {
+            "posX": -12.0,
+            "posY": 2.19,
+            "posZ": 65.03,
+            "rotX": 0,
+            "rotY": 179.99,
+            "rotZ": 0,
+            "scaleX": 1.7,
+            "scaleY": 1,
+            "scaleZ": 1.7
+        },
+        "Nickname": "Esmar Tuek V2",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+        },
+        "Tags": [
+            "Leader"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2021593312048814518/FFCC4D10A115AF72BCFA88B6495AD2CBB47B913D/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+                "Type": 3,
+                "Thickness": 0.1,
+                "Stackable": false,
+                "Stretch": true
+            }
+        },
+        "LuaScript": "#include ./Esmar_Tuek_V2.9e53c1.lua",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Esmar Tuek V2",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0,
-      "g": 0,
-      "b": 0
-    },
-    "Tags": [
-      "Leader"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2021593312048814518/FFCC4D10A115AF72BCFA88B6495AD2CBB47B913D/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomTile": {
-        "Type": 3,
-        "Thickness": 0.1,
-        "Stackable": false,
-        "Stretch": true
-      }
-    },
-    "LuaScript": "#include ./Esmar_Tuek_V2.9e53c1.lua",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

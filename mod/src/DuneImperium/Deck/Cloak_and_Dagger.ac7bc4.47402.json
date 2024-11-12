@@ -1,61 +1,61 @@
 {
-  "Object": {
-    "GUID": "ac7bc4",
-    "Name": "Card",
-    "Transform": {
-      "posX": -9.702036,
-      "posY": 1.82868576,
-      "posZ": -24.37209,
-      "rotX": -0.00333000929,
-      "rotY": 180.00209,
-      "rotZ": 191.8266,
-      "scaleX": 1,
-      "scaleY": 1,
-      "scaleZ": 1
+    "Object": {
+        "GUID": "ac7bc4",
+        "Name": "Card",
+        "Transform": {
+            "posX": -9.7,
+            "posY": 1.83,
+            "posZ": -24.37,
+            "rotX": 0,
+            "rotY": 180.0,
+            "rotZ": 191.83,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+        },
+        "Nickname": "Cloak and Dagger",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.71,
+            "g": 0.71,
+            "b": 0.71
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": true,
+        "Hands": true,
+        "CardID": 47402,
+        "SidewaysCard": false,
+        "CustomDeck": {
+            "474": {
+                "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130038927/B1CD3F41933A9DD44522934B5F6CF3C5FF77A51C/",
+                "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130039766/3B3F54DF65F76F0850D0EC683602524806A11E49/",
+                "NumWidth": 6,
+                "NumHeight": 2,
+                "BackIsHidden": true,
+                "UniqueBack": false,
+                "Type": 0
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Cloak and Dagger",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.713235259,
-      "g": 0.713235259,
-      "b": 0.713235259
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": true,
-    "Hands": true,
-    "CardID": 47402,
-    "SidewaysCard": false,
-    "CustomDeck": {
-      "474": {
-        "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130038927/B1CD3F41933A9DD44522934B5F6CF3C5FF77A51C/",
-        "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130039766/3B3F54DF65F76F0850D0EC683602524806A11E49/",
-        "NumWidth": 6,
-        "NumHeight": 2,
-        "BackIsHidden": true,
-        "UniqueBack": false,
-        "Type": 0
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

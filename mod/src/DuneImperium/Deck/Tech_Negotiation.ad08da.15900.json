@@ -1,61 +1,61 @@
 {
-  "Object": {
-    "GUID": "ad08da",
-    "Name": "CardCustom",
-    "Transform": {
-      "posX": 17.3697319,
-      "posY": 2.263586,
-      "posZ": 47.2163162,
-      "rotX": 0.0002351284,
-      "rotY": 179.999771,
-      "rotZ": -0.000769702834,
-      "scaleX": 0.83,
-      "scaleY": 1,
-      "scaleZ": 0.83
+    "Object": {
+        "GUID": "ad08da",
+        "Name": "CardCustom",
+        "Transform": {
+            "posX": 17.37,
+            "posY": 2.26,
+            "posZ": 47.22,
+            "rotX": 0,
+            "rotY": 180.0,
+            "rotZ": 0,
+            "scaleX": 0.83,
+            "scaleY": 1,
+            "scaleZ": 0.83
+        },
+        "Nickname": "Tech Negotiation",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.71,
+            "g": 0.71,
+            "b": 0.71
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": true,
+        "Hands": true,
+        "CardID": 15900,
+        "SidewaysCard": false,
+        "CustomDeck": {
+            "159": {
+                "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1833531164457150040/2551267D6FE07F1742E239316376FF840CD7E711/",
+                "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1670239430231973967/ACE7BA96F9E5F8218FA434192B90234FD9ED4E38/",
+                "NumWidth": 1,
+                "NumHeight": 1,
+                "BackIsHidden": true,
+                "UniqueBack": false,
+                "Type": 0
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Tech Negotiation",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.713235259,
-      "g": 0.713235259,
-      "b": 0.713235259
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": true,
-    "Hands": true,
-    "CardID": 15900,
-    "SidewaysCard": false,
-    "CustomDeck": {
-      "159": {
-        "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1833531164457150040/2551267D6FE07F1742E239316376FF840CD7E711/",
-        "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1670239430231973967/ACE7BA96F9E5F8218FA434192B90234FD9ED4E38/",
-        "NumWidth": 1,
-        "NumHeight": 1,
-        "BackIsHidden": true,
-        "UniqueBack": false,
-        "Type": 0
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

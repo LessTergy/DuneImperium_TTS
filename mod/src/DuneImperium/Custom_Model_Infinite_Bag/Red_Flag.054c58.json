@@ -1,64 +1,64 @@
 {
-  "Object": {
-    "GUID": "054c58",
-    "Name": "Custom_Token",
-    "Transform": {
-      "posX": -15.9473953,
-      "posY": 2.00562024,
-      "posZ": 24.328886,
-      "rotX": 359.9903,
-      "rotY": 0.0265537556,
-      "rotZ": -0.00321182772,
-      "scaleX": 0.1931986,
-      "scaleY": 1,
-      "scaleZ": 0.1931986
+    "Object": {
+        "GUID": "054c58",
+        "Name": "Custom_Token",
+        "Transform": {
+            "posX": -15.95,
+            "posY": 2.01,
+            "posZ": 24.33,
+            "rotX": 359.99,
+            "rotY": 0.03,
+            "rotZ": 0,
+            "scaleX": 0.19,
+            "scaleY": 1,
+            "scaleZ": 0.19
+        },
+        "Nickname": "Red Flag",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+        },
+        "Tags": [
+            "Flag",
+            "Red"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1669113659627165193/966827C9748F73B4C5459DE3C91614FB82474ECC/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomToken": {
+                "Thickness": 0.2,
+                "MergeDistancePixels": 15,
+                "StandUp": false,
+                "Stackable": false
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Red Flag",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 1,
-      "b": 1
-    },
-    "Tags": [
-      "Flag",
-      "Red"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1669113659627165193/966827C9748F73B4C5459DE3C91614FB82474ECC/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomToken": {
-        "Thickness": 0.195,
-        "MergeDistancePixels": 15,
-        "StandUp": false,
-        "Stackable": false
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

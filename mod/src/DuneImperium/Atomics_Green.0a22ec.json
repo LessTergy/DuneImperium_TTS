@@ -1,63 +1,63 @@
 {
-  "Object": {
-    "GUID": "0a22ec",
-    "Name": "Custom_Token",
-    "Transform": {
-      "posX": 13.651824,
-      "posY": 1.71439016,
-      "posZ": 16.19627,
-      "rotX": 0.0196521077,
-      "rotY": 180.02243,
-      "rotZ": 0.07139878,
-      "scaleX": 0.239203319,
-      "scaleY": 1,
-      "scaleZ": 0.239203319
+    "Object": {
+        "GUID": "0a22ec",
+        "Name": "Custom_Token",
+        "Transform": {
+            "posX": 13.65,
+            "posY": 1.71,
+            "posZ": 16.2,
+            "rotX": 0.02,
+            "rotY": 180.02,
+            "rotZ": 0.07,
+            "scaleX": 0.24,
+            "scaleY": 1,
+            "scaleZ": 0.24
+        },
+        "Nickname": "Atomics Green",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+        },
+        "Tags": [
+            "Green"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1895479187440625541/B4C52266D76DCB7F1C3C6EB702D0DB070C92B869/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomToken": {
+                "Thickness": 0.1,
+                "MergeDistancePixels": 15,
+                "StandUp": false,
+                "Stackable": false
+            }
+        },
+        "LuaScript": "#include ./Atomics_Green.0a22ec.lua",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Atomics Green",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 1,
-      "b": 1
-    },
-    "Tags": [
-      "Green"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1895479187440625541/B4C52266D76DCB7F1C3C6EB702D0DB070C92B869/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomToken": {
-        "Thickness": 0.1,
-        "MergeDistancePixels": 15,
-        "StandUp": false,
-        "Stackable": false
-      }
-    },
-    "LuaScript": "#include ./Atomics_Green.0a22ec.lua",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

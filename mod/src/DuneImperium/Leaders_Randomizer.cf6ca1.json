@@ -1,61 +1,61 @@
 {
-  "Object": {
-    "GUID": "cf6ca1",
-    "Name": "Custom_Assetbundle_Bag",
-    "Transform": {
-      "posX": -4.270305,
-      "posY": 2.27298355,
-      "posZ": 34.54148,
-      "rotX": 5.56341831e-7,
-      "rotY": -0.0000368635774,
-      "rotZ": 5.78098138e-7,
-      "scaleX": 0.499999821,
-      "scaleY": 0.124999955,
-      "scaleZ": 0.499999821
+    "Object": {
+        "GUID": "cf6ca1",
+        "Name": "Custom_Assetbundle_Bag",
+        "Transform": {
+            "posX": -4.27,
+            "posY": 2.27,
+            "posZ": 34.54,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 0.5,
+            "scaleY": 0.12,
+            "scaleZ": 0.5
+        },
+        "Nickname": "Leaders Randomizer",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 0.89,
+            "b": 0.82
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "MaterialIndex": -1,
+        "MeshIndex": -1,
+        "Number": 0,
+        "CustomAssetbundle": {
+            "AssetbundleURL": "https://steamusercontent-a.akamaihd.net/ugc/1859450446898772086/0C434F47DB06FAFA3BAFD293A14D7B440CC1BE23/",
+            "AssetbundleSecondaryURL": "",
+            "MaterialIndex": 0,
+            "TypeIndex": 6,
+            "LoopingEffectIndex": 1
+        },
+        "Bag": {
+            "Order": 0
+        },
+        "LuaScript": "#include ./Leaders_Randomizer.cf6ca1.lua",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Leaders Randomizer",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 0.8865973,
-      "b": 0.8205567
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "MaterialIndex": -1,
-    "MeshIndex": -1,
-    "Number": 0,
-    "CustomAssetbundle": {
-      "AssetbundleURL": "https://steamusercontent-a.akamaihd.net/ugc/1859450446898772086/0C434F47DB06FAFA3BAFD293A14D7B440CC1BE23/",
-      "AssetbundleSecondaryURL": "",
-      "MaterialIndex": 0,
-      "TypeIndex": 6,
-      "LoopingEffectIndex": 1
-    },
-    "Bag": {
-      "Order": 0
-    },
-    "LuaScript": "#include ./Leaders_Randomizer.cf6ca1.lua",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

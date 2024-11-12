@@ -1,65 +1,65 @@
 {
-  "Object": {
-    "GUID": "77d7c8",
-    "Name": "Custom_Token",
-    "Transform": {
-      "posX": -8.887762,
-      "posY": 1.66429293,
-      "posZ": -10.5700083,
-      "rotX": 0.0169081222,
-      "rotY": 179.9354,
-      "rotZ": 0.07994138,
-      "scaleX": 0.100051254,
-      "scaleY": 1,
-      "scaleZ": 0.100051254
+    "Object": {
+        "GUID": "77d7c8",
+        "Name": "Custom_Token",
+        "Transform": {
+            "posX": -8.89,
+            "posY": 1.66,
+            "posZ": -10.57,
+            "rotX": 0.02,
+            "rotY": 179.94,
+            "rotZ": 0.08,
+            "scaleX": 0.1,
+            "scaleY": 1,
+            "scaleZ": 0.1
+        },
+        "Nickname": "Fremen Faction Yellow",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 0.97,
+            "b": 0
+        },
+        "Tags": [
+            "FremenInfluence",
+            "InfluenceTokens",
+            "Yellow"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": false,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1654474838742796853/4884939CCEB0A6276F3800194A608DEEE4415C4F/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomToken": {
+                "Thickness": 0.15,
+                "MergeDistancePixels": 15,
+                "StandUp": false,
+                "Stackable": true
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Fremen Faction Yellow",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 0.9686274,
-      "b": 0
-    },
-    "Tags": [
-      "FremenInfluence",
-      "InfluenceTokens",
-      "Yellow"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": false,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1654474838742796853/4884939CCEB0A6276F3800194A608DEEE4415C4F/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomToken": {
-        "Thickness": 0.15000014,
-        "MergeDistancePixels": 15,
-        "StandUp": false,
-        "Stackable": true
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

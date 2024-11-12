@@ -1,63 +1,63 @@
 {
-  "Object": {
-    "GUID": "e0296b",
-    "Name": "Custom_Tile",
-    "Transform": {
-      "posX": 8.257969,
-      "posY": 2.18782544,
-      "posZ": 68.5820541,
-      "rotX": 0.000008306992,
-      "rotY": 180.00325,
-      "rotZ": -3.7990457e-8,
-      "scaleX": 1.70145762,
-      "scaleY": 1,
-      "scaleZ": 1.70145762
+    "Object": {
+        "GUID": "e0296b",
+        "Name": "Custom_Tile",
+        "Transform": {
+            "posX": 8.26,
+            "posY": 2.19,
+            "posZ": 68.58,
+            "rotX": 0,
+            "rotY": 180.0,
+            "rotZ": 0,
+            "scaleX": 1.7,
+            "scaleY": 1,
+            "scaleZ": 1.7
+        },
+        "Nickname": "Torg le Jeune",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+        },
+        "Tags": [
+            "Leader"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2021593312048771815/3551B73AD86D4B1AE9CDD761C5E8A115A83062BD/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+                "Type": 3,
+                "Thickness": 0.1,
+                "Stackable": false,
+                "Stretch": true
+            }
+        },
+        "LuaScript": "#include ./Torg_le_Jeune.e0296b.lua",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Torg le Jeune",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0,
-      "g": 0,
-      "b": 0
-    },
-    "Tags": [
-      "Leader"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2021593312048771815/3551B73AD86D4B1AE9CDD761C5E8A115A83062BD/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomTile": {
-        "Type": 3,
-        "Thickness": 0.1,
-        "Stackable": false,
-        "Stretch": true
-      }
-    },
-    "LuaScript": "#include ./Torg_le_Jeune.e0296b.lua",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

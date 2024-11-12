@@ -1,63 +1,63 @@
 {
-  "Object": {
-    "GUID": "83b4e1",
-    "Name": "Custom_Tile",
-    "Transform": {
-      "posX": -1.87259865,
-      "posY": 2.18782568,
-      "posZ": 75.69515,
-      "rotX": 0.0000100602738,
-      "rotY": 179.969742,
-      "rotZ": -2.10613337e-7,
-      "scaleX": 1.72827446,
-      "scaleY": 1,
-      "scaleZ": 1.72827446
+    "Object": {
+        "GUID": "83b4e1",
+        "Name": "Custom_Tile",
+        "Transform": {
+            "posX": -1.87,
+            "posY": 2.19,
+            "posZ": 75.7,
+            "rotX": 0,
+            "rotY": 179.97,
+            "rotZ": 0,
+            "scaleX": 1.73,
+            "scaleY": 1,
+            "scaleZ": 1.73
+        },
+        "Nickname": "Xavier Harkonnen",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+        },
+        "Tags": [
+            "Leader"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://i.imgur.com/Mo4UaUM.jpg",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+                "Type": 3,
+                "Thickness": 0.1,
+                "Stackable": false,
+                "Stretch": true
+            }
+        },
+        "LuaScript": "#include ./Xavier_Harkonnen.83b4e1.lua",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Xavier Harkonnen",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0,
-      "g": 0,
-      "b": 0
-    },
-    "Tags": [
-      "Leader"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://i.imgur.com/Mo4UaUM.jpg",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomTile": {
-        "Type": 3,
-        "Thickness": 0.1,
-        "Stackable": false,
-        "Stretch": true
-      }
-    },
-    "LuaScript": "#include ./Xavier_Harkonnen.83b4e1.lua",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

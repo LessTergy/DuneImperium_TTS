@@ -1,61 +1,61 @@
 {
-  "Object": {
-    "GUID": "0f416c",
-    "Name": "CardCustom",
-    "Transform": {
-      "posX": -20.36253,
-      "posY": 2.263574,
-      "posZ": 41.78543,
-      "rotX": 0.000411321875,
-      "rotY": 179.999817,
-      "rotZ": -0.00119215413,
-      "scaleX": 0.83,
-      "scaleY": 1,
-      "scaleZ": 0.83
+    "Object": {
+        "GUID": "0f416c",
+        "Name": "CardCustom",
+        "Transform": {
+            "posX": -20.36,
+            "posY": 2.26,
+            "posZ": 41.79,
+            "rotX": 0,
+            "rotY": 180.0,
+            "rotZ": 0,
+            "scaleX": 0.83,
+            "scaleY": 1,
+            "scaleZ": 0.83
+        },
+        "Nickname": "Arrakeen",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.71,
+            "g": 0.71,
+            "b": 0.71
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": true,
+        "Hands": true,
+        "CardID": 15100,
+        "SidewaysCard": false,
+        "CustomDeck": {
+            "151": {
+                "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1670239430231975770/CAE72AEA7F428DB102776EBFD022458D58673955/",
+                "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1670239430231973967/ACE7BA96F9E5F8218FA434192B90234FD9ED4E38/",
+                "NumWidth": 1,
+                "NumHeight": 1,
+                "BackIsHidden": true,
+                "UniqueBack": false,
+                "Type": 0
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Arrakeen",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.713235259,
-      "g": 0.713235259,
-      "b": 0.713235259
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": true,
-    "Hands": true,
-    "CardID": 15100,
-    "SidewaysCard": false,
-    "CustomDeck": {
-      "151": {
-        "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1670239430231975770/CAE72AEA7F428DB102776EBFD022458D58673955/",
-        "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1670239430231973967/ACE7BA96F9E5F8218FA434192B90234FD9ED4E38/",
-        "NumWidth": 1,
-        "NumHeight": 1,
-        "BackIsHidden": true,
-        "UniqueBack": false,
-        "Type": 0
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

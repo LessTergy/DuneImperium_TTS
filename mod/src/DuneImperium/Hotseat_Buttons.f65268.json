@@ -1,60 +1,60 @@
 {
-  "Object": {
-    "GUID": "f65268",
-    "Name": "Bag",
-    "Transform": {
-      "posX": -34.464695,
-      "posY": 2.064966,
-      "posZ": 42.7101936,
-      "rotX": 5.302731e-7,
-      "rotY": -0.0000489185622,
-      "rotZ": -8.187558e-7,
-      "scaleX": 1,
-      "scaleY": 1,
-      "scaleZ": 1
+    "Object": {
+        "GUID": "f65268",
+        "Name": "Bag",
+        "Transform": {
+            "posX": -34.46,
+            "posY": 2.06,
+            "posZ": 42.71,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+        },
+        "Nickname": "Hotseat Buttons",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.71,
+            "g": 0.37,
+            "b": 0
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "MaterialIndex": -1,
+        "MeshIndex": -1,
+        "Bag": {
+            "Order": 0
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": "",
+        "ContainedObjects": []
     },
-    "Nickname": "Hotseat Buttons",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.7058823,
-      "g": 0.366520882,
-      "b": 0
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "MaterialIndex": -1,
-    "MeshIndex": -1,
-    "Bag": {
-      "Order": 0
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "ContainedObjects": []
-  },
-  "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Start_End_Turn_-_Yellow.3d1b90.json",
-    "Start_End_Turn_-_Blue.9eeccd.json",
-    "Start_End_Turn_-_Green.96aa58.json",
-    "Start_End_Turn_-_Red.895594.json"
-  ]
+    "StatesPaths": {},
+    "ContainedObjectPaths": [
+        "Start_End_Turn_-_Yellow.3d1b90.json",
+        "Start_End_Turn_-_Blue.9eeccd.json",
+        "Start_End_Turn_-_Green.96aa58.json",
+        "Start_End_Turn_-_Red.895594.json"
+    ]
 }

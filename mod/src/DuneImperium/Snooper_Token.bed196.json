@@ -1,63 +1,63 @@
 {
-  "Object": {
-    "GUID": "bed196",
-    "Name": "Custom_Tile",
-    "Transform": {
-      "posX": -14.0711927,
-      "posY": 2.23426723,
-      "posZ": 38.2013931,
-      "rotX": 8.24402832e-7,
-      "rotY": 90.01715,
-      "rotZ": -0.00000284420958,
-      "scaleX": 0.547053337,
-      "scaleY": 1,
-      "scaleZ": 0.547053337
+    "Object": {
+        "GUID": "bed196",
+        "Name": "Custom_Tile",
+        "Transform": {
+            "posX": -14.07,
+            "posY": 2.23,
+            "posZ": 38.2,
+            "rotX": 0,
+            "rotY": 90.02,
+            "rotZ": 0,
+            "scaleX": 0.55,
+            "scaleY": 1,
+            "scaleZ": 0.55
+        },
+        "Nickname": "Snooper Token",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+        },
+        "Tags": [
+            "Snooper"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1848162146307748136/D688A8621D38783177E262E7A8AC62AC8879F2D8/",
+            "ImageSecondaryURL": "https://steamusercontent-a.akamaihd.net/ugc/1848162146307748136/D688A8621D38783177E262E7A8AC62AC8879F2D8/",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+                "Type": 3,
+                "Thickness": 0.1,
+                "Stackable": false,
+                "Stretch": true
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Snooper Token",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0,
-      "g": 0,
-      "b": 0
-    },
-    "Tags": [
-      "Snooper"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1848162146307748136/D688A8621D38783177E262E7A8AC62AC8879F2D8/",
-      "ImageSecondaryURL": "https://steamusercontent-a.akamaihd.net/ugc/1848162146307748136/D688A8621D38783177E262E7A8AC62AC8879F2D8/",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomTile": {
-        "Type": 3,
-        "Thickness": 0.1,
-        "Stackable": false,
-        "Stretch": true
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

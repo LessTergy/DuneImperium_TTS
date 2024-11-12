@@ -1,62 +1,62 @@
 {
-  "Object": {
-    "GUID": "afa978",
-    "Name": "Custom_Model",
-    "Transform": {
-      "posX": -18.9388,
-      "posY": 1.71218908,
-      "posZ": 23.8920078,
-      "rotX": 0.0173751786,
-      "rotY": 179.876938,
-      "rotZ": 0.08008755,
-      "scaleX": 1,
-      "scaleY": 1,
-      "scaleZ": 1
+    "Object": {
+        "GUID": "afa978",
+        "Name": "Custom_Model",
+        "Transform": {
+            "posX": -18.94,
+            "posY": 1.71,
+            "posZ": 23.89,
+            "rotX": 0.02,
+            "rotY": 179.88,
+            "rotZ": 0.08,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+        },
+        "Nickname": "Red Agent",
+        "Description": "Agent",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 0.01,
+            "b": 0
+        },
+        "Tags": [
+            "Agent",
+            "Red"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomMesh": {
+            "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1655601720504411774/E99D570D57050372AAEB5BF034CB5271CD03719E/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 0,
+            "CastShadows": true
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Red Agent",
-    "Description": "Agent",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 0.007843138,
-      "b": 0
-    },
-    "Tags": [
-      "Agent",
-      "Red"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomMesh": {
-      "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1655601720504411774/E99D570D57050372AAEB5BF034CB5271CD03719E/",
-      "DiffuseURL": "",
-      "NormalURL": "",
-      "ColliderURL": "",
-      "Convex": true,
-      "MaterialIndex": 0,
-      "TypeIndex": 0,
-      "CastShadows": true
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

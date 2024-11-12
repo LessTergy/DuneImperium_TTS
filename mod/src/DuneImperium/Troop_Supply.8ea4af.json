@@ -1,48 +1,48 @@
 {
-  "Object": {
-    "GUID": "8ea4af",
-    "Name": "Bowl",
-    "Transform": {
-      "posX": -24.46103,
-      "posY": 1.68218732,
-      "posZ": 23.8959827,
-      "rotX": 0.06944289,
-      "rotY": 0.261057556,
-      "rotZ": 359.824738,
-      "scaleX": 0.7250002,
-      "scaleY": 0.7250002,
-      "scaleZ": 0.7250002
+    "Object": {
+        "GUID": "8ea4af",
+        "Name": "Bowl",
+        "Transform": {
+            "posX": -24.46,
+            "posY": 1.68,
+            "posZ": 23.9,
+            "rotX": 0.07,
+            "rotY": 0.26,
+            "rotZ": 359.82,
+            "scaleX": 0.73,
+            "scaleY": 0.73,
+            "scaleZ": 0.73
+        },
+        "Nickname": "Troop Supply",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.93,
+            "g": 0.52,
+            "b": 0
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "LuaScript": "#include ./Troop_Supply.8ea4af.lua",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Troop Supply",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.9264706,
-      "g": 0.5205476,
-      "b": 0
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "LuaScript": "#include ./Troop_Supply.8ea4af.lua",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

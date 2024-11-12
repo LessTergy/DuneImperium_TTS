@@ -1,48 +1,48 @@
 {
-  "Object": {
-    "GUID": "976c3a",
-    "Name": "BlockSquare",
-    "Transform": {
-      "posX": 0.249999464,
-      "posY": 1.48921049,
-      "posZ": 16.2900028,
-      "rotX": 359.983124,
-      "rotY": 0.000125575447,
-      "rotZ": 359.9201,
-      "scaleX": 1.62645662,
-      "scaleY": 0.006505827,
-      "scaleZ": 2.27703953
+    "Object": {
+        "GUID": "976c3a",
+        "Name": "BlockSquare",
+        "Transform": {
+            "posX": 0.25,
+            "posY": 1.49,
+            "posZ": 16.29,
+            "rotX": 359.98,
+            "rotY": 0,
+            "rotZ": 359.92,
+            "scaleX": 1.63,
+            "scaleY": 0.01,
+            "scaleZ": 2.28
+        },
+        "Nickname": "Draw a Card",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.36,
+            "g": 0.34,
+            "b": 0.32
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "LuaScript": "#include ./Draw_a_Card.976c3a.lua",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Draw a Card",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.357097119,
-      "g": 0.3406511,
-      "b": 0.322876126
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "LuaScript": "#include ./Draw_a_Card.976c3a.lua",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

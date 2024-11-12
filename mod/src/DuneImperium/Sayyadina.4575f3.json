@@ -1,124 +1,124 @@
 {
-  "Object": {
-    "GUID": "4575f3",
-    "Name": "Custom_Model_Infinite_Bag",
-    "Transform": {
-      "posX": 4.9,
-      "posY": 1.47000015,
-      "posZ": 28.76018,
-      "rotX": -0.0000134924967,
-      "rotY": 180.000519,
-      "rotZ": -0.0000159414631,
-      "scaleX": 0.8574066,
-      "scaleY": 0.200000048,
-      "scaleZ": 0.8574066
-    },
-    "Nickname": "Sayyadina",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 1,
-      "b": 1,
-      "a": 0
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "MaterialIndex": -1,
-    "MeshIndex": -1,
-    "CustomMesh": {
-      "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
-      "DiffuseURL": "",
-      "NormalURL": "",
-      "ColliderURL": "",
-      "Convex": true,
-      "MaterialIndex": 0,
-      "TypeIndex": 7,
-      "CastShadows": true
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "ContainedObjects": [],
-    "ChildObjects": [
-      {
-        "GUID": "95a276",
-        "Name": "Custom_Tile",
+    "Object": {
+        "GUID": "4575f3",
+        "Name": "Custom_Model_Infinite_Bag",
         "Transform": {
-          "posX": 0.0000326135378,
-          "posY": 0.09999977,
-          "posZ": -0.00000689220724,
-          "rotX": 1.09681793e-8,
-          "rotY": 0.00000853367146,
-          "rotZ": 8.16804e-16,
-          "scaleX": 0.504634,
-          "scaleY": 4.999999,
-          "scaleZ": 0.504633963
+            "posX": 4.9,
+            "posY": 1.47,
+            "posZ": 28.76,
+            "rotX": 0,
+            "rotY": 180.0,
+            "rotZ": 0,
+            "scaleX": 0.86,
+            "scaleY": 0.2,
+            "scaleZ": 0.86
         },
         "Nickname": "Sayyadina",
         "Description": "",
         "GMNotes": "",
         "AltLookAngle": {
-          "x": 0,
-          "y": 0,
-          "z": 0
+            "x": 0,
+            "y": 0,
+            "z": 0
         },
         "ColorDiffuse": {
-          "r": 0.117998473,
-          "g": 0.53,
-          "b": 1
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0
         },
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": true,
-        "Grid": false,
+        "Grid": true,
         "Snap": true,
         "IgnoreFoW": false,
         "MeasureMovement": false,
         "DragSelectable": true,
         "Autoraise": true,
-        "Sticky": false,
+        "Sticky": true,
         "Tooltip": true,
         "GridProjection": false,
         "HideWhenFaceDown": false,
         "Hands": false,
-        "CustomImage": {
-          "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1825652729288333570/6A7BB766218B2E58073382AE718E261B560323AC/",
-          "ImageSecondaryURL": "",
-          "ImageScalar": 1,
-          "WidthScale": 0,
-          "CustomTile": {
-            "Type": 2,
-            "Thickness": 0.2,
-            "Stackable": false,
-            "Stretch": true
-          }
+        "MaterialIndex": -1,
+        "MeshIndex": -1,
+        "CustomMesh": {
+            "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071991282/5C391C2599AE5F6972D6EFA7BFC04B41D6E821E3/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 7,
+            "CastShadows": true
         },
         "LuaScript": "",
         "LuaScriptState": "",
-        "XmlUI": ""
-      }
+        "XmlUI": "",
+        "ContainedObjects": [],
+        "ChildObjects": [
+            {
+                "GUID": "95a276",
+                "Name": "Custom_Tile",
+                "Transform": {
+                    "posX": 0,
+                    "posY": 0.1,
+                    "posZ": 0,
+                    "rotX": 0,
+                    "rotY": 0,
+                    "rotZ": 0,
+                    "scaleX": 0.5,
+                    "scaleY": 5.0,
+                    "scaleZ": 0.5
+                },
+                "Nickname": "Sayyadina",
+                "Description": "",
+                "GMNotes": "",
+                "AltLookAngle": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "ColorDiffuse": {
+                    "r": 0.12,
+                    "g": 0.53,
+                    "b": 1
+                },
+                "LayoutGroupSortIndex": 0,
+                "Value": 0,
+                "Locked": true,
+                "Grid": false,
+                "Snap": true,
+                "IgnoreFoW": false,
+                "MeasureMovement": false,
+                "DragSelectable": true,
+                "Autoraise": true,
+                "Sticky": false,
+                "Tooltip": true,
+                "GridProjection": false,
+                "HideWhenFaceDown": false,
+                "Hands": false,
+                "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1825652729288333570/6A7BB766218B2E58073382AE718E261B560323AC/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1,
+                    "WidthScale": 0,
+                    "CustomTile": {
+                        "Type": 2,
+                        "Thickness": 0.2,
+                        "Stackable": false,
+                        "Stretch": true
+                    }
+                },
+                "LuaScript": "",
+                "LuaScriptState": "",
+                "XmlUI": ""
+            }
+        ]
+    },
+    "StatesPaths": {},
+    "ContainedObjectPaths": [
+        "Sayyadina.599b12.json"
     ]
-  },
-  "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Sayyadina.599b12.json"
-  ]
 }

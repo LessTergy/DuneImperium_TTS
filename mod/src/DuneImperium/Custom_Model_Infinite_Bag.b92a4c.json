@@ -1,98 +1,31 @@
 {
-  "Object": {
-    "GUID": "b92a4c",
-    "Name": "Custom_Model_Infinite_Bag",
-    "Transform": {
-      "posX": 15.792366,
-      "posY": 1.75645173,
-      "posZ": 2.53240561,
-      "rotX": 0.0200283118,
-      "rotY": 179.406158,
-      "rotZ": 0.07243584,
-      "scaleX": 0.588394165,
-      "scaleY": 0.200000286,
-      "scaleZ": 0.7189145
-    },
-    "Nickname": "",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 1,
-      "b": 1,
-      "a": 0
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "MaterialIndex": -1,
-    "MeshIndex": -1,
-    "CustomMesh": {
-      "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071990826/9AD455F2CBAEC01B2CBCDDB8B6DC4CE48D14B545/",
-      "DiffuseURL": "",
-      "NormalURL": "",
-      "ColliderURL": "",
-      "Convex": true,
-      "MaterialIndex": 0,
-      "TypeIndex": 7,
-      "CastShadows": true
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "ContainedObjects": [],
-    "AttachedSnapPoints": [
-      {
-        "Position": {
-          "x": -0.08630125,
-          "y": 0.500000358,
-          "z": -0.02352829
-        }
-      }
-    ],
-    "ChildObjects": [
-      {
-        "GUID": "3368f8",
-        "Name": "Custom_Token",
+    "Object": {
+        "GUID": "b92a4c",
+        "Name": "Custom_Model_Infinite_Bag",
         "Transform": {
-          "posX": 0,
-          "posY": 0,
-          "posZ": 0,
-          "rotX": 1.21802526e-10,
-          "rotY": 0.00000308992685,
-          "rotZ": 3.28436839e-18,
-          "scaleX": 0.310586244,
-          "scaleY": 4.999993,
-          "scaleZ": 0.25419867
+            "posX": 15.79,
+            "posY": 1.76,
+            "posZ": 2.53,
+            "rotX": 0.02,
+            "rotY": 179.41,
+            "rotZ": 0.07,
+            "scaleX": 0.59,
+            "scaleY": 0.2,
+            "scaleZ": 0.72
         },
-        "Nickname": "Yellow Flag",
+        "Nickname": "",
         "Description": "",
         "GMNotes": "",
         "AltLookAngle": {
-          "x": 0,
-          "y": 0,
-          "z": 0
+            "x": 0,
+            "y": 0,
+            "z": 0
         },
         "ColorDiffuse": {
-          "r": 1,
-          "g": 0.9686274,
-          "b": 0
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0
         },
         "LayoutGroupSortIndex": 0,
         "Value": 0,
@@ -104,30 +37,97 @@
         "DragSelectable": true,
         "Autoraise": true,
         "Sticky": true,
-        "Tooltip": false,
+        "Tooltip": true,
         "GridProjection": false,
         "HideWhenFaceDown": false,
         "Hands": false,
-        "CustomImage": {
-          "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1771572500940863795/8945AB77E98A19DEE0BE423CB9E02EE280629DAC/",
-          "ImageSecondaryURL": "",
-          "ImageScalar": 1,
-          "WidthScale": 0,
-          "CustomToken": {
-            "Thickness": 0.2,
-            "MergeDistancePixels": 15,
-            "StandUp": false,
-            "Stackable": false
-          }
+        "MaterialIndex": -1,
+        "MeshIndex": -1,
+        "CustomMesh": {
+            "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071990826/9AD455F2CBAEC01B2CBCDDB8B6DC4CE48D14B545/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 7,
+            "CastShadows": true
         },
         "LuaScript": "",
         "LuaScriptState": "",
-        "XmlUI": ""
-      }
+        "XmlUI": "",
+        "ContainedObjects": [],
+        "AttachedSnapPoints": [
+            {
+                "Position": {
+                    "x": -0.09,
+                    "y": 0.5,
+                    "z": -0.02
+                }
+            }
+        ],
+        "ChildObjects": [
+            {
+                "GUID": "3368f8",
+                "Name": "Custom_Token",
+                "Transform": {
+                    "posX": 0,
+                    "posY": 0,
+                    "posZ": 0,
+                    "rotX": 0,
+                    "rotY": 0,
+                    "rotZ": 0,
+                    "scaleX": 0.31,
+                    "scaleY": 5.0,
+                    "scaleZ": 0.25
+                },
+                "Nickname": "Yellow Flag",
+                "Description": "",
+                "GMNotes": "",
+                "AltLookAngle": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "ColorDiffuse": {
+                    "r": 1,
+                    "g": 0.97,
+                    "b": 0
+                },
+                "LayoutGroupSortIndex": 0,
+                "Value": 0,
+                "Locked": true,
+                "Grid": true,
+                "Snap": true,
+                "IgnoreFoW": false,
+                "MeasureMovement": false,
+                "DragSelectable": true,
+                "Autoraise": true,
+                "Sticky": true,
+                "Tooltip": false,
+                "GridProjection": false,
+                "HideWhenFaceDown": false,
+                "Hands": false,
+                "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1771572500940863795/8945AB77E98A19DEE0BE423CB9E02EE280629DAC/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1,
+                    "WidthScale": 0,
+                    "CustomToken": {
+                        "Thickness": 0.2,
+                        "MergeDistancePixels": 15,
+                        "StandUp": false,
+                        "Stackable": false
+                    }
+                },
+                "LuaScript": "",
+                "LuaScriptState": "",
+                "XmlUI": ""
+            }
+        ]
+    },
+    "StatesPaths": {},
+    "ContainedObjectPaths": [
+        "Yellow_Flag.53ee25.json"
     ]
-  },
-  "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Yellow_Flag.53ee25.json"
-  ]
 }

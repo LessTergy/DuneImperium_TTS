@@ -1,64 +1,64 @@
 {
-  "Object": {
-    "GUID": "3d0abb",
-    "Name": "Custom_Tile",
-    "Transform": {
-      "posX": 12.08178,
-      "posY": 1.69073987,
-      "posZ": 27.06721,
-      "rotX": 0.0006036784,
-      "rotY": 180,
-      "rotZ": 179.99321,
-      "scaleX": 0.8054394,
-      "scaleY": 1,
-      "scaleZ": 0.8054394
+    "Object": {
+        "GUID": "3d0abb",
+        "Name": "Custom_Tile",
+        "Transform": {
+            "posX": 12.08,
+            "posY": 1.69,
+            "posZ": 27.07,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 179.99,
+            "scaleX": 0.81,
+            "scaleY": 1,
+            "scaleZ": 0.81
+        },
+        "Nickname": "",
+        "Description": "Tech",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.1,
+            "g": 0.1,
+            "b": 0.1
+        },
+        "Tags": [
+            "Norma",
+            "Spaceport"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2002448397950263611/40F797128394D598A460BD9C0CDA5ED2060635B5/",
+            "ImageSecondaryURL": "https://steamusercontent-a.akamaihd.net/ugc/2002448397950219095/1EA614EC832B16BC94811A7FE793344057850409/",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+                "Type": 3,
+                "Thickness": 0.1,
+                "Stackable": false,
+                "Stretch": true
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "",
-    "Description": "Tech",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.09803908,
-      "g": 0.09803908,
-      "b": 0.09803908
-    },
-    "Tags": [
-      "Norma",
-      "Spaceport"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2002448397950263611/40F797128394D598A460BD9C0CDA5ED2060635B5/",
-      "ImageSecondaryURL": "https://steamusercontent-a.akamaihd.net/ugc/2002448397950219095/1EA614EC832B16BC94811A7FE793344057850409/",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomTile": {
-        "Type": 3,
-        "Thickness": 0.1,
-        "Stackable": false,
-        "Stretch": true
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

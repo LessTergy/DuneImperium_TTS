@@ -1,98 +1,98 @@
 {
-  "Object": {
-    "GUID": "a5dbab",
-    "Name": "Deck",
-    "Transform": {
-      "posX": -24.4291744,
-      "posY": 2.34314132,
-      "posZ": 42.8599243,
-      "rotX": -4.612562e-7,
-      "rotY": 180.01,
-      "rotZ": 180,
-      "scaleX": 1,
-      "scaleY": 1,
-      "scaleZ": 1
+    "Object": {
+        "GUID": "a5dbab",
+        "Name": "Deck",
+        "Transform": {
+            "posX": -24.43,
+            "posY": 2.34,
+            "posZ": 42.86,
+            "rotX": 0,
+            "rotY": 180.01,
+            "rotZ": 180,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+        },
+        "Nickname": "",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.71,
+            "g": 0.71,
+            "b": 0.71
+        },
+        "Tags": [
+            "Intrigue"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": true,
+        "Hands": false,
+        "SidewaysCard": false,
+        "DeckIDs": [
+            42510,
+            42510,
+            42504,
+            42504,
+            42506,
+            42506,
+            42505,
+            42505,
+            42500,
+            42501,
+            42502,
+            42503,
+            42507,
+            42508,
+            42509
+        ],
+        "CustomDeck": {
+            "425": {
+                "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1892101972249341287/9FED90CD510F26618717CEB63FDA744CE916C6BA/",
+                "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102433196339102/D63B92C616541C84A7984026D757DB03E79532DD/",
+                "NumWidth": 6,
+                "NumHeight": 2,
+                "BackIsHidden": true,
+                "UniqueBack": false,
+                "Type": 0
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": "",
+        "ContainedObjects": []
     },
-    "Nickname": "",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.713235259,
-      "g": 0.713235259,
-      "b": 0.713235259
-    },
-    "Tags": [
-      "Intrigue"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": true,
-    "Hands": false,
-    "SidewaysCard": false,
-    "DeckIDs": [
-      42510,
-      42510,
-      42504,
-      42504,
-      42506,
-      42506,
-      42505,
-      42505,
-      42500,
-      42501,
-      42502,
-      42503,
-      42507,
-      42508,
-      42509
-    ],
-    "CustomDeck": {
-      "425": {
-        "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1892101972249341287/9FED90CD510F26618717CEB63FDA744CE916C6BA/",
-        "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102433196339102/D63B92C616541C84A7984026D757DB03E79532DD/",
-        "NumWidth": 6,
-        "NumHeight": 2,
-        "BackIsHidden": true,
-        "UniqueBack": false,
-        "Type": 0
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "ContainedObjects": []
-  },
-  "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Card.05a386.42510.json",
-    "Card.c30e26.42510.json",
-    "Card.8d46a9.42504.json",
-    "Card.bdf67d.42504.json",
-    "Card.356849.42506.json",
-    "Card.bcba47.42506.json",
-    "Card.cafc24.42505.json",
-    "Card.9d6e43.42505.json",
-    "Card.3c1169.42500.json",
-    "Card.c96ed2.42501.json",
-    "Card.cec175.42502.json",
-    "Card.56d332.42503.json",
-    "Card.6ede4e.42507.json",
-    "Card.5fdd55.42508.json",
-    "Card.7afa91.42509.json"
-  ]
+    "StatesPaths": {},
+    "ContainedObjectPaths": [
+        "Card.05a386.42510.json",
+        "Card.c30e26.42510.json",
+        "Card.8d46a9.42504.json",
+        "Card.bdf67d.42504.json",
+        "Card.356849.42506.json",
+        "Card.bcba47.42506.json",
+        "Card.cafc24.42505.json",
+        "Card.9d6e43.42505.json",
+        "Card.3c1169.42500.json",
+        "Card.c96ed2.42501.json",
+        "Card.cec175.42502.json",
+        "Card.56d332.42503.json",
+        "Card.6ede4e.42507.json",
+        "Card.5fdd55.42508.json",
+        "Card.7afa91.42509.json"
+    ]
 }

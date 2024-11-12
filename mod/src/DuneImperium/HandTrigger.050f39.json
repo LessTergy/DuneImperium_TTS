@@ -1,50 +1,50 @@
 {
-  "Object": {
-    "GUID": "050f39",
-    "Name": "HandTrigger",
-    "Transform": {
-      "posX": 19.1219387,
-      "posY": 3.62,
-      "posZ": -16.105896,
-      "rotX": 0,
-      "rotY": 0,
-      "rotZ": 0,
-      "scaleX": 15.0914516,
-      "scaleY": 4.035433,
-      "scaleZ": 2.8
+    "Object": {
+        "GUID": "050f39",
+        "Name": "HandTrigger",
+        "Transform": {
+            "posX": 19.12,
+            "posY": 3.62,
+            "posZ": -16.11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 15.09,
+            "scaleY": 4.04,
+            "scaleZ": 2.8
+        },
+        "Nickname": "",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.91,
+            "g": 0.9,
+            "b": 0.17,
+            "a": 0
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": false,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "FogColor": "Yellow",
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.905,
-      "g": 0.898,
-      "b": 0.171999961,
-      "a": 0
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": false,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "FogColor": "Yellow",
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

@@ -1,60 +1,60 @@
 {
-  "Object": {
-    "GUID": "e597dc",
-    "Name": "Custom_Token",
-    "Transform": {
-      "posX": 19.4503689,
-      "posY": 1.70146358,
-      "posZ": 16.9933949,
-      "rotX": 359.978577,
-      "rotY": 180.008011,
-      "rotZ": 0.0833929852,
-      "scaleX": 0.5,
-      "scaleY": 1,
-      "scaleZ": 0.5
+    "Object": {
+        "GUID": "e597dc",
+        "Name": "Custom_Token",
+        "Transform": {
+            "posX": 19.45,
+            "posY": 1.7,
+            "posZ": 16.99,
+            "rotX": 359.98,
+            "rotY": 180.01,
+            "rotZ": 0.08,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+        },
+        "Nickname": "Solari",
+        "Description": "Left click - Increase\nRight click - Decrease",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1771572672508112083/CB54F21A0AF3E4CBFF3EC93D5E40D432CF6BC856/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomToken": {
+                "Thickness": 0.1,
+                "MergeDistancePixels": 5,
+                "StandUp": false,
+                "Stackable": false
+            }
+        },
+        "LuaScript": "#include ./Solari.e597dc.lua",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Solari",
-    "Description": "Left click - Increase\nRight click - Decrease",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 1,
-      "b": 1
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1771572672508112083/CB54F21A0AF3E4CBFF3EC93D5E40D432CF6BC856/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomToken": {
-        "Thickness": 0.1,
-        "MergeDistancePixels": 5,
-        "StandUp": false,
-        "Stackable": false
-      }
-    },
-    "LuaScript": "#include ./Solari.e597dc.lua",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

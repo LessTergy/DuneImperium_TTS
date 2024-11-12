@@ -1,89 +1,31 @@
 {
-  "Object": {
-    "GUID": "074f6d",
-    "Name": "Custom_Model_Infinite_Bag",
-    "Transform": {
-      "posX": -0.0310453977,
-      "posY": 1.48821354,
-      "posZ": 9.520437,
-      "rotX": 0.0168577433,
-      "rotY": 179.996933,
-      "rotZ": 0.0798967257,
-      "scaleX": 0.72851944,
-      "scaleY": 0.149999619,
-      "scaleZ": 0.7366562
-    },
-    "Nickname": "Councellor Bonus",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 1,
-      "b": 1,
-      "a": 0
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "MaterialIndex": -1,
-    "MeshIndex": -1,
-    "CustomMesh": {
-      "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071990826/9AD455F2CBAEC01B2CBCDDB8B6DC4CE48D14B545/",
-      "DiffuseURL": "",
-      "NormalURL": "",
-      "ColliderURL": "",
-      "Convex": true,
-      "MaterialIndex": 0,
-      "TypeIndex": 7,
-      "CastShadows": true
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "ContainedObjects": [],
-    "ChildObjects": [
-      {
-        "GUID": "c2fa1c",
-        "Name": "Custom_Token",
+    "Object": {
+        "GUID": "074f6d",
+        "Name": "Custom_Model_Infinite_Bag",
         "Transform": {
-          "posX": -0.0131213767,
-          "posY": 1.960081e-7,
-          "posZ": 0.009063463,
-          "rotX": 1.84599367e-11,
-          "rotY": 0.000005239368,
-          "rotZ": 2.60551025e-11,
-          "scaleX": 0.2956091,
-          "scaleY": 6.66668367,
-          "scaleZ": 0.292343944
+            "posX": -0.03,
+            "posY": 1.49,
+            "posZ": 9.52,
+            "rotX": 0.02,
+            "rotY": 180.0,
+            "rotZ": 0.08,
+            "scaleX": 0.73,
+            "scaleY": 0.15,
+            "scaleZ": 0.74
         },
-        "Nickname": "Counsellor Bonus",
+        "Nickname": "Councellor Bonus",
         "Description": "",
         "GMNotes": "",
         "AltLookAngle": {
-          "x": 0,
-          "y": 0,
-          "z": 0
+            "x": 0,
+            "y": 0,
+            "z": 0
         },
         "ColorDiffuse": {
-          "r": 1,
-          "g": 1,
-          "b": 1
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0
         },
         "LayoutGroupSortIndex": 0,
         "Value": 0,
@@ -95,30 +37,88 @@
         "DragSelectable": true,
         "Autoraise": true,
         "Sticky": true,
-        "Tooltip": true,
+        "Tooltip": false,
         "GridProjection": false,
         "HideWhenFaceDown": false,
         "Hands": false,
-        "CustomImage": {
-          "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1655601387222021922/77069EC39A63A9BBB84088C8AFBD6154F6C9396F/",
-          "ImageSecondaryURL": "",
-          "ImageScalar": 1,
-          "WidthScale": 0,
-          "CustomToken": {
-            "Thickness": 0.149999842,
-            "MergeDistancePixels": 15,
-            "StandUp": false,
-            "Stackable": false
-          }
+        "MaterialIndex": -1,
+        "MeshIndex": -1,
+        "CustomMesh": {
+            "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071990826/9AD455F2CBAEC01B2CBCDDB8B6DC4CE48D14B545/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 7,
+            "CastShadows": true
         },
         "LuaScript": "",
         "LuaScriptState": "",
-        "XmlUI": ""
-      }
+        "XmlUI": "",
+        "ContainedObjects": [],
+        "ChildObjects": [
+            {
+                "GUID": "c2fa1c",
+                "Name": "Custom_Token",
+                "Transform": {
+                    "posX": -0.01,
+                    "posY": 0,
+                    "posZ": 0.01,
+                    "rotX": 0,
+                    "rotY": 0,
+                    "rotZ": 0,
+                    "scaleX": 0.3,
+                    "scaleY": 6.67,
+                    "scaleZ": 0.29
+                },
+                "Nickname": "Counsellor Bonus",
+                "Description": "",
+                "GMNotes": "",
+                "AltLookAngle": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "ColorDiffuse": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                },
+                "LayoutGroupSortIndex": 0,
+                "Value": 0,
+                "Locked": true,
+                "Grid": true,
+                "Snap": true,
+                "IgnoreFoW": false,
+                "MeasureMovement": false,
+                "DragSelectable": true,
+                "Autoraise": true,
+                "Sticky": true,
+                "Tooltip": true,
+                "GridProjection": false,
+                "HideWhenFaceDown": false,
+                "Hands": false,
+                "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1655601387222021922/77069EC39A63A9BBB84088C8AFBD6154F6C9396F/",
+                    "ImageSecondaryURL": "",
+                    "ImageScalar": 1,
+                    "WidthScale": 0,
+                    "CustomToken": {
+                        "Thickness": 0.15,
+                        "MergeDistancePixels": 15,
+                        "StandUp": false,
+                        "Stackable": false
+                    }
+                },
+                "LuaScript": "",
+                "LuaScriptState": "",
+                "XmlUI": ""
+            }
+        ]
+    },
+    "StatesPaths": {},
+    "ContainedObjectPaths": [
+        "Counsellor_Bonus.109802.json"
     ]
-  },
-  "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Counsellor_Bonus.109802.json"
-  ]
 }

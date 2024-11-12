@@ -1,65 +1,65 @@
 {
-  "Object": {
-    "GUID": "acfcef",
-    "Name": "Custom_Token",
-    "Transform": {
-      "posX": -9.718942,
-      "posY": 1.66778708,
-      "posZ": 5.850018,
-      "rotX": 0.0167907048,
-      "rotY": 179.95929,
-      "rotZ": 0.07983862,
-      "scaleX": 0.100051254,
-      "scaleY": 1,
-      "scaleZ": 0.100051254
+    "Object": {
+        "GUID": "acfcef",
+        "Name": "Custom_Token",
+        "Transform": {
+            "posX": -9.72,
+            "posY": 1.67,
+            "posZ": 5.85,
+            "rotX": 0.02,
+            "rotY": 179.96,
+            "rotZ": 0.08,
+            "scaleX": 0.1,
+            "scaleY": 1,
+            "scaleZ": 0.1
+        },
+        "Nickname": "Emperor Faction Red",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 0.01,
+            "b": 0
+        },
+        "Tags": [
+            "EmperorInfluence",
+            "InfluenceTokens",
+            "Red"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": false,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": true,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1654474838742796853/4884939CCEB0A6276F3800194A608DEEE4415C4F/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomToken": {
+                "Thickness": 0.15,
+                "MergeDistancePixels": 15,
+                "StandUp": false,
+                "Stackable": true
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Emperor Faction Red",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 0.01025645,
-      "b": 0
-    },
-    "Tags": [
-      "EmperorInfluence",
-      "InfluenceTokens",
-      "Red"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": false,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": true,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1654474838742796853/4884939CCEB0A6276F3800194A608DEEE4415C4F/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomToken": {
-        "Thickness": 0.145000145,
-        "MergeDistancePixels": 15,
-        "StandUp": false,
-        "Stackable": true
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

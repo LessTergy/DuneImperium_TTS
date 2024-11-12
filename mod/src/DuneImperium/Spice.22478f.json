@@ -1,60 +1,60 @@
 {
-  "Object": {
-    "GUID": "22478f",
-    "Name": "Custom_Token",
-    "Transform": {
-      "posX": 17.2732277,
-      "posY": 1.71016943,
-      "posZ": 17.0433922,
-      "rotX": 0.0196887683,
-      "rotY": 179.999054,
-      "rotZ": 0.07138098,
-      "scaleX": 0.5,
-      "scaleY": 1,
-      "scaleZ": 0.5
+    "Object": {
+        "GUID": "22478f",
+        "Name": "Custom_Token",
+        "Transform": {
+            "posX": 17.27,
+            "posY": 1.71,
+            "posZ": 17.04,
+            "rotX": 0.02,
+            "rotY": 180.0,
+            "rotZ": 0.07,
+            "scaleX": 0.5,
+            "scaleY": 1,
+            "scaleZ": 0.5
+        },
+        "Nickname": "Spice",
+        "Description": "Left click - Increase\nRight click - Decrease",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1771572672508102528/E7FD36CE3B3F6E6BF22E8ED1096644A381ECC426/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomToken": {
+                "Thickness": 0.1,
+                "MergeDistancePixels": 5,
+                "StandUp": false,
+                "Stackable": false
+            }
+        },
+        "LuaScript": "#include ./Spice.22478f.lua",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Spice",
-    "Description": "Left click - Increase\nRight click - Decrease",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 1,
-      "b": 1
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1771572672508102528/E7FD36CE3B3F6E6BF22E8ED1096644A381ECC426/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomToken": {
-        "Thickness": 0.1,
-        "MergeDistancePixels": 5,
-        "StandUp": false,
-        "Stackable": false
-      }
-    },
-    "LuaScript": "#include ./Spice.22478f.lua",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

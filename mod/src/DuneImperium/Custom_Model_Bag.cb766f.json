@@ -1,92 +1,31 @@
 {
-  "Object": {
-    "GUID": "cb766f",
-    "Name": "Custom_Model_Bag",
-    "Transform": {
-      "posX": 9.728598,
-      "posY": 1.53934765,
-      "posZ": 29.0790634,
-      "rotX": 0.000004741314,
-      "rotY": 180,
-      "rotZ": 0.000008378512,
-      "scaleX": 1.98502588,
-      "scaleY": 0.07869457,
-      "scaleZ": 1.26049209
-    },
-    "Nickname": "",
-    "Description": "Techs EN",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 1,
-      "b": 1,
-      "a": 0
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "MaterialIndex": -1,
-    "MeshIndex": -1,
-    "CustomMesh": {
-      "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071990826/9AD455F2CBAEC01B2CBCDDB8B6DC4CE48D14B545/",
-      "DiffuseURL": "",
-      "NormalURL": "",
-      "ColliderURL": "",
-      "Convex": true,
-      "MaterialIndex": 0,
-      "TypeIndex": 6,
-      "CastShadows": true
-    },
-    "Bag": {
-      "Order": 0
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "ContainedObjects": [],
-    "ChildObjects": [
-      {
-        "GUID": "a531e8",
-        "Name": "Custom_Tile",
+    "Object": {
+        "GUID": "cb766f",
+        "Name": "Custom_Model_Bag",
         "Transform": {
-          "posX": -1.4147767e-7,
-          "posY": 0.0500009544,
-          "posZ": 2.6381346e-9,
-          "rotX": 3.256881e-12,
-          "rotY": 0.0000307358532,
-          "rotZ": 2.60551043e-11,
-          "scaleX": 0.317500055,
-          "scaleY": 9.999962,
-          "scaleZ": 0.4999999
+            "posX": 9.73,
+            "posY": 1.54,
+            "posZ": 29.08,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1.99,
+            "scaleY": 0.08,
+            "scaleZ": 1.26
         },
-        "Nickname": "Chaumurky",
-        "Description": "Tech",
+        "Nickname": "",
+        "Description": "Techs EN",
         "GMNotes": "",
         "AltLookAngle": {
-          "x": 0,
-          "y": 0,
-          "z": 0
+            "x": 0,
+            "y": 0,
+            "z": 0
         },
         "ColorDiffuse": {
-          "r": 0,
-          "g": 0,
-          "b": 0
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0
         },
         "LayoutGroupSortIndex": 0,
         "Value": 0,
@@ -102,43 +41,104 @@
         "GridProjection": false,
         "HideWhenFaceDown": false,
         "Hands": false,
-        "CustomImage": {
-          "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2002448397950219095/1EA614EC832B16BC94811A7FE793344057850409/",
-          "ImageSecondaryURL": "https://steamusercontent-a.akamaihd.net/ugc/2002448397950219095/1EA614EC832B16BC94811A7FE793344057850409/",
-          "ImageScalar": 1,
-          "WidthScale": 0,
-          "CustomTile": {
-            "Type": 3,
-            "Thickness": 0.1,
-            "Stackable": true,
-            "Stretch": true
-          }
+        "MaterialIndex": -1,
+        "MeshIndex": -1,
+        "CustomMesh": {
+            "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1666858152071990826/9AD455F2CBAEC01B2CBCDDB8B6DC4CE48D14B545/",
+            "DiffuseURL": "",
+            "NormalURL": "",
+            "ColliderURL": "",
+            "Convex": true,
+            "MaterialIndex": 0,
+            "TypeIndex": 6,
+            "CastShadows": true
         },
-        "LuaScript": "function onUpdate()\r\n  if self.is_face_down == true then\r\n    self.tooltip = false\r\n  else self.tooltip = true\r\n  end\r\nend\r\n",
+        "Bag": {
+            "Order": 0
+        },
+        "LuaScript": "",
         "LuaScriptState": "",
-        "XmlUI": ""
-      }
+        "XmlUI": "",
+        "ContainedObjects": [],
+        "ChildObjects": [
+            {
+                "GUID": "a531e8",
+                "Name": "Custom_Tile",
+                "Transform": {
+                    "posX": 0,
+                    "posY": 0.05,
+                    "posZ": 0,
+                    "rotX": 0,
+                    "rotY": 0,
+                    "rotZ": 0,
+                    "scaleX": 0.32,
+                    "scaleY": 10.0,
+                    "scaleZ": 0.5
+                },
+                "Nickname": "Chaumurky",
+                "Description": "Tech",
+                "GMNotes": "",
+                "AltLookAngle": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "ColorDiffuse": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                },
+                "LayoutGroupSortIndex": 0,
+                "Value": 0,
+                "Locked": true,
+                "Grid": true,
+                "Snap": true,
+                "IgnoreFoW": false,
+                "MeasureMovement": false,
+                "DragSelectable": true,
+                "Autoraise": true,
+                "Sticky": true,
+                "Tooltip": true,
+                "GridProjection": false,
+                "HideWhenFaceDown": false,
+                "Hands": false,
+                "CustomImage": {
+                    "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2002448397950219095/1EA614EC832B16BC94811A7FE793344057850409/",
+                    "ImageSecondaryURL": "https://steamusercontent-a.akamaihd.net/ugc/2002448397950219095/1EA614EC832B16BC94811A7FE793344057850409/",
+                    "ImageScalar": 1,
+                    "WidthScale": 0,
+                    "CustomTile": {
+                        "Type": 3,
+                        "Thickness": 0.1,
+                        "Stackable": true,
+                        "Stretch": true
+                    }
+                },
+                "LuaScript": "function onUpdate()\r\n  if self.is_face_down == true then\r\n    self.tooltip = false\r\n  else self.tooltip = true\r\n  end\r\nend\r\n",
+                "LuaScriptState": "",
+                "XmlUI": ""
+            }
+        ]
+    },
+    "StatesPaths": {},
+    "ContainedObjectPaths": [
+        "Custom_Tile.70339e.json",
+        "Custom_Tile.aa3745.json",
+        "Custom_Tile.408909.json",
+        "Custom_Tile.cc9e13.json",
+        "Custom_Tile.e13a99.json",
+        "Custom_Tile.c42af8.json",
+        "Custom_Tile.57bb62.json",
+        "Custom_Tile.fd26f9.json",
+        "Custom_Tile.630428.json",
+        "Custom_Tile.065d51.json",
+        "Custom_Tile.3c6492.json",
+        "Custom_Tile.d92994.json",
+        "Custom_Tile.3938e5.json",
+        "Custom_Tile.613e52.json",
+        "Custom_Tile.c81426.json",
+        "Custom_Tile.3eb7b6.json",
+        "Custom_Tile.84ab7f.json",
+        "Custom_Tile.cf4203.json"
     ]
-  },
-  "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Custom_Tile.70339e.json",
-    "Custom_Tile.aa3745.json",
-    "Custom_Tile.408909.json",
-    "Custom_Tile.cc9e13.json",
-    "Custom_Tile.e13a99.json",
-    "Custom_Tile.c42af8.json",
-    "Custom_Tile.57bb62.json",
-    "Custom_Tile.fd26f9.json",
-    "Custom_Tile.630428.json",
-    "Custom_Tile.065d51.json",
-    "Custom_Tile.3c6492.json",
-    "Custom_Tile.d92994.json",
-    "Custom_Tile.3938e5.json",
-    "Custom_Tile.613e52.json",
-    "Custom_Tile.c81426.json",
-    "Custom_Tile.3eb7b6.json",
-    "Custom_Tile.84ab7f.json",
-    "Custom_Tile.cf4203.json"
-  ]
 }

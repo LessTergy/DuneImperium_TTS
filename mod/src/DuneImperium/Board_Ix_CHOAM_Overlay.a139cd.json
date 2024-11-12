@@ -1,417 +1,417 @@
 {
-  "Object": {
-    "GUID": "a139cd",
-    "Name": "Custom_Tile",
-    "Transform": {
-      "posX": 3.3028152,
-      "posY": 1.5779078,
-      "posZ": 8.480485,
-      "rotX": 0.0169059765,
-      "rotY": 179.975372,
-      "rotZ": 0.0798689947,
-      "scaleX": 2.55,
-      "scaleY": 1,
-      "scaleZ": 2.55
+    "Object": {
+        "GUID": "a139cd",
+        "Name": "Custom_Tile",
+        "Transform": {
+            "posX": 3.3,
+            "posY": 1.58,
+            "posZ": 8.48,
+            "rotX": 0.02,
+            "rotY": 179.98,
+            "rotZ": 0.08,
+            "scaleX": 2.55,
+            "scaleY": 1,
+            "scaleZ": 2.55
+        },
+        "Nickname": "Board Ix CHOAM Overlay",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.03,
+            "g": 0.03,
+            "b": 0.03
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2029467636441402653/6EBBE50DA5213C6BADDA4CE10331BE8851DBBFEE/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+                "Type": 0,
+                "Thickness": 0.1,
+                "Stackable": false,
+                "Stretch": true
+            }
+        },
+        "LuaScript": "#include ./Board_Ix_CHOAM_Overlay.a139cd.lua",
+        "LuaScriptState": "",
+        "XmlUI": "",
+        "AttachedSnapPoints": [
+            {
+                "Position": {
+                    "x": -0.64,
+                    "y": 0.1,
+                    "z": -0.46
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "Tags": [
+                    "Agent"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -0.54,
+                    "y": 0.1,
+                    "z": -0.23
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "Tags": [
+                    "Agent"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -0.63,
+                    "y": 0.1,
+                    "z": 0.28
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "Tags": [
+                    "Agent"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -0.56,
+                    "y": 0.1,
+                    "z": 0.51
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "Tags": [
+                    "Agent"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 0.84,
+                    "y": 0.1,
+                    "z": 0.3
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "Tags": [
+                    "Agent"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 0.93,
+                    "y": 0.1,
+                    "z": 0.53
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "Tags": [
+                    "Agent"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 2.44,
+                    "y": 0.1,
+                    "z": 0.31
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "Tags": [
+                    "Agent"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 2.52,
+                    "y": 0.1,
+                    "z": 0.56
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "Tags": [
+                    "Agent"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 2.56,
+                    "y": 0.1,
+                    "z": -0.3
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "Tags": [
+                    "Agent"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 2.47,
+                    "y": 0.1,
+                    "z": -0.54
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "Tags": [
+                    "Agent"
+                ]
+            },
+            {
+                "Position": {
+                    "x": 1.68,
+                    "y": 0.1,
+                    "z": 0.45
+                },
+                "Tags": [
+                    "Mentat"
+                ]
+            },
+            {
+                "Position": {
+                    "x": -1.59,
+                    "y": 0.1,
+                    "z": 0.64
+                },
+                "Rotation": {
+                    "x": 0.02,
+                    "y": 90.03,
+                    "z": 0.04
+                }
+            },
+            {
+                "Position": {
+                    "x": -1.8,
+                    "y": 0.1,
+                    "z": 0.64
+                },
+                "Rotation": {
+                    "x": 0.02,
+                    "y": 90.03,
+                    "z": 0.04
+                }
+            },
+            {
+                "Position": {
+                    "x": -2.02,
+                    "y": 0.1,
+                    "z": 0.64
+                },
+                "Rotation": {
+                    "x": 0.02,
+                    "y": 90.03,
+                    "z": 0.04
+                }
+            },
+            {
+                "Position": {
+                    "x": -2.23,
+                    "y": 0.1,
+                    "z": 0.64
+                },
+                "Rotation": {
+                    "x": 0.02,
+                    "y": 90.03,
+                    "z": 0.04
+                }
+            },
+            {
+                "Position": {
+                    "x": -1.59,
+                    "y": 0.1,
+                    "z": 0.21
+                },
+                "Rotation": {
+                    "x": 0.02,
+                    "y": 90.03,
+                    "z": 0.04
+                }
+            },
+            {
+                "Position": {
+                    "x": -1.8,
+                    "y": 0.1,
+                    "z": 0.21
+                },
+                "Rotation": {
+                    "x": 0.02,
+                    "y": 90.03,
+                    "z": 0.04
+                }
+            },
+            {
+                "Position": {
+                    "x": -2.02,
+                    "y": 0.1,
+                    "z": 0.21
+                },
+                "Rotation": {
+                    "x": 0.02,
+                    "y": 90.03,
+                    "z": 0.04
+                }
+            },
+            {
+                "Position": {
+                    "x": -2.23,
+                    "y": 0.1,
+                    "z": 0.21
+                },
+                "Rotation": {
+                    "x": 0.02,
+                    "y": 90.03,
+                    "z": 0.04
+                }
+            },
+            {
+                "Position": {
+                    "x": -1.59,
+                    "y": 0.1,
+                    "z": -0.22
+                },
+                "Rotation": {
+                    "x": 0.02,
+                    "y": 90.03,
+                    "z": 0.04
+                }
+            },
+            {
+                "Position": {
+                    "x": -1.8,
+                    "y": 0.1,
+                    "z": -0.22
+                },
+                "Rotation": {
+                    "x": 0.02,
+                    "y": 90.03,
+                    "z": 0.04
+                }
+            },
+            {
+                "Position": {
+                    "x": -2.02,
+                    "y": 0.1,
+                    "z": -0.22
+                },
+                "Rotation": {
+                    "x": 0.02,
+                    "y": 90.03,
+                    "z": 0.04
+                }
+            },
+            {
+                "Position": {
+                    "x": -2.23,
+                    "y": 0.1,
+                    "z": -0.22
+                },
+                "Rotation": {
+                    "x": 0.02,
+                    "y": 90.03,
+                    "z": 0.04
+                }
+            },
+            {
+                "Position": {
+                    "x": -1.59,
+                    "y": 0.1,
+                    "z": -0.65
+                },
+                "Rotation": {
+                    "x": 0.02,
+                    "y": 90.03,
+                    "z": 0.04
+                }
+            },
+            {
+                "Position": {
+                    "x": -1.8,
+                    "y": 0.1,
+                    "z": -0.65
+                },
+                "Rotation": {
+                    "x": 0.02,
+                    "y": 90.03,
+                    "z": 0.04
+                }
+            },
+            {
+                "Position": {
+                    "x": -2.02,
+                    "y": 0.1,
+                    "z": -0.65
+                },
+                "Rotation": {
+                    "x": 0.02,
+                    "y": 90.03,
+                    "z": 0.04
+                }
+            },
+            {
+                "Position": {
+                    "x": -2.23,
+                    "y": 0.1,
+                    "z": -0.65
+                },
+                "Rotation": {
+                    "x": 0.02,
+                    "y": 90.03,
+                    "z": 0.04
+                }
+            }
+        ],
+        "States": {}
     },
-    "Nickname": "Board Ix CHOAM Overlay",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.0261324048,
-      "g": 0.0260868855,
-      "b": 0.0260868855
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2029467636441402653/6EBBE50DA5213C6BADDA4CE10331BE8851DBBFEE/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomTile": {
-        "Type": 0,
-        "Thickness": 0.1,
-        "Stackable": false,
-        "Stretch": true
-      }
-    },
-    "LuaScript": "#include ./Board_Ix_CHOAM_Overlay.a139cd.lua",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "AttachedSnapPoints": [
-      {
-        "Position": {
-          "x": -0.640683055,
-          "y": 0.0999688059,
-          "z": -0.461625576
-        },
-        "Rotation": {
-          "x": 0.000157606017,
-          "y": 0.00276691979,
-          "z": 0.000177395268
-        },
-        "Tags": [
-          "Agent"
-        ]
-      },
-      {
-        "Position": {
-          "x": -0.541104853,
-          "y": 0.0999702662,
-          "z": -0.2265401
-        },
-        "Rotation": {
-          "x": 0.000140307835,
-          "y": 0.00268498156,
-          "z": 0.000162140219
-        },
-        "Tags": [
-          "Agent"
-        ]
-      },
-      {
-        "Position": {
-          "x": -0.631917,
-          "y": 0.0999702,
-          "z": 0.277114451
-        },
-        "Rotation": {
-          "x": 0.000149126747,
-          "y": 0.00279425248,
-          "z": 0.00016306105
-        },
-        "Tags": [
-          "Agent"
-        ]
-      },
-      {
-        "Position": {
-          "x": -0.5645723,
-          "y": 0.100031041,
-          "z": 0.513785064
-        },
-        "Rotation": {
-          "x": 0.00014603867,
-          "y": 0.00273961574,
-          "z": 0.000159619129
-        },
-        "Tags": [
-          "Agent"
-        ]
-      },
-      {
-        "Position": {
-          "x": 0.8437348,
-          "y": 0.100025259,
-          "z": 0.302898318
-        },
-        "Rotation": {
-          "x": 0.000144644931,
-          "y": 0.00282157958,
-          "z": 0.000159245668
-        },
-        "Tags": [
-          "Agent"
-        ]
-      },
-      {
-        "Position": {
-          "x": 0.9262648,
-          "y": 0.100030668,
-          "z": 0.5293861
-        },
-        "Rotation": {
-          "x": 0.0001377949,
-          "y": 0.00278060813,
-          "z": 0.000167216233
-        },
-        "Tags": [
-          "Agent"
-        ]
-      },
-      {
-        "Position": {
-          "x": 2.43935871,
-          "y": 0.100024104,
-          "z": 0.307430476
-        },
-        "Rotation": {
-          "x": 0.000139557844,
-          "y": 0.00286256778,
-          "z": 0.000168817191
-        },
-        "Tags": [
-          "Agent"
-        ]
-      },
-      {
-        "Position": {
-          "x": 2.52023745,
-          "y": 0.100035712,
-          "z": 0.561957538
-        },
-        "Rotation": {
-          "x": 0.000145027443,
-          "y": 0.00282157864,
-          "z": 0.000175320631
-        },
-        "Tags": [
-          "Agent"
-        ]
-      },
-      {
-        "Position": {
-          "x": 2.55568671,
-          "y": 0.1001055,
-          "z": -0.300443381
-        },
-        "Rotation": {
-          "x": 0.000149805113,
-          "y": 0.002944515,
-          "z": 0.00016872416
-        },
-        "Tags": [
-          "Agent"
-        ]
-      },
-      {
-        "Position": {
-          "x": 2.47318077,
-          "y": 0.0999685749,
-          "z": -0.543987334
-        },
-        "Rotation": {
-          "x": 0.000139731943,
-          "y": 0.00297184987,
-          "z": 0.000161006639
-        },
-        "Tags": [
-          "Agent"
-        ]
-      },
-      {
-        "Position": {
-          "x": 1.6754334,
-          "y": 0.09998389,
-          "z": 0.452444583
-        },
-        "Tags": [
-          "Mentat"
-        ]
-      },
-      {
-        "Position": {
-          "x": -1.58670557,
-          "y": 0.09994894,
-          "z": 0.638418138
-        },
-        "Rotation": {
-          "x": 0.020164879,
-          "y": 90.03062,
-          "z": 0.0426920466
-        }
-      },
-      {
-        "Position": {
-          "x": -1.8024,
-          "y": 0.099915944,
-          "z": 0.638966441
-        },
-        "Rotation": {
-          "x": 0.0201648436,
-          "y": 90.03049,
-          "z": 0.0427033864
-        }
-      },
-      {
-        "Position": {
-          "x": -2.01808357,
-          "y": 0.0999913961,
-          "z": 0.640173554
-        },
-        "Rotation": {
-          "x": 0.0201648939,
-          "y": 90.0307,
-          "z": 0.04268971
-        }
-      },
-      {
-        "Position": {
-          "x": -2.23377085,
-          "y": 0.09997889,
-          "z": 0.640265942
-        },
-        "Rotation": {
-          "x": 0.0201103184,
-          "y": 90.03092,
-          "z": 0.042689275
-        }
-      },
-      {
-        "Position": {
-          "x": -1.58688974,
-          "y": 0.0999880061,
-          "z": 0.208609045
-        },
-        "Rotation": {
-          "x": 0.0200286955,
-          "y": 90.03204,
-          "z": 0.0428176
-        }
-      },
-      {
-        "Position": {
-          "x": -1.80258417,
-          "y": 0.09997957,
-          "z": 0.208707049
-        },
-        "Rotation": {
-          "x": 0.0200286321,
-          "y": 90.03185,
-          "z": 0.0428367741
-        }
-      },
-      {
-        "Position": {
-          "x": -2.01827025,
-          "y": 0.100006156,
-          "z": 0.208800033
-        },
-        "Rotation": {
-          "x": 0.0200286321,
-          "y": 90.03185,
-          "z": 0.04282411
-        }
-      },
-      {
-        "Position": {
-          "x": -2.23395681,
-          "y": 0.0999946,
-          "z": 0.208892822
-        },
-        "Rotation": {
-          "x": 0.02002862,
-          "y": 90.0318,
-          "z": 0.0428282544
-        }
-      },
-      {
-        "Position": {
-          "x": -1.58707571,
-          "y": 0.0999469757,
-          "z": -0.222763151
-        },
-        "Rotation": {
-          "x": 0.0200014338,
-          "y": 90.03228,
-          "z": 0.0427949
-        }
-      },
-      {
-        "Position": {
-          "x": -1.80276465,
-          "y": 0.09996189,
-          "z": -0.222670376
-        },
-        "Rotation": {
-          "x": 0.0200287327,
-          "y": 90.03221,
-          "z": 0.0428038873
-        }
-      },
-      {
-        "Position": {
-          "x": -2.0184505,
-          "y": 0.0999342352,
-          "z": -0.222577214
-        },
-        "Rotation": {
-          "x": 0.0200560745,
-          "y": 90.0322647,
-          "z": 0.0428395234
-        }
-      },
-      {
-        "Position": {
-          "x": -2.234137,
-          "y": 0.0999539047,
-          "z": -0.22248441
-        },
-        "Rotation": {
-          "x": 0.0200287364,
-          "y": 90.03221,
-          "z": 0.0427960269
-        }
-      },
-      {
-        "Position": {
-          "x": -1.587266,
-          "y": 0.100000061,
-          "z": -0.653769732
-        },
-        "Rotation": {
-          "x": 0.0200287271,
-          "y": 90.03219,
-          "z": 0.0428195521
-        }
-      },
-      {
-        "Position": {
-          "x": -1.80294991,
-          "y": 0.09998631,
-          "z": -0.654042363
-        },
-        "Rotation": {
-          "x": 0.0200560931,
-          "y": 90.03236,
-          "z": 0.04283964
-        }
-      },
-      {
-        "Position": {
-          "x": -2.018641,
-          "y": 0.100001708,
-          "z": -0.6539443
-        },
-        "Rotation": {
-          "x": 0.0200560465,
-          "y": 90.03219,
-          "z": 0.0427941941
-        }
-      },
-      {
-        "Position": {
-          "x": -2.23432136,
-          "y": 0.09996127,
-          "z": -0.6538579
-        },
-        "Rotation": {
-          "x": 0.0200560875,
-          "y": 90.03231,
-          "z": 0.04284863
-        }
-      }
-    ],
-    "States": {}
-  },
-  "StatesPaths": {
-    "2": "Board_Normal_CHOAM_Overlay.0552a2.json"
-  }
+    "StatesPaths": {
+        "2": "Board_Normal_CHOAM_Overlay.0552a2.json"
+    }
 }

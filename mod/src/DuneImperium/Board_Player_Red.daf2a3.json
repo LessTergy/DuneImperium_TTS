@@ -1,63 +1,63 @@
 {
-  "Object": {
-    "GUID": "daf2a3",
-    "Name": "Custom_Tile",
-    "Transform": {
-      "posX": -19.1356182,
-      "posY": 1.51307058,
-      "posZ": 20.4526539,
-      "rotX": 0.0170518067,
-      "rotY": 179.98909,
-      "rotZ": 0.0799776241,
-      "scaleX": 4.91699457,
-      "scaleY": 1,
-      "scaleZ": 4.91699457
+    "Object": {
+        "GUID": "daf2a3",
+        "Name": "Custom_Tile",
+        "Transform": {
+            "posX": -19.14,
+            "posY": 1.51,
+            "posZ": 20.45,
+            "rotX": 0.02,
+            "rotY": 179.99,
+            "rotZ": 0.08,
+            "scaleX": 4.92,
+            "scaleY": 1,
+            "scaleZ": 4.92
+        },
+        "Nickname": "Board Player Red",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+        },
+        "Tags": [
+            "Red"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomImage": {
+            "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1776074807053763078/52178FDB15081ADB8FA1CEDD451F32256EE2F5A9/",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1,
+            "WidthScale": 0,
+            "CustomTile": {
+                "Type": 0,
+                "Thickness": 0.2,
+                "Stackable": false,
+                "Stretch": true
+            }
+        },
+        "LuaScript": "#include ./Board_Player_Red.daf2a3.lua",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Board Player Red",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0,
-      "g": 0,
-      "b": 0
-    },
-    "Tags": [
-      "Red"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomImage": {
-      "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1776074807053763078/52178FDB15081ADB8FA1CEDD451F32256EE2F5A9/",
-      "ImageSecondaryURL": "",
-      "ImageScalar": 1,
-      "WidthScale": 0,
-      "CustomTile": {
-        "Type": 0,
-        "Thickness": 0.2,
-        "Stackable": false,
-        "Stretch": true
-      }
-    },
-    "LuaScript": "#include ./Board_Player_Red.daf2a3.lua",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

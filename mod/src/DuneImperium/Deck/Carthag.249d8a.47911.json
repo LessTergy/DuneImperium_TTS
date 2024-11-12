@@ -1,61 +1,61 @@
 {
-  "Object": {
-    "GUID": "249d8a",
-    "Name": "Card",
-    "Transform": {
-      "posX": 11.4677362,
-      "posY": 2.24785781,
-      "posZ": 35.2832451,
-      "rotX": -0.000176441987,
-      "rotY": 180,
-      "rotZ": 179.999481,
-      "scaleX": 0.83,
-      "scaleY": 1,
-      "scaleZ": 0.83
+    "Object": {
+        "GUID": "249d8a",
+        "Name": "Card",
+        "Transform": {
+            "posX": 11.47,
+            "posY": 2.25,
+            "posZ": 35.28,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 180.0,
+            "scaleX": 0.83,
+            "scaleY": 1,
+            "scaleZ": 0.83
+        },
+        "Nickname": "Carthag",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.71,
+            "g": 0.71,
+            "b": 0.71
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": true,
+        "Hands": true,
+        "CardID": 47911,
+        "SidewaysCard": false,
+        "CustomDeck": {
+            "479": {
+                "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2047504140431543498/78191C8FEB2EF7375CEA5EEEB4DCD8B6FFA31743/",
+                "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1670239430231973967/ACE7BA96F9E5F8218FA434192B90234FD9ED4E38/",
+                "NumWidth": 7,
+                "NumHeight": 2,
+                "BackIsHidden": false,
+                "UniqueBack": false,
+                "Type": 0
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Carthag",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.713235259,
-      "g": 0.713235259,
-      "b": 0.713235259
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": true,
-    "Hands": true,
-    "CardID": 47911,
-    "SidewaysCard": false,
-    "CustomDeck": {
-      "479": {
-        "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2047504140431543498/78191C8FEB2EF7375CEA5EEEB4DCD8B6FFA31743/",
-        "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1670239430231973967/ACE7BA96F9E5F8218FA434192B90234FD9ED4E38/",
-        "NumWidth": 7,
-        "NumHeight": 2,
-        "BackIsHidden": false,
-        "UniqueBack": false,
-        "Type": 0
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

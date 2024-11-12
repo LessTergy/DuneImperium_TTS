@@ -1,48 +1,48 @@
 {
-  "Object": {
-    "GUID": "0a5f50",
-    "Name": "Checker_white",
-    "Transform": {
-      "posX": -2.24990153,
-      "posY": 1.27,
-      "posZ": 12.8700142,
-      "rotX": 0.0169066451,
-      "rotY": 179.975769,
-      "rotZ": 0.079869695,
-      "scaleX": 1.37866032,
-      "scaleY": 0.165157527,
-      "scaleZ": 1.34989369
+    "Object": {
+        "GUID": "0a5f50",
+        "Name": "Checker_white",
+        "Transform": {
+            "posX": -2.25,
+            "posY": 1.27,
+            "posZ": 12.87,
+            "rotX": 0.02,
+            "rotY": 179.98,
+            "rotZ": 0.08,
+            "scaleX": 1.38,
+            "scaleY": 0.17,
+            "scaleZ": 1.35
+        },
+        "Nickname": "buy3",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": false,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": false,
+        "Sticky": false,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "LuaScript": "#include ./buy3.0a5f50.lua",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "buy3",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 1,
-      "b": 1
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": false,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": false,
-    "Sticky": false,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "LuaScript": "#include ./buy3.0a5f50.lua",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

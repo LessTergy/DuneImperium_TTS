@@ -1,103 +1,103 @@
 {
-  "Object": {
-    "GUID": "a47416",
-    "Name": "Die_6",
-    "Transform": {
-      "posX": 11.31157,
-      "posY": 2.56446719,
-      "posZ": 40.5433846,
-      "rotX": -0.0000060425964,
-      "rotY": 0.09423662,
-      "rotZ": 180,
-      "scaleX": 1,
-      "scaleY": 1,
-      "scaleZ": 1
+    "Object": {
+        "GUID": "a47416",
+        "Name": "Die_6",
+        "Transform": {
+            "posX": 11.31,
+            "posY": 2.56,
+            "posZ": 40.54,
+            "rotX": 0,
+            "rotY": 0.09,
+            "rotZ": 180,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+        },
+        "Nickname": "",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.15,
+            "g": 0.3,
+            "b": 0.44
+        },
+        "Tags": [
+            "AutomataStuff"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": false,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "AltSound": true,
+        "MaterialIndex": 1,
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": "",
+        "RotationValues": [
+            {
+                "Value": "1",
+                "Rotation": {
+                    "x": -90,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            {
+                "Value": "2",
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            {
+                "Value": "3",
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -90
+                }
+            },
+            {
+                "Value": "4",
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 90
+                }
+            },
+            {
+                "Value": "5",
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -180
+                }
+            },
+            {
+                "Value": "6",
+                "Rotation": {
+                    "x": 90,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        ]
     },
-    "Nickname": "",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.149030268,
-      "g": 0.301973075,
-      "b": 0.4431491
-    },
-    "Tags": [
-      "AutomataStuff"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": false,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "AltSound": true,
-    "MaterialIndex": 1,
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "RotationValues": [
-      {
-        "Value": "1",
-        "Rotation": {
-          "x": -90,
-          "y": 0,
-          "z": 0
-        }
-      },
-      {
-        "Value": "2",
-        "Rotation": {
-          "x": 0,
-          "y": 0,
-          "z": 0
-        }
-      },
-      {
-        "Value": "3",
-        "Rotation": {
-          "x": 0,
-          "y": 0,
-          "z": -90
-        }
-      },
-      {
-        "Value": "4",
-        "Rotation": {
-          "x": 0,
-          "y": 0,
-          "z": 90
-        }
-      },
-      {
-        "Value": "5",
-        "Rotation": {
-          "x": 0,
-          "y": 0,
-          "z": -180
-        }
-      },
-      {
-        "Value": "6",
-        "Rotation": {
-          "x": 90,
-          "y": 0,
-          "z": 0
-        }
-      }
-    ]
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

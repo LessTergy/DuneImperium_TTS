@@ -1,87 +1,87 @@
 {
-  "Object": {
-    "GUID": "7c9ceb",
-    "Name": "Deck",
-    "Transform": {
-      "posX": -1.15531015,
-      "posY": 1.65382111,
-      "posZ": -5.737263,
-      "rotX": 0.0169422813,
-      "rotY": 179.950562,
-      "rotZ": 180.079865,
-      "scaleX": 1,
-      "scaleY": 1,
-      "scaleZ": 1
+    "Object": {
+        "GUID": "7c9ceb",
+        "Name": "Deck",
+        "Transform": {
+            "posX": -1.16,
+            "posY": 1.65,
+            "posZ": -5.74,
+            "rotX": 0.02,
+            "rotY": 179.95,
+            "rotZ": 180.08,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+        },
+        "Nickname": "",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.71,
+            "g": 0.71,
+            "b": 0.71
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": true,
+        "Hands": false,
+        "SidewaysCard": false,
+        "DeckIDs": [
+            47400,
+            47401,
+            47402,
+            47403,
+            47404,
+            47405,
+            47406,
+            47407,
+            47408,
+            47409,
+            47410
+        ],
+        "CustomDeck": {
+            "474": {
+                "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130038927/B1CD3F41933A9DD44522934B5F6CF3C5FF77A51C/",
+                "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130039766/3B3F54DF65F76F0850D0EC683602524806A11E49/",
+                "NumWidth": 6,
+                "NumHeight": 2,
+                "BackIsHidden": true,
+                "UniqueBack": false,
+                "Type": 0
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": "",
+        "ContainedObjects": []
     },
-    "Nickname": "",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.713235259,
-      "g": 0.713235259,
-      "b": 0.713235259
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": true,
-    "Hands": false,
-    "SidewaysCard": false,
-    "DeckIDs": [
-      47400,
-      47401,
-      47402,
-      47403,
-      47404,
-      47405,
-      47406,
-      47407,
-      47408,
-      47409,
-      47410
-    ],
-    "CustomDeck": {
-      "474": {
-        "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130038927/B1CD3F41933A9DD44522934B5F6CF3C5FF77A51C/",
-        "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591130039766/3B3F54DF65F76F0850D0EC683602524806A11E49/",
-        "NumWidth": 6,
-        "NumHeight": 2,
-        "BackIsHidden": true,
-        "UniqueBack": false,
-        "Type": 0
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "ContainedObjects": []
-  },
-  "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Desert_Power.21f6fc.47400.json",
-    "Raid_Stockpiles.75cbe8.47401.json",
-    "Cloak_and_Dagger.ac7bc4.47402.json",
-    "Machinations.7f0902.47403.json",
-    "Sort_through_the_Chaos.79979f.47404.json",
-    "Terrible_Purpose.8395cc.47405.json",
-    "Guild_Bank_Raid.997fc2.47406.json",
-    "Siege_of_Arrakeen.c1b898.47407.json",
-    "Siege_of_Carthag.af859d.47408.json",
-    "Secure_Imperial_Basin.7670b1.47409.json",
-    "Trade_Monopoly.9b5f50.47410.json"
-  ]
+    "StatesPaths": {},
+    "ContainedObjectPaths": [
+        "Desert_Power.21f6fc.47400.json",
+        "Raid_Stockpiles.75cbe8.47401.json",
+        "Cloak_and_Dagger.ac7bc4.47402.json",
+        "Machinations.7f0902.47403.json",
+        "Sort_through_the_Chaos.79979f.47404.json",
+        "Terrible_Purpose.8395cc.47405.json",
+        "Guild_Bank_Raid.997fc2.47406.json",
+        "Siege_of_Arrakeen.c1b898.47407.json",
+        "Siege_of_Carthag.af859d.47408.json",
+        "Secure_Imperial_Basin.7670b1.47409.json",
+        "Trade_Monopoly.9b5f50.47410.json"
+    ]
 }

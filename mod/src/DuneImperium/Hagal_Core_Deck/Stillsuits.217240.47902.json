@@ -1,61 +1,61 @@
 {
-  "Object": {
-    "GUID": "217240",
-    "Name": "Card",
-    "Transform": {
-      "posX": 4.201199,
-      "posY": 2.93868446,
-      "posZ": -25.1528778,
-      "rotX": -0.00499349274,
-      "rotY": 179.983246,
-      "rotZ": 0.00227485644,
-      "scaleX": 0.83,
-      "scaleY": 1,
-      "scaleZ": 0.83
+    "Object": {
+        "GUID": "217240",
+        "Name": "Card",
+        "Transform": {
+            "posX": 4.2,
+            "posY": 2.94,
+            "posZ": -25.15,
+            "rotX": 0,
+            "rotY": 179.98,
+            "rotZ": 0,
+            "scaleX": 0.83,
+            "scaleY": 1,
+            "scaleZ": 0.83
+        },
+        "Nickname": "Stillsuits",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.71,
+            "g": 0.71,
+            "b": 0.71
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": true,
+        "Hands": true,
+        "CardID": 47902,
+        "SidewaysCard": false,
+        "CustomDeck": {
+            "34": {
+                "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2047504140431543498/78191C8FEB2EF7375CEA5EEEB4DCD8B6FFA31743/",
+                "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1670239430231973967/ACE7BA96F9E5F8218FA434192B90234FD9ED4E38/",
+                "NumWidth": 7,
+                "NumHeight": 2,
+                "BackIsHidden": false,
+                "UniqueBack": false,
+                "Type": 0
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Stillsuits",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.713235259,
-      "g": 0.713235259,
-      "b": 0.713235259
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": true,
-    "Hands": true,
-    "CardID": 47902,
-    "SidewaysCard": false,
-    "CustomDeck": {
-      "34": {
-        "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2047504140431543498/78191C8FEB2EF7375CEA5EEEB4DCD8B6FFA31743/",
-        "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1670239430231973967/ACE7BA96F9E5F8218FA434192B90234FD9ED4E38/",
-        "NumWidth": 7,
-        "NumHeight": 2,
-        "BackIsHidden": false,
-        "UniqueBack": false,
-        "Type": 0
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

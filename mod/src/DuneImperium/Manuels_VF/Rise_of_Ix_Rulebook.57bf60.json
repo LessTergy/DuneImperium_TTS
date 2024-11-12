@@ -1,54 +1,54 @@
 {
-  "Object": {
-    "GUID": "57bf60",
-    "Name": "Custom_PDF",
-    "Transform": {
-      "posX": -34.86981,
-      "posY": 2.37500167,
-      "posZ": 50.0800133,
-      "rotX": 0.006651709,
-      "rotY": 179.999985,
-      "rotZ": 0.003829676,
-      "scaleX": 1.50152087,
-      "scaleY": 1,
-      "scaleZ": 1.50152087
+    "Object": {
+        "GUID": "57bf60",
+        "Name": "Custom_PDF",
+        "Transform": {
+            "posX": -34.87,
+            "posY": 2.38,
+            "posZ": 50.08,
+            "rotX": 0.01,
+            "rotY": 180.0,
+            "rotZ": 0,
+            "scaleX": 1.5,
+            "scaleY": 1,
+            "scaleZ": 1.5
+        },
+        "Nickname": "Rise of Ix Rulebook",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": false,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": true,
+        "CustomPDF": {
+            "PDFUrl": "https://steamusercontent-a.akamaihd.net/ugc/1822280989496634217/C7ACC9E96C2C162A13761F3C7C285AB9CF6D1C96/",
+            "PDFPassword": "",
+            "PDFPage": 0,
+            "PDFPageOffset": 0
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Rise of Ix Rulebook",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 1,
-      "b": 1
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": false,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": true,
-    "CustomPDF": {
-      "PDFUrl": "https://steamusercontent-a.akamaihd.net/ugc/1822280989496634217/C7ACC9E96C2C162A13761F3C7C285AB9CF6D1C96/",
-      "PDFPassword": "",
-      "PDFPage": 0,
-      "PDFPageOffset": 0
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }

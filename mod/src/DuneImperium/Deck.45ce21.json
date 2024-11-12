@@ -1,72 +1,72 @@
 {
-  "Object": {
-    "GUID": "45ce21",
-    "Name": "Deck",
-    "Transform": {
-      "posX": -29.19649,
-      "posY": 2.280559,
-      "posZ": 36.01487,
-      "rotX": -4.70734875e-7,
-      "rotY": 180.018936,
-      "rotZ": 3.13653572e-7,
-      "scaleX": 1.05,
-      "scaleY": 1,
-      "scaleZ": 1.05
+    "Object": {
+        "GUID": "45ce21",
+        "Name": "Deck",
+        "Transform": {
+            "posX": -29.2,
+            "posY": 2.28,
+            "posZ": 36.01,
+            "rotX": 0,
+            "rotY": 180.02,
+            "rotZ": 0,
+            "scaleX": 1.05,
+            "scaleY": 1,
+            "scaleZ": 1.05
+        },
+        "Nickname": "",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 0.71,
+            "g": 0.71,
+            "b": 0.71
+        },
+        "Tags": [
+            "Imperium"
+        ],
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": false,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": true,
+        "GridProjection": false,
+        "HideWhenFaceDown": true,
+        "Hands": false,
+        "SidewaysCard": false,
+        "DeckIDs": [
+            50806,
+            50806
+        ],
+        "CustomDeck": {
+            "508": {
+                "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2063251608603617443/E758512421B5CB27BBA228EF5F1880A7F3DC564D/",
+                "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102433196500461/C3DC7A02CF378129569B414967C9BE25097C6E77/",
+                "NumWidth": 6,
+                "NumHeight": 5,
+                "BackIsHidden": true,
+                "UniqueBack": false,
+                "Type": 0
+            }
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": "",
+        "ContainedObjects": []
     },
-    "Nickname": "",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 0.713235259,
-      "g": 0.713235259,
-      "b": 0.713235259
-    },
-    "Tags": [
-      "Imperium"
-    ],
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": false,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": true,
-    "GridProjection": false,
-    "HideWhenFaceDown": true,
-    "Hands": false,
-    "SidewaysCard": false,
-    "DeckIDs": [
-      50806,
-      50806
-    ],
-    "CustomDeck": {
-      "508": {
-        "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2063251608603617443/E758512421B5CB27BBA228EF5F1880A7F3DC564D/",
-        "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102433196500461/C3DC7A02CF378129569B414967C9BE25097C6E77/",
-        "NumWidth": 6,
-        "NumHeight": 5,
-        "BackIsHidden": true,
-        "UniqueBack": false,
-        "Type": 0
-      }
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": "",
-    "ContainedObjects": []
-  },
-  "StatesPaths": {},
-  "ContainedObjectPaths": [
-    "Experimentation.00c136.50806.json",
-    "Experimentation.e5a08e.50806.json"
-  ]
+    "StatesPaths": {},
+    "ContainedObjectPaths": [
+        "Experimentation.00c136.50806.json",
+        "Experimentation.e5a08e.50806.json"
+    ]
 }

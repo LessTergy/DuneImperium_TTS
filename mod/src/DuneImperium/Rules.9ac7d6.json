@@ -1,54 +1,54 @@
 {
-  "Object": {
-    "GUID": "9ac7d6",
-    "Name": "Custom_PDF",
-    "Transform": {
-      "posX": -7.85393143,
-      "posY": 1.48816955,
-      "posZ": -14.5662146,
-      "rotX": 0.01688549,
-      "rotY": 179.989609,
-      "rotZ": 0.07987364,
-      "scaleX": 1.66543257,
-      "scaleY": 1,
-      "scaleZ": 1.66543257
+    "Object": {
+        "GUID": "9ac7d6",
+        "Name": "Custom_PDF",
+        "Transform": {
+            "posX": -7.85,
+            "posY": 1.49,
+            "posZ": -14.57,
+            "rotX": 0.02,
+            "rotY": 179.99,
+            "rotZ": 0.08,
+            "scaleX": 1.67,
+            "scaleY": 1,
+            "scaleZ": 1.67
+        },
+        "Nickname": "Rules",
+        "Description": "",
+        "GMNotes": "",
+        "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+        },
+        "LayoutGroupSortIndex": 0,
+        "Value": 0,
+        "Locked": true,
+        "Grid": true,
+        "Snap": true,
+        "IgnoreFoW": false,
+        "MeasureMovement": false,
+        "DragSelectable": true,
+        "Autoraise": true,
+        "Sticky": true,
+        "Tooltip": false,
+        "GridProjection": false,
+        "HideWhenFaceDown": false,
+        "Hands": false,
+        "CustomPDF": {
+            "PDFUrl": "https://steamusercontent-a.akamaihd.net/ugc/1655602494438494872/6DC9056BCDF73234C2283CDABA688AEAD7F8D965/",
+            "PDFPassword": "",
+            "PDFPage": 0,
+            "PDFPageOffset": 0
+        },
+        "LuaScript": "",
+        "LuaScriptState": "",
+        "XmlUI": ""
     },
-    "Nickname": "Rules",
-    "Description": "",
-    "GMNotes": "",
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "ColorDiffuse": {
-      "r": 1,
-      "g": 1,
-      "b": 1
-    },
-    "LayoutGroupSortIndex": 0,
-    "Value": 0,
-    "Locked": true,
-    "Grid": true,
-    "Snap": true,
-    "IgnoreFoW": false,
-    "MeasureMovement": false,
-    "DragSelectable": true,
-    "Autoraise": true,
-    "Sticky": true,
-    "Tooltip": false,
-    "GridProjection": false,
-    "HideWhenFaceDown": false,
-    "Hands": false,
-    "CustomPDF": {
-      "PDFUrl": "https://steamusercontent-a.akamaihd.net/ugc/1655602494438494872/6DC9056BCDF73234C2283CDABA688AEAD7F8D965/",
-      "PDFPassword": "",
-      "PDFPage": 0,
-      "PDFPageOffset": 0
-    },
-    "LuaScript": "",
-    "LuaScriptState": "",
-    "XmlUI": ""
-  },
-  "StatesPaths": {}
+    "StatesPaths": {}
 }
