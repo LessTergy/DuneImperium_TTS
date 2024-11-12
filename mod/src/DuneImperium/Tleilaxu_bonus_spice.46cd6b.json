@@ -26,9 +26,7 @@
             "g": 1,
             "b": 1
         },
-        "Tags": [
-            "BT Board"
-        ],
+        "Tags": ["BT Board"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": true,

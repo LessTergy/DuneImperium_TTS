@@ -26,9 +26,7 @@
             "g": 0,
             "b": 0
         },
-        "Tags": [
-            "Leader"
-        ],
+        "Tags": ["Leader"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,
@@ -70,9 +68,7 @@
                     "y": 270.0,
                     "z": 0
                 },
-                "Tags": [
-                    "Snooper"
-                ]
+                "Tags": ["Snooper"]
             },
             {
                 "Position": {
@@ -85,9 +81,7 @@
                     "y": 270.0,
                     "z": 0
                 },
-                "Tags": [
-                    "Snooper"
-                ]
+                "Tags": ["Snooper"]
             },
             {
                 "Position": {
@@ -100,9 +94,7 @@
                     "y": 270.0,
                     "z": 0
                 },
-                "Tags": [
-                    "Snooper"
-                ]
+                "Tags": ["Snooper"]
             },
             {
                 "Position": {
@@ -115,9 +107,7 @@
                     "y": 270.0,
                     "z": 0
                 },
-                "Tags": [
-                    "Snooper"
-                ]
+                "Tags": ["Snooper"]
             }
         ]
     },

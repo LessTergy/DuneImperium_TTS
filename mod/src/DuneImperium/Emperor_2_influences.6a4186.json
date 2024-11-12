@@ -118,7 +118,5 @@
         ]
     },
     "StatesPaths": {},
-    "ContainedObjectPaths": [
-        "Emperor_Friendship.5bdfe3.json"
-    ]
+    "ContainedObjectPaths": ["Emperor_Friendship.5bdfe3.json"]
 }

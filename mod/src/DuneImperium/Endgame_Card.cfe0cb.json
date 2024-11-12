@@ -117,7 +117,5 @@
         ]
     },
     "StatesPaths": {},
-    "ContainedObjectPaths": [
-        "Endgame_Card.472d11.json"
-    ]
+    "ContainedObjectPaths": ["Endgame_Card.472d11.json"]
 }

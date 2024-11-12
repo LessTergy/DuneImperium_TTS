@@ -26,9 +26,7 @@
             "g": 1,
             "b": 1
         },
-        "Tags": [
-            "Red"
-        ],
+        "Tags": ["Red"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": true,

@@ -26,9 +26,7 @@
             "g": 0,
             "b": 0
         },
-        "Tags": [
-            "Leader"
-        ],
+        "Tags": ["Leader"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,

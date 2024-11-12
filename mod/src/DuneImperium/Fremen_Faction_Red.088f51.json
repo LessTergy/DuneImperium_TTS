@@ -26,11 +26,7 @@
             "g": 0.01,
             "b": 0
         },
-        "Tags": [
-            "FremenInfluence",
-            "InfluenceTokens",
-            "Red"
-        ],
+        "Tags": ["FremenInfluence", "InfluenceTokens", "Red"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,

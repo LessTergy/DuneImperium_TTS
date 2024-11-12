@@ -26,10 +26,7 @@
             "g": 0.1,
             "b": 0.1
         },
-        "Tags": [
-            "Norma",
-            "Spaceport"
-        ],
+        "Tags": ["Norma", "Spaceport"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,

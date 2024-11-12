@@ -118,7 +118,5 @@
         ]
     },
     "StatesPaths": {},
-    "ContainedObjectPaths": [
-        "Opulence.7f9032.json"
-    ]
+    "ContainedObjectPaths": ["Opulence.7f9032.json"]
 }

@@ -67,9 +67,7 @@
                     "y": 0,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -82,9 +80,7 @@
                     "y": 0,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -97,9 +93,7 @@
                     "y": 0,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -112,9 +106,7 @@
                     "y": 0,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -127,9 +119,7 @@
                     "y": 0,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -142,9 +132,7 @@
                     "y": 0,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -157,9 +145,7 @@
                     "y": 0,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -172,9 +158,7 @@
                     "y": 0,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -187,9 +171,7 @@
                     "y": 0,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -202,9 +184,7 @@
                     "y": 0,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -217,9 +197,7 @@
                     "y": 0,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -232,9 +210,7 @@
                     "y": 0,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -247,9 +223,7 @@
                     "y": 0,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -262,9 +236,7 @@
                     "y": 0,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -272,9 +244,7 @@
                     "y": 0.1,
                     "z": 0.39
                 },
-                "Tags": [
-                    "Mentat"
-                ]
+                "Tags": ["Mentat"]
             }
         ]
     },

@@ -118,7 +118,5 @@
         ]
     },
     "StatesPaths": {},
-    "ContainedObjectPaths": [
-        "Counsellor_Bonus.109802.json"
-    ]
+    "ContainedObjectPaths": ["Counsellor_Bonus.109802.json"]
 }

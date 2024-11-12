@@ -26,11 +26,7 @@
             "g": 0.97,
             "b": 0
         },
-        "Tags": [
-            "EmperorInfluence",
-            "InfluenceTokens",
-            "Yellow"
-        ],
+        "Tags": ["EmperorInfluence", "InfluenceTokens", "Yellow"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,

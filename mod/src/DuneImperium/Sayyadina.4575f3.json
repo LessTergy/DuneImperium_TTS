@@ -118,7 +118,5 @@
         ]
     },
     "StatesPaths": {},
-    "ContainedObjectPaths": [
-        "Sayyadina.599b12.json"
-    ]
+    "ContainedObjectPaths": ["Sayyadina.599b12.json"]
 }

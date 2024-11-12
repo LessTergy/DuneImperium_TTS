@@ -58,7 +58,5 @@
         "ContainedObjects": []
     },
     "StatesPaths": {},
-    "ContainedObjectPaths": [
-        "CardCustom.2b2575.41000.json"
-    ]
+    "ContainedObjectPaths": ["CardCustom.2b2575.41000.json"]
 }

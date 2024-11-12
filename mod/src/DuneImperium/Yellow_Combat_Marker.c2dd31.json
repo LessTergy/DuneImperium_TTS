@@ -26,9 +26,7 @@
             "g": 0.97,
             "b": 0
         },
-        "Tags": [
-            "CombatTokens"
-        ],
+        "Tags": ["CombatTokens"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,

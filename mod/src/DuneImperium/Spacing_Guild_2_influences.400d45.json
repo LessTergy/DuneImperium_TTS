@@ -118,7 +118,5 @@
         ]
     },
     "StatesPaths": {},
-    "ContainedObjectPaths": [
-        "Spacing_Guild_Friendship.58d8f9.json"
-    ]
+    "ContainedObjectPaths": ["Spacing_Guild_Friendship.58d8f9.json"]
 }

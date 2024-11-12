@@ -26,10 +26,7 @@
             "g": 1,
             "b": 0
         },
-        "Tags": [
-            "Agent",
-            "Green"
-        ],
+        "Tags": ["Agent", "Green"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,

@@ -26,11 +26,7 @@
             "g": 0.7,
             "b": 0.17
         },
-        "Tags": [
-            "Green",
-            "InfluenceTokens",
-            "SpaceGuildInfluence"
-        ],
+        "Tags": ["Green", "InfluenceTokens", "SpaceGuildInfluence"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,

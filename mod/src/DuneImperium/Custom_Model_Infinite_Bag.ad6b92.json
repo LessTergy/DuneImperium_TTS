@@ -127,7 +127,5 @@
         ]
     },
     "StatesPaths": {},
-    "ContainedObjectPaths": [
-        "Green_Flag.2c3620.json"
-    ]
+    "ContainedObjectPaths": ["Green_Flag.2c3620.json"]
 }

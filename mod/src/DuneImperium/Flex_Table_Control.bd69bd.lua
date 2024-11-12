@@ -1,7 +1,7 @@
 tableHeightOffset = -9
 
 function onSave()
-    saved_data = JSON.encode({tid=tableImageData, cd=checkData})
+    saved_data = JSON.encode({ tid = tableImageData, cd = checkData })
     --saved_data = ""
     return saved_data
 end
@@ -9,12 +9,12 @@ end
 function onload(saved_data)
     --Loads the tracking for if the game has started yet
     if saved_data ~= "" then
-         local loaded_data = JSON.decode(saved_data)
-         tableImageData = loaded_data.tid
-         checkData = loaded_data.cd
+        local loaded_data = JSON.decode(saved_data)
+        tableImageData = loaded_data.tid
+        checkData = loaded_data.cd
     else
         tableImageData = {}
-        checkData = {move=false, scale=false}
+        checkData = { move = false, scale = false }
     end
 
     --Disables interactable status of objects with GUID in list
@@ -38,8 +38,6 @@ function onload(saved_data)
     -- createOpenCloseButton()
 end
 
-
-
 --Activation/deactivation of control panel
 
 
@@ -62,13 +60,9 @@ function click_toggleControl(_, color)
             self.clearButtons()
             self.clearInputs()
             createOpenCloseButton()
-
         end
     end
 end
-
-
-
 
 --Table surface control
 
@@ -78,7 +72,7 @@ end
 function click_applySurface(_, color)
     if permissionCheck(color) then
         updateSurface()
-        broadcastToAll("New Table Image Applied", {0.2,0.9,0.2})
+        broadcastToAll("New Table Image Applied", { 0.2, 0.9, 0.2 })
     end
 end
 
@@ -89,14 +83,14 @@ function click_saveSurface(_, color)
         local url = self.getInputs()[2].value
         if nickname == "" then
             --No nickname
-            broadcastToAll("Please supply a nickname for this save.", {0.9,0.2,0.2})
+            broadcastToAll("Please supply a nickname for this save.", { 0.9, 0.2, 0.2 })
         else
             --Nickname exists
 
             if findInImageDataIndex(url, nickname) == nil then
                 --Save doesn't exist already
-                table.insert(tableImageData, {url=url, name=nickname})
-                broadcastToAll("Image URL saved to memory.", {0.2,0.9,0.2})
+                table.insert(tableImageData, { url = url, name = nickname })
+                broadcastToAll("Image URL saved to memory.", { 0.2, 0.9, 0.2 })
                 --Refresh buttons
                 self.clearButtons()
                 createOpenCloseButton()
@@ -104,7 +98,8 @@ function click_saveSurface(_, color)
                 createScaleButtons()
             else
                 --Save exists already
-                broadcastToAll("Memory already contains a save with this Name or URL. Delete it first.", {0.9,0.2,0.2})
+                broadcastToAll("Memory already contains a save with this Name or URL. Delete it first.",
+                    { 0.9, 0.2, 0.2 })
             end
         end
     end
@@ -113,10 +108,10 @@ end
 --Loads table surface
 function click_loadMemory(_, color, index)
     if permissionCheck(color) then
-        self.editInput({index=0, value=tableImageData[index].name})
-        self.editInput({index=1, value=tableImageData[index].url})
+        self.editInput({ index = 0, value = tableImageData[index].name })
+        self.editInput({ index = 1, value = tableImageData[index].url })
         updateSurface()
-        broadcastToAll("Table Image Loaded", {0.2,0.9,0.2})
+        broadcastToAll("Table Image Loaded", { 0.2, 0.9, 0.2 })
     end
 end
 
@@ -128,7 +123,7 @@ function click_deleteMemory(_, color, index)
         createOpenCloseButton()
         createSurfaceButtons()
         createScaleButtons()
-        broadcastToAll("Element Removed from Memory", {0.2,0.9,0.2})
+        broadcastToAll("Element Removed from Memory", { 0.2, 0.9, 0.2 })
     end
 end
 
@@ -140,8 +135,6 @@ function updateSurface()
     obj_surface = obj_surface.reload()
 end
 
-
-
 --Table Scale control
 
 
@@ -152,20 +145,20 @@ function click_applyScale(_, color)
         local newWidth = tonumber(self.getInputs()[3].value)
         local newDepth = tonumber(self.getInputs()[4].value)
         if type(newWidth) ~= "number" then
-            broadcastToAll("Invalid Width", {0.9,0.2,0.2})
+            broadcastToAll("Invalid Width", { 0.9, 0.2, 0.2 })
             return
         elseif type(newDepth) ~= "number" then
-            broadcastToAll("Invalid Depth", {0.9,0.2,0.2})
+            broadcastToAll("Invalid Depth", { 0.9, 0.2, 0.2 })
             return
-        elseif newWidth<0.1 or newDepth<0.1 then
-            broadcastToAll("Scale cannot go below 0.1", {0.9,0.2,0.2})
+        elseif newWidth < 0.1 or newDepth < 0.1 then
+            broadcastToAll("Scale cannot go below 0.1", { 0.9, 0.2, 0.2 })
             return
-        elseif newWidth>12 or newDepth>12 then
-            broadcastToAll("Scale should not go over 12 (world size limitation)", {0.9,0.2,0.2})
+        elseif newWidth > 12 or newDepth > 12 then
+            broadcastToAll("Scale should not go over 12 (world size limitation)", { 0.9, 0.2, 0.2 })
             return
         else
             changeTableScale(math.abs(newWidth), math.abs(newDepth))
-            broadcastToAll("Scale applied.", {0.2,0.9,0.2})
+            broadcastToAll("Scale applied.", { 0.2, 0.9, 0.2 })
         end
     end
 end
@@ -173,15 +166,15 @@ end
 --Checks/unchecks move box for hands
 function click_checkMove(_, color)
     if permissionCheck(color) then
-        local find_func = function(o) return o.click_function=="click_checkMove" end
+        local find_func = function (o) return o.click_function == "click_checkMove" end
         if checkData.move == true then
             checkData.move = false
             local buttonEntry = findButton(self, find_func)
-            self.editButton({index=buttonEntry.index, label=""})
+            self.editButton({ index = buttonEntry.index, label = "" })
         else
             checkData.move = true
             local buttonEntry = findButton(self, find_func)
-            self.editButton({index=buttonEntry.index, label=string.char(10008)})
+            self.editButton({ index = buttonEntry.index, label = string.char(10008) })
         end
     end
 end
@@ -208,8 +201,8 @@ end
 --Alters scale of elements and moves them
 function changeTableScale(width, depth)
     --Scaling factors used to translate scale to position offset
-    local width2pos = (width-1) * 18
-    local depth2pos = (depth-1) * 18
+    local width2pos = (width - 1) * 18
+    local depth2pos = (depth - 1) * 18
 
     --Hand zone movement
     if checkData.move == true then
@@ -230,22 +223,22 @@ function changeTableScale(width, depth)
     end
 
     --Resizing table elements
-    obj_side_top.setScale({width, 1, 1})
-    obj_side_bot.setScale({width, 1, 1})
-    obj_side_lef.setScale({depth, 1, 1})
-    obj_side_rig.setScale({depth, 1, 1})
-    obj_surface.setScale({width, 1, depth})
+    obj_side_top.setScale({ width, 1, 1 })
+    obj_side_bot.setScale({ width, 1, 1 })
+    obj_side_lef.setScale({ depth, 1, 1 })
+    obj_side_rig.setScale({ depth, 1, 1 })
+    obj_surface.setScale({ width, 1, depth })
 
     --Moving table elements to accomodate new scale
-    obj_side_lef.setPosition({-width2pos,tableHeightOffset,0})
-    obj_side_rig.setPosition({ width2pos,tableHeightOffset,0})
-    obj_side_top.setPosition({0,tableHeightOffset, depth2pos})
-    obj_side_bot.setPosition({0,tableHeightOffset,-depth2pos})
-    obj_leg1.setPosition({-width2pos,tableHeightOffset,-depth2pos})
-    obj_leg2.setPosition({-width2pos,tableHeightOffset, depth2pos})
-    obj_leg3.setPosition({ width2pos,tableHeightOffset, depth2pos})
-    obj_leg4.setPosition({ width2pos,tableHeightOffset,-depth2pos})
-    self.setPosition(obj_leg4.positionToWorld({-22.12, 8.74,-19.16}))
+    obj_side_lef.setPosition({ -width2pos, tableHeightOffset, 0 })
+    obj_side_rig.setPosition({ width2pos, tableHeightOffset, 0 })
+    obj_side_top.setPosition({ 0, tableHeightOffset, depth2pos })
+    obj_side_bot.setPosition({ 0, tableHeightOffset, -depth2pos })
+    obj_leg1.setPosition({ -width2pos, tableHeightOffset, -depth2pos })
+    obj_leg2.setPosition({ -width2pos, tableHeightOffset, depth2pos })
+    obj_leg3.setPosition({ width2pos, tableHeightOffset, depth2pos })
+    obj_leg4.setPosition({ width2pos, tableHeightOffset, -depth2pos })
+    self.setPosition(obj_leg4.positionToWorld({ -22.12, 8.74, -19.16 }))
     --Only enabled when changing tableHeightOffset
     --obj_surface.setPosition({0,tableHeightOffset,0})
 end
@@ -254,12 +247,12 @@ end
 function moveHandZone(p, width2pos, depth2pos)
     local widthX = obj_side_rig.getPosition().x
     local depthZ = obj_side_top.getPosition().z
-    for i=1, p.getHandCount() do
+    for i = 1, p.getHandCount() do
         local handT = p.getHandTransform()
         local pos = handT.position
         local y = handT.rotation.y
 
-        if y<45 or y>320 or y>135 and y<225 then
+        if y < 45 or y > 320 or y > 135 and y < 225 then
             if pos.z > 0 then
                 pos.z = pos.z + depth2pos - depthZ
             else
@@ -281,16 +274,15 @@ function moveHandZone(p, width2pos, depth2pos)
     end
 end
 
-
 ---Scales hand zones, p=player reference, facts are scaling factors
 function scaleHandZone(p, width, depth)
     local widthFact = width / obj_side_top.getScale().x
     local depthFact = depth / obj_side_lef.getScale().x
-    for i=1, p.getHandCount() do
+    for i = 1, p.getHandCount() do
         local handT = p.getHandTransform()
         local scale = handT.scale
         local y = handT.rotation.y
-        if y<45 or y>320 or y>135 and y<225 then
+        if y < 45 or y > 320 or y > 135 and y < 225 then
             scale.x = scale.x * widthFact
         else
             scale.x = scale.x * depthFact
@@ -300,15 +292,13 @@ function scaleHandZone(p, width, depth)
     end
 end
 
-
-
 --Information gathering
 
 
 
 --Checks if a color is promoted or host
 function permissionCheck(color)
-    if Player[color].host==true or Player[color].promoted==true then
+    if Player[color].host == true or Player[color].promoted == true then
         return true
     else
         return false
@@ -317,7 +307,7 @@ end
 
 --Locates a string saved within memory file
 function findInImageDataIndex(...)
-    for _, str in ipairs({...}) do
+    for _, str in ipairs({ ... }) do
         for i, v in ipairs(tableImageData) do
             if v.url == str or v.name == str then
                 return i
@@ -329,13 +319,13 @@ end
 
 --Round number (num) to the Nth decimal (dec)
 function round(num, dec)
-  local mult = 10^(dec or 0)
-  return math.floor(num * mult + 0.5) / mult
+    local mult = 10 ^ (dec or 0)
+    return math.floor(num * mult + 0.5) / mult
 end
 
 --Locates a button with a helper function
 function findButton(obj, func)
-    if func==nil then error("No func supplied to findButton") end
+    if func == nil then error("No func supplied to findButton") end
     for _, v in ipairs(obj.getButtons()) do
         if func(v) then
             return v
@@ -343,8 +333,6 @@ function findButton(obj, func)
     end
     return nil
 end
-
-
 
 --Creation of buttons/inputs
 
@@ -356,9 +344,14 @@ function createOpenCloseButton()
         tooltip = "Close Table Control Panel"
     end
     self.createButton({
-        click_function="click_toggleControl", function_owner=self,
-        position={0,0,0}, rotation={-45,0,0}, height=400, width=400,
-        color={1,1,1,0}, tooltip=tooltip
+        click_function = "click_toggleControl",
+        function_owner = self,
+        position = { 0, 0, 0 },
+        rotation = { -45, 0, 0 },
+        height = 400,
+        width = 400,
+        color = { 1, 1, 1, 0 },
+        tooltip = tooltip
     })
 end
 
@@ -369,94 +362,163 @@ function createSurfaceInput()
         nickname = tableImageData[findInImageDataIndex(currentURL)].name
     end
     self.createInput({
-        label="Nickname", input_function="none", function_owner=self,
-        alignment=3, position={0,0,2}, height=224, width=4000,
-        font_size=200, tooltip="Enter nickname for table image (only used for save)",
-        value=nickname
+        label = "Nickname",
+        input_function = "none",
+        function_owner = self,
+        alignment = 3,
+        position = { 0, 0, 2 },
+        height = 224,
+        width = 4000,
+        font_size = 200,
+        tooltip = "Enter nickname for table image (only used for save)",
+        value = nickname
     })
     self.createInput({
-        label="URL", input_function="none", function_owner=self,
-        alignment=3, position={0,0,3}, height=224, width=4000,
-        font_size=200, tooltip="Enter URL for tabletop image",
-        value=currentURL
+        label = "URL",
+        input_function = "none",
+        function_owner = self,
+        alignment = 3,
+        position = { 0, 0, 3 },
+        height = 224,
+        width = 4000,
+        font_size = 200,
+        tooltip = "Enter URL for tabletop image",
+        value = currentURL
     })
 end
 
 function createSurfaceButtons()
     --Label
     self.createButton({
-        label="Tabletop Surface Image", click_function="none",
-        position={0,0,1}, height=0, width=0, font_size=300, font_color={1,1,1}
+        label = "Tabletop Surface Image",
+        click_function = "none",
+        position = { 0, 0, 1 },
+        height = 0,
+        width = 0,
+        font_size = 300,
+        font_color = { 1, 1, 1 }
     })
     --Functional
     self.createButton({
-        label="Apply Image\nTo Table", click_function="click_applySurface",
-        function_owner=self, tooltip="Apply URL as table image",
-        position={2,0,4}, height=440, width=1400, font_size=200,
+        label = "Apply Image\nTo Table",
+        click_function = "click_applySurface",
+        function_owner = self,
+        tooltip = "Apply URL as table image",
+        position = { 2, 0, 4 },
+        height = 440,
+        width = 1400,
+        font_size = 200,
     })
     self.createButton({
-        label="Save Image\nTo Memory", click_function="click_saveSurface",
-        function_owner=self, tooltip="Record URL into memory (requires nickname)",
-        position={-2,0,4}, height=440, width=1400, font_size=200,
+        label = "Save Image\nTo Memory",
+        click_function = "click_saveSurface",
+        function_owner = self,
+        tooltip = "Record URL into memory (requires nickname)",
+        position = { -2, 0, 4 },
+        height = 440,
+        width = 1400,
+        font_size = 200,
     })
     --Label
     self.createButton({
-        label="Load From Memory", click_function="none",
-        position={0,0,5.5}, height=0, width=0, font_size=300, font_color={1,1,1}
+        label = "Load From Memory",
+        click_function = "none",
+        position = { 0, 0, 5.5 },
+        height = 0,
+        width = 0,
+        font_size = 300,
+        font_color = { 1, 1, 1 }
     })
     --Saves, created dynamically from memory file
     for i, memoryEntry in ipairs(tableImageData) do
         --Load
-        local funcName = i.."loadMemory"
-        local func = function(x,y) click_loadMemory(x,y,i) end
+        local funcName = i .. "loadMemory"
+        local func = function (x, y) click_loadMemory(x, y, i) end
         self.setVar(funcName, func)
         self.createButton({
-            label=memoryEntry.name, click_function=funcName,
-            function_owner=self, tooltip=memoryEntry.url, font_size=200,
-            position={-0.6,0,6.5+0.5*(i-1)}, height=240, width=3300,
+            label = memoryEntry.name,
+            click_function = funcName,
+            function_owner = self,
+            tooltip = memoryEntry.url,
+            font_size = 200,
+            position = { -0.6, 0, 6.5 + 0.5 * (i - 1) },
+            height = 240,
+            width = 3300,
         })
         --Delete
-        local funcName = i.."deleteMemory"
-        local func = function(x,y) click_deleteMemory(x,y,i) end
+        local funcName = i .. "deleteMemory"
+        local func = function (x, y) click_deleteMemory(x, y, i) end
         self.setVar(funcName, func)
         self.createButton({
-            label="DELETE", click_function=funcName,
-            function_owner=self, tooltip="",
-            position={3.6,0,6.5+0.5*(i-1)}, height=240, width=600,
-            font_size=160, font_color={1,0,0}, color={0.8,0.8,0.8}
+            label = "DELETE",
+            click_function = funcName,
+            function_owner = self,
+            tooltip = "",
+            position = { 3.6, 0, 6.5 + 0.5 * (i - 1) },
+            height = 240,
+            width = 600,
+            font_size = 160,
+            font_color = { 1, 0, 0 },
+            color = { 0.8, 0.8, 0.8 }
         })
     end
 end
 
 function createScaleInput()
     self.createInput({
-        label=string.char(8644), input_function="none", function_owner=self,
-        alignment=3, position={-8.5,0,2}, height=224, width=400,
-        font_size=200, tooltip="Table Width",
-        value=round(obj_side_top.getScale().x, 1)
+        label = string.char(8644),
+        input_function = "none",
+        function_owner = self,
+        alignment = 3,
+        position = { -8.5, 0, 2 },
+        height = 224,
+        width = 400,
+        font_size = 200,
+        tooltip = "Table Width",
+        value = round(obj_side_top.getScale().x, 1)
     })
     self.createInput({
-        label=string.char(8645), input_function="none", function_owner=self,
-        alignment=3, position={-7.5,0,2}, height=224, width=400,
-        font_size=200, tooltip="Table Depth",
-        value=round(obj_side_lef.getScale().x, 1)
+        label = string.char(8645),
+        input_function = "none",
+        function_owner = self,
+        alignment = 3,
+        position = { -7.5, 0, 2 },
+        height = 224,
+        width = 400,
+        font_size = 200,
+        tooltip = "Table Depth",
+        value = round(obj_side_lef.getScale().x, 1)
     })
 end
 
 function createScaleButtons()
     --Labels
     self.createButton({
-        label="Table Scale", click_function="none",
-        position={-8,0,1}, height=0, width=0, font_size=300, font_color={1,1,1}
+        label = "Table Scale",
+        click_function = "none",
+        position = { -8, 0, 1 },
+        height = 0,
+        width = 0,
+        font_size = 300,
+        font_color = { 1, 1, 1 }
     })
     self.createButton({
-        label=string.char(8644).."            "..string.char(8645),
-        click_function="none",
-        position={-8,0,2}, height=0, width=0, font_size=300, font_color={1,1,1}
+        label = string.char(8644) .. "            " .. string.char(8645),
+        click_function = "none",
+        position = { -8, 0, 2 },
+        height = 0,
+        width = 0,
+        font_size = 300,
+        font_color = { 1, 1, 1 }
     })
     self.createButton({
-        label="Move Hands:", click_function="none",
-        position={-8.3,0,3}, height=0, width=0, font_size=200, font_color={1,1,1}
+        label = "Move Hands:",
+        click_function = "none",
+        position = { -8.3, 0, 3 },
+        height = 0,
+        width = 0,
+        font_size = 200,
+        font_color = { 1, 1, 1 }
     })
     --Disabled due to me removing the feature for technical reasons
     --[[
@@ -469,9 +531,14 @@ function createScaleButtons()
     local label = ""
     if checkData.move == true then label = string.char(10008) end
     self.createButton({
-        label=label, click_function="click_checkMove",
-        function_owner=self, tooltip="Check to move hands when table is rescaled",
-        position={-6.8,0,3}, height=224, width=224, font_size=200,
+        label = label,
+        click_function = "click_checkMove",
+        function_owner = self,
+        tooltip = "Check to move hands when table is rescaled",
+        position = { -6.8, 0, 3 },
+        height = 224,
+        width = 224,
+        font_size = 200,
     })
     --[[
     local label = ""
@@ -484,15 +551,16 @@ function createScaleButtons()
     ]]
     --Apply button
     self.createButton({
-        label="Apply Scale", click_function="click_applyScale",
-        function_owner=self, tooltip="Apply width/depth to table",
-        position={-8,0,4}, height=440, width=1400, font_size=200,
+        label = "Apply Scale",
+        click_function = "click_applyScale",
+        function_owner = self,
+        tooltip = "Apply width/depth to table",
+        position = { -8, 0, 4 },
+        height = 440,
+        width = 1400,
+        font_size = 200,
     })
 end
-
-
-
-
 
 --Data tables
 
@@ -500,8 +568,8 @@ end
 
 
 ref_noninteractable = {
-    "afc863","c8edca","393bf7","12c65e","f938a2","9f95fd","35b95f",
-    "5af8f2","4ee1f2","bd69bd"
+    "afc863", "c8edca", "393bf7", "12c65e", "f938a2", "9f95fd", "35b95f",
+    "5af8f2", "4ee1f2", "bd69bd"
 }
 
 ref_playerColor = {

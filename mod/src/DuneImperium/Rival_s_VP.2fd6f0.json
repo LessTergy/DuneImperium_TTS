@@ -27,9 +27,7 @@
             "b": 1,
             "a": 0
         },
-        "Tags": [
-            "AutomataStuff"
-        ],
+        "Tags": ["AutomataStuff"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,
@@ -121,7 +119,5 @@
         ]
     },
     "StatesPaths": {},
-    "ContainedObjectPaths": [
-        "Rival_s_VP.b5feed.json"
-    ]
+    "ContainedObjectPaths": ["Rival_s_VP.b5feed.json"]
 }

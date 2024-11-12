@@ -19,18 +19,18 @@ function onload(saved_data)
 end
 
 function updateSave()
-    local data_to_save = {light_mode, val, tooltip_show}
+    local data_to_save = { light_mode, val, tooltip_show }
     saved_data = JSON.encode(data_to_save)
     self.script_state = saved_data
 end
 
 function createAll()
-    s_color = {0.5, 0.5, 0.5, 95}
+    s_color = { 0.5, 0.5, 0.5, 95 }
 
     if light_mode then
-        f_color = {0.9,0.9,0.9,95}
+        f_color = { 0.9, 0.9, 0.9, 95 }
     else
-        f_color = {0.1,0.1,0.1,100}
+        f_color = { 0.1, 0.1, 0.1, 100 }
     end
 
     if tooltip_show then
@@ -40,19 +40,19 @@ function createAll()
     end
 
     self.createButton({
-      label=tostring(val),
-      click_function="add_subtract",
-      tooltip=ttText,
-      function_owner=self,
-      position={0,0.05,0.2},
-      height=600,
-      width=1000,
-      alignment = 3,
-      scale={x=1.5, y=1.5, z=1.5},
-      font_size=800,
-      font_color=f_color,
-      color={0,0,0,0}
-      })
+        label = tostring(val),
+        click_function = "add_subtract",
+        tooltip = ttText,
+        function_owner = self,
+        position = { 0, 0.05, 0.2 },
+        height = 600,
+        width = 1000,
+        alignment = 3,
+        scale = { x = 1.5, y = 1.5, z = 1.5 },
+        font_size = 800,
+        font_color = f_color,
+        color = { 0, 0, 0, 0 }
+    })
 
     if tooltip_show then
         tooltipShowText = "[ Hide value in tooltip ]"
@@ -60,19 +60,19 @@ function createAll()
         tooltipShowText = "[ Show value in tooltip ]"
     end
     self.createButton({
-        label=tooltipShowText,
-        tooltip=tooltipShowText,
-        click_function="swap_tooltip",
-        function_owner=self,
-        position={0,-0.05,0.2},
-        rotation={180,180,0},
-        height=250,
-        width=1200,
-        scale={x=1, y=1, z=1},
-        font_size=150,
-        font_color=s_color,
-        color={0,0,0,0}
-        })
+        label = tooltipShowText,
+        tooltip = tooltipShowText,
+        click_function = "swap_tooltip",
+        function_owner = self,
+        position = { 0, -0.05, 0.2 },
+        rotation = { 180, 180, 0 },
+        height = 250,
+        width = 1200,
+        scale = { x = 1, y = 1, z = 1 },
+        font_size = 150,
+        font_color = s_color,
+        color = { 0, 0, 0, 0 }
+    })
 
     if light_mode then
         lightButtonText = "[ Set dark text ]"
@@ -80,51 +80,51 @@ function createAll()
         lightButtonText = "[ Set light text ]"
     end
     self.createButton({
-        label=lightButtonText,
-        tooltip=lightButtonText,
-        click_function="swap_fcolor",
-        function_owner=self,
-        position={0,-0.05,0.6},
-        rotation={180,180,0},
-        height=150,
-        width=1200,
-        scale={x=1, y=1, z=1},
-        font_size=150,
-        font_color=s_color,
-        color={0,0,0,0}
-        })
+        label = lightButtonText,
+        tooltip = lightButtonText,
+        click_function = "swap_fcolor",
+        function_owner = self,
+        position = { 0, -0.05, 0.6 },
+        rotation = { 180, 180, 0 },
+        height = 150,
+        width = 1200,
+        scale = { x = 1, y = 1, z = 1 },
+        font_size = 150,
+        font_color = s_color,
+        color = { 0, 0, 0, 0 }
+    })
 
 
     self.createButton({
-        label="[ Reset ]",
-        tooltip="[ Reset ]",
-        click_function="reset_val",
-        function_owner=self,
-        position={0,-0.05,1.4},
-        rotation={180,180,0},
-        height=250,
-        width=1200,
-        scale={x=1, y=1, z=1},
-        font_size=250,
-        font_color=s_color,
-        color={0,0,0,0}
-        })
+        label = "[ Reset ]",
+        tooltip = "[ Reset ]",
+        click_function = "reset_val",
+        function_owner = self,
+        position = { 0, -0.05, 1.4 },
+        rotation = { 180, 180, 0 },
+        height = 250,
+        width = 1200,
+        scale = { x = 1, y = 1, z = 1 },
+        font_size = 250,
+        font_color = s_color,
+        color = { 0, 0, 0, 0 }
+    })
 
     self.createInput({
         value = "#",
         label = "...",
-        input_function = "keepSample", 
-        function_owner = self, 
+        input_function = "keepSample",
+        function_owner = self,
         alignment = 3,
-        position={0,-0.05,-0.8},
-        rotation={180,180,0},
-        width = 600, 
-        height = 800, 
-        font_size = 1200, 
-        scale={x=1, y=1, z=1},
-        font_color=f_color,
-        color = {0,0,0,0}
-        })
+        position = { 0, -0.05, -0.8 },
+        rotation = { 180, 180, 0 },
+        width = 600,
+        height = 800,
+        font_size = 1200,
+        scale = { x = 1, y = 1, z = 1 },
+        font_color = f_color,
+        color = { 0, 0, 0, 0 }
+    })
 
     setTooltips()
 end
@@ -160,7 +160,7 @@ function swap_tooltip(_obj, _color, alt_click)
     setTooltips()
 end
 
-function editName(_obj, _string, value) 
+function editName(_obj, _string, value)
     self.setName(value)
     setTooltips()
 end
@@ -186,7 +186,7 @@ function updateVal()
         index = 0,
         label = tostring(val),
         tooltip = ttText
-        })
+    })
 end
 
 function reset_val()
@@ -206,13 +206,13 @@ function setTooltips()
         index = 0,
         value = tostring(val),
         tooltip = ttText
-        })
+    })
 end
 
 function null()
 end
 
-function keepSample(_obj, _string, value) 
+function keepSample(_obj, _string, value)
     reloadAll()
 end
 

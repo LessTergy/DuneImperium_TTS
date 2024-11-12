@@ -118,7 +118,5 @@
         ]
     },
     "StatesPaths": {},
-    "ContainedObjectPaths": [
-        "Bene_Gesserit_Friendship.be8dab.json"
-    ]
+    "ContainedObjectPaths": ["Bene_Gesserit_Friendship.be8dab.json"]
 }

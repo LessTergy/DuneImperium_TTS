@@ -26,9 +26,7 @@
             "g": 0.71,
             "b": 0.71
         },
-        "Tags": [
-            "Imperium"
-        ],
+        "Tags": ["Imperium"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,
@@ -44,10 +42,7 @@
         "HideWhenFaceDown": true,
         "Hands": false,
         "SidewaysCard": false,
-        "DeckIDs": [
-            49500,
-            49500
-        ],
+        "DeckIDs": [49500, 49500],
         "CustomDeck": {
             "495": {
                 "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2029469358243413427/BF3BA9C253ED953533B90D94DD56D0BAD4021B3C/",

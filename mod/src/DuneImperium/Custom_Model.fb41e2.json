@@ -26,9 +26,7 @@
             "g": 0.79,
             "b": 0.08
         },
-        "Tags": [
-            "PhaseToken"
-        ],
+        "Tags": ["PhaseToken"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,

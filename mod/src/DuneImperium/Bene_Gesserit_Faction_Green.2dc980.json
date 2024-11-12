@@ -26,11 +26,7 @@
             "g": 0.7,
             "b": 0.17
         },
-        "Tags": [
-            "BeneGesseritInfluence",
-            "Green",
-            "InfluenceTokens"
-        ],
+        "Tags": ["BeneGesseritInfluence", "Green", "InfluenceTokens"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,

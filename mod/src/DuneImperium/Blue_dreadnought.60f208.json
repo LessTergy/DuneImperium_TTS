@@ -26,10 +26,7 @@
             "g": 0.53,
             "b": 1
         },
-        "Tags": [
-            "Blue",
-            "Dreadnought"
-        ],
+        "Tags": ["Blue", "Dreadnought"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,

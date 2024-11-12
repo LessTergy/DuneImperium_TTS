@@ -26,10 +26,7 @@
             "g": 1,
             "b": 1
         },
-        "Tags": [
-            "Blue",
-            "Flag"
-        ],
+        "Tags": ["Blue", "Flag"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,

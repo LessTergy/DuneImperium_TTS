@@ -26,9 +26,7 @@
             "g": 0.3,
             "b": 0.44
         },
-        "Tags": [
-            "AutomataStuff"
-        ],
+        "Tags": ["AutomataStuff"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,

@@ -118,7 +118,5 @@
         ]
     },
     "StatesPaths": {},
-    "ContainedObjectPaths": [
-        "Guild_Ambassador.e9026a.json"
-    ]
+    "ContainedObjectPaths": ["Guild_Ambassador.e9026a.json"]
 }

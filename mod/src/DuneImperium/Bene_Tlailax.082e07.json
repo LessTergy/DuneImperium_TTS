@@ -118,7 +118,5 @@
         ]
     },
     "StatesPaths": {},
-    "ContainedObjectPaths": [
-        "Bene_Tleilax.f262cb.json"
-    ]
+    "ContainedObjectPaths": ["Bene_Tleilax.f262cb.json"]
 }

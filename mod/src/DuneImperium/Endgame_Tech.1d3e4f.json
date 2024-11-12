@@ -118,7 +118,5 @@
         ]
     },
     "StatesPaths": {},
-    "ContainedObjectPaths": [
-        "Endgame_Tech.d4284a.json"
-    ]
+    "ContainedObjectPaths": ["Endgame_Tech.d4284a.json"]
 }

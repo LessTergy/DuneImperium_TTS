@@ -118,7 +118,5 @@
         ]
     },
     "StatesPaths": {},
-    "ContainedObjectPaths": [
-        "Detonation_Devices.67dc66.json"
-    ]
+    "ContainedObjectPaths": ["Detonation_Devices.67dc66.json"]
 }

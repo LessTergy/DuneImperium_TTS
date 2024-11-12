@@ -26,10 +26,7 @@
             "g": 0.53,
             "b": 1
         },
-        "Tags": [
-            "Blue",
-            "Cargo"
-        ],
+        "Tags": ["Blue", "Cargo"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,

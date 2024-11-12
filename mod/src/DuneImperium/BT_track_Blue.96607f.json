@@ -26,11 +26,7 @@
             "g": 0.53,
             "b": 1
         },
-        "Tags": [
-            "Blue",
-            "BT Board",
-            "TleilaxuToken"
-        ],
+        "Tags": ["Blue", "BT Board", "TleilaxuToken"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,

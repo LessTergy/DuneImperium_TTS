@@ -26,9 +26,7 @@
             "g": 0.71,
             "b": 0.71
         },
-        "Tags": [
-            "Imperium"
-        ],
+        "Tags": ["Imperium"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,
@@ -45,16 +43,7 @@
         "Hands": false,
         "SidewaysCard": false,
         "DeckIDs": [
-            48906,
-            48906,
-            48906,
-            48906,
-            48906,
-            48906,
-            48906,
-            48906,
-            48906,
-            48906
+            48906, 48906, 48906, 48906, 48906, 48906, 48906, 48906, 48906, 48906
         ],
         "CustomDeck": {
             "489": {

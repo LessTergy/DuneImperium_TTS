@@ -26,9 +26,7 @@
             "g": 0.1,
             "b": 0.1
         },
-        "Tags": [
-            "Troop Transports"
-        ],
+        "Tags": ["Troop Transports"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,

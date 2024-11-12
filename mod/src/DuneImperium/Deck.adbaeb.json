@@ -26,9 +26,7 @@
             "g": 0.71,
             "b": 0.71
         },
-        "Tags": [
-            "AutomataStuff"
-        ],
+        "Tags": ["AutomataStuff"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,
@@ -44,10 +42,7 @@
         "HideWhenFaceDown": true,
         "Hands": false,
         "SidewaysCard": false,
-        "DeckIDs": [
-            3800,
-            3900
-        ],
+        "DeckIDs": [3800, 3900],
         "CustomDeck": {
             "38": {
                 "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1759187425912025810/E59D268A3103235748A7CEE2535ED0BF97D61A9A/",

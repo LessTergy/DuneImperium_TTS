@@ -26,10 +26,7 @@
             "g": 0.76,
             "b": 0
         },
-        "Tags": [
-            "Green",
-            "Troop"
-        ],
+        "Tags": ["Green", "Troop"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,

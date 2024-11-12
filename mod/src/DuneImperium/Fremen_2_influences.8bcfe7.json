@@ -118,7 +118,5 @@
         ]
     },
     "StatesPaths": {},
-    "ContainedObjectPaths": [
-        "Fremen_Friendship.befbee.json"
-    ]
+    "ContainedObjectPaths": ["Fremen_Friendship.befbee.json"]
 }

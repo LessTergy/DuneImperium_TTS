@@ -118,7 +118,5 @@
         ]
     },
     "StatesPaths": {},
-    "ContainedObjectPaths": [
-        "For_Humanity.935145.json"
-    ]
+    "ContainedObjectPaths": ["For_Humanity.935145.json"]
 }

@@ -7,19 +7,9 @@
         "GameMode": "Dune Imperium + Rise of Ix + Immortality (scripted++)",
         "GameType": "Game",
         "GameComplexity": "Medium Complexity",
-        "PlayingTime": [
-            90,
-            180
-        ],
-        "PlayerCounts": [
-            1,
-            4
-        ],
-        "Tags": [
-            "Board Games",
-            "Card Games",
-            "English"
-        ],
+        "PlayingTime": [90, 180],
+        "PlayerCounts": [1, 4],
+        "Tags": ["Board Games", "Card Games", "English"],
         "Gravity": 0.5,
         "PlayArea": 0.5,
         "Table": "Table_None",
@@ -2739,9 +2729,7 @@
                     "y": 180.0,
                     "z": 180.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -2754,9 +2742,7 @@
                     "y": 180.0,
                     "z": 180.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -2769,9 +2755,7 @@
                     "y": 180.0,
                     "z": 180.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -2784,9 +2768,7 @@
                     "y": 180.0,
                     "z": 180.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -2799,9 +2781,7 @@
                     "y": 180.0,
                     "z": 180.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -2912,9 +2892,7 @@
                     "y": 180.09,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -2927,9 +2905,7 @@
                     "y": 180.1,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -2942,9 +2918,7 @@
                     "y": 179.96,
                     "z": 359.92
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -2957,9 +2931,7 @@
                     "y": 179.97,
                     "z": 359.92
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -2972,9 +2944,7 @@
                     "y": 180.0,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -2987,9 +2957,7 @@
                     "y": 180.0,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -3002,9 +2970,7 @@
                     "y": 180.04,
                     "z": 359.93
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -3017,9 +2983,7 @@
                     "y": 179.98,
                     "z": 359.93
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -3032,9 +2996,7 @@
                     "y": 180,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -3047,9 +3009,7 @@
                     "y": 180.02,
                     "z": 0.07
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -3062,9 +3022,7 @@
                     "y": 180.07,
                     "z": 0.07
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -3077,9 +3035,7 @@
                     "y": 180,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -3092,9 +3048,7 @@
                     "y": 179.99,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -3107,9 +3061,7 @@
                     "y": 179.99,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -3122,9 +3074,7 @@
                     "y": 179.98,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -3137,9 +3087,7 @@
                     "y": 180.0,
                     "z": 0
                 },
-                "Tags": [
-                    "Agent"
-                ]
+                "Tags": ["Agent"]
             },
             {
                 "Position": {
@@ -3152,9 +3100,7 @@
                     "y": 180,
                     "z": 0
                 },
-                "Tags": [
-                    "Leader"
-                ]
+                "Tags": ["Leader"]
             },
             {
                 "Position": {
@@ -3167,9 +3113,7 @@
                     "y": 180,
                     "z": 0
                 },
-                "Tags": [
-                    "Leader"
-                ]
+                "Tags": ["Leader"]
             },
             {
                 "Position": {
@@ -3182,9 +3126,7 @@
                     "y": 180,
                     "z": 0
                 },
-                "Tags": [
-                    "Leader"
-                ]
+                "Tags": ["Leader"]
             },
             {
                 "Position": {
@@ -3197,9 +3139,7 @@
                     "y": 180,
                     "z": 0
                 },
-                "Tags": [
-                    "Leader"
-                ]
+                "Tags": ["Leader"]
             },
             {
                 "Position": {
@@ -3212,9 +3152,7 @@
                     "y": 180.0,
                     "z": 180.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3227,9 +3165,7 @@
                     "y": 180.0,
                     "z": 180.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3242,9 +3178,7 @@
                     "y": 180.0,
                     "z": 180.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3257,9 +3191,7 @@
                     "y": 180.0,
                     "z": 180.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3272,9 +3204,7 @@
                     "y": 180.0,
                     "z": 180.07
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3287,9 +3217,7 @@
                     "y": 180.0,
                     "z": 180.07
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3302,9 +3230,7 @@
                     "y": 180.0,
                     "z": 180.07
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3317,9 +3243,7 @@
                     "y": 180.0,
                     "z": 180.07
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3332,9 +3256,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3347,9 +3269,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3362,9 +3282,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3377,9 +3295,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3392,9 +3308,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3407,9 +3321,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3422,9 +3334,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3437,9 +3347,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3452,9 +3360,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3467,9 +3373,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3482,9 +3386,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3497,9 +3399,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3512,9 +3412,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3527,9 +3425,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3542,9 +3438,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3557,9 +3451,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3572,9 +3464,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3587,9 +3477,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3602,9 +3490,7 @@
                     "y": 180.01,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3617,9 +3503,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3632,9 +3516,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3647,9 +3529,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3662,9 +3542,7 @@
                     "y": 180.0,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3677,9 +3555,7 @@
                     "y": 180,
                     "z": 0.08
                 },
-                "Tags": [
-                    "Imperium"
-                ]
+                "Tags": ["Imperium"]
             },
             {
                 "Position": {
@@ -3687,9 +3563,7 @@
                     "y": 1.68,
                     "z": -9.03
                 },
-                "Tags": [
-                    "InfluenceTokens"
-                ]
+                "Tags": ["InfluenceTokens"]
             },
             {
                 "Position": {
@@ -3697,9 +3571,7 @@
                     "y": 1.68,
                     "z": -9.03
                 },
-                "Tags": [
-                    "InfluenceTokens"
-                ]
+                "Tags": ["InfluenceTokens"]
             },
             {
                 "Position": {
@@ -3707,9 +3579,7 @@
                     "y": 1.71,
                     "z": -1.1
                 },
-                "Tags": [
-                    "InfluenceTokens"
-                ]
+                "Tags": ["InfluenceTokens"]
             },
             {
                 "Position": {
@@ -3717,9 +3587,7 @@
                     "y": 1.68,
                     "z": -3.56
                 },
-                "Tags": [
-                    "InfluenceTokens"
-                ]
+                "Tags": ["InfluenceTokens"]
             },
             {
                 "Position": {
@@ -3727,9 +3595,7 @@
                     "y": 1.68,
                     "z": -3.56
                 },
-                "Tags": [
-                    "InfluenceTokens"
-                ]
+                "Tags": ["InfluenceTokens"]
             },
             {
                 "Position": {
@@ -3737,9 +3603,7 @@
                     "y": 1.68,
                     "z": 1.9
                 },
-                "Tags": [
-                    "InfluenceTokens"
-                ]
+                "Tags": ["InfluenceTokens"]
             },
             {
                 "Position": {
@@ -3747,9 +3611,7 @@
                     "y": 1.68,
                     "z": 1.9
                 },
-                "Tags": [
-                    "InfluenceTokens"
-                ]
+                "Tags": ["InfluenceTokens"]
             },
             {
                 "Position": {
@@ -3757,9 +3619,7 @@
                     "y": 1.69,
                     "z": 7.39
                 },
-                "Tags": [
-                    "InfluenceTokens"
-                ]
+                "Tags": ["InfluenceTokens"]
             },
             {
                 "Position": {
@@ -3767,9 +3627,7 @@
                     "y": 1.69,
                     "z": 7.39
                 },
-                "Tags": [
-                    "InfluenceTokens"
-                ]
+                "Tags": ["InfluenceTokens"]
             },
             {
                 "Position": {

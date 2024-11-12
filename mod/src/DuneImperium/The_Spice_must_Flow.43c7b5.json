@@ -118,7 +118,5 @@
         ]
     },
     "StatesPaths": {},
-    "ContainedObjectPaths": [
-        "The_Spice_must_Flow.a473e8.json"
-    ]
+    "ContainedObjectPaths": ["The_Spice_must_Flow.a473e8.json"]
 }

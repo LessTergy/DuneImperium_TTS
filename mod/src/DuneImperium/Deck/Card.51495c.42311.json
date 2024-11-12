@@ -26,9 +26,7 @@
             "g": 0.71,
             "b": 0.71
         },
-        "Tags": [
-            "Intrigue"
-        ],
+        "Tags": ["Intrigue"],
         "LayoutGroupSortIndex": 0,
         "Value": 0,
         "Locked": false,
