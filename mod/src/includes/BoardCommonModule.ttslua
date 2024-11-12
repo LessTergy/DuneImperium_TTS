@@ -1,0 +1,281 @@
+local boardCommonModule = {}
+
+i18n = require("i18n")
+require("locales")
+
+constants = require("Constants")
+
+helperModule = require("HelperModule")
+
+isDeckContainsEnough = helperModule.isDeckContainsEnough
+
+DrawOne = helperModule.DrawOne
+
+Zone_mentat = getObjectFromGUID("565d09")
+
+boardCommonModule.ResearchStation_zone = getObjectFromGUID("af11aa")
+
+HighCouncil_zone = getObjectFromGUID("8a6315")
+Mentat_zone = getObjectFromGUID("30cff9")
+
+intrigue_zone = getObjectFromGUID("a377d8")
+
+function boardCommonModule.CheckAgentAndPlayer(color, zone)
+    local authorized = false
+    if color ~= "Red" and color ~= "Blue" and color ~= "Green" and color ~=
+        "Yellow" then
+        broadcastToColor(i18n("noTouch"), color, { 1, 0.011765, 0 })
+    else
+        local obj = zone.getObjects()
+        for _, item in ipairs(obj) do
+            if item.hasTag("Agent") and item.hasTag(color) then
+                authorized = true
+            end
+        end
+        if not authorized then
+            broadcastToColor(i18n("noAgent"), color, "Purple")
+        end
+    end
+    return authorized
+end
+
+function boardCommonModule.Swordmaster(color, zone)
+    local t = 0
+
+    if boardCommonModule.CheckAgentAndPlayer(color, zone) then
+        local solariObj = ressources[color][2]
+        local leader = ressources[color][6].getObjects()[1]
+        local leaderName = leader.getName()
+        local price = 8
+
+        if leader.hasTag("Leto") then price = 7 end
+
+        if solariObj.call("collectVal") < price then
+            broadcastToColor(i18n("noSolari"), color, color)
+        else
+            for i = 1, price, 1 do
+                Wait.time(function ()
+                    solariObj.call("decrementVal")
+                end, t)
+                t = t + 0.15
+            end
+            ressources[color][7].setPositionSmooth(ressources[color][8], false, false)
+            ressources[color][7].setGMNotes(helperModule.countRound())
+
+            if leader.hasTag("Ilban") then
+                local numberToDraw = 1
+
+                local enoughCards = isDeckContainsEnough(color, numberToDraw)
+
+                if not enoughCards then
+                    broadcastToAll(
+                        i18n("swordMaster"):format(leaderName, price) .. ".",
+                        color)
+
+                    broadcastToAll(i18n("isDecidingToDraw"):format(leaderName),
+                        "Pink")
+                    local card = i18n("cards")
+                    if numberToDraw == 1 then
+                        card = i18n("card")
+                    end
+                    Player[color].showConfirmDialog(
+                        i18n("warningBeforeDraw"):format(numberToDraw, card),
+                        function (player_color)
+                            DrawOne(_, color)
+                            broadcastToAll(i18n("ilbanDraw"):format(leaderName),
+                                color)
+                        end)
+                else
+                    DrawOne(_, color)
+                    broadcastToAll(
+                        i18n("swordMaster"):format(leaderName, price) ..
+                        i18n("et") .. i18n("drawOneCard"), color)
+                end
+            else
+                broadcastToAll(i18n("swordMaster"):format(leaderName, price) ..
+                    ".", color)
+            end
+        end
+    end
+end
+
+function boardCommonModule.Mentat(color)
+    if boardCommonModule.CheckAgentAndPlayer(color, Mentat_zone) then
+        local solariObj = ressources[color][2]
+        local leader = ressources[color][6].getObjects()[1]
+        local price = 2
+        local talk = ""
+
+        if leader.hasTag("Leto") then price = 1 end
+
+        if solariObj.call("collectVal") < price then
+            broadcastToColor(i18n("noSolari"), color, color)
+        else
+            local mentat = getMentat()
+
+            if mentat ~= nil then
+                talk = i18n("mentatToken")
+                mentat.setPositionSmooth(ressources[color][8], false, false)
+                processMentatSpace(price, solariObj, leader, color, talk)
+            elseif mentat == nil then
+                Player[color].showConfirmDialog(
+                    i18n("mentatAlreadyTaken"),
+                    function (player_color)
+                        processMentatSpace(price, solariObj, leader,
+                            player_color, talk)
+                    end)
+            end
+        end
+    end
+end
+
+function processMentatSpace(price, solariObj, leader, color, talk)
+    local leaderName = leader.getName()
+
+    Wait.time(function () solariObj.call("decrementVal") end, 0.3, price)
+
+    local numberToDraw = 1
+
+    if leader.hasTag("Ilban") then numberToDraw = 2 end
+
+    local enoughCards = isDeckContainsEnough(color, numberToDraw)
+
+    if not enoughCards then
+        broadcastToAll(
+            leaderName .. i18n("mentatPayment"):format(price) .. talk .. ".",
+            color)
+
+        broadcastToAll(i18n("isDecidingToDraw"):format(leaderName), "Pink")
+
+        local card = i18n("cards")
+        if numberToDraw == 1 then card = i18n("card") end
+        Player[color].showConfirmDialog(i18n("warningBeforeDraw"):format(
+                numberToDraw, card),
+            function (player_color)
+                if leader.hasTag("Ilban") then
+                    broadcastToAll(leaderName .. i18n("mentatIlbanDraw"), color)
+                    Wait.time(function () DrawOne(_, color) end, 1)
+                else
+                    broadcastToAll(leaderName .. i18n("drawOneCard"), color)
+                end
+                DrawOne(_, color)
+            end)
+    else
+        if leader.hasTag("Ilban") then
+            broadcastToAll(leaderName .. i18n("mentatPayment"):format(price) ..
+                talk .. i18n("et") .. i18n("mentatIlbanDraw"),
+                color)
+            Wait.time(function () DrawOne(_, color) end, 1)
+        else
+            broadcastToAll(leaderName .. i18n("mentatPayment"):format(price) ..
+                talk .. i18n("et") .. i18n("drawOneCard"), color)
+        end
+        DrawOne(_, color)
+    end
+end
+
+function getMentat()
+    local returnValue = nil
+    for _, obj in ipairs(Zone_mentat.getObjects()) do
+        if obj.getName() == "Mentat" then returnValue = obj end
+    end
+    return returnValue
+end
+
+function boardCommonModule.HighCouncil(color)
+    if boardCommonModule.CheckAgentAndPlayer(color, HighCouncil_zone) then
+        local solariObj = ressources[color][2]
+        local leader = ressources[color][6].getObjects()[1]
+        local leaderName = leader.getName()
+        local price = 5
+        local t = 0
+
+        if leader.hasTag("Leto") then price = 4 end
+
+        if solariObj.call("collectVal") < price then
+            broadcastToColor(i18n("noSolari"), color, color)
+        else
+            for i = 1, price, 1 do
+                Wait.time(function ()
+                    solariObj.call("decrementVal")
+                end, t)
+                t = t + 0.2
+            end
+            -- place the council token and get back a 2 persuasion token near the player board
+            local index = 10
+            if getObjectFromGUID("a139cd") == nil then index = 12 end
+
+            ressources[color][9].setPositionSmooth(ressources[color][index],
+                false, false)
+            ressources[color][9].interactable = false
+            getObjectFromGUID("074f6d").takeObject({
+                position = ressources[color][11],
+                rotation = { 0, 180, 0 }
+            })
+
+            if leader.hasTag("Ilban") then
+                local numberToDraw = 1
+
+                local enoughCards = isDeckContainsEnough(color, numberToDraw)
+
+                if not enoughCards then
+                    broadcastToAll(
+                        i18n("highCouncil"):format(leaderName, price) .. ".",
+                        color)
+
+                    broadcastToAll(i18n("isDecidingToDraw"):format(leaderName),
+                        "Pink")
+                    local card = i18n("cards")
+                    if numberToDraw == 1 then
+                        card = i18n("card")
+                    end
+                    Player[color].showConfirmDialog(
+                        i18n("warningBeforeDraw"):format(numberToDraw, card),
+                        function (player_color)
+                            DrawOne(_, color)
+                            broadcastToAll(i18n("ilbanDraw"):format(leaderName),
+                                color)
+                        end)
+                else
+                    DrawOne(_, color)
+                    broadcastToAll(
+                        i18n("highCouncil"):format(leaderName, price) ..
+                        i18n("et") .. i18n("drawOneCard"), color)
+                end
+            else
+                broadcastToAll(i18n("highCouncil"):format(leaderName, price) ..
+                    ".", color)
+            end
+        end
+    end
+end
+
+function boardCommonModule.drawIntrigue(color)
+    if ressources[color][6].getObjects()[1].getName() == "Hasimir Fenring" then
+        x = 2
+        Wait.time(function ()
+            broadcastToAll(ressources[color][6].getObjects()[1].getName() ..
+                i18n("fenring"), "Purple")
+        end, 0.5)
+    else
+        x = 1
+    end
+    local t = 0
+    for i = 1, x, 1 do
+        Wait.time(function ()
+            local handZone = Player[color].getHandTransform()
+            my_card = intrigue_zone.getObjects()[1].takeObject({
+                position = {
+                    handZone.position.x - 7.5, handZone.position.y,
+                    handZone.position.z
+                },
+                flip = false,
+                smooth = false
+            })
+            Wait.time(function () my_card.flip() end, 0.2)
+        end, t)
+        t = t + 0.25
+    end
+end
+
+return boardCommonModule

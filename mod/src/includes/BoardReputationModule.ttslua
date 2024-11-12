@@ -1,0 +1,216 @@
+local boardReputationModule = {}
+constants = require("Constants")
+
+pion_reput = {
+    ["emperor"] = {
+        ["Red"] = getObjectFromGUID('acfcef'),
+        ["Blue"] = getObjectFromGUID('426a23'),
+        ["Green"] = getObjectFromGUID('d7c9ba'),
+        ["Yellow"] = getObjectFromGUID('489871')
+    },
+    ["spacingGuild"] = {
+        ["Red"] = getObjectFromGUID('be464e'),
+        ["Blue"] = getObjectFromGUID('4069d8'),
+        ["Green"] = getObjectFromGUID('89da7d'),
+        ["Yellow"] = getObjectFromGUID('9d0075')
+    },
+    ["beneGesserit"] = {
+        ["Red"] = getObjectFromGUID('713eae'),
+        ["Blue"] = getObjectFromGUID('2a88a6'),
+        ["Green"] = getObjectFromGUID('2dc980'),
+        ["Yellow"] = getObjectFromGUID('a3729e')
+    },
+    ["fremen"] = {
+        ["Red"] = getObjectFromGUID('088f51'),
+        ["Blue"] = getObjectFromGUID('0e6e41'),
+        ["Green"] = getObjectFromGUID('d390dc'),
+        ["Yellow"] = getObjectFromGUID('77d7c8')
+    }
+}
+
+vp_zone = constants.vp_zone
+
+alliance_token = {
+    ["emperor"] = getObjectFromGUID('13e990'),
+    ["spacingGuild"] = getObjectFromGUID('ad1aae'),
+    ["beneGesserit"] = getObjectFromGUID('33452e'),
+    ["fremen"] = getObjectFromGUID('4c2bcc')
+}
+alliance_pos = {
+    ["emperor"] = { -9.51, 2, 9.86 },
+    ["spacingGuild"] = { -9.53, 2, 4.25 },
+    ["beneGesserit"] = { -9.55, 2, -1.21 },
+    ["fremen"] = { -9.54, 2, -6.67 }
+}
+
+posz_min_alliance = {
+    ["emperor"] = 8.92,
+    ["spacingGuild"] = 3.43,
+    ["beneGesserit"] = -2.03,
+    ["fremen"] = -7.5
+}
+
+vp_pos = constants.pos_vp
+
+function ReputationUp(color, faction, pos_z)
+    local pos = pion_reput[faction][color].getPosition()
+    local leaderName = ressources[color][6].getObjects()[1].getName()
+    if pos.z < pos_z then
+        pion_reput[faction][color].setPositionSmooth({
+            pos.x, pos.y, pos.z + 0.77
+        }, false, false)
+        giveAlliance(faction, color)
+        broadcastToAll(i18n("reputUp"):format(leaderName, i18n(faction)), color)
+    else
+        broadcastToColor(i18n("reputMax"), color, "Pink")
+    end
+end
+
+function ReputationDown(color, faction, pos_z)
+    local pos = pion_reput[faction][color].getPosition()
+    local leaderName = ressources[color][6].getObjects()[1].getName()
+    if pos.z > pos_z then
+        pion_reput[faction][color].setPositionSmooth({
+            pos.x, pos.y, pos.z - 0.77
+        }, false, false)
+        giveAlliance(faction, color)
+        broadcastToAll(i18n("reputDown"):format(leaderName, i18n(faction)),
+            color)
+    else
+        broadcastToColor(i18n("reputMin"), color, "Orange")
+    end
+end
+
+function giveAlliance(faction, color)
+    local players = { "Red", "Green", "Blue", "Yellow" }
+    local leaderName = ressources[color][6].getObjects()[1].getName()
+
+    local posz_liste = {}
+
+    for i, player in pairs(players) do
+        if player ~= color then
+            posz_liste[player] = pion_reput[faction][player].getPosition().z
+        end
+    end
+
+    local vp_player = vp_zone[color].getObjects()
+    local test_alliance = 0
+    for _, value in ipairs(vp_player) do
+        if value == alliance_token[faction] then test_alliance = 1 end
+    end
+    Wait.time(function ()
+        local posz = pion_reput[faction][color].getPosition().z
+        local posz_requis = posz_min_alliance[faction]
+
+        if test_alliance == 1 then
+            local biggestDelta = 0;
+            local playerTakingAlliance = ""
+            local tiedForVP = false
+
+            for k, posz_compared in pairs(posz_liste) do
+                if posz < (posz_compared - 0.5) then
+                    local delta = posz_compared - posz
+
+                    if (delta - biggestDelta) < 0.5 and (delta - biggestDelta) >
+                        -0.5 then
+                        tiedForVP = true
+                    end
+
+                    if delta > biggestDelta then
+                        biggestDelta = delta
+                        playerTakingAlliance = k
+                    end
+                end
+            end
+
+            if tiedForVP or biggestDelta > 0 or posz < posz_requis then
+                broadcastToAll(i18n("loseAlliance"):format(leaderName,
+                    i18n(faction)), color)
+            end
+
+            if tiedForVP then
+                broadcastToAll(i18n("tiedAlliance"):format(i18n(faction)),
+                    "Pink")
+            elseif biggestDelta > 0 then
+                local vpIndex = CountPoints(playerTakingAlliance)
+                local leaderTakingAllianceName =
+                    ressources[playerTakingAlliance][6].getObjects()[1]
+                    .getName()
+
+                alliance_token[faction].setPositionSmooth(
+                    vp_pos[playerTakingAlliance][vpIndex], false, false)
+
+                broadcastToAll(i18n("recoverAlliance"):format(
+                        leaderTakingAllianceName, i18n(faction)),
+                    playerTakingAlliance)
+            elseif posz < posz_requis then
+                alliance_token[faction].setPositionSmooth(alliance_pos[faction],
+                    false, false)
+            end
+        end
+
+        if test_alliance == 0 and posz > posz_requis then
+            local isReputStrongest = true
+            for k, posz_compared in pairs(posz_liste) do
+                if posz < (posz_compared + 0.5) then
+                    isReputStrongest = false
+                end
+            end
+
+            if isReputStrongest then
+                local vpIndex = CountPoints(color)
+                alliance_token[faction].setPositionSmooth(
+                    vp_pos[color][vpIndex], false, false)
+
+                broadcastToAll(i18n("recoverAlliance"):format(leaderName,
+                        i18n(faction)),
+                    color)
+            end
+        end
+    end, 1)
+end
+
+function CountPoints(color)
+    local zoneObjects = vp_zone[color].getObjects()
+    local vpIndex = 1
+    for i, object in ipairs(zoneObjects) do
+        if object.getDescription() == "VP" then vpIndex = vpIndex + 1 end
+    end
+    if vpIndex > 13 then vpIndex = 13 end
+
+    return vpIndex
+end
+
+function boardReputationModule.FremenUp(color)
+    ReputationUp(color, "fremen", -6.18)
+end
+
+function boardReputationModule.FremenDown(color)
+    ReputationDown(color, "fremen", -10.2)
+end
+
+function boardReputationModule.BeneUp(color)
+    ReputationUp(color, "beneGesserit", -0.86)
+end
+
+function boardReputationModule.BeneDown(color)
+    ReputationDown(color, "beneGesserit", -4.76)
+end
+
+function boardReputationModule.GuildUp(color)
+    ReputationUp(color, "spacingGuild", 4.57)
+end
+
+function boardReputationModule.GuildDown(color)
+    ReputationDown(color, "spacingGuild", 0.72)
+end
+
+function boardReputationModule.EmperorUp(color)
+    ReputationUp(color, "emperor", 10.10)
+end
+
+function boardReputationModule.EmperorDown(color)
+    ReputationDown(color, "emperor", 6.18)
+end
+
+return boardReputationModule

@@ -1,0 +1,308 @@
+local localeAssets = {}
+
+local constants = require("Constants")
+
+local i18n = require("i18n")
+
+helperModule = require("HelperModule")
+
+GetDeckOrCard = helperModule.GetDeckOrCard
+
+local epic_cards = constants.epic_cards
+local starter_decks = { "014c6a", "b8e747", "0c5e03", "a76b37" }
+local dune_decks = { "8c99a3", "af840c", "44069d", "85fb54" }
+local experimentation_decks = { "ef9531", "45ce21", "2d935f", "8ed0cd" }
+
+local imperiumCardBack =
+"https://steamusercontent-a.akamaihd.net/ugc/1892102433196500461/C3DC7A02CF378129569B414967C9BE25097C6E77/"
+
+local intrigueCardBack =
+"https://steamusercontent-a.akamaihd.net/ugc/1892102433196339102/D63B92C616541C84A7984026D757DB03E79532DD/"
+
+local cardsTleilaxAttributes = {
+    { specimenCost = 3 }, { specimenCost = 2 }, { specimenCost = 1 },
+    { specimenCost = 1 }, { specimenCost = 2 }, { specimenCost = 1 },
+    { specimenCost = 2 }, { specimenCost = 3 }, { specimenCost = 2 },
+    { specimenCost = 1 }, { specimenCost = 3 }, { specimenCost = 3 },
+    { specimenCost = 2 }, { specimenCost = 3 }, { specimenCost = 2 },
+    { specimenCost = 2 }, { specimenCost = 4 }, { specimenCost = 3 },
+    { specimenCost = 4 }
+}
+
+function loadDeck(GUID, face, back, width, height, number)
+    local params = {
+        face = face,
+        back = back,
+        width = width,
+        height = height,
+        number = number,
+        back_is_hidden = true
+    }
+
+    local deck = getObjectFromGUID(GUID)
+
+    deck.setCustomObject(params)
+
+    deck.reload()
+end
+
+function loadCard(GUID, face, back)
+    local params = { face = face, back = back }
+
+    local cardObj = getObjectFromGUID(GUID)
+
+    cardObj.setCustomObject(params)
+
+    cardObj.reload()
+end
+
+function localeAssets.load()
+    local currentLocale = i18n.getLocale()
+
+    if currentLocale ~= "en" then
+        -- retourner les règles coté français
+        if currentLocale == 'fr' then
+            getObjectFromGUID("e43180").setRotation({ 0, 180, 180 })
+            getObjectFromGUID("44e3ba").setRotation({ 0, 180, 180 })
+            -- changer les pdf par les pdf français
+            if getObjectFromGUID("9ac7d6") ~= nil then
+                local position_regles = getObjectFromGUID("9ac7d6").getPosition()
+                local position_faq = getObjectFromGUID("a4a8a7").getPosition()
+                local position_regles_ix = getObjectFromGUID("373d17").getPosition()
+                local position_regles_immo = getObjectFromGUID("537207").getPosition()
+                getObjectFromGUID("9ac7d6").destruct()
+                getObjectFromGUID("a4a8a7").destruct()
+                getObjectFromGUID("373d17").destruct()
+                getObjectFromGUID("537207").destruct()
+                local sac_vf = getObjectFromGUID("433052")
+                local regles_immo = sac_vf.takeObject({
+                    position = position_regles_immo,
+                    rotation = { 0, 180, 0 },
+                    smooth = false
+                })
+                local regles_ix = sac_vf.takeObject({
+                    position = position_regles_ix,
+                    rotation = { 0, 180, 0 },
+                    smooth = false
+                })
+                local faq = sac_vf.takeObject({
+                    position = position_faq,
+                    rotation = { 0, 180, 0 },
+                    smooth = false
+                })
+                local regles = sac_vf.takeObject({
+                    position = position_regles,
+                    rotation = { 0, 180, 0 },
+                    smooth = false
+                })
+                regles.setLock(true)
+                faq.setLock(true)
+                regles_ix.setLock(true)
+                regles_immo.setLock(true)
+            end
+        end
+
+        -- Leaders tiles
+        for k, leader in pairs(constants.leaders) do
+            local params = { image = localeAssets[currentLocale][k] }
+
+            local leaderObj = getObjectFromGUID(leader.GUID)
+
+            leaderObj.setCustomObject(params)
+            -- leaderObj.setName('Princesse Yuna')
+
+            leaderObj.reload()
+        end
+
+        for _, GUID in ipairs(starter_decks) do
+            loadDeck(GUID, localeAssets[currentLocale]["cardsStarterImperium"],
+                imperiumCardBack, 4, 2, 8)
+        end
+
+        for _, GUID in ipairs(dune_decks) do
+            loadDeck(GUID, localeAssets[currentLocale]["cardsDunePlanet"],
+                imperiumCardBack, 2, 2, 2)
+        end
+
+        loadDeck("014161", localeAssets[currentLocale]["cardsFoldspace"],
+            imperiumCardBack, 3, 2, 6)
+
+        loadDeck("7d34c9", localeAssets[currentLocale]["cardsLiaison"],
+            imperiumCardBack, 4, 2, 8)
+
+        loadDeck("8de6d5", localeAssets[currentLocale]["cardsTSMF"],
+            imperiumCardBack, 5, 2, 10)
+
+        loadDeck("99d41d", localeAssets[currentLocale]["cardsBaseImperium"],
+            imperiumCardBack, 10, 7, 70)
+
+        loadDeck(constants.imperium_deck_ix,
+            localeAssets[currentLocale]["cardsIxImperium"],
+            imperiumCardBack, 6, 6, 36)
+
+        loadDeck(constants.imperium_deck_immortality,
+            localeAssets[currentLocale]["cardsImmortalityImperium"],
+            imperiumCardBack, 6, 5, 30)
+
+        loadCard(constants.reclaimed_forces,
+            localeAssets[currentLocale]["cardReclaimedForces"],
+            imperiumCardBack)
+
+        loadDeck(constants.intrigue_base,
+            localeAssets[currentLocale]["cardsBaseIntrigue"],
+            intrigueCardBack, 8, 5, 40)
+
+        loadDeck(constants.intrigue_ix,
+            localeAssets[currentLocale]["cardsIxIntrigue"],
+            intrigueCardBack, 5, 4, 17)
+
+        loadDeck(constants.intrigue_immortality,
+            localeAssets[currentLocale]["cardsImmortalityIntrigue"],
+            intrigueCardBack, 6, 3, 15)
+
+        for _, guidEpic in ipairs(epic_cards) do
+            loadCard(guidEpic,
+                localeAssets[currentLocale]["cardControlTheSpice"],
+                imperiumCardBack)
+        end
+
+        for _, GUID in ipairs(experimentation_decks) do
+            loadDeck(GUID, localeAssets[currentLocale]["cardsExperimentation"],
+                imperiumCardBack, 2, 2, 2)
+        end
+
+        Wait.time(function ()
+            for _, obj in pairs(getObjectFromGUID("e88cd0").getObjects()) do
+                obj.setInvisibleTo({
+                    "Red", "Blue", "Green", "Yellow", "White", "Grey", "Brown",
+                    "Pink", "Purple", "Orange"
+                })
+            end
+        end, 0.5)
+
+        if getObjectFromGUID(constants.tleilaxu_deck) ~= nil then -- ça va changer le GUID du deck tleilaxu, besoin de le faire qu'une fois.
+            loadDeck(constants.tleilaxu_deck,
+                localeAssets[currentLocale]["cardsTleilaxu"],
+                imperiumCardBack, 4, 5, 19)
+
+            local tleilaxu_deck = getObjectFromGUID(constants.tleilaxu_deck)
+            for i = 1, 19 do
+                Wait.time(function ()
+                    card = tleilaxu_deck.takeObject({
+                        position = tleilaxu_deck.getPosition() +
+                            Vector({ 0, (0.2 * i), 0 }),
+                        rotation = { 0, 180, 180 },
+                        smooth = false
+                    })
+                    card.setGMNotes(JSON.encode(cardsTleilaxAttributes[i]))
+                end, 0.001 * i)
+            end
+        end
+    end
+end
+
+localeAssets.fr = {
+    yuna =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029467636440254532/CDAED205706CD8E32700B8A56C9BD387C5D72696/",
+    hundro =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029467636440287844/A64F2D77C6F482F31B12EC97C2DEEBBDF45AF3F9/",
+    memnon =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029468089262094752/36DB26EE194B780C9C879C74FC634C15433CE06A/",
+    ariana =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029467636440480689/3C1CA2B3506FB7AD8B1B40DB1414F7461F6974C8/",
+    ilesa =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029468089262092469/7A0FCC4CA1D0CAF19C8066776DC23A9631000997/",
+    armand =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029467636440253818/98401D1D00D15DB3512E48BBD63B9922EE17EF71/",
+    paul =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029468089262095259/008429F21B2898E4C2982EC7FB1AF422FDD85E24/",
+    leto =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029467636440402017/152B626A2D773B224CFFF878E35CEFDBB6F67505/",
+    tessia =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029468089262093029/6C34345ADF23EBD567DE0EE662B4920906F721F0/",
+    rhombur =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029467636440274764/58A6CF3EB6EBDEAC4B5826C0D21408A3CC02E678/",
+    rabban =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029467636440364572/68A9DE7E06DA5857EE51ECB978E13E3921A15B1A/",
+    vladimir =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029467636440341651/6F682C5E5C1ADE0B9B1B8FAC80B9525A6748C351/",
+    ilban =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029467636440255083/F0F052CCAB7005F4D30879BF639AFACEDFF70A80/",
+    helena =
+    "https://steamusercontent-a.akamaihd.net/ugc/5095292505135062968/A069B3ECF1B4E9C42D2453E28EA13257F397B3F3/",
+    cardsStarterImperium =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029469358268121216/D25AA65312D89EB7CEED36D451618E731A674BED/",
+    cardsDunePlanet =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029469358268102690/98F5861E28F3167495D3F2890879072BF3A84E60/",
+    cardsFoldspace =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029469358268101016/AE481C2ED19B085E2669F22420FD282982FD11A9/",
+    cardsLiaison =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029469358268100070/D7411DB495E6EB13D6B64F5E46CCF69FF322039F/",
+    cardsTSMF =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029469358268101681/B6E08F8328DB699C60A8F058E88AA6443BA2F716/",
+    cardsBaseImperium =
+    "https://steamusercontent-a.akamaihd.net/ugc/2047498313948793470/1736E8BEF901B3F2BDE1F79A381CB691F3FF67E3/",
+    cardsIxImperium =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029469358268106254/C54BCAB79869547E728509123AC47EDB32E79BF5/",
+    cardsImmortalityImperium =
+    "https://steamusercontent-a.akamaihd.net/ugc/2063250888850083256/142F50245296C2EE1F5ABAD8CE93982AC0592110/",
+    cardsTleilaxu =
+    "https://steamusercontent-a.akamaihd.net/ugc/2063250888847571463/639814906915DFA557375A3F7963C9DE53301D57/",
+    cardReclaimedForces =
+    "https://steamusercontent-a.akamaihd.net/ugc/2063250888847577276/60812AEA733FF5558BA9190E47CBD474EBF38C94/",
+    cardsImmortalityIntrigue =
+    "https://steamusercontent-a.akamaihd.net/ugc/2063250888848685998/83BA634F05FC7A14933153A18B7AEF83E07E3C14/",
+    cardsIxIntrigue =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029469358271904511/3D33B3E59811CEDC64A53F104D31190E76676C64/",
+    cardsBaseIntrigue =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029469995670901713/13659DD01D152A8B8055B894B247CB1D254D3752/",
+    cardControlTheSpice =
+    "https://steamusercontent-a.akamaihd.net/ugc/2029469358243272739/DD5ED3E5FD12F0A1C4F42750E766E83564248E07/",
+    cardsExperimentation =
+    "https://steamusercontent-a.akamaihd.net/ugc/2063250888850160556/BF6DF4E8EF5B8C8F5BB6952166C559694A61BA04/",
+    -- fan made leaders
+    vorian =
+    "https://steamusercontent-a.akamaihd.net/ugc/2021593766276323633/CF05EB98F06D6A83657528AE9B848AF1269E16CB/",
+    butler =
+    "https://steamusercontent-a.akamaihd.net/ugc/2021593312048963078/DC8CA97CC8837799620DC818CF86A17E6AE21C7A/",
+    scytale =
+    "https://steamusercontent-a.akamaihd.net/ugc/2021593312048926023/CCCE3E2850003D29577EE441DDE9F76C340CF67B/",
+    wensicia =
+    "https://steamusercontent-a.akamaihd.net/ugc/2021593312048923600/50C3448B1B131BCCEDEF2489B8D55BD122436063/",
+    irulan =
+    "https://steamusercontent-a.akamaihd.net/ugc/2021593312048920158/54684F67F54FBA44E0E919C09AE731EF6452609A/",
+    norma =
+    "https://steamusercontent-a.akamaihd.net/ugc/2021593312052178581/FFDA79B76F75EFF0D5FE13F8FB9A93907027FDB3/",
+    miles =
+    "https://steamusercontent-a.akamaihd.net/ugc/2021593766276340183/7A6796DC0800083D9A7B667BEE290FB59C9EF908/",
+    feyd =
+    "https://steamusercontent-a.akamaihd.net/ugc/2021593312048912133/FE488A5E03313545438CD8DA4E52BAED4E903996/",
+    esmar =
+    "https://steamusercontent-a.akamaihd.net/ugc/2021593312048901208/6389B462773D70A50810F6ED7D6D62670AE19107/",
+    metulli =
+    "https://steamusercontent-a.akamaihd.net/ugc/2021593312048898591/31A0F66BAB24BB067FA817844AFC62CF7A9C6E6F/",
+    margot =
+    "https://steamusercontent-a.akamaihd.net/ugc/2021593312048896971/5E8A0FD7841FA1E0E859CABB20629E90866DE770/",
+    memnon2 =
+    "https://steamusercontent-a.akamaihd.net/ugc/2021593312048894378/54389935A815BF7D4475DD29DF06EA911957F87A/",
+    hasimir =
+    "https://steamusercontent-a.akamaihd.net/ugc/2021593766276332961/E664A9BDC5C848CE47A06349B983D7E1438F968A/",
+    otto =
+    "https://steamusercontent-a.akamaihd.net/ugc/2021593312048891817/37A53D71D3D80F35ADA6ACB63EB75236B0812785/",
+    abulurd =
+    "https://steamusercontent-a.akamaihd.net/ugc/2021593312048886235/2613FE67B82A7A60717655610E1DFAB668C24B77/",
+    esmar2 =
+    'https://steamusercontent-a.akamaihd.net/ugc/2021593312048814518/FFCC4D10A115AF72BCFA88B6495AD2CBB47B913D/',
+    rhombur2 =
+    'https://steamusercontent-a.akamaihd.net/ugc/2021593312048797174/A5C5C5F42EE00169BBD4CC92576DB8F585952CF0/',
+    farok =
+    "https://steamusercontent-a.akamaihd.net/ugc/2021593312048740730/487626BF0B4B4176C00D76C6073710179BAE6A7E/",
+    darwi =
+    "https://steamusercontent-a.akamaihd.net/ugc/2021593312048731551/F18296C86EDCCDC244B98AE5AF9B0809A0D1651C/",
+    xavier =
+    "https://steamusercontent-a.akamaihd.net/ugc/2021593312049143257/8D87E9ECF612D69B4048E62046D115C5D8B895E1/",
+    whitmore =
+    "https://steamusercontent-a.akamaihd.net/ugc/2021593312049142091/2F525198F540FCB6292064CB53F7C37FF7CD905F/"
+}
+
+return localeAssets
