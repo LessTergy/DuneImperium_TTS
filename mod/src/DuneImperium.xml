@@ -28,7 +28,7 @@
 <Panel position="0 -50" width="450" height="800" color="#000000" id="setupPanel" rotation="0 0 0" outline="#6c3892" outlineSize="1" active="false" allowDragging="true" returnToOriginalPositionWhenReleased="false">
 
     <VerticalLayout>
-        <Image ignoreLayout="True" image="http://cloud-3.steamusercontent.com/ugc/2027234042549661387/D9B4C518F1CC8DB3B299B6552E439410D9346C33/"/>
+        <Image ignoreLayout="True" image="https://steamusercontent-a.akamaihd.net/ugc/2027234042549661387/D9B4C518F1CC8DB3B299B6552E439410D9346C33/"/>
 
         <VerticalLayout padding="40 40 150 50">
             <VerticalLayout padding="0 0 0 20">
@@ -88,7 +88,7 @@
             <Button id="setUpButton" minHeight="26" onClick="4a3e76/Presetup" text="SETUP"/>
         </HorizontalLayout>
     </VerticalLayout>
-    <Image position="0 400" width="300" height="216" image="http://cloud-3.steamusercontent.com/ugc/2047503411648324365/772043B9C1D861D47A518088EC9A4A92229435A4/"/>
+    <Image position="0 400" width="300" height="216" image="https://steamusercontent-a.akamaihd.net/ugc/2047503411648324365/772043B9C1D861D47A518088EC9A4A92229435A4/"/>
 </Panel>
 
 

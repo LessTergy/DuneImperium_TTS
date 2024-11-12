@@ -151,7 +151,7 @@ function nukeImperiumRow(obj, color)
     if board_display_leaders.getVar("sound_active") then
         t = 2
     MusicPlayer.setCurrentAudioclip({
-        url = "http://cloud-3.steamusercontent.com/ugc/2002447125408335433/56A15AA85A1C45DE92FA3FD2372F0ECE6ABA0495/",
+        url = "https://steamusercontent-a.akamaihd.net/ugc/2002447125408335433/56A15AA85A1C45DE92FA3FD2372F0ECE6ABA0495/",
         title = "Explosion"
     })
     end

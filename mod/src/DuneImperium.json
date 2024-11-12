@@ -14,7 +14,7 @@
         "PlayArea": 0.5,
         "Table": "Table_None",
         "Sky": "Sky_Museum",
-        "SkyURL": "http://cloud-3.steamusercontent.com/ugc/1892102591129885152/A5AB32E21AE4776956E8E9FC754ABCB68DD7385D/",
+        "SkyURL": "https://steamusercontent-a.akamaihd.net/ugc/1892102591129885152/A5AB32E21AE4776956E8E9FC754ABCB68DD7385D/",
         "Note": "",
         "TabStates": {
             "0": {
@@ -154,26 +154,26 @@
             "RepeatSong": false,
             "PlaylistEntry": -1,
             "CurrentAudioTitle": "Urukh Warh horn",
-            "CurrentAudioURL": "http://cloud-3.steamusercontent.com/ugc/2029468177570115930/C7B16DFAFDCA2827F66F837BDEB811C7BE8B3450/",
+            "CurrentAudioURL": "https://steamusercontent-a.akamaihd.net/ugc/2029468177570115930/C7B16DFAFDCA2827F66F837BDEB811C7BE8B3450/",
             "AudioLibrary": [
                 {
-                    "Item1": "http://cloud-3.steamusercontent.com/ugc/2029468177570115930/C7B16DFAFDCA2827F66F837BDEB811C7BE8B3450/",
+                    "Item1": "https://steamusercontent-a.akamaihd.net/ugc/2029468177570115930/C7B16DFAFDCA2827F66F837BDEB811C7BE8B3450/",
                     "Item2": "Urukh Warh horn"
                 },
                 {
-                    "Item1": "http://cloud-3.steamusercontent.com/ugc/2029468177583173097/5761D398635139F6018F7C3CBBA21D496071455C/",
+                    "Item1": "https://steamusercontent-a.akamaihd.net/ugc/2029468177583173097/5761D398635139F6018F7C3CBBA21D496071455C/",
                     "Item2": "Dark Horn and Drums"
                 },
                 {
-                    "Item1": "http://cloud-3.steamusercontent.com/ugc/2029468177583731726/2C9434C28270DDD87D33648DA7B17B23DA0D5ECF/",
+                    "Item1": "https://steamusercontent-a.akamaihd.net/ugc/2029468177583731726/2C9434C28270DDD87D33648DA7B17B23DA0D5ECF/",
                     "Item2": "Inception Horn"
                 },
                 {
-                    "Item1": "http://cloud-3.steamusercontent.com/ugc/2029468177583835529/474E09BB37578C5FC1CFDE001E7D6785EE54C52F/",
+                    "Item1": "https://steamusercontent-a.akamaihd.net/ugc/2029468177583835529/474E09BB37578C5FC1CFDE001E7D6785EE54C52F/",
                     "Item2": "Dune 1984 Theme"
                 },
                 {
-                    "Item1": "http://cloud-3.steamusercontent.com/ugc/2029468177583863339/F14AF74AA8E01EF2CBC89A654C5C87E9832CC57E/",
+                    "Item1": "https://steamusercontent-a.akamaihd.net/ugc/2029468177583863339/F14AF74AA8E01EF2CBC89A654C5C87E9832CC57E/",
                     "Item2": "Atreides Theme"
                 }
             ]

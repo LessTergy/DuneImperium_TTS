@@ -79,33 +79,33 @@ leaderPickOrder = "4321"
 function init()
     wormData.pics = {}
     wormData.pics["Baron Harkonnen"] =
-        "http://cloud-3.steamusercontent.com/ugc/2008072820073251375/58773A049B5EC10CB24DABC66E8DFF5B3B5A7966/"
+        "https://steamusercontent-a.akamaihd.net/ugc/2008072820073251375/58773A049B5EC10CB24DABC66E8DFF5B3B5A7966/"
     wormData.pics["Countess Ariana"] =
-        "http://cloud-3.steamusercontent.com/ugc/2008072820073251277/0AC41A9B4FF90D7CAD22A0C899532FA3624CD9D3/"
+        "https://steamusercontent-a.akamaihd.net/ugc/2008072820073251277/0AC41A9B4FF90D7CAD22A0C899532FA3624CD9D3/"
     wormData.pics["Archduke Armand"] =
-        "http://cloud-3.steamusercontent.com/ugc/2008072820073251323/D7E5F550BBCAF67F7FC6280A9D2C8CBFD357D605/"
+        "https://steamusercontent-a.akamaihd.net/ugc/2008072820073251323/D7E5F550BBCAF67F7FC6280A9D2C8CBFD357D605/"
     wormData.pics["Count Ilban"] =
-        "http://cloud-3.steamusercontent.com/ugc/2008072820073251507/68BE1BAD1A7DB2BD87330DD3D97E25D034B03A10/"
+        "https://steamusercontent-a.akamaihd.net/ugc/2008072820073251507/68BE1BAD1A7DB2BD87330DD3D97E25D034B03A10/"
     wormData.pics["Helena Richese"] =
-        "http://cloud-3.steamusercontent.com/ugc/2008072820073251414/B3136F00AE416D6989303FE5A2504A1FC8DA32C2/"
+        "https://steamusercontent-a.akamaihd.net/ugc/2008072820073251414/B3136F00AE416D6989303FE5A2504A1FC8DA32C2/"
     wormData.pics["Tessia Vernius"] =
-        "http://cloud-3.steamusercontent.com/ugc/2008072820073251901/38DEC17448EF01FE1D9C4BF402EA5864A07DBF31/"
+        "https://steamusercontent-a.akamaihd.net/ugc/2008072820073251901/38DEC17448EF01FE1D9C4BF402EA5864A07DBF31/"
     wormData.pics["Prince Rhombur"] =
-        "http://cloud-3.steamusercontent.com/ugc/2008072820073251758/471BF295C71548463E1B1980E933911EA4C620E6/"
+        "https://steamusercontent-a.akamaihd.net/ugc/2008072820073251758/471BF295C71548463E1B1980E933911EA4C620E6/"
     wormData.pics["Rabban 'The Beast'"] =
-        "http://cloud-3.steamusercontent.com/ugc/2008072820073251857/541AF590F49C02EB4D75E1188355B504A657E8F2/"
+        "https://steamusercontent-a.akamaihd.net/ugc/2008072820073251857/541AF590F49C02EB4D75E1188355B504A657E8F2/"
     wormData.pics["Ilesa Ecaz"] =
-        "http://cloud-3.steamusercontent.com/ugc/2008072820073251553/2A9487D3C7E3546EC0272001965FBEFAB6F9324E/"
+        "https://steamusercontent-a.akamaihd.net/ugc/2008072820073251553/2A9487D3C7E3546EC0272001965FBEFAB6F9324E/"
     wormData.pics["Duke Leto"] =
-        "http://cloud-3.steamusercontent.com/ugc/2008072820073251596/CC72D93C394CB1ECD456DF514D0746BE252F8D14/"
+        "https://steamusercontent-a.akamaihd.net/ugc/2008072820073251596/CC72D93C394CB1ECD456DF514D0746BE252F8D14/"
     wormData.pics["Viscount Hundro"] =
-        "http://cloud-3.steamusercontent.com/ugc/2008072820073251459/E06835C878941E36867616FC354BD9E1CE578B72/"
+        "https://steamusercontent-a.akamaihd.net/ugc/2008072820073251459/E06835C878941E36867616FC354BD9E1CE578B72/"
     wormData.pics["Paul Atreides"] =
-        "http://cloud-3.steamusercontent.com/ugc/2008072820073251699/8E702CE9D1470D280C4BA616B41FA9CEB0265EC0/"
+        "https://steamusercontent-a.akamaihd.net/ugc/2008072820073251699/8E702CE9D1470D280C4BA616B41FA9CEB0265EC0/"
     wormData.pics["Princess Yuna"] =
-        "http://cloud-3.steamusercontent.com/ugc/2008072820073251815/17C22AFCDBF5ED0B4743D98D4F7CBA2B52D3E133/"
+        "https://steamusercontent-a.akamaihd.net/ugc/2008072820073251815/17C22AFCDBF5ED0B4743D98D4F7CBA2B52D3E133/"
     wormData.pics["Earl Memnon"] =
-        "http://cloud-3.steamusercontent.com/ugc/2008072820073251647/6E26B748A38B5FADF1A719C33E9E8EC591285052/"
+        "https://steamusercontent-a.akamaihd.net/ugc/2008072820073251647/6E26B748A38B5FADF1A719C33E9E8EC591285052/"
 
     wormData.vptray = {}
     wormData.vptray["Red"] = getObjectFromGUID("e0ed4b")
@@ -764,7 +764,7 @@ function firstScoreBoardRender()
         else
             broadcastToAll('missing pic for ' .. leaderName, undefined)
             pic =
-                "http://cloud-3.steamusercontent.com/ugc/2008072820073251943/862A2819BDA92202E094E955AE465E9B0EBCAD4C/"
+                "https://steamusercontent-a.akamaihd.net/ugc/2008072820073251943/862A2819BDA92202E094E955AE465E9B0EBCAD4C/"
         end
 
         composedXml = composedXml .. [[
